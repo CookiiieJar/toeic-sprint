@@ -1,0 +1,678 @@
+{
+  "pool": "exam5",
+  "part": 4,
+  "sets": [
+    {
+      "id": "e5-p4-t01",
+      "kind": "talk",
+      "title": "Message d'un cabinet médical",
+      "audio": [
+        {
+          "s": "W",
+          "t": "Hello, this is a message for Mr. Tom Hughes from the Parkview Medical Center. You have an appointment with Dr. Lin tomorrow at ten thirty. Unfortunately, Dr. Lin has been called to an emergency at the hospital and will not be available. We can offer you the same time on Thursday with Dr. Lin, or tomorrow at eleven with Dr. Morales. Please call us back at 555-0172 to let us know which you prefer. If we don't hear from you by five today, we'll keep you with Dr. Lin on Thursday."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e5-p4-01",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "Why is the speaker calling?",
+          "options": [
+            "To recommend a specialist",
+            "To confirm a payment",
+            "To share test results",
+            "To change an appointment"
+          ],
+          "answer": "D",
+          "evidence": "Dr. Lin has been called to an emergency at the hospital and will not be available",
+          "explanation": "Le médecin n'est pas disponible : le rendez-vous doit être modifié.",
+          "takeaway": "Be called to an emergency = être appelé en urgence."
+        },
+        {
+          "id": "e5-p4-02",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What options are offered to the listener?",
+          "options": [
+            "A home visit",
+            "A phone consultation",
+            "A different day or a different doctor",
+            "A refund"
+          ],
+          "answer": "C",
+          "evidence": "the same time on Thursday with Dr. Lin, or tomorrow at eleven with Dr. Morales",
+          "explanation": "Il peut voir Dr Lin jeudi ou Dr Morales demain à 11 h.",
+          "takeaway": "Lis toutes les options proposées."
+        },
+        {
+          "id": "e5-p4-03",
+          "level": 3,
+          "category": "inference",
+          "prompt": "What will happen if the listener does not call back by five?",
+          "options": [
+            "He will see Dr. Lin on Thursday.",
+            "His appointment will be canceled.",
+            "He will see Dr. Morales tomorrow.",
+            "He will be charged a fee."
+          ],
+          "answer": "A",
+          "evidence": "we'll keep you with Dr. Lin on Thursday",
+          "explanation": "Sans réponse avant 17 h, le rendez-vous est maintenu avec Dr Lin jeudi.",
+          "takeaway": "« If we don't hear from you » = option par défaut."
+        }
+      ]
+    },
+    {
+      "id": "e5-p4-t02",
+      "kind": "talk",
+      "title": "Annonce dans un centre commercial",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Good afternoon, shoppers. Westfield Plaza is pleased to welcome the opening of Nova Electronics on the second floor, next to the food court. To celebrate, Nova is offering fifteen percent off all headphones and speakers this weekend. The first fifty customers each day will also receive a free phone charger. And a reminder that our parking garage is free for the first two hours with any purchase over twenty euros. Just show your receipt at the information desk."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e5-p4-04",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is being announced?",
+          "options": [
+            "A parking garage closure",
+            "The opening of a store",
+            "A food court renovation",
+            "A change in opening hours"
+          ],
+          "answer": "B",
+          "evidence": "welcome the opening of Nova Electronics",
+          "explanation": "Le centre annonce l'ouverture du magasin Nova Electronics.",
+          "takeaway": "Opening = ouverture."
+        },
+        {
+          "id": "e5-p4-05",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What will some customers receive?",
+          "options": [
+            "A free charger",
+            "A pair of headphones",
+            "A parking pass",
+            "A food voucher"
+          ],
+          "answer": "A",
+          "evidence": "The first fifty customers each day will also receive a free phone charger.",
+          "explanation": "Les 50 premiers clients chaque jour reçoivent un chargeur gratuit.",
+          "takeaway": "The first fifty = les cinquante premiers."
+        },
+        {
+          "id": "e5-p4-06",
+          "level": 2,
+          "category": "detail",
+          "prompt": "How can shoppers get free parking?",
+          "options": [
+            "By downloading an app",
+            "By arriving before noon",
+            "By shopping at Nova Electronics only",
+            "By spending more than twenty euros"
+          ],
+          "answer": "D",
+          "evidence": "free for the first two hours with any purchase over twenty euros",
+          "explanation": "Le parking est gratuit 2 heures pour tout achat de plus de 20 €.",
+          "takeaway": "Over = plus de."
+        }
+      ]
+    },
+    {
+      "id": "e5-p4-t03",
+      "kind": "talk",
+      "title": "Réunion — retard d'un projet",
+      "audio": [
+        {
+          "s": "W",
+          "t": "Let's start with the new warehouse project. As some of you know, the construction company has informed us that the roof won't be finished until the end of April, about a month later than planned. I want to be clear: this won't affect our customers. Our current warehouse lease has been extended until June, so we'll have plenty of time to move. What I need from each department head is an updated moving plan by next Friday."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e5-p4-07",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What problem does the speaker mention?",
+          "options": [
+            "A customer complaint",
+            "A budget cut",
+            "A construction delay",
+            "A staff shortage"
+          ],
+          "answer": "C",
+          "evidence": "the roof won't be finished until the end of April, about a month later than planned",
+          "explanation": "Le toit sera terminé avec un mois de retard.",
+          "takeaway": "Later than planned = plus tard que prévu."
+        },
+        {
+          "id": "e5-p4-08",
+          "level": 3,
+          "category": "intention",
+          "prompt": "Why does the speaker say, \"I want to be clear: this won't affect our customers\"?",
+          "options": [
+            "To criticize the construction company",
+            "To reassure listeners about the consequences",
+            "To announce a new customer policy",
+            "To ask for customer feedback"
+          ],
+          "answer": "B",
+          "evidence": "I want to be clear: this won't affect our customers.",
+          "explanation": "Elle rassure : le retard n'aura pas d'impact sur les clients, car le bail actuel a été prolongé.",
+          "takeaway": "« I want to be clear » introduit souvent un message rassurant ou ferme."
+        },
+        {
+          "id": "e5-p4-09",
+          "level": 2,
+          "category": "next-action",
+          "prompt": "What are department heads asked to do?",
+          "options": [
+            "Update their moving plans",
+            "Visit the new warehouse",
+            "Contact their customers",
+            "Sign a new lease"
+          ],
+          "answer": "A",
+          "evidence": "an updated moving plan by next Friday",
+          "explanation": "Chaque chef de service doit fournir un plan de déménagement mis à jour.",
+          "takeaway": "Updated = mis à jour."
+        }
+      ]
+    },
+    {
+      "id": "e5-p4-t04",
+      "kind": "talk",
+      "title": "Publicité — agence de voyages d'affaires",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Planning business travel can take hours. At Tripwise Corporate, our agents handle everything, from flights and hotels to train tickets and car rentals, so your employees can focus on their work. Our clients save an average of twelve percent on travel costs thanks to our negotiated rates. And if plans change at the last minute, our support team is available twenty-four hours a day. Book a free consultation today, and we'll analyze your company's travel spending at no charge."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e5-p4-10",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What kind of business is being advertised?",
+          "options": [
+            "An airline",
+            "A car rental company",
+            "A hotel chain",
+            "A business travel agency"
+          ],
+          "answer": "D",
+          "evidence": "Planning business travel can take hours.",
+          "explanation": "Tripwise Corporate organise les voyages d'affaires : c'est une agence spécialisée.",
+          "takeaway": "Business travel = voyages d'affaires."
+        },
+        {
+          "id": "e5-p4-11",
+          "level": 2,
+          "category": "detail",
+          "prompt": "According to the speaker, how do clients save money?",
+          "options": [
+            "By booking online themselves",
+            "By traveling less",
+            "Through negotiated rates",
+            "Through loyalty points"
+          ],
+          "answer": "C",
+          "evidence": "thanks to our negotiated rates",
+          "explanation": "Les clients économisent grâce aux tarifs négociés.",
+          "takeaway": "Negotiated rates = tarifs négociés."
+        },
+        {
+          "id": "e5-p4-12",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is offered free of charge?",
+          "options": [
+            "A first flight",
+            "An analysis of travel spending",
+            "Hotel upgrades",
+            "Train tickets"
+          ],
+          "answer": "B",
+          "evidence": "we'll analyze your company's travel spending at no charge",
+          "explanation": "La consultation inclut une analyse gratuite des dépenses de voyage.",
+          "takeaway": "At no charge = gratuitement."
+        }
+      ]
+    },
+    {
+      "id": "e5-p4-t05",
+      "kind": "talk",
+      "title": "Plan d'évacuation (graphique)",
+      "graphic": {
+        "type": "table",
+        "title": "Floor 6 — Emergency Exits",
+        "columns": [
+          "Exit",
+          "Location",
+          "Leads to"
+        ],
+        "rows": [
+          [
+            "Exit 1",
+            "Next to the elevators",
+            "Main stairwell"
+          ],
+          [
+            "Exit 2",
+            "End of the east corridor",
+            "East stairwell"
+          ],
+          [
+            "Exit 3",
+            "Behind the kitchen",
+            "West stairwell"
+          ],
+          [
+            "Exit 4",
+            "Next to Meeting Room B",
+            "Outdoor staircase"
+          ]
+        ]
+      },
+      "audio": [
+        {
+          "s": "W",
+          "t": "Good morning. Before today's fire drill, a few reminders. When the alarm sounds, leave your belongings and walk calmly to the nearest exit. Do not use the elevators. Please note that the main stairwell is being repainted this week, so the exit next to the elevators is closed. Staff on the east side should use the stairwell at the end of their corridor. Everyone else should use the exit behind the kitchen. We'll meet in the parking lot across the street."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e5-p4-13",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the talk mainly about?",
+          "options": [
+            "Instructions for a fire drill",
+            "The renovation of a kitchen",
+            "A new parking policy",
+            "Elevator maintenance"
+          ],
+          "answer": "A",
+          "evidence": "Before today's fire drill, a few reminders.",
+          "explanation": "L'oratrice donne les consignes de l'exercice d'évacuation.",
+          "takeaway": "Fire drill = exercice d'évacuation."
+        },
+        {
+          "id": "e5-p4-14",
+          "level": 3,
+          "category": "graphic",
+          "prompt": "Look at the graphic. Which exit is closed this week?",
+          "options": [
+            "Exit 1",
+            "Exit 2",
+            "Exit 3",
+            "Exit 4"
+          ],
+          "answer": "A",
+          "explanation": "La sortie à côté des ascenseurs (vers l'escalier principal en peinture) est fermée : Exit 1.",
+          "takeaway": "Associe la description orale à la ligne du tableau."
+        },
+        {
+          "id": "e5-p4-15",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Where will employees gather after leaving the building?",
+          "options": [
+            "In the cafeteria",
+            "In the lobby",
+            "In Meeting Room B",
+            "In a parking lot"
+          ],
+          "answer": "D",
+          "evidence": "We'll meet in the parking lot across the street.",
+          "explanation": "Le point de rassemblement est le parking en face.",
+          "takeaway": "Across the street = en face."
+        }
+      ]
+    },
+    {
+      "id": "e5-p4-t06",
+      "kind": "talk",
+      "title": "Actualité — usine automobile",
+      "audio": [
+        {
+          "s": "M",
+          "t": "In business news, carmaker Vireo Motors announced today that it will build its first European factory in northern Portugal. The plant, which will produce electric vans for delivery companies, is expected to create about two thousand jobs when it opens in three years. Vireo chose the site because of its access to the port of Leixões and a regional training program for technicians. Local officials say the project is the largest private investment in the region in a decade."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e5-p4-16",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What did Vireo Motors announce?",
+          "options": [
+            "A merger",
+            "A new car model",
+            "Plans to build a factory",
+            "A price reduction"
+          ],
+          "answer": "C",
+          "evidence": "it will build its first European factory in northern Portugal",
+          "explanation": "Vireo construira sa première usine européenne au Portugal.",
+          "takeaway": "Plant = usine."
+        },
+        {
+          "id": "e5-p4-17",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What will the factory produce?",
+          "options": [
+            "Car batteries",
+            "Electric delivery vehicles",
+            "Sports cars",
+            "Bicycles"
+          ],
+          "answer": "B",
+          "evidence": "will produce electric vans for delivery companies",
+          "explanation": "L'usine produira des fourgons électriques pour les sociétés de livraison.",
+          "takeaway": "Van = fourgonnette."
+        },
+        {
+          "id": "e5-p4-18",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Why was the location chosen?",
+          "options": [
+            "Its port access and training program",
+            "Its low taxes",
+            "Its large population",
+            "Its existing car factories"
+          ],
+          "answer": "A",
+          "evidence": "because of its access to the port of Leixões and a regional training program for technicians",
+          "explanation": "Le site a été choisi pour l'accès au port et le programme de formation régional.",
+          "takeaway": "Because of = en raison de."
+        }
+      ]
+    },
+    {
+      "id": "e5-p4-t07",
+      "kind": "talk",
+      "title": "Atelier — prise de parole en public",
+      "audio": [
+        {
+          "s": "W",
+          "t": "Welcome to this workshop on public speaking. Many of you told me in the registration form that you get nervous before presentations. Well, here's a secret: so do most professional speakers. The difference is that they prepare in a specific way. This morning, we'll practice three techniques to structure a short talk. After the break, each of you will give a two-minute presentation, and the group will give you feedback. Don't worry, it'll be a friendly audience."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e5-p4-19",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the workshop about?",
+          "options": [
+            "Leading meetings",
+            "Writing reports",
+            "Managing stress at work",
+            "Public speaking"
+          ],
+          "answer": "D",
+          "evidence": "this workshop on public speaking",
+          "explanation": "L'atelier porte sur la prise de parole en public.",
+          "takeaway": "Public speaking = prise de parole en public."
+        },
+        {
+          "id": "e5-p4-20",
+          "level": 3,
+          "category": "intention",
+          "prompt": "Why does the speaker say, \"so do most professional speakers\"?",
+          "options": [
+            "To criticize professional speakers",
+            "To introduce a guest speaker",
+            "To reassure the listeners",
+            "To explain the schedule"
+          ],
+          "answer": "C",
+          "evidence": "so do most professional speakers",
+          "explanation": "Elle rassure les participants : même les professionnels sont nerveux.",
+          "takeaway": "So do + sujet = c'est aussi le cas de."
+        },
+        {
+          "id": "e5-p4-21",
+          "level": 2,
+          "category": "next-action",
+          "prompt": "What will listeners do after the break?",
+          "options": [
+            "Watch a video",
+            "Give short presentations",
+            "Fill out a form",
+            "Work on a report"
+          ],
+          "answer": "B",
+          "evidence": "each of you will give a two-minute presentation",
+          "explanation": "Chacun fera une présentation de deux minutes.",
+          "takeaway": "Feedback = retour, commentaires."
+        }
+      ]
+    },
+    {
+      "id": "e5-p4-t08",
+      "kind": "talk",
+      "title": "Message d'un agent immobilier",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Hi, Ms. Duval, it's Sami from Clarion Commercial Properties. I wanted to let you know that the owner of the office space on Rue Vauban has accepted your offer of two thousand eight hundred euros a month. He has one request, though: he'd like the lease to start on the first of September rather than October, because the current tenant is leaving early. I realize that's sooner than you planned. If that's a problem, he's willing to give you the first month at half price."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e5-p4-22",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What news does the speaker give?",
+          "options": [
+            "An offer has been accepted.",
+            "A property has been sold.",
+            "The rent has increased.",
+            "A tenant has complained."
+          ],
+          "answer": "A",
+          "evidence": "has accepted your offer of two thousand eight hundred euros a month",
+          "explanation": "Le propriétaire a accepté son offre de loyer.",
+          "takeaway": "Accept an offer = accepter une offre."
+        },
+        {
+          "id": "e5-p4-23",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does the owner request?",
+          "options": [
+            "A larger deposit",
+            "A higher rent",
+            "A longer lease",
+            "An earlier start date"
+          ],
+          "answer": "D",
+          "evidence": "he'd like the lease to start on the first of September rather than October",
+          "explanation": "Il souhaite que le bail commence en septembre au lieu d'octobre.",
+          "takeaway": "Rather than = plutôt que."
+        },
+        {
+          "id": "e5-p4-24",
+          "level": 3,
+          "category": "inference",
+          "prompt": "What does the owner offer in return?",
+          "options": [
+            "A shorter contract",
+            "Free furniture",
+            "A discount on one month's rent",
+            "Free parking"
+          ],
+          "answer": "C",
+          "evidence": "he's willing to give you the first month at half price",
+          "explanation": "Si la date pose problème, il propose le premier mois à moitié prix.",
+          "takeaway": "Be willing to = être prêt à."
+        }
+      ]
+    },
+    {
+      "id": "e5-p4-t09",
+      "kind": "talk",
+      "title": "Résultats des ventes (graphique)",
+      "graphic": {
+        "type": "table",
+        "title": "Sales by Region — Last Quarter",
+        "columns": [
+          "Region",
+          "Sales (€ million)",
+          "Change vs. previous quarter"
+        ],
+        "rows": [
+          [
+            "North",
+            "4.2",
+            "+3%"
+          ],
+          [
+            "South",
+            "3.1",
+            "-6%"
+          ],
+          [
+            "East",
+            "5.0",
+            "+11%"
+          ],
+          [
+            "West",
+            "2.7",
+            "+1%"
+          ]
+        ]
+      },
+      "audio": [
+        {
+          "s": "W",
+          "t": "Let's look at last quarter's results. Overall, sales were up, and one region stood out with double-digit growth after we opened two new stores there. On the other hand, one region saw sales decline because of road construction near our largest store, which kept many customers away. That work is now finished, so we expect a recovery. Next, Paul will present our plans for the holiday season."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e5-p4-25",
+          "level": 3,
+          "category": "graphic",
+          "prompt": "Look at the graphic. In which region did the company open new stores?",
+          "options": [
+            "North",
+            "East",
+            "South",
+            "West"
+          ],
+          "answer": "B",
+          "explanation": "La région à croissance « à deux chiffres » est l'Est (+11 %), où deux magasins ont ouvert.",
+          "traps": "Le Nord progresse de 3 % seulement.",
+          "takeaway": "Double-digit = à deux chiffres (≥ 10 %)."
+        },
+        {
+          "id": "e5-p4-26",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What caused sales to decline in one region?",
+          "options": [
+            "Road construction",
+            "A new competitor",
+            "Bad weather",
+            "A store closure"
+          ],
+          "answer": "A",
+          "evidence": "because of road construction near our largest store",
+          "explanation": "Des travaux routiers près du plus grand magasin ont éloigné les clients.",
+          "takeaway": "Keep away = tenir à l'écart."
+        },
+        {
+          "id": "e5-p4-27",
+          "level": 1,
+          "category": "next-action",
+          "prompt": "What will happen next?",
+          "options": [
+            "Questions will be answered.",
+            "A new store will open.",
+            "The meeting will end.",
+            "Paul will give a presentation."
+          ],
+          "answer": "D",
+          "evidence": "Paul will present our plans for the holiday season",
+          "explanation": "Paul va présenter les projets pour la période des fêtes.",
+          "takeaway": "Next = ensuite."
+        }
+      ]
+    },
+    {
+      "id": "e5-p4-t10",
+      "kind": "talk",
+      "title": "Accueil de nouveaux employés",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Welcome to your first day at Corvana Insurance. I'm Alain, from human resources. This morning, you'll complete some paperwork and receive your laptops. After lunch, which will be served in the cafeteria on the ground floor, you'll meet your managers. One important thing: you'll each be paired with a buddy, an experienced colleague who can answer everyday questions during your first three months. Your buddy's name is in the welcome folder in front of you."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e5-p4-28",
+          "level": 1,
+          "category": "inference",
+          "prompt": "Who are the listeners?",
+          "options": [
+            "Job candidates",
+            "Insurance clients",
+            "New employees",
+            "Managers"
+          ],
+          "answer": "C",
+          "evidence": "Welcome to your first day at Corvana Insurance.",
+          "explanation": "C'est leur premier jour : ce sont de nouveaux employés.",
+          "takeaway": "First day = premier jour."
+        },
+        {
+          "id": "e5-p4-29",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What will listeners do in the afternoon?",
+          "options": [
+            "Receive laptops",
+            "Meet their managers",
+            "Complete paperwork",
+            "Visit clients"
+          ],
+          "answer": "B",
+          "evidence": "After lunch, which will be served in the cafeteria on the ground floor, you'll meet your managers.",
+          "explanation": "L'après-midi, ils rencontreront leurs responsables.",
+          "traps": "La paperasse et les ordinateurs sont prévus le matin.",
+          "takeaway": "After lunch = in the afternoon."
+        },
+        {
+          "id": "e5-p4-30",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is the role of a buddy?",
+          "options": [
+            "To answer everyday questions",
+            "To evaluate new employees",
+            "To organize training",
+            "To provide equipment"
+          ],
+          "answer": "A",
+          "evidence": "an experienced colleague who can answer everyday questions during your first three months",
+          "explanation": "Le « buddy » est un collègue expérimenté qui répond aux questions du quotidien.",
+          "takeaway": "Buddy = parrain / marraine (intégration)."
+        }
+      ]
+    }
+  ]
+}

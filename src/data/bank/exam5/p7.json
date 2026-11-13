@@ -1,0 +1,1322 @@
+{
+  "pool": "exam5",
+  "part": 7,
+  "sets": [
+    {
+      "id": "e5-p7-s01",
+      "kind": "single",
+      "title": "Messagerie — salle occupée",
+      "docs": [
+        {
+          "type": "chat",
+          "messages": [
+            {
+              "name": "Kenji Mori",
+              "time": "10:12",
+              "text": "Room 4A is booked for my client call at 11, but there's a team meeting in it right now."
+            },
+            {
+              "name": "Laura Bianchi",
+              "time": "10:13",
+              "text": "They're probably running late. Their meeting was supposed to end at 10."
+            },
+            {
+              "name": "Kenji Mori",
+              "time": "10:14",
+              "text": "Should I ask them to leave?"
+            },
+            {
+              "name": "Laura Bianchi",
+              "time": "10:15",
+              "text": "I'd let them finish. Room 2C is free all morning, and it has the same video equipment."
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "e5-p7-01",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What problem does Mr. Mori mention?",
+          "options": [
+            "He is late for a meeting.",
+            "His client canceled a call.",
+            "The video equipment is broken.",
+            "A room he reserved is being used."
+          ],
+          "answer": "D",
+          "evidence": "there's a team meeting in it right now",
+          "explanation": "La salle qu'il a réservée est occupée par une réunion d'équipe.",
+          "takeaway": "Booked = réservé."
+        },
+        {
+          "id": "e5-p7-02",
+          "level": 2,
+          "category": "intention",
+          "prompt": "At 10:15, what does Ms. Bianchi suggest when she writes, \"I'd let them finish\"?",
+          "options": [
+            "The team meeting will end soon.",
+            "Mr. Mori should join the team meeting.",
+            "Mr. Mori should use another room instead of interrupting.",
+            "Mr. Mori should postpone his call."
+          ],
+          "answer": "C",
+          "evidence": "I'd let them finish.",
+          "explanation": "Elle conseille de ne pas les interrompre et propose la salle 2C, équipée de la même façon.",
+          "takeaway": "I'd (I would) + verbe = conseil."
+        }
+      ]
+    },
+    {
+      "id": "e5-p7-s02",
+      "kind": "single",
+      "title": "Avis — objets trouvés",
+      "docs": [
+        {
+          "type": "text",
+          "title": "City Transit — Lost and Found",
+          "body": "Items found on city buses and trams are kept at the Transit Lost and Found office at Gare Centrale for 60 days. To claim an item, you must describe it and show photo identification. Office hours: Monday–Friday, 8 A.M.–6 P.M. Items not claimed after 60 days are donated to local charities. You can also report a lost item online at citytransit.fr/lost."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e5-p7-03",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What must people do to claim an item?",
+          "options": [
+            "Pay a small fee",
+            "Describe the item and show identification",
+            "Fill out a form online",
+            "Bring a bus ticket"
+          ],
+          "answer": "B",
+          "evidence": "you must describe it and show photo identification",
+          "explanation": "Il faut décrire l'objet et présenter une pièce d'identité avec photo.",
+          "takeaway": "Claim = réclamer, récupérer."
+        },
+        {
+          "id": "e5-p7-04",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What happens to items that are not claimed?",
+          "options": [
+            "They are given to charities.",
+            "They are sold.",
+            "They are thrown away.",
+            "They are returned to drivers."
+          ],
+          "answer": "A",
+          "evidence": "are donated to local charities",
+          "explanation": "Après 60 jours, les objets non réclamés sont donnés à des associations.",
+          "takeaway": "Donate = faire un don."
+        }
+      ]
+    },
+    {
+      "id": "e5-p7-s03",
+      "kind": "single",
+      "title": "Publicité — déménageur",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Swift Movers — Office Relocations Made Easy",
+          "body": "We move offices of all sizes, evenings and weekends included, so your business never has to close. Our team will pack, transport, and set up your furniture and computers. Free on-site estimate within 48 hours. Mention this ad to receive 10% off moves booked before 31 May."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e5-p7-05",
+          "level": 2,
+          "category": "inference",
+          "prompt": "What is emphasized about Swift Movers' service?",
+          "options": [
+            "It sells office furniture.",
+            "It is the cheapest in the city.",
+            "It specializes in homes.",
+            "It can be done outside business hours."
+          ],
+          "answer": "D",
+          "evidence": "evenings and weekends included, so your business never has to close",
+          "explanation": "Les déménagements peuvent se faire le soir et le week-end, sans fermer l'entreprise.",
+          "takeaway": "Business hours = heures de bureau."
+        },
+        {
+          "id": "e5-p7-06",
+          "level": 1,
+          "category": "detail",
+          "prompt": "How can customers receive a discount?",
+          "options": [
+            "By moving on a weekend",
+            "By booking online",
+            "By mentioning the advertisement",
+            "By packing themselves"
+          ],
+          "answer": "C",
+          "evidence": "Mention this ad to receive 10% off",
+          "explanation": "Il suffit de mentionner l'annonce pour une réduction de 10 %.",
+          "takeaway": "Mention = mentionner."
+        }
+      ]
+    },
+    {
+      "id": "e5-p7-s04",
+      "kind": "single",
+      "title": "E-mail d'une cliente à une agence",
+      "docs": [
+        {
+          "type": "email",
+          "from": "Rachel Moore, Bloom Cosmetics",
+          "to": "Theo Grant, Kite Agency",
+          "subject": "Spring campaign",
+          "date": "9 May",
+          "body": "Hi Theo,\n\nThank you for sending the first designs for our spring campaign. Our team was impressed by the photography, especially the outdoor shots.\n\nHowever, we have two concerns. First, the product names are hard to read on the smaller posters. Second, our new eco-friendly packaging, which is the main focus of the campaign, doesn't appear in any of the images.\n\nCould your team send revised versions by Thursday? Our board meets on Friday, and I'd like to present the final designs then.\n\nBest,\nRachel"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e5-p7-07",
+          "level": 2,
+          "category": "main-idea",
+          "prompt": "What is the main purpose of the e-mail?",
+          "options": [
+            "To approve a campaign",
+            "To request changes to some designs",
+            "To hire a photographer",
+            "To cancel a contract"
+          ],
+          "answer": "B",
+          "evidence": "Could your team send revised versions by Thursday?",
+          "explanation": "Après des compliments, elle demande des modifications des visuels.",
+          "takeaway": "However introduit souvent le vrai message."
+        },
+        {
+          "id": "e5-p7-08",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does Ms. Moore say about the new packaging?",
+          "options": [
+            "It is not shown in the designs.",
+            "It is too expensive.",
+            "It has not been produced yet.",
+            "It is hard to read."
+          ],
+          "answer": "A",
+          "evidence": "doesn't appear in any of the images",
+          "explanation": "Le nouvel emballage, au cœur de la campagne, n'apparaît sur aucune image.",
+          "traps": "« Hard to read » concerne les noms des produits.",
+          "takeaway": "Appear = apparaître."
+        },
+        {
+          "id": "e5-p7-09",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Why does Ms. Moore need the revisions by Thursday?",
+          "options": [
+            "She will present them at a meeting the next day.",
+            "The posters will be printed on Friday.",
+            "She is going on vacation.",
+            "The campaign starts on Thursday."
+          ],
+          "answer": "A",
+          "evidence": "Our board meets on Friday",
+          "explanation": "Le conseil se réunit vendredi et elle veut y présenter les visuels définitifs.",
+          "takeaway": "Board = conseil d'administration."
+        }
+      ]
+    },
+    {
+      "id": "e5-p7-s05",
+      "kind": "single",
+      "title": "Article — agrandissement d'un aéroport",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Regional Airport to Build New Terminal",
+          "body": "Saint-Exupéry Regional Airport will begin construction on a new terminal this autumn. The €120 million project will increase the airport's capacity from four million to six million passengers per year. [1]\n\nThe new terminal will include twelve additional gates, a larger security area, and a direct connection to the tram line, which currently stops a ten-minute walk from the existing terminal. [2]\n\nAirport director Claire Faure said the expansion was necessary because several airlines had asked to add routes but could not be accommodated. [3] Construction is expected to be completed in 2029. [4]"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e5-p7-10",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the article mainly about?",
+          "options": [
+            "A drop in passenger numbers",
+            "A new airline",
+            "A tram line closure",
+            "An airport expansion project"
+          ],
+          "answer": "D",
+          "evidence": "will begin construction on a new terminal",
+          "explanation": "L'article présente la construction d'un nouveau terminal.",
+          "takeaway": "Expansion = agrandissement."
+        },
+        {
+          "id": "e5-p7-11",
+          "level": 2,
+          "category": "inference",
+          "prompt": "What is indicated about the tram line?",
+          "options": [
+            "It does not currently reach the terminal directly.",
+            "It will be closed during construction.",
+            "It was built in 2029.",
+            "It connects two airports."
+          ],
+          "answer": "A",
+          "evidence": "currently stops a ten-minute walk from the existing terminal",
+          "explanation": "Le tram s'arrête aujourd'hui à dix minutes à pied du terminal : il n'y arrive pas directement.",
+          "takeaway": "Currently = actuellement."
+        },
+        {
+          "id": "e5-p7-12",
+          "level": 3,
+          "category": "sentence-insertion",
+          "prompt": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"Two of these carriers plan to offer flights to North Africa.\"",
+          "options": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ],
+          "answer": "C",
+          "explanation": "« These carriers » reprend « several airlines » qui voulaient ajouter des lignes, juste avant [3].",
+          "takeaway": "Carrier = compagnie (aérienne)."
+        }
+      ]
+    },
+    {
+      "id": "e5-p7-s06",
+      "kind": "single",
+      "title": "Note de frais",
+      "docs": [
+        {
+          "type": "form",
+          "title": "Expense Report",
+          "fields": [
+            [
+              "Employee",
+              "Julien Roche"
+            ],
+            [
+              "Department",
+              "Sales"
+            ],
+            [
+              "Trip",
+              "Client visits, Brussels"
+            ],
+            [
+              "Dates",
+              "3–5 June"
+            ],
+            [
+              "Expenses",
+              "Train tickets €148; hotel (2 nights) €260; meals €96; taxi €34"
+            ],
+            [
+              "Total",
+              "€538"
+            ]
+          ],
+          "body": "Receipts attached for all items except taxi. Note: The taxi driver's card machine was not working, so I paid in cash and could not obtain a receipt. Approved by: ________ (manager signature required)"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e5-p7-13",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What was the purpose of Mr. Roche's trip?",
+          "options": [
+            "To open a new office",
+            "To attend a conference",
+            "To visit clients",
+            "To train employees"
+          ],
+          "answer": "C",
+          "evidence": "Client visits, Brussels",
+          "explanation": "Il s'agissait de visites clients à Bruxelles.",
+          "takeaway": "Expense report = note de frais."
+        },
+        {
+          "id": "e5-p7-14",
+          "level": 2,
+          "category": "detail",
+          "prompt": "For which expense is a receipt missing?",
+          "options": [
+            "Train tickets",
+            "Taxi",
+            "Meals",
+            "Hotel"
+          ],
+          "answer": "B",
+          "evidence": "Receipts attached for all items except taxi.",
+          "explanation": "Le reçu du taxi manque : la machine à carte ne fonctionnait pas.",
+          "takeaway": "Except = sauf."
+        },
+        {
+          "id": "e5-p7-15",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is still needed for the report to be processed?",
+          "options": [
+            "A manager's signature",
+            "A hotel invoice",
+            "The client's approval",
+            "A bank statement"
+          ],
+          "answer": "A",
+          "evidence": "manager signature required",
+          "explanation": "La signature du responsable est requise et la case est vide.",
+          "takeaway": "Required = obligatoire."
+        }
+      ]
+    },
+    {
+      "id": "e5-p7-s07",
+      "kind": "single",
+      "title": "Discussion — maison d'édition",
+      "docs": [
+        {
+          "type": "chat",
+          "messages": [
+            {
+              "name": "Hugo Martin",
+              "time": "16:01",
+              "text": "The author just sent the last chapter. It's 4,000 words longer than we agreed."
+            },
+            {
+              "name": "Amélie Roy",
+              "time": "16:03",
+              "text": "That would push the book over 400 pages. Printing costs would go up."
+            },
+            {
+              "name": "Pierre Lenoir",
+              "time": "16:05",
+              "text": "We could cut the appendix and put it on our website instead."
+            },
+            {
+              "name": "Hugo Martin",
+              "time": "16:06",
+              "text": "Good idea. I'll suggest it to her tomorrow."
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "e5-p7-16",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What problem are the writers discussing?",
+          "options": [
+            "A website is not working.",
+            "An author missed a deadline.",
+            "A printer raised its prices.",
+            "A manuscript is longer than planned."
+          ],
+          "answer": "D",
+          "evidence": "It's 4,000 words longer than we agreed.",
+          "explanation": "Le dernier chapitre dépasse de 4 000 mots ce qui était convenu.",
+          "takeaway": "Agree on = convenir de."
+        },
+        {
+          "id": "e5-p7-17",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Why is Ms. Roy concerned?",
+          "options": [
+            "Readers would complain.",
+            "The book would be late.",
+            "Costs would increase.",
+            "The author would leave."
+          ],
+          "answer": "C",
+          "evidence": "Printing costs would go up.",
+          "explanation": "Le livre dépasserait 400 pages et les coûts d'impression augmenteraient.",
+          "takeaway": "Go up = augmenter."
+        },
+        {
+          "id": "e5-p7-18",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does Mr. Lenoir suggest?",
+          "options": [
+            "Reducing the font size",
+            "Moving some content online",
+            "Delaying publication",
+            "Finding a new printer"
+          ],
+          "answer": "B",
+          "evidence": "put it on our website instead",
+          "explanation": "Il propose de retirer l'annexe du livre et de la publier sur le site.",
+          "takeaway": "Appendix = annexe."
+        }
+      ]
+    },
+    {
+      "id": "e5-p7-s08",
+      "kind": "single",
+      "title": "Lettre d'une association d'anciens élèves",
+      "docs": [
+        {
+          "type": "text",
+          "title": "École Supérieure de Commerce de Rennes — Alumni Relations",
+          "subtitle": "To: Ms. Hélène Vasseur",
+          "body": "Dear Ms. Vasseur,\n\nAs a graduate of the École Supérieure de Commerce de Rennes, you are invited to join our new alumni mentoring program, which pairs experienced professionals with final-year students. Mentors meet their students online or in person about once a month during the academic year.\n\nLast year, 85 percent of students in our pilot program found a job within six months of graduating. Many said their mentor's advice was a key factor.\n\nIf you are interested, please complete the short form on our website by 15 September. No previous mentoring experience is necessary; a two-hour training session will be provided.\n\nSincerely,\nAlumni Relations Office"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e5-p7-19",
+          "level": 2,
+          "category": "main-idea",
+          "prompt": "Why was the letter sent?",
+          "options": [
+            "To recruit volunteers for a program",
+            "To request a donation",
+            "To announce a job fair",
+            "To invite Ms. Vasseur to a reunion"
+          ],
+          "answer": "A",
+          "evidence": "you are invited to join our new alumni mentoring program",
+          "explanation": "La lettre invite une ancienne élève à devenir mentor.",
+          "takeaway": "Alumni = anciens élèves."
+        },
+        {
+          "id": "e5-p7-20",
+          "level": 2,
+          "category": "inference",
+          "prompt": "What is suggested about the mentoring program?",
+          "options": [
+            "It takes place abroad.",
+            "It is only for engineering students.",
+            "It pays mentors.",
+            "It was tested previously."
+          ],
+          "answer": "D",
+          "evidence": "in our pilot program",
+          "explanation": "Un programme pilote a eu lieu l'an dernier : le dispositif a déjà été testé.",
+          "takeaway": "Pilot program = programme pilote, test."
+        },
+        {
+          "id": "e5-p7-21",
+          "level": 2,
+          "category": "not-true",
+          "prompt": "What is NOT required of mentors?",
+          "options": [
+            "Completing a form",
+            "Meeting students about once a month",
+            "Previous mentoring experience",
+            "Being a graduate of the school"
+          ],
+          "answer": "C",
+          "explanation": "La lettre précise qu'aucune expérience préalable n'est nécessaire ; formulaire, rencontres mensuelles et diplôme de l'école sont attendus.",
+          "takeaway": "Not necessary = non requis."
+        }
+      ]
+    },
+    {
+      "id": "e5-p7-s09",
+      "kind": "single",
+      "title": "Article — péage urbain",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Bergen Introduces Congestion Charge",
+          "body": "Starting next January, drivers entering the center of Bergen between 7 A.M. and 6 P.M. on weekdays will pay a daily charge of 80 kroner. The city hopes the fee will reduce traffic by 20 percent and improve air quality. [1]\n\nResidents of the zone will receive a 50 percent discount, and electric vehicles will be exempt until 2028. [2] Revenue from the charge will be used to expand bus services and build new bicycle lanes.\n\nLocal business owners have expressed mixed reactions. [3] Some worry that customers will choose shopping centers outside the city instead. Others believe that fewer cars will make the center more pleasant to visit. [4]"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e5-p7-22",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the main goal of the charge?",
+          "options": [
+            "To build a new shopping center",
+            "To reduce traffic in the city center",
+            "To replace bus services",
+            "To increase tourism"
+          ],
+          "answer": "B",
+          "evidence": "The city hopes the fee will reduce traffic by 20 percent",
+          "explanation": "La ville veut réduire la circulation et améliorer la qualité de l'air.",
+          "takeaway": "Congestion = embouteillages."
+        },
+        {
+          "id": "e5-p7-23",
+          "level": 2,
+          "category": "synonym",
+          "prompt": "The word \"exempt\" in paragraph 2, line 1, is closest in meaning to",
+          "options": [
+            "free from paying",
+            "removed",
+            "required",
+            "examined"
+          ],
+          "answer": "A",
+          "evidence": "electric vehicles will be exempt until 2028",
+          "explanation": "Les véhicules électriques seront exemptés, c'est-à-dire dispensés de payer.",
+          "takeaway": "Exempt = dispensé."
+        },
+        {
+          "id": "e5-p7-24",
+          "level": 2,
+          "category": "detail",
+          "prompt": "How will the money collected be used?",
+          "options": [
+            "To pay residents",
+            "To lower parking fees",
+            "To renovate shops",
+            "To improve buses and cycling infrastructure"
+          ],
+          "answer": "D",
+          "evidence": "to expand bus services and build new bicycle lanes",
+          "explanation": "Les recettes financeront plus de bus et de nouvelles pistes cyclables.",
+          "takeaway": "Revenue = recettes."
+        },
+        {
+          "id": "e5-p7-25",
+          "level": 3,
+          "category": "sentence-insertion",
+          "prompt": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"A survey of shops in the area found that opinions were almost evenly divided.\"",
+          "options": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ],
+          "answer": "C",
+          "explanation": "La phrase illustre les « réactions partagées » des commerçants annoncées juste avant [3], puis le texte détaille les deux camps.",
+          "takeaway": "Evenly divided = partagé à parts égales."
+        }
+      ]
+    },
+    {
+      "id": "e5-p7-s10",
+      "kind": "single",
+      "title": "E-mail — interruption de service",
+      "docs": [
+        {
+          "type": "email",
+          "from": "Cloudnest Support",
+          "to": "All customers",
+          "subject": "Service interruption on 17 November",
+          "date": "18 November",
+          "body": "Dear customer,\n\nOn 17 November, between 2:10 P.M. and 5:45 P.M. (Paris time), some customers were unable to access their files on Cloudnest. The problem was caused by a hardware failure in one of our data centers in Frankfurt. No data was lost, and all services have been fully restored.\n\nWe sincerely apologize for the inconvenience. As a gesture of goodwill, all customers on paid plans will receive one month of service free of charge, which will appear automatically on your next invoice.\n\nTo reduce the risk of similar problems, we are adding a backup data center in Amsterdam, which will be operational by February.\n\nCloudnest Support"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e5-p7-26",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the purpose of the e-mail?",
+          "options": [
+            "To advertise a new product",
+            "To announce a price increase",
+            "To explain a service problem",
+            "To request customer feedback"
+          ],
+          "answer": "C",
+          "evidence": "some customers were unable to access their files on Cloudnest",
+          "explanation": "Le mail explique une panne de service survenue la veille.",
+          "takeaway": "Service interruption = coupure de service."
+        },
+        {
+          "id": "e5-p7-27",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What caused the problem?",
+          "options": [
+            "A cyberattack",
+            "A hardware failure",
+            "A power cut",
+            "A software update"
+          ],
+          "answer": "B",
+          "evidence": "caused by a hardware failure",
+          "explanation": "La panne venait d'une défaillance matérielle dans un centre de données.",
+          "takeaway": "Hardware failure = panne matérielle."
+        },
+        {
+          "id": "e5-p7-28",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What will customers on paid plans receive?",
+          "options": [
+            "A free month of service",
+            "Extra storage",
+            "A refund for the day",
+            "A gift card"
+          ],
+          "answer": "A",
+          "evidence": "will receive one month of service free of charge",
+          "explanation": "Les clients payants recevront un mois gratuit.",
+          "takeaway": "Gesture of goodwill = geste commercial."
+        },
+        {
+          "id": "e5-p7-29",
+          "level": 3,
+          "category": "inference",
+          "prompt": "What is indicated about the Amsterdam data center?",
+          "options": [
+            "It stores customers' invoices.",
+            "It caused the problem.",
+            "It has replaced the Frankfurt center.",
+            "It is not yet in operation."
+          ],
+          "answer": "D",
+          "evidence": "which will be operational by February",
+          "explanation": "Il ne sera opérationnel qu'en février : il ne fonctionne pas encore.",
+          "takeaway": "Operational = en service."
+        }
+      ]
+    },
+    {
+      "id": "e5-p7-d01",
+      "kind": "double",
+      "title": "Tarifs de traduction + demande",
+      "docs": [
+        {
+          "type": "table",
+          "title": "Lingo Partners — Translation Rates",
+          "columns": [
+            "Service",
+            "Rate",
+            "Turnaround"
+          ],
+          "rows": [
+            [
+              "Standard translation",
+              "€0.12 per word",
+              "5 business days"
+            ],
+            [
+              "Express translation",
+              "€0.18 per word",
+              "2 business days"
+            ],
+            [
+              "Certified translation (legal documents)",
+              "€0.20 per word",
+              "5 business days"
+            ],
+            [
+              "Proofreading only",
+              "€0.05 per word",
+              "3 business days"
+            ]
+          ],
+          "note": "Minimum charge: €60 per order. 10% discount on orders over 10,000 words."
+        },
+        {
+          "type": "email",
+          "from": "Sara Haddad, Marketing Manager, Belle Maison",
+          "to": "orders@lingopartners.eu",
+          "subject": "Translation request",
+          "date": "Monday, 2 March",
+          "body": "Hello,\n\nWe need our 6,000-word product catalog translated from French into English. We are launching in the UK on 15 March and need the translation by Friday, 6 March, at the latest. The text is not a legal document. Could you confirm that you can meet this deadline?\n\nSara Haddad"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e5-p7-30",
+          "level": 1,
+          "category": "inference",
+          "prompt": "What is Belle Maison planning to do?",
+          "options": [
+            "Close its UK stores",
+            "Open a translation office",
+            "Enter a new market",
+            "Print a legal document"
+          ],
+          "answer": "C",
+          "evidence": "We are launching in the UK on 15 March",
+          "explanation": "L'entreprise se lance au Royaume-Uni : un nouveau marché.",
+          "takeaway": "Launch in a country = se lancer dans un pays."
+        },
+        {
+          "id": "e5-p7-31",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "Which service will Ms. Haddad most likely need?",
+          "options": [
+            "Standard translation",
+            "Express translation",
+            "Certified translation",
+            "Proofreading only"
+          ],
+          "answer": "B",
+          "explanation": "Du lundi 2 au vendredi 6 mars, il y a quatre jours ouvrés : la traduction standard (5 jours) est trop lente, l'express (2 jours) convient.",
+          "traps": "La traduction certifiée concerne les documents juridiques, ce que le catalogue n'est pas.",
+          "takeaway": "Compte les jours ouvrés disponibles."
+        },
+        {
+          "id": "e5-p7-32",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "How much will the translation most likely cost?",
+          "options": [
+            "€720",
+            "€972",
+            "€1,080",
+            "€1,200"
+          ],
+          "answer": "C",
+          "explanation": "6 000 mots × 0,18 € = 1 080 €. La remise de 10 % ne s'applique qu'au-delà de 10 000 mots.",
+          "traps": "972 € appliquerait à tort la remise.",
+          "takeaway": "Vérifie si les remises s'appliquent vraiment."
+        },
+        {
+          "id": "e5-p7-33",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is indicated about the catalog?",
+          "options": [
+            "It does not need certification.",
+            "It has already been proofread.",
+            "It is written in English.",
+            "It contains 10,000 words."
+          ],
+          "answer": "A",
+          "evidence": "The text is not a legal document.",
+          "explanation": "Ce n'est pas un document juridique : aucune traduction certifiée n'est nécessaire.",
+          "takeaway": "Certified = certifié, assermenté."
+        },
+        {
+          "id": "e5-p7-34",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What does Ms. Haddad ask Lingo Partners to do?",
+          "options": [
+            "Confirm that they can meet a deadline",
+            "Send a price list",
+            "Translate into French",
+            "Call her directly"
+          ],
+          "answer": "A",
+          "evidence": "Could you confirm that you can meet this deadline?",
+          "explanation": "Elle demande de confirmer que le délai pourra être tenu.",
+          "takeaway": "Meet a deadline = respecter un délai."
+        }
+      ]
+    },
+    {
+      "id": "e5-p7-d02",
+      "kind": "double",
+      "title": "Budget formation + demande d'un salarié",
+      "docs": [
+        {
+          "type": "table",
+          "title": "Kelvin Systems — Professional Development Fund (per employee, per year)",
+          "columns": [
+            "Employee level",
+            "Annual budget",
+            "Eligible expenses"
+          ],
+          "rows": [
+            [
+              "Junior (0–2 years)",
+              "€800",
+              "Courses, books"
+            ],
+            [
+              "Intermediate (3–5 years)",
+              "€1,500",
+              "Courses, books, conferences"
+            ],
+            [
+              "Senior (6+ years)",
+              "€2,500",
+              "Courses, books, conferences, certifications"
+            ]
+          ],
+          "note": "Requests must be approved by your manager at least three weeks before the expense. Unused funds do not carry over to the next year."
+        },
+        {
+          "type": "email",
+          "from": "Mehdi Saïdi",
+          "to": "Laura Chen",
+          "subject": "Conference request",
+          "date": "2 April",
+          "body": "Hi Laura,\n\nI'd like to attend the European Cloud Summit in Amsterdam on 28–29 April. The registration fee is €950, and the train and hotel would cost about €400. I joined Kelvin four years ago and haven't used any of my development budget this year. Could you approve the request this week?\n\nMehdi"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e5-p7-35",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "Why did Mr. Saïdi write to Ms. Chen?",
+          "options": [
+            "To request a promotion",
+            "To invite her to a conference",
+            "To report a travel problem",
+            "To ask for approval of an expense"
+          ],
+          "answer": "D",
+          "evidence": "Could you approve the request this week?",
+          "explanation": "Il demande à sa responsable d'approuver une dépense de formation.",
+          "takeaway": "Approve = approuver."
+        },
+        {
+          "id": "e5-p7-36",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "What is Mr. Saïdi's annual development budget?",
+          "options": [
+            "€800",
+            "€950",
+            "€1,500",
+            "€2,500"
+          ],
+          "answer": "C",
+          "explanation": "Avec quatre ans d'ancienneté, il est « Intermediate » (3–5 ans) : budget de 1 500 €.",
+          "takeaway": "Situe la personne dans le tableau grâce à un indice du doc 2."
+        },
+        {
+          "id": "e5-p7-37",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "What is true about the total cost of Mr. Saïdi's trip?",
+          "options": [
+            "It requires a senior's approval.",
+            "It exceeds his annual budget.",
+            "It is within his annual budget.",
+            "It includes a certification."
+          ],
+          "answer": "C",
+          "explanation": "950 € + 400 € = 1 350 €, sous son plafond de 1 500 € ; les conférences sont éligibles à son niveau.",
+          "takeaway": "Additionne puis compare au plafond."
+        },
+        {
+          "id": "e5-p7-38",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "What is suggested about the timing of Mr. Saïdi's request?",
+          "options": [
+            "It was sent too late.",
+            "It respects the advance-notice rule.",
+            "It was sent after the conference.",
+            "It must be resubmitted next year."
+          ],
+          "answer": "B",
+          "explanation": "Demande du 2 avril pour une dépense du 28 avril : plus de trois semaines d'avance, comme l'exige la règle.",
+          "takeaway": "Compte les jours entre deux dates."
+        },
+        {
+          "id": "e5-p7-39",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is indicated about the development fund?",
+          "options": [
+            "Unspent money cannot be used the following year.",
+            "It covers travel for family members.",
+            "It is paid in cash.",
+            "It is the same for all employees."
+          ],
+          "answer": "A",
+          "evidence": "Unused funds do not carry over to the next year.",
+          "explanation": "Les sommes non utilisées ne sont pas reportées sur l'année suivante.",
+          "takeaway": "Carry over = reporter."
+        }
+      ]
+    },
+    {
+      "id": "e5-p7-t01",
+      "kind": "triple",
+      "title": "Visite d'usine : brochure, réservation, confirmation",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Visit the Maison Chocolat Factory!",
+          "body": "Guided tours (90 minutes) take place Tuesday to Saturday at 10 A.M. and 2 P.M. Adults: €12; children under 12: €6. Groups of 15 or more receive a 20% discount and must book at least one week in advance. Tours end in our shop, where visitors can taste and buy our chocolates. For safety reasons, visitors must wear closed shoes."
+        },
+        {
+          "type": "form",
+          "title": "Group Booking Request",
+          "fields": [
+            [
+              "Organization",
+              "Lycée Victor Duruy"
+            ],
+            [
+              "Contact",
+              "Mr. Paul Arnaud"
+            ],
+            [
+              "Preferred date",
+              "Thursday, 14 November, 10 A.M."
+            ],
+            [
+              "Group size",
+              "24 students (aged 15–16) and 3 teachers"
+            ],
+            [
+              "Date of request",
+              "4 November"
+            ],
+            [
+              "Special requests",
+              "One student uses a wheelchair."
+            ]
+          ]
+        },
+        {
+          "type": "email",
+          "from": "Maison Chocolat Visitor Services",
+          "to": "Paul Arnaud",
+          "subject": "Your group visit",
+          "date": "5 November",
+          "body": "Dear Mr. Arnaud,\n\nThank you for your booking request. We are happy to confirm your group's visit on 14 November at 10 A.M. Our tour route is fully accessible, and an elevator is available between floors. Please remind your students to wear closed shoes. Payment can be made on arrival.\n\nMaison Chocolat Visitor Services"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e5-p7-40",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What is mentioned about the tours?",
+          "options": [
+            "They take place every day.",
+            "They last three hours.",
+            "They are free for teachers.",
+            "They end in a shop."
+          ],
+          "answer": "D",
+          "evidence": "Tours end in our shop",
+          "explanation": "La brochure précise que les visites se terminent dans la boutique de l'usine.",
+          "takeaway": "End in = se terminer à."
+        },
+        {
+          "id": "e5-p7-41",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "How much will each member of Mr. Arnaud's group most likely pay?",
+          "options": [
+            "€4.80",
+            "€6.00",
+            "€9.60",
+            "€12.00"
+          ],
+          "answer": "C",
+          "explanation": "Les lycéens (15–16 ans) paient le tarif adulte de 12 € ; le groupe de 27 personnes a 20 % de réduction : 12 × 0,8 = 9,60 €.",
+          "traps": "Le tarif enfant (6 €) concerne les moins de 12 ans.",
+          "takeaway": "Applique la bonne catégorie puis la remise."
+        },
+        {
+          "id": "e5-p7-42",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "What is indicated about the booking request?",
+          "options": [
+            "It asked for an afternoon visit.",
+            "It was submitted too late.",
+            "It was made at least a week in advance.",
+            "It included payment."
+          ],
+          "answer": "C",
+          "explanation": "Demande du 4 novembre pour une visite le 14 : dix jours d'avance, au-delà de la semaine requise pour les groupes.",
+          "takeaway": "Vérifie les délais de réservation."
+        },
+        {
+          "id": "e5-p7-43",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "Which concern from the booking request does the confirmation address?",
+          "options": [
+            "The price for teachers",
+            "Access for a visitor with reduced mobility",
+            "Lunch for the students",
+            "Transportation to the factory"
+          ],
+          "answer": "B",
+          "explanation": "Un élève est en fauteuil roulant ; la confirmation précise que le parcours est accessible avec ascenseur.",
+          "takeaway": "Relie la demande spéciale à la réponse."
+        },
+        {
+          "id": "e5-p7-44",
+          "level": 1,
+          "category": "synonym",
+          "prompt": "What are visitors required to do?",
+          "options": [
+            "Wear appropriate shoes",
+            "Bring identification",
+            "Pay in advance",
+            "Leave bags at the entrance"
+          ],
+          "answer": "A",
+          "evidence": "visitors must wear closed shoes",
+          "explanation": "Les visiteurs doivent porter des chaussures fermées : des chaussures adaptées.",
+          "takeaway": "Closed shoes = chaussures fermées."
+        }
+      ]
+    },
+    {
+      "id": "e5-p7-t02",
+      "kind": "triple",
+      "title": "Notes de frais : annonce, FAQ, e-mail",
+      "docs": [
+        {
+          "type": "text",
+          "title": "MEMO — Verlo Group Finance Department",
+          "body": "Starting 1 March, all expense claims at Verlo Group must be submitted through the new SpendWise app. Paper claims will no longer be accepted. Claims are reimbursed within ten working days of approval. Training videos are available on the intranet."
+        },
+        {
+          "type": "table",
+          "title": "SpendWise — Frequently Asked Questions",
+          "columns": [
+            "Question",
+            "Answer"
+          ],
+          "rows": [
+            [
+              "Can I submit claims from my phone?",
+              "Yes. Photograph your receipts in the app."
+            ],
+            [
+              "What is the deadline for submitting a claim?",
+              "Within 60 days of the expense."
+            ],
+            [
+              "Who approves my claims?",
+              "Your direct manager. Claims over €1,000 also require approval from Finance."
+            ],
+            [
+              "What if I lose a receipt?",
+              "Complete a missing-receipt declaration in the app."
+            ]
+          ]
+        },
+        {
+          "type": "email",
+          "from": "Tomasz Wolak",
+          "to": "Finance Helpdesk",
+          "subject": "Conference expenses",
+          "date": "10 March",
+          "body": "Hello,\n\nI attended a conference in Berlin on 3–4 March and spent €1,240 in total on registration, hotel, and flights. My manager approved the claim in SpendWise yesterday, but its status still says \"pending.\" Is there a problem? Also, I can't find the receipt for one taxi ride. What should I do?\n\nTomasz Wolak"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e5-p7-45",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the main purpose of the memo?",
+          "options": [
+            "To request training feedback",
+            "To reduce travel budgets",
+            "To introduce a new finance director",
+            "To announce a new way of submitting expense claims"
+          ],
+          "answer": "D",
+          "evidence": "all expense claims at Verlo Group must be submitted through the new SpendWise app",
+          "explanation": "Le mémo annonce que les notes de frais passent par une nouvelle application.",
+          "takeaway": "Claim = demande de remboursement."
+        },
+        {
+          "id": "e5-p7-46",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "Why is Mr. Wolak's claim most likely still pending?",
+          "options": [
+            "It was sent on paper.",
+            "It was submitted too late.",
+            "It also needs approval from Finance.",
+            "His manager rejected it."
+          ],
+          "answer": "C",
+          "explanation": "Sa demande s'élève à 1 240 € : au-delà de 1 000 €, le service financier doit aussi l'approuver.",
+          "takeaway": "Applique le seuil de la FAQ au montant de l'e-mail."
+        },
+        {
+          "id": "e5-p7-47",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "What should Mr. Wolak do about the missing taxi receipt?",
+          "options": [
+            "Ask the taxi company for a copy",
+            "Fill out a declaration in the app",
+            "Pay for the ride himself",
+            "Send a paper form"
+          ],
+          "answer": "B",
+          "explanation": "La FAQ indique de remplir une déclaration de reçu manquant dans l'application.",
+          "takeaway": "Cherche la réponse à sa question dans la FAQ."
+        },
+        {
+          "id": "e5-p7-48",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "What is indicated about Mr. Wolak's claim?",
+          "options": [
+            "It was submitted within the required period.",
+            "It includes meals.",
+            "It was refused.",
+            "It was submitted on paper."
+          ],
+          "answer": "A",
+          "explanation": "Dépense du 3–4 mars, demande approuvée le 9 mars : bien dans le délai de 60 jours.",
+          "takeaway": "Compare dates et délais."
+        },
+        {
+          "id": "e5-p7-49",
+          "level": 2,
+          "category": "detail",
+          "prompt": "When can Mr. Wolak expect to be reimbursed?",
+          "options": [
+            "Within ten working days after final approval",
+            "Immediately",
+            "At the end of the year",
+            "Within 60 days of his trip"
+          ],
+          "answer": "A",
+          "evidence": "Claims are reimbursed within ten working days of approval.",
+          "explanation": "Le remboursement intervient dans les dix jours ouvrés suivant l'approbation.",
+          "traps": "60 jours est le délai pour soumettre, pas pour être remboursé.",
+          "takeaway": "Working days = jours ouvrés."
+        }
+      ]
+    },
+    {
+      "id": "e5-p7-t03",
+      "kind": "triple",
+      "title": "Vélos en libre-service : tarifs, réclamation, réponse",
+      "docs": [
+        {
+          "type": "table",
+          "title": "VeloCity Bike Share — Plans",
+          "columns": [
+            "Plan",
+            "Price",
+            "Includes"
+          ],
+          "rows": [
+            [
+              "Single ride",
+              "€1.50",
+              "Up to 30 minutes"
+            ],
+            [
+              "Day pass",
+              "€6",
+              "Unlimited 30-minute rides for 24 hours"
+            ],
+            [
+              "Monthly",
+              "€15",
+              "Unlimited 45-minute rides"
+            ],
+            [
+              "Annual",
+              "€120",
+              "Unlimited 45-minute rides, 10 e-bike rides per month"
+            ]
+          ],
+          "note": "Extra time: €1 per additional 30 minutes. E-bikes: +€1 per ride (except included rides on the Annual plan)."
+        },
+        {
+          "type": "email",
+          "from": "Nora Lindqvist",
+          "to": "support@velocity.fr",
+          "subject": "Charge on my account",
+          "date": "12 May",
+          "body": "Hello,\n\nI have a monthly plan. Yesterday I rode from the station to my office, and the ride took 50 minutes because of road closures. I was charged €1 for extra time, which I understand. But I was also charged €1 for an e-bike, although I'm sure I took a regular bike. Could you check?\n\nNora Lindqvist"
+        },
+        {
+          "type": "email",
+          "from": "VeloCity Support",
+          "to": "Nora Lindqvist",
+          "subject": "RE: Charge on my account",
+          "date": "13 May",
+          "body": "Dear Ms. Lindqvist,\n\nYou are right: our records show that you used bike no. 4471, which is a regular bike. The e-bike charge was an error caused by a software update, and it has been refunded. Since you ride every day, you might also consider our annual plan, which would save you €60 per year and includes e-bike rides.\n\nVeloCity Support"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e5-p7-50",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "Why did Ms. Lindqvist write to VeloCity?",
+          "options": [
+            "To ask about road closures",
+            "To cancel her plan",
+            "To report a broken bike",
+            "To question a charge"
+          ],
+          "answer": "D",
+          "evidence": "But I was also charged €1 for an e-bike",
+          "explanation": "Elle conteste un frais de vélo électrique alors qu'elle a pris un vélo classique.",
+          "takeaway": "Charge = frais facturé."
+        },
+        {
+          "id": "e5-p7-51",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "Why was Ms. Lindqvist charged for extra time?",
+          "options": [
+            "She returned the bike late at night.",
+            "She used a day pass.",
+            "Her ride lasted longer than her plan includes.",
+            "She rode an e-bike."
+          ],
+          "answer": "C",
+          "explanation": "Son forfait mensuel inclut des trajets de 45 minutes ; le sien a duré 50 minutes.",
+          "takeaway": "Compare la durée réelle et la durée incluse."
+        },
+        {
+          "id": "e5-p7-52",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What caused the incorrect e-bike charge?",
+          "options": [
+            "A damaged bike",
+            "A software error",
+            "A mistake by Ms. Lindqvist",
+            "A new pricing policy"
+          ],
+          "answer": "B",
+          "evidence": "caused by a software update",
+          "explanation": "Une mise à jour logicielle a provoqué l'erreur.",
+          "takeaway": "Software update = mise à jour logicielle."
+        },
+        {
+          "id": "e5-p7-53",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "What is suggested about the annual plan?",
+          "options": [
+            "It costs less than twelve monthly payments.",
+            "It does not include e-bikes.",
+            "It is only for tourists.",
+            "It allows 30-minute rides only."
+          ],
+          "answer": "A",
+          "explanation": "Douze mois à 15 € = 180 € contre 120 € pour l'abonnement annuel : 60 € d'économie, comme l'indique le support.",
+          "takeaway": "Retrouve le calcul derrière un chiffre annoncé."
+        },
+        {
+          "id": "e5-p7-54",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What did VeloCity do about the e-bike charge?",
+          "options": [
+            "It refunded the charge.",
+            "It doubled the charge.",
+            "It asked for a photo.",
+            "It canceled her account."
+          ],
+          "answer": "A",
+          "evidence": "it has been refunded",
+          "explanation": "Le support reconnaît l'erreur et indique que les frais injustifiés ont été remboursés.",
+          "takeaway": "Refund = rembourser."
+        }
+      ]
+    }
+  ]
+}
