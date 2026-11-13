@@ -1,0 +1,1217 @@
+{
+  "pool": "practice",
+  "sets": [
+    {
+      "id": "p-p3-c07",
+      "part": 3,
+      "kind": "conversation",
+      "title": "Retard de livraison de matériaux",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Hi Rosa, the tiles for the hotel lobby were supposed to arrive this morning, but the supplier just called. They're stuck at the border."
+        },
+        {
+          "s": "W",
+          "t": "That's bad timing. The flooring team is scheduled to start tomorrow."
+        },
+        {
+          "s": "M",
+          "t": "I know. Could we ask them to start on the upstairs bathrooms first? Those tiles are already here."
+        },
+        {
+          "s": "W",
+          "t": "Good idea. I'll call their supervisor now and change the work order."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p3-19",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What problem does the man mention?",
+          "options": [
+            "A supplier went out of business.",
+            "Some tiles are damaged.",
+            "A team is unavailable.",
+            "A delivery has been delayed."
+          ],
+          "answer": "D",
+          "evidence": "They're stuck at the border.",
+          "explanation": "Les carrelages destinés au hall sont bloqués à la frontière : la livraison est retardée.",
+          "takeaway": "Be stuck = être bloqué."
+        },
+        {
+          "id": "p-p3-20",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does the man suggest?",
+          "options": [
+            "Postponing the project",
+            "Finding a new supplier",
+            "Changing the order of the work",
+            "Using different tiles"
+          ],
+          "answer": "C",
+          "evidence": "Could we ask them to start on the upstairs bathrooms first?",
+          "explanation": "Il propose de commencer par les salles de bains de l'étage, dont les carrelages sont déjà livrés.",
+          "takeaway": "Start on X first = commencer par X."
+        },
+        {
+          "id": "p-p3-21",
+          "level": 2,
+          "category": "next-action",
+          "prompt": "What will the woman do next?",
+          "options": [
+            "Visit the border",
+            "Contact a supervisor",
+            "Order new tiles",
+            "Inspect the bathrooms"
+          ],
+          "answer": "B",
+          "evidence": "I'll call their supervisor now",
+          "explanation": "Elle appellera le chef d'équipe pour modifier l'ordre de travail.",
+          "takeaway": "Work order = bon de travail."
+        }
+      ]
+    },
+    {
+      "id": "p-p3-c08",
+      "part": 3,
+      "kind": "conversation",
+      "title": "Abonnement presse en entreprise (3 interlocuteurs)",
+      "audio": [
+        {
+          "s": "W",
+          "t": "Our subscription to the financial newspaper ends this month. Should we renew it?"
+        },
+        {
+          "s": "M",
+          "t": "Hardly anyone reads the paper copies anymore. They just pile up in the break room."
+        },
+        {
+          "s": "M2",
+          "t": "But the analysts use the online archive every day for their reports."
+        },
+        {
+          "s": "W",
+          "t": "Then let's switch to a digital-only subscription. It's cheaper, and it includes the archive."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p3-22",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What are the speakers discussing?",
+          "options": [
+            "Renewing a subscription",
+            "Cleaning the break room",
+            "Hiring analysts",
+            "Writing a report"
+          ],
+          "answer": "A",
+          "evidence": "Our subscription to the financial newspaper ends this month. Should we renew it?",
+          "explanation": "Ils se demandent s'il faut renouveler l'abonnement au journal financier.",
+          "takeaway": "Renew = renouveler."
+        },
+        {
+          "id": "p-p3-23",
+          "level": 3,
+          "category": "intention",
+          "prompt": "Why does the first man say, \"They just pile up in the break room\"?",
+          "options": [
+            "To suggest a new location for the papers",
+            "To complain that the break room is messy",
+            "To ask someone to clean the room",
+            "To show that the print copies are not read"
+          ],
+          "answer": "D",
+          "evidence": "They just pile up in the break room.",
+          "explanation": "Les exemplaires papier s'entassent sans être lus : l'abonnement papier est peu utile.",
+          "takeaway": "Pile up = s'entasser."
+        },
+        {
+          "id": "p-p3-24",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does the woman decide?",
+          "options": [
+            "To buy more paper copies",
+            "To cancel the subscription",
+            "To choose an online-only subscription",
+            "To ask the analysts to pay"
+          ],
+          "answer": "C",
+          "evidence": "let's switch to a digital-only subscription",
+          "explanation": "Elle opte pour un abonnement uniquement numérique, moins cher et avec les archives.",
+          "takeaway": "Switch to = passer à."
+        }
+      ]
+    },
+    {
+      "id": "p-p3-c09",
+      "part": 3,
+      "kind": "conversation",
+      "title": "Choix d'un hôtel (graphique)",
+      "graphic": {
+        "type": "table",
+        "title": "Hotels near the Expo Center",
+        "columns": [
+          "Hotel",
+          "Distance",
+          "Price per night",
+          "Breakfast"
+        ],
+        "rows": [
+          [
+            "Hotel Arno",
+            "5-minute walk",
+            "€165",
+            "Included"
+          ],
+          [
+            "City Lodge",
+            "15-minute walk",
+            "€98",
+            "Not included"
+          ],
+          [
+            "Parkside Inn",
+            "10-minute walk",
+            "€120",
+            "Included"
+          ],
+          [
+            "Grand Plaza",
+            "2-minute walk",
+            "€210",
+            "Included"
+          ]
+        ]
+      },
+      "audio": [
+        {
+          "s": "W",
+          "t": "I'm booking hotels for the trade show. Our limit is one hundred and fifty euros a night."
+        },
+        {
+          "s": "M",
+          "t": "Make sure breakfast is included. We'll be at the booth from seven every morning."
+        },
+        {
+          "s": "W",
+          "t": "OK. And I'd prefer something within a ten-minute walk, since we'll be carrying samples."
+        },
+        {
+          "s": "M",
+          "t": "Sounds good. Book three rooms, please."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p3-25",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Why does the man want breakfast included?",
+          "options": [
+            "The hotel restaurant is famous.",
+            "They will start work early.",
+            "It is cheaper.",
+            "The client requested it."
+          ],
+          "answer": "B",
+          "evidence": "We'll be at the booth from seven every morning.",
+          "explanation": "Ils seront au stand dès 7 h chaque matin : le petit-déjeuner à l'hôtel est pratique.",
+          "takeaway": "Booth = stand."
+        },
+        {
+          "id": "p-p3-26",
+          "level": 3,
+          "category": "graphic",
+          "prompt": "Look at the graphic. Which hotel will the woman most likely book?",
+          "options": [
+            "Parkside Inn",
+            "City Lodge",
+            "Hotel Arno",
+            "Grand Plaza"
+          ],
+          "answer": "A",
+          "explanation": "Moins de 150 €, petit-déjeuner inclus, à 10 minutes à pied maximum : Parkside Inn (120 €).",
+          "traps": "Hotel Arno dépasse le budget ; City Lodge n'inclut pas le petit-déjeuner.",
+          "takeaway": "Applique tous les critères."
+        },
+        {
+          "id": "p-p3-27",
+          "level": 1,
+          "category": "detail",
+          "prompt": "How many rooms does the man ask for?",
+          "options": [
+            "One",
+            "Two",
+            "Four",
+            "Three"
+          ],
+          "answer": "D",
+          "evidence": "Book three rooms, please.",
+          "explanation": "L'homme demande de réserver trois chambres pour l'équipe du salon.",
+          "takeaway": "Book = réserver."
+        }
+      ]
+    },
+    {
+      "id": "p-p3-c10",
+      "part": 3,
+      "kind": "conversation",
+      "title": "Retour d'un client mécontent",
+      "audio": [
+        {
+          "s": "W",
+          "t": "Mr. Laval from Orion Logistics called again. He says the software update we installed last week has slowed down their system."
+        },
+        {
+          "s": "M",
+          "t": "That's the third complaint about that update. Did he say which features are affected?"
+        },
+        {
+          "s": "W",
+          "t": "Mainly the reporting tool. Some reports take ten minutes to load."
+        },
+        {
+          "s": "M",
+          "t": "Let's send Ines to their office tomorrow morning. She developed that tool, so she'll find the problem quickly."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p3-28",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What is Mr. Laval's complaint?",
+          "options": [
+            "A delivery is late.",
+            "An invoice is incorrect.",
+            "A system has become slower.",
+            "A feature was removed."
+          ],
+          "answer": "C",
+          "evidence": "has slowed down their system",
+          "explanation": "La mise à jour a ralenti le système du client.",
+          "takeaway": "Slow down = ralentir."
+        },
+        {
+          "id": "p-p3-29",
+          "level": 2,
+          "category": "inference",
+          "prompt": "What does the man imply about the update?",
+          "options": [
+            "It was installed by mistake.",
+            "Other customers have had problems with it.",
+            "It is free of charge.",
+            "It was developed by Mr. Laval."
+          ],
+          "answer": "B",
+          "evidence": "That's the third complaint about that update.",
+          "explanation": "C'est la troisième plainte : d'autres clients ont eu des problèmes.",
+          "takeaway": "Third complaint → problème récurrent."
+        },
+        {
+          "id": "p-p3-30",
+          "level": 2,
+          "category": "next-action",
+          "prompt": "Why will Ines visit the client?",
+          "options": [
+            "She knows the tool well.",
+            "She manages the account.",
+            "She lives nearby.",
+            "She sold the software."
+          ],
+          "answer": "A",
+          "evidence": "She developed that tool",
+          "explanation": "Elle a développé l'outil de reporting, elle trouvera vite le problème.",
+          "takeaway": "Develop = développer (logiciel)."
+        }
+      ]
+    },
+    {
+      "id": "p-p3-c11",
+      "part": 3,
+      "kind": "conversation",
+      "title": "Inscription à un salon",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Hello, I'd like to register for the Packaging Innovation Fair, but your website says registration is closed."
+        },
+        {
+          "s": "W",
+          "t": "Online registration ended yesterday, but you can still register at the entrance on the first day."
+        },
+        {
+          "s": "M",
+          "t": "Is the price the same?"
+        },
+        {
+          "s": "W",
+          "t": "It's twenty euros more at the door. But if you're a member of the packaging association, you'll get the member rate."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p3-31",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "Why is the man calling?",
+          "options": [
+            "He wants a refund.",
+            "He wants to exhibit at a fair.",
+            "He lost his ticket.",
+            "He wants to register for an event."
+          ],
+          "answer": "D",
+          "evidence": "I'd like to register for the Packaging Innovation Fair",
+          "explanation": "Il veut s'inscrire au salon, mais l'inscription en ligne est close.",
+          "takeaway": "Register = s'inscrire."
+        },
+        {
+          "id": "p-p3-32",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does the woman say about registering on site?",
+          "options": [
+            "It requires a membership.",
+            "It is not possible.",
+            "It costs more.",
+            "It must be done by phone."
+          ],
+          "answer": "C",
+          "evidence": "It's twenty euros more at the door.",
+          "explanation": "S'inscrire sur place coûte 20 € de plus.",
+          "takeaway": "At the door = sur place, à l'entrée."
+        },
+        {
+          "id": "p-p3-33",
+          "level": 3,
+          "category": "inference",
+          "prompt": "Who could avoid the extra charge?",
+          "options": [
+            "Students",
+            "Members of an association",
+            "Exhibitors",
+            "People who arrive early"
+          ],
+          "answer": "B",
+          "evidence": "if you're a member of the packaging association, you'll get the member rate",
+          "explanation": "Les membres de l'association bénéficient du tarif adhérent, même sur place.",
+          "takeaway": "Member rate = tarif adhérent."
+        }
+      ]
+    },
+    {
+      "id": "p-p3-c12",
+      "part": 3,
+      "kind": "conversation",
+      "title": "Planning des congés (graphique)",
+      "graphic": {
+        "type": "table",
+        "title": "Team Vacation Calendar — August",
+        "columns": [
+          "Employee",
+          "Dates off"
+        ],
+        "rows": [
+          [
+            "Clara",
+            "Aug 1–14"
+          ],
+          [
+            "Malik",
+            "Aug 8–22"
+          ],
+          [
+            "Sofia",
+            "Aug 18–29"
+          ],
+          [
+            "Yann",
+            "Aug 25–31"
+          ]
+        ]
+      },
+      "audio": [
+        {
+          "s": "M",
+          "t": "I'd like to take a week off in August. Is there a period when at least three of us will be here?"
+        },
+        {
+          "s": "W",
+          "t": "Let's see. We need three people in the office at all times for the client hotline."
+        },
+        {
+          "s": "M",
+          "t": "What about the first week, from the first to the seventh?"
+        },
+        {
+          "s": "W",
+          "t": "Clara is off then, so if you also leave, only two of us would remain. Try the week of the eighth instead... no, Malik's away. Hmm, honestly, the only week that works is the last one, but Yann is off too."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p3-34",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What does the man want to do?",
+          "options": [
+            "Take a vacation",
+            "Change teams",
+            "Work from home",
+            "Hire an assistant"
+          ],
+          "answer": "A",
+          "evidence": "I'd like to take a week off in August.",
+          "explanation": "Il veut prendre une semaine de congé en août.",
+          "takeaway": "Take a week off = prendre une semaine de congé."
+        },
+        {
+          "id": "p-p3-35",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Why must three people be in the office?",
+          "options": [
+            "To prepare an audit",
+            "To finish a project",
+            "To train new staff",
+            "To answer a client hotline"
+          ],
+          "answer": "D",
+          "evidence": "We need three people in the office at all times for the client hotline.",
+          "explanation": "Trois personnes doivent être présentes pour assurer la ligne d'assistance client.",
+          "takeaway": "Hotline = ligne d'assistance."
+        },
+        {
+          "id": "p-p3-36",
+          "level": 3,
+          "category": "intention",
+          "prompt": "What does the woman imply in her last statement?",
+          "options": [
+            "Clara should change her dates.",
+            "The man should take two weeks off.",
+            "Finding a suitable week will be difficult.",
+            "The hotline will close in August."
+          ],
+          "answer": "C",
+          "evidence": "the only week that works is the last one, but Yann is off too",
+          "explanation": "Elle passe en revue les semaines et aucune ne convient vraiment : il sera difficile de trouver une semaine.",
+          "takeaway": "Hmm, honestly… = hésitation qui annonce une difficulté."
+        }
+      ]
+    },
+    {
+      "id": "p-p3-c13",
+      "part": 3,
+      "kind": "conversation",
+      "title": "Nouveau fournisseur de papeterie",
+      "audio": [
+        {
+          "s": "W",
+          "t": "I've been comparing office supply companies. PaperPlus offers free next-day delivery on all orders."
+        },
+        {
+          "s": "M",
+          "t": "That's convenient. But are their prices competitive?"
+        },
+        {
+          "s": "W",
+          "t": "They're about five percent higher than our current supplier, but we'd save on delivery fees, which we pay every week now."
+        },
+        {
+          "s": "M",
+          "t": "Then let's try them for a month and compare the total costs."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p3-37",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What does PaperPlus offer?",
+          "options": [
+            "A five percent discount",
+            "Free next-day delivery",
+            "A monthly catalog",
+            "A loyalty card"
+          ],
+          "answer": "B",
+          "evidence": "PaperPlus offers free next-day delivery on all orders",
+          "explanation": "PaperPlus propose la livraison gratuite le lendemain.",
+          "takeaway": "Next-day delivery = livraison le lendemain."
+        },
+        {
+          "id": "p-p3-38",
+          "level": 3,
+          "category": "inference",
+          "prompt": "Why might PaperPlus be cheaper overall?",
+          "options": [
+            "The company would no longer pay delivery fees.",
+            "Its products are cheaper.",
+            "It offers bulk discounts.",
+            "It accepts late payments."
+          ],
+          "answer": "A",
+          "evidence": "we'd save on delivery fees, which we pay every week now",
+          "explanation": "Les produits coûtent 5 % de plus, mais l'économie sur les frais de livraison hebdomadaires pourrait compenser.",
+          "traps": "(B) est faux : les prix sont plus élevés.",
+          "takeaway": "Overall = au total."
+        },
+        {
+          "id": "p-p3-39",
+          "level": 2,
+          "category": "next-action",
+          "prompt": "What do the speakers decide to do?",
+          "options": [
+            "Order in larger quantities",
+            "Keep the current supplier",
+            "Negotiate prices",
+            "Test the new supplier"
+          ],
+          "answer": "D",
+          "evidence": "let's try them for a month and compare the total costs",
+          "explanation": "Ils testeront PaperPlus pendant un mois avant de comparer.",
+          "takeaway": "Try for a month = tester pendant un mois."
+        }
+      ]
+    },
+    {
+      "id": "p-p3-c14",
+      "part": 3,
+      "kind": "conversation",
+      "title": "Préparation d'une présentation (3 interlocuteurs)",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Our presentation to the city council is on Monday. Is everything ready?"
+        },
+        {
+          "s": "W",
+          "t": "The slides are done, but we're still waiting for the updated traffic data from the engineering firm."
+        },
+        {
+          "s": "W2",
+          "t": "I called them this morning. They promised to send it by Friday noon."
+        },
+        {
+          "s": "M",
+          "t": "That's cutting it close. Let's schedule a rehearsal for Friday afternoon so we can include the new figures."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p3-40",
+          "level": 1,
+          "category": "detail",
+          "prompt": "Who will the speakers present to?",
+          "options": [
+            "A group of investors",
+            "An engineering firm",
+            "A city council",
+            "Their managers"
+          ],
+          "answer": "C",
+          "evidence": "Our presentation to the city council is on Monday.",
+          "explanation": "Ils présentent lundi devant le conseil municipal.",
+          "takeaway": "City council = conseil municipal."
+        },
+        {
+          "id": "p-p3-41",
+          "level": 3,
+          "category": "intention",
+          "prompt": "What does the man mean when he says, \"That's cutting it close\"?",
+          "options": [
+            "The data is not accurate.",
+            "There is little time left before the deadline.",
+            "The presentation is too long.",
+            "The engineering firm is expensive."
+          ],
+          "answer": "B",
+          "evidence": "That's cutting it close.",
+          "explanation": "Recevoir les données vendredi midi pour une présentation lundi laisse très peu de marge.",
+          "takeaway": "Cut it close = avoir très peu de marge."
+        },
+        {
+          "id": "p-p3-42",
+          "level": 2,
+          "category": "next-action",
+          "prompt": "What does the man suggest?",
+          "options": [
+            "Holding a practice session",
+            "Canceling the presentation",
+            "Contacting the council",
+            "Using old data"
+          ],
+          "answer": "A",
+          "evidence": "Let's schedule a rehearsal for Friday afternoon",
+          "explanation": "Il propose une répétition vendredi après-midi pour intégrer les nouveaux chiffres.",
+          "takeaway": "Rehearsal = répétition."
+        }
+      ]
+    },
+    {
+      "id": "p-p4-t06",
+      "part": 4,
+      "kind": "talk",
+      "title": "Annonce dans un train",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Good morning, passengers, and welcome aboard the 8:15 service to Strasbourg. We will be stopping at Dijon and Mulhouse. The café car is located in the middle of the train and is open until 11 A.M. Please note that due to a signal problem near Dijon, we expect to arrive in Strasbourg about fifteen minutes late. Passengers with connections should speak to a member of staff, who will help them find an alternative if necessary."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p4-16",
+          "level": 1,
+          "category": "inference",
+          "prompt": "Where is the announcement being made?",
+          "options": [
+            "On a ferry",
+            "On a plane",
+            "At a bus station",
+            "On a train"
+          ],
+          "answer": "D",
+          "evidence": "welcome aboard the 8:15 service to Strasbourg",
+          "explanation": "Arrêts, voiture-bar, problème de signalisation : on est dans un train.",
+          "takeaway": "Signal problem → train."
+        },
+        {
+          "id": "p-p4-17",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Why will the arrival be delayed?",
+          "options": [
+            "Because of extra stops",
+            "Because of bad weather",
+            "Because of a signal problem",
+            "Because of a staff shortage"
+          ],
+          "answer": "C",
+          "evidence": "due to a signal problem near Dijon",
+          "explanation": "Un problème de signalisation près de Dijon retardera l'arrivée d'environ 15 minutes.",
+          "takeaway": "Due to = en raison de."
+        },
+        {
+          "id": "p-p4-18",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What should passengers with connections do?",
+          "options": [
+            "Get off at Dijon",
+            "Talk to a staff member",
+            "Go to the café car",
+            "Call the station"
+          ],
+          "answer": "B",
+          "evidence": "Passengers with connections should speak to a member of staff",
+          "explanation": "Ils doivent s'adresser à un agent qui les aidera à trouver une solution.",
+          "takeaway": "Connection = correspondance."
+        }
+      ]
+    },
+    {
+      "id": "p-p4-t07",
+      "part": 4,
+      "kind": "talk",
+      "title": "Réunion — nouvelle politique de déplacements",
+      "audio": [
+        {
+          "s": "W",
+          "t": "I'd like to briefly go over our new travel policy, which starts next month. From now on, all business trips under four hours by train must be made by train rather than by plane. I know some of you like to fly to Marseille because it feels faster. But once you count the time to get to the airport and go through security, the train is usually quicker. The new policy will also help us meet our goal of reducing emissions by thirty percent. Any exceptions will need approval from your director."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p4-19",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the talk mainly about?",
+          "options": [
+            "A new travel policy",
+            "A trip to Marseille",
+            "Airport security",
+            "A train strike"
+          ],
+          "answer": "A",
+          "evidence": "our new travel policy, which starts next month",
+          "explanation": "L'oratrice présente la nouvelle politique de déplacements professionnels.",
+          "takeaway": "Travel policy = politique de déplacements."
+        },
+        {
+          "id": "p-p4-20",
+          "level": 3,
+          "category": "intention",
+          "prompt": "Why does the speaker mention the time needed to get to the airport?",
+          "options": [
+            "To explain a delay",
+            "To recommend arriving early",
+            "To complain about security",
+            "To argue that the train is often faster"
+          ],
+          "answer": "D",
+          "evidence": "the train is usually quicker",
+          "explanation": "En comptant le trajet vers l'aéroport et la sécurité, le train est souvent plus rapide : c'est un argument pour la nouvelle règle.",
+          "takeaway": "Once you count… = si l'on compte…"
+        },
+        {
+          "id": "p-p4-21",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is required for an exception?",
+          "options": [
+            "A cheaper ticket",
+            "A medical certificate",
+            "A director's approval",
+            "A client's request"
+          ],
+          "answer": "C",
+          "evidence": "Any exceptions will need approval from your director.",
+          "explanation": "Toute exception doit être approuvée par le directeur.",
+          "takeaway": "Approval = accord, approbation."
+        }
+      ]
+    },
+    {
+      "id": "p-p4-t08",
+      "part": 4,
+      "kind": "talk",
+      "title": "Podcast — conseil professionnel",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Welcome back to Career Moves, the podcast for young professionals. Today's topic is salary negotiation. Many people accept the first offer they receive because they're afraid of losing the job. In reality, most employers expect some negotiation. My guest today, recruiter Alicia Moreno, has hired more than five hundred people in the past ten years. She'll share three simple steps to prepare. And at the end of the show, she'll answer questions sent in by our listeners."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p4-22",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the topic of today's episode?",
+          "options": [
+            "Writing a résumé",
+            "Negotiating a salary",
+            "Changing careers",
+            "Starting a business"
+          ],
+          "answer": "B",
+          "evidence": "Today's topic is salary negotiation.",
+          "explanation": "L'épisode porte sur la négociation salariale.",
+          "takeaway": "Salary negotiation = négociation salariale."
+        },
+        {
+          "id": "p-p4-23",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does the speaker say about employers?",
+          "options": [
+            "Most expect some negotiation.",
+            "Most offer low salaries.",
+            "Few hire young people.",
+            "They prefer experienced staff."
+          ],
+          "answer": "A",
+          "evidence": "most employers expect some negotiation",
+          "explanation": "La plupart des employeurs s'attendent à une négociation.",
+          "takeaway": "Expect = s'attendre à."
+        },
+        {
+          "id": "p-p4-24",
+          "level": 2,
+          "category": "next-action",
+          "prompt": "What will happen at the end of the show?",
+          "options": [
+            "A contest winner will be named.",
+            "A job offer will be announced.",
+            "A new guest will be introduced.",
+            "Listener questions will be answered."
+          ],
+          "answer": "D",
+          "evidence": "she'll answer questions sent in by our listeners",
+          "explanation": "L'invitée répondra aux questions des auditeurs.",
+          "takeaway": "Send in = envoyer (à une émission)."
+        }
+      ]
+    },
+    {
+      "id": "p-p4-t09",
+      "part": 4,
+      "kind": "talk",
+      "title": "Comparaison de forfaits (graphique)",
+      "graphic": {
+        "type": "table",
+        "title": "Coworking Membership Options",
+        "columns": [
+          "Option",
+          "Desk",
+          "Meeting room hours/month",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Flex",
+            "Shared",
+            "2",
+            "€180"
+          ],
+          [
+            "Fixed",
+            "Reserved",
+            "4",
+            "€260"
+          ],
+          [
+            "Studio",
+            "Private office",
+            "8",
+            "€490"
+          ],
+          [
+            "Team",
+            "Private office (4 people)",
+            "20",
+            "€1,200"
+          ]
+        ]
+      },
+      "audio": [
+        {
+          "s": "W",
+          "t": "Hi Daniel, it's Nora. I visited the coworking space this morning, and I think it's perfect for us while the office is being renovated. Since there will just be the two of us, we don't need a team office. But we'll need a private space for client calls, and we usually have about six hours of meetings a month. The option that matches that is within our budget, so I'll sign up this afternoon unless you have objections."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p4-25",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Why does the speaker need a coworking space?",
+          "options": [
+            "Their lease has ended.",
+            "They are starting a new company.",
+            "Their office is being renovated.",
+            "They are moving to a new city."
+          ],
+          "answer": "C",
+          "evidence": "while the office is being renovated",
+          "explanation": "Leurs bureaux sont en rénovation : ils ont besoin d'un espace temporaire.",
+          "takeaway": "Be renovated = être rénové."
+        },
+        {
+          "id": "p-p4-26",
+          "level": 3,
+          "category": "graphic",
+          "prompt": "Look at the graphic. Which option will the speaker most likely choose?",
+          "options": [
+            "Flex",
+            "Studio",
+            "Fixed",
+            "Team"
+          ],
+          "answer": "B",
+          "explanation": "Il faut un espace privé et environ 6 h de réunion par mois, sans bureau d'équipe : l'option Studio (bureau privé, 8 h).",
+          "traps": "Fixed n'offre qu'un bureau réservé (non privé) et 4 h de salle.",
+          "takeaway": "Croise chaque besoin avec les colonnes."
+        },
+        {
+          "id": "p-p4-27",
+          "level": 2,
+          "category": "next-action",
+          "prompt": "What will the speaker do this afternoon?",
+          "options": [
+            "Sign up for a membership",
+            "Visit another space",
+            "Call a client",
+            "Meet Daniel"
+          ],
+          "answer": "A",
+          "evidence": "I'll sign up this afternoon unless you have objections",
+          "explanation": "Elle s'inscrira cet après-midi sauf objection de Daniel.",
+          "takeaway": "Unless = sauf si."
+        }
+      ]
+    },
+    {
+      "id": "p-p4-t10",
+      "part": 4,
+      "kind": "talk",
+      "title": "Annonce de remise de prix interne",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Before we close today's meeting, I'm pleased to announce this year's Employee of the Year award. It goes to Fatima Benali from our customer service team. Fatima reorganized the way we handle complaints, and as a result, the average response time dropped from three days to under twenty-four hours. She also trained six new team members this year. Fatima, the award comes with an extra week of paid vacation, which I'm sure you'll enjoy."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p4-28",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is being announced?",
+          "options": [
+            "A training session",
+            "A new department",
+            "A schedule change",
+            "An employee award"
+          ],
+          "answer": "D",
+          "evidence": "this year's Employee of the Year award",
+          "explanation": "L'orateur annonce la récompense de l'employée de l'année.",
+          "takeaway": "Award = récompense."
+        },
+        {
+          "id": "p-p4-29",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What did Ms. Benali achieve?",
+          "options": [
+            "She opened a new office.",
+            "She increased sales.",
+            "She reduced response times.",
+            "She lowered costs."
+          ],
+          "answer": "C",
+          "evidence": "the average response time dropped from three days to under twenty-four hours",
+          "explanation": "Le délai moyen de réponse est passé de trois jours à moins de 24 heures.",
+          "takeaway": "Drop = baisser."
+        },
+        {
+          "id": "p-p4-30",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What will Ms. Benali receive?",
+          "options": [
+            "A salary increase",
+            "Additional paid time off",
+            "A trip abroad",
+            "A promotion"
+          ],
+          "answer": "B",
+          "evidence": "the award comes with an extra week of paid vacation",
+          "explanation": "La récompense inclut une semaine de congés payés supplémentaire.",
+          "takeaway": "Paid vacation = congés payés."
+        }
+      ]
+    },
+    {
+      "id": "p-p4-t11",
+      "part": 4,
+      "kind": "talk",
+      "title": "Message — retard d'une commande d'imprimerie",
+      "audio": [
+        {
+          "s": "W",
+          "t": "Hello, Mr. Okafor, this is Jade from Pixel Print. I'm calling about your order of conference programs. Unfortunately, our main printing machine broke down yesterday, and the replacement part won't arrive until Thursday. Your programs will now be ready on Friday morning instead of Wednesday. I know your conference starts on Friday afternoon, so we'll deliver them directly to the venue by noon, free of charge. Please call me back if that doesn't work for you."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p4-31",
+          "level": 1,
+          "category": "detail",
+          "prompt": "Why will the order be late?",
+          "options": [
+            "A machine is broken.",
+            "The order was lost.",
+            "The design was changed.",
+            "The paper ran out."
+          ],
+          "answer": "A",
+          "evidence": "our main printing machine broke down yesterday",
+          "explanation": "La machine d'impression principale est tombée en panne.",
+          "takeaway": "Break down = tomber en panne."
+        },
+        {
+          "id": "p-p4-32",
+          "level": 3,
+          "category": "intention",
+          "prompt": "Why does the speaker say, \"I know your conference starts on Friday afternoon\"?",
+          "options": [
+            "To confirm the speaker will attend",
+            "To ask for the conference schedule",
+            "To suggest postponing the conference",
+            "To show that the delivery plan takes the event into account"
+          ],
+          "answer": "D",
+          "evidence": "I know your conference starts on Friday afternoon",
+          "explanation": "Elle tient compte du début de la conférence et propose une livraison sur place avant midi.",
+          "takeaway": "Anticiper la contrainte du client avant de proposer une solution."
+        },
+        {
+          "id": "p-p4-33",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does the speaker offer?",
+          "options": [
+            "A different printer",
+            "A discount on the order",
+            "Free delivery to the venue",
+            "Digital programs"
+          ],
+          "answer": "C",
+          "evidence": "we'll deliver them directly to the venue by noon, free of charge",
+          "explanation": "Elle propose de livrer gratuitement les programmes sur le lieu de la conférence.",
+          "takeaway": "Venue = lieu de l'événement."
+        }
+      ]
+    },
+    {
+      "id": "p-p4-t12",
+      "part": 4,
+      "kind": "talk",
+      "title": "Visite d'un studio de télévision",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Welcome to Channel 7's studios. In a moment, we'll walk through the newsroom, where our journalists prepare the evening news. Please keep your voices down, as they're working on tight deadlines. After that, you'll see the main studio. If we're lucky, you might watch a short live weather report. Photos are allowed everywhere except in the control room. The tour finishes at the gift shop, where you can buy souvenirs."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p4-34",
+          "level": 1,
+          "category": "inference",
+          "prompt": "Who most likely are the listeners?",
+          "options": [
+            "New journalists",
+            "Visitors on a tour",
+            "Weather forecasters",
+            "Camera operators"
+          ],
+          "answer": "B",
+          "evidence": "Welcome to Channel 7's studios.",
+          "explanation": "On leur fait visiter les studios : ce sont des visiteurs.",
+          "takeaway": "Tour = visite guidée."
+        },
+        {
+          "id": "p-p4-35",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Why are listeners asked to speak quietly?",
+          "options": [
+            "Journalists are working under time pressure.",
+            "A show is being recorded.",
+            "The rooms are small.",
+            "There is a meeting."
+          ],
+          "answer": "A",
+          "evidence": "as they're working on tight deadlines",
+          "explanation": "Les journalistes travaillent avec des délais serrés.",
+          "takeaway": "Tight deadline = délai serré."
+        },
+        {
+          "id": "p-p4-36",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Where are photos NOT allowed?",
+          "options": [
+            "In the gift shop",
+            "In the newsroom",
+            "In the main studio",
+            "In the control room"
+          ],
+          "answer": "D",
+          "evidence": "Photos are allowed everywhere except in the control room.",
+          "explanation": "Les photos sont interdites uniquement dans la régie.",
+          "takeaway": "Except = sauf."
+        }
+      ]
+    },
+    {
+      "id": "p-p4-t13",
+      "part": 4,
+      "kind": "talk",
+      "title": "Résultats d'un sondage clients (graphique)",
+      "graphic": {
+        "type": "table",
+        "title": "Customer Survey — Top Complaints",
+        "columns": [
+          "Complaint",
+          "Percentage"
+        ],
+        "rows": [
+          [
+            "Long wait times on the phone",
+            "38%"
+          ],
+          [
+            "Delivery delays",
+            "27%"
+          ],
+          [
+            "Website errors",
+            "21%"
+          ],
+          [
+            "Product quality",
+            "14%"
+          ]
+        ]
+      },
+      "audio": [
+        {
+          "s": "W",
+          "t": "Here are the results of last month's customer survey. The good news is that complaints about product quality are now the least common. As you can see, the biggest issue is how long customers wait on the phone. We've already hired four new agents, who start next week. For the second biggest problem, I'd like the logistics team to propose solutions by the end of the month."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p4-37",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What has the company already done?",
+          "options": [
+            "Fixed its website",
+            "Changed delivery companies",
+            "Hired additional agents",
+            "Improved its products"
+          ],
+          "answer": "C",
+          "evidence": "We've already hired four new agents",
+          "explanation": "L'entreprise a déjà recruté quatre nouveaux agents pour réduire l'attente.",
+          "takeaway": "Agent = conseiller (centre d'appels)."
+        },
+        {
+          "id": "p-p4-38",
+          "level": 3,
+          "category": "graphic",
+          "prompt": "Look at the graphic. What problem will the logistics team work on?",
+          "options": [
+            "Long wait times on the phone",
+            "Delivery delays",
+            "Website errors",
+            "Product quality"
+          ],
+          "answer": "B",
+          "explanation": "Le deuxième problème le plus fréquent est le retard de livraison (27 %), confié à la logistique.",
+          "takeaway": "« Second biggest » → deuxième ligne."
+        },
+        {
+          "id": "p-p4-39",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does the speaker describe as good news?",
+          "options": [
+            "Few customers complain about product quality.",
+            "Sales have increased.",
+            "The survey had many responses.",
+            "The website is new."
+          ],
+          "answer": "A",
+          "evidence": "complaints about product quality are now the least common",
+          "explanation": "Les plaintes sur la qualité des produits sont désormais les moins fréquentes.",
+          "takeaway": "Least common = le moins fréquent."
+        }
+      ]
+    }
+  ]
+}
