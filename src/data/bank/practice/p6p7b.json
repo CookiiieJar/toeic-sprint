@@ -1,0 +1,972 @@
+{
+  "pool": "practice",
+  "sets": [
+    {
+      "id": "p-p6-s4",
+      "part": 6,
+      "kind": "text",
+      "title": "E-mail — annulation d'un atelier",
+      "docs": [
+        {
+          "type": "email",
+          "from": "Events Team",
+          "to": "Workshop participants",
+          "subject": "Workshop canceled",
+          "date": "10 November",
+          "body": "Dear Participant,\n\nWe regret to inform you that the Digital Marketing Workshop scheduled for 14 November has been canceled {{1}} the illness of our main speaker. {{2}}\n\nAll participants will receive a full refund within five business days. {{3}}, you may choose to transfer your registration to our next workshop on 5 December at no additional cost.\n\nPlease let us know your preference by replying to this e-mail. We apologize for any inconvenience and hope to see you {{4}}.\n\nKind regards,\nEvents Team"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p6-13",
+          "level": 2,
+          "category": "conjunction",
+          "options": [
+            "because",
+            "since",
+            "although",
+            "due to"
+          ],
+          "answer": "D",
+          "explanation": "Suivi d'un groupe nominal (« the illness »), il faut « due to » (en raison de).",
+          "traps": "« Because » et « since » introduisent une proposition.",
+          "takeaway": "Due to + nom."
+        },
+        {
+          "id": "p-p6-14",
+          "level": 2,
+          "category": "sentence-insertion",
+          "options": [
+            "The workshop will take place in Room 4.",
+            "Unfortunately, we were unable to find a replacement on such short notice.",
+            "Lunch will be served at noon.",
+            "Please bring your laptop."
+          ],
+          "answer": "B",
+          "explanation": "La phrase explique pourquoi l'annulation n'a pu être évitée : pas de remplaçant trouvé à temps.",
+          "traps": "Les autres phrases supposent que l'atelier a lieu.",
+          "takeaway": "On short notice = au dernier moment."
+        },
+        {
+          "id": "p-p6-15",
+          "level": 2,
+          "category": "coherence",
+          "options": [
+            "Therefore",
+            "However",
+            "Alternatively",
+            "Similarly"
+          ],
+          "answer": "C",
+          "explanation": "On propose une autre option que le remboursement : « Alternatively » (sinon).",
+          "takeaway": "Alternatively = autre possibilité."
+        },
+        {
+          "id": "p-p6-16",
+          "level": 1,
+          "category": "vocabulary",
+          "options": [
+            "lately",
+            "soon",
+            "recently",
+            "shortly before"
+          ],
+          "answer": "B",
+          "explanation": "Formule de politesse tournée vers l'avenir : « hope to see you soon » (à bientôt).",
+          "traps": "« Lately » et « recently » renvoient au passé.",
+          "takeaway": "Soon = bientôt."
+        }
+      ]
+    },
+    {
+      "id": "p-p6-s5",
+      "part": 6,
+      "kind": "text",
+      "title": "Article — application de bibliothèque",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Library Launches Mobile App",
+          "body": "The Westford Public Library has launched a mobile app that allows members to borrow e-books and audiobooks {{1}} visiting a branch. The app also sends reminders when borrowed items are due, which should help reduce late fees.\n\n{{2}} More than 3,000 residents downloaded the app in its first week. Library director Ana Ruiz said the app was developed in response to {{3}} from younger members who wanted easier access to the collection.\n\nThe library plans to add a feature that lets users reserve study rooms {{4}} the app later this year."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p6-17",
+          "level": 2,
+          "category": "preposition",
+          "options": [
+            "without",
+            "unless",
+            "despite",
+            "except"
+          ],
+          "answer": "A",
+          "explanation": "Emprunter des livres numériques sans se déplacer : « without visiting ».",
+          "traps": "« Unless » introduit une proposition ; « despite » donnerait un sens illogique.",
+          "takeaway": "Without + -ing = sans faire."
+        },
+        {
+          "id": "p-p6-18",
+          "level": 2,
+          "category": "sentence-insertion",
+          "options": [
+            "The library was built in 1902.",
+            "The response has been very positive.",
+            "Late fees will double next year.",
+            "Paper books are no longer available."
+          ],
+          "answer": "B",
+          "explanation": "La phrase introduit le chiffre qui suit (3 000 téléchargements) : l'accueil est très positif.",
+          "traps": "(C) contredit l'objectif de réduire les pénalités.",
+          "takeaway": "Une affirmation générale est suivie d'un chiffre qui l'illustre."
+        },
+        {
+          "id": "p-p6-19",
+          "level": 2,
+          "category": "word-form",
+          "options": [
+            "requested",
+            "requesting",
+            "requester",
+            "requests"
+          ],
+          "answer": "D",
+          "explanation": "Après « in response to », il faut un nom : « requests » (demandes).",
+          "takeaway": "In response to + nom."
+        },
+        {
+          "id": "p-p6-20",
+          "level": 2,
+          "category": "preposition",
+          "options": [
+            "among",
+            "along",
+            "through",
+            "across"
+          ],
+          "answer": "C",
+          "explanation": "On réserve « par l'intermédiaire de » l'application : « through the app ».",
+          "takeaway": "Through = via, par l'intermédiaire de."
+        }
+      ]
+    },
+    {
+      "id": "p-p6-s6",
+      "part": 6,
+      "kind": "text",
+      "title": "Note — permis de stationnement",
+      "docs": [
+        {
+          "type": "email",
+          "from": "Facilities",
+          "to": "All staff",
+          "subject": "Parking permits",
+          "date": "1 March",
+          "body": "Starting 1 April, employees who wish to park in the company lot will need a permit. Permits will be {{1}} free of charge and can be requested through the intranet.\n\nBecause the number of spaces is limited, priority will be given to employees who live more than 15 km from the office {{2}} have reduced mobility. {{3}}\n\nWe encourage everyone else to use public transportation or the company's bicycle-{{4}} program."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p6-21",
+          "level": 2,
+          "category": "passive",
+          "options": [
+            "issue",
+            "issued",
+            "issuing",
+            "issues"
+          ],
+          "answer": "B",
+          "explanation": "Passif « will be + participe passé » : les permis seront délivrés, « issued ».",
+          "takeaway": "Issue a permit = délivrer un permis."
+        },
+        {
+          "id": "p-p6-22",
+          "level": 1,
+          "category": "conjunction",
+          "options": [
+            "or",
+            "nor",
+            "but",
+            "so"
+          ],
+          "answer": "A",
+          "explanation": "Deux critères alternatifs de priorité : distance « or » mobilité réduite.",
+          "takeaway": "Or = ou (alternative)."
+        },
+        {
+          "id": "p-p6-23",
+          "level": 3,
+          "category": "sentence-insertion",
+          "options": [
+            "The cafeteria opens at 8 A.M.",
+            "Bicycles must not be parked in the lobby.",
+            "Employees without a permit may park in the public garage on Rue Monge at their own expense.",
+            "Our offices will close early on Friday."
+          ],
+          "answer": "C",
+          "explanation": "Après les règles de priorité, la phrase explique la solution pour ceux qui n'obtiennent pas de permis.",
+          "traps": "(B) évoque les vélos mais n'enchaîne pas avec les permis.",
+          "takeaway": "At their own expense = à leurs frais."
+        },
+        {
+          "id": "p-p6-24",
+          "level": 2,
+          "category": "word-form",
+          "options": [
+            "share",
+            "shared",
+            "shares",
+            "sharing"
+          ],
+          "answer": "D",
+          "explanation": "Nom composé « bicycle-sharing program » (programme de vélos partagés).",
+          "takeaway": "Car-sharing / bike-sharing = partage."
+        }
+      ]
+    },
+    {
+      "id": "p-p6-s7",
+      "part": 6,
+      "kind": "text",
+      "title": "Lettre — programme de fidélité",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Avenue Rewards",
+          "subtitle": "Letter to members",
+          "body": "Dear Member,\n\nThank you for being a loyal member of the Avenue Rewards program. We are writing to {{1}} you of some changes that will take effect on 1 July.\n\nFrom that date, members will earn two points for every euro spent, instead of one. {{2}}, points will now expire after 24 months rather than 12, giving you more time to use them.\n\n{{3}} You can check your current balance at any time on our website or mobile app.\n\nWe look forward to continuing to {{4}} you."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p6-25",
+          "level": 2,
+          "category": "vocabulary",
+          "options": [
+            "announce",
+            "explain",
+            "inform",
+            "tell about"
+          ],
+          "answer": "C",
+          "explanation": "« Inform someone of something » = informer quelqu'un de : « to inform you of ».",
+          "traps": "« Announce » et « explain » ne prennent pas de complément de personne direct.",
+          "takeaway": "Inform someone of / about."
+        },
+        {
+          "id": "p-p6-26",
+          "level": 2,
+          "category": "coherence",
+          "options": [
+            "In contrast",
+            "In addition",
+            "Otherwise",
+            "As a result"
+          ],
+          "answer": "B",
+          "explanation": "On ajoute un second avantage au premier : « In addition ».",
+          "takeaway": "In addition = de plus."
+        },
+        {
+          "id": "p-p6-27",
+          "level": 2,
+          "category": "sentence-insertion",
+          "options": [
+            "Our stores are closed on Sundays.",
+            "Please return any damaged products.",
+            "Points you have already earned will not be affected by these changes.",
+            "We have opened a new store in Lille."
+          ],
+          "answer": "C",
+          "explanation": "La phrase rassure sur les points déjà acquis, avant d'indiquer où consulter son solde.",
+          "takeaway": "Balance = solde."
+        },
+        {
+          "id": "p-p6-28",
+          "level": 2,
+          "category": "word-form",
+          "options": [
+            "serve",
+            "served",
+            "service",
+            "serving"
+          ],
+          "answer": "A",
+          "explanation": "Dans « continue to + base verbale », il faut « serve » : continuer à vous servir.",
+          "takeaway": "Continue to do."
+        }
+      ]
+    },
+    {
+      "id": "p-p6-s8",
+      "part": 6,
+      "kind": "text",
+      "title": "E-mail — appel d'offres",
+      "docs": [
+        {
+          "type": "email",
+          "from": "Claire Moreau, Operations Manager",
+          "to": "Karim Haddad, Haddad Interiors",
+          "subject": "Reception area renovation",
+          "date": "2 June",
+          "body": "Dear Mr. Haddad,\n\nOur company is planning to renovate the reception area of our headquarters and is {{1}} proposals from interior design firms. I was given your name by a colleague who was very satisfied with your work.\n\nThe project includes new flooring, lighting, and furniture for an area of about 120 square meters. {{2}} We would like the work to be completed before 15 September, {{3}} our new clients will begin visiting the building.\n\nIf you are interested, please send us a proposal including an estimated budget and timeline by 30 June. I would also be happy to arrange a site visit {{4}} you need to see the space.\n\nClaire Moreau"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p6-29",
+          "level": 2,
+          "category": "verb-tense",
+          "options": [
+            "seek",
+            "seeks",
+            "sought",
+            "seeking"
+          ],
+          "answer": "D",
+          "explanation": "Présent continu « is seeking » (recherche actuellement), coordonné à « is planning ».",
+          "takeaway": "Be seeking proposals = solliciter des offres."
+        },
+        {
+          "id": "p-p6-30",
+          "level": 2,
+          "category": "sentence-insertion",
+          "options": [
+            "Our company was founded in 1975.",
+            "We recently hired a new receptionist.",
+            "Our budget for the project is approximately €80,000.",
+            "The building has twelve floors."
+          ],
+          "answer": "C",
+          "explanation": "Après la description du projet, on précise le budget, information utile pour une proposition.",
+          "takeaway": "Une demande de devis précise budget et délais."
+        },
+        {
+          "id": "p-p6-31",
+          "level": 2,
+          "category": "relative",
+          "options": [
+            "which",
+            "while",
+            "when",
+            "what"
+          ],
+          "answer": "C",
+          "explanation": "Le relatif reprend une date (15 September) : « when ».",
+          "takeaway": "When = date / moment antécédent."
+        },
+        {
+          "id": "p-p6-32",
+          "level": 1,
+          "category": "conjunction",
+          "options": [
+            "unless",
+            "if",
+            "whether",
+            "so"
+          ],
+          "answer": "B",
+          "explanation": "Condition simple : une visite si vous avez besoin de voir les lieux, « if ».",
+          "takeaway": "If + présent = condition simple (si vous avez besoin)."
+        }
+      ]
+    },
+    {
+      "id": "p-p7-s05",
+      "part": 7,
+      "kind": "single",
+      "title": "Avis — test d'alarme",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Building C — Fire Alarm Test",
+          "body": "The fire alarm system in Building C will be tested on Wednesday between 9 and 10 A.M. During this time, alarms may sound several times. There is no need to leave the building unless you hear a continuous alarm lasting more than one minute, accompanied by an announcement."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p7-23",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the notice about?",
+          "options": [
+            "A safety course",
+            "A new building",
+            "A real emergency",
+            "A scheduled test"
+          ],
+          "answer": "D",
+          "evidence": "will be tested on Wednesday between 9 and 10 A.M.",
+          "explanation": "L'avis annonce un test programmé de l'alarme incendie.",
+          "takeaway": "Scheduled = programmé."
+        },
+        {
+          "id": "p-p7-24",
+          "level": 2,
+          "category": "detail",
+          "prompt": "When should people leave the building?",
+          "options": [
+            "If a long alarm sounds with an announcement",
+            "At 9 A.M.",
+            "Whenever an alarm sounds",
+            "After 10 A.M."
+          ],
+          "answer": "A",
+          "evidence": "unless you hear a continuous alarm lasting more than one minute, accompanied by an announcement",
+          "explanation": "Il ne faut évacuer qu'en cas d'alarme continue de plus d'une minute avec annonce.",
+          "takeaway": "Unless = sauf si."
+        }
+      ]
+    },
+    {
+      "id": "p-p7-s06",
+      "part": 7,
+      "kind": "single",
+      "title": "E-mail — offre d'emploi",
+      "docs": [
+        {
+          "type": "email",
+          "from": "Grace Lin, HR, Arden Labs",
+          "to": "Samuel Okoro",
+          "subject": "Offer of employment",
+          "date": "4 May",
+          "body": "Dear Mr. Okoro,\n\nFollowing your interviews, I am pleased to offer you the position of Laboratory Technician at Arden Labs, starting on 2 June. Your annual salary will be €34,000, and you will be eligible for our health insurance plan after a three-month trial period.\n\nPlease confirm your acceptance by signing the attached contract and returning it by 15 May. On your first day, please bring proof of your qualifications and your bank details for payroll purposes.\n\nWe look forward to welcoming you to the team.\n\nGrace Lin"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p7-25",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "Why was the e-mail sent?",
+          "options": [
+            "To reject an application",
+            "To schedule an interview",
+            "To offer someone a job",
+            "To request references"
+          ],
+          "answer": "C",
+          "evidence": "I am pleased to offer you the position",
+          "explanation": "Le mail propose officiellement le poste de technicien de laboratoire.",
+          "takeaway": "Offer of employment = proposition d'embauche."
+        },
+        {
+          "id": "p-p7-26",
+          "level": 2,
+          "category": "detail",
+          "prompt": "When will Mr. Okoro be eligible for health insurance?",
+          "options": [
+            "After a trial period",
+            "On his first day",
+            "On 15 May",
+            "After one year"
+          ],
+          "answer": "A",
+          "evidence": "after a three-month trial period",
+          "explanation": "Il aura droit à l'assurance santé après une période d'essai de trois mois.",
+          "takeaway": "Trial period = période d'essai."
+        },
+        {
+          "id": "p-p7-27",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What must Mr. Okoro do by 15 May?",
+          "options": [
+            "Bring his bank details",
+            "Return a signed contract",
+            "Start his new job",
+            "Attend another interview"
+          ],
+          "answer": "B",
+          "evidence": "signing the attached contract and returning it by 15 May",
+          "explanation": "Il doit renvoyer le contrat signé avant le 15 mai.",
+          "traps": "Les coordonnées bancaires sont à apporter le premier jour.",
+          "takeaway": "Distingue les échéances."
+        }
+      ]
+    },
+    {
+      "id": "p-p7-s07",
+      "part": 7,
+      "kind": "single",
+      "title": "Article — prix de la baguette",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Local Bakery Wins National Bread Award",
+          "body": "Boulangerie Martel, a small family bakery in Annecy, has won first prize in the national baguette competition. [1] Owner Lucas Martel, who took over the bakery from his father ten years ago, uses flour from a mill just twenty kilometers away. [2]\n\nAs part of the prize, the bakery will supply bread to the presidential palace for one year. [3] Since the announcement, lines outside the shop have doubled, and Mr. Martel has hired two new bakers to keep up with demand. [4]"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p7-28",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the article mainly about?",
+          "options": [
+            "A bakery winning a competition",
+            "The opening of a mill",
+            "A new presidential chef",
+            "A shortage of flour"
+          ],
+          "answer": "A",
+          "evidence": "has won first prize in the national baguette competition",
+          "explanation": "L'article annonce la victoire d'une boulangerie à un concours national.",
+          "takeaway": "First prize = premier prix."
+        },
+        {
+          "id": "p-p7-29",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is indicated about Mr. Martel?",
+          "options": [
+            "He owns a flour mill.",
+            "He founded the bakery.",
+            "He moved to Annecy recently.",
+            "He has hired additional staff."
+          ],
+          "answer": "D",
+          "evidence": "has hired two new bakers",
+          "explanation": "Il a embauché deux boulangers pour répondre à la demande.",
+          "traps": "Il a repris la boulangerie de son père : il ne l'a pas fondée.",
+          "takeaway": "Take over = reprendre."
+        },
+        {
+          "id": "p-p7-30",
+          "level": 3,
+          "category": "sentence-insertion",
+          "prompt": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"More than 150 bakers from across the country took part.\"",
+          "options": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ],
+          "answer": "A",
+          "explanation": "La phrase précise l'ampleur du concours mentionné juste avant [1].",
+          "takeaway": "Take part = participer."
+        }
+      ]
+    },
+    {
+      "id": "p-p7-s08",
+      "part": 7,
+      "kind": "single",
+      "title": "Annonce de webinaire",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Free Webinar: Exporting to Japan",
+          "subtitle": "Thursday, 12 March, 10:00–11:30 (Paris time)",
+          "body": "Presented by Keiko Tanaka, trade advisor at the French-Japanese Chamber of Commerce. Topics include import regulations, finding distributors, and cultural differences in business meetings. The webinar will be recorded, and the recording will be sent to all registered participants the following day. Participants can submit questions in advance when registering. Places are limited to 300."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p7-31",
+          "level": 1,
+          "category": "inference",
+          "prompt": "For whom is the webinar most likely intended?",
+          "options": [
+            "Language teachers",
+            "Japanese tourists",
+            "Companies interested in selling to Japan",
+            "Students of economics"
+          ],
+          "answer": "C",
+          "evidence": "Exporting to Japan",
+          "explanation": "Le webinaire porte sur l'export vers le Japon : il vise les entreprises exportatrices.",
+          "takeaway": "Export = exporter."
+        },
+        {
+          "id": "p-p7-32",
+          "level": 2,
+          "category": "not-true",
+          "prompt": "What is NOT listed as a topic of the webinar?",
+          "options": [
+            "Import regulations",
+            "Transportation costs",
+            "Cultural differences",
+            "Finding distributors"
+          ],
+          "answer": "B",
+          "explanation": "La réglementation, la recherche de distributeurs et les différences culturelles sont citées ; pas les coûts de transport.",
+          "takeaway": "NOT : vérifie chaque option."
+        },
+        {
+          "id": "p-p7-33",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What will registered participants receive?",
+          "options": [
+            "A recording of the webinar",
+            "A trip to Japan",
+            "A list of distributors",
+            "A certificate"
+          ],
+          "answer": "A",
+          "evidence": "the recording will be sent to all registered participants the following day",
+          "explanation": "L'enregistrement sera envoyé aux inscrits le lendemain.",
+          "takeaway": "Recording = enregistrement."
+        },
+        {
+          "id": "p-p7-34",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What can participants do when registering?",
+          "options": [
+            "Request a translation",
+            "Choose a time",
+            "Book a meeting with Ms. Tanaka",
+            "Send questions in advance"
+          ],
+          "answer": "D",
+          "evidence": "Participants can submit questions in advance when registering.",
+          "explanation": "Ils peuvent soumettre leurs questions à l'avance lors de l'inscription.",
+          "takeaway": "In advance = à l'avance."
+        }
+      ]
+    },
+    {
+      "id": "p-p7-s09",
+      "part": 7,
+      "kind": "single",
+      "title": "Discussion — voiture de société",
+      "docs": [
+        {
+          "type": "chat",
+          "messages": [
+            {
+              "name": "Lena Weber",
+              "time": "13:02",
+              "text": "The company car I booked for tomorrow's client visit is in the garage for repairs."
+            },
+            {
+              "name": "Victor Lamy",
+              "time": "13:04",
+              "text": "Can you take the train instead? The client's office is near the station."
+            },
+            {
+              "name": "Lena Weber",
+              "time": "13:05",
+              "text": "I'm bringing the large display stand, so the train would be difficult."
+            },
+            {
+              "name": "Hugo Ferrand",
+              "time": "13:07",
+              "text": "I'm not using my car tomorrow. You can borrow it, as long as you return it by 6."
+            },
+            {
+              "name": "Lena Weber",
+              "time": "13:08",
+              "text": "That's perfect. I'll be back by 4."
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p7-35",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What problem does Ms. Weber have?",
+          "options": [
+            "She missed her train.",
+            "Her client canceled a meeting.",
+            "A vehicle she reserved is unavailable.",
+            "The display stand is broken."
+          ],
+          "answer": "C",
+          "evidence": "is in the garage for repairs",
+          "explanation": "La voiture de société qu'elle a réservée est au garage.",
+          "takeaway": "Book a car = réserver une voiture."
+        },
+        {
+          "id": "p-p7-36",
+          "level": 3,
+          "category": "intention",
+          "prompt": "At 13:05, why does Ms. Weber mention the display stand?",
+          "options": [
+            "To ask for help carrying it",
+            "To explain why the train is not practical",
+            "To suggest canceling the visit",
+            "To show that she is well prepared"
+          ],
+          "answer": "B",
+          "evidence": "I'm bringing the large display stand, so the train would be difficult.",
+          "explanation": "Le grand présentoir rendrait le trajet en train compliqué : elle écarte la suggestion de M. Lamy.",
+          "takeaway": "Une contrainte matérielle justifie un refus."
+        },
+        {
+          "id": "p-p7-37",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What does Mr. Ferrand offer?",
+          "options": [
+            "To lend his car",
+            "To drive Ms. Weber",
+            "To call the garage",
+            "To meet the client"
+          ],
+          "answer": "A",
+          "evidence": "You can borrow it",
+          "explanation": "Il lui prête sa voiture pour la journée.",
+          "takeaway": "Borrow = emprunter ; lend = prêter."
+        },
+        {
+          "id": "p-p7-38",
+          "level": 2,
+          "category": "inference",
+          "prompt": "What is suggested about Ms. Weber?",
+          "options": [
+            "She will rent a car.",
+            "She will take the train.",
+            "She will return late.",
+            "She will meet Mr. Ferrand's condition."
+          ],
+          "answer": "D",
+          "evidence": "I'll be back by 4.",
+          "explanation": "Elle rentrera vers 16 h, avant 18 h : elle respectera la condition de M. Ferrand.",
+          "takeaway": "As long as = à condition que."
+        }
+      ]
+    },
+    {
+      "id": "p-p7-d02",
+      "part": 7,
+      "kind": "double",
+      "title": "Politique de retour + demande d'une cliente",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Returns Policy — Nordwear",
+          "body": "Items may be returned within 30 days of delivery for a full refund, provided they are unworn and have their original tags. Sale items can be exchanged but not refunded. Returns are free for members of the Nordwear Club; other customers pay a €4.95 return fee, which is deducted from the refund. Refunds are issued to the original payment method within seven days of receiving the returned item."
+        },
+        {
+          "type": "email",
+          "from": "Elena Rossi",
+          "to": "returns@nordwear.com",
+          "subject": "Return of order 77102",
+          "date": "18 October",
+          "body": "Hello,\n\nI received my order on 2 October. The winter coat doesn't fit, so I'd like to return it for a refund; it still has the tags on. I bought it at full price. I also bought a scarf during your summer sale, which I'd like to exchange for a different color. I'm not a club member. Could you send me a return label?\n\nElena Rossi"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p7-39",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "Why did Ms. Rossi write the e-mail?",
+          "options": [
+            "To join a club",
+            "To place an order",
+            "To arrange a return",
+            "To complain about a delay"
+          ],
+          "answer": "C",
+          "evidence": "Could you send me a return label?",
+          "explanation": "Elle organise le retour d'articles et demande une étiquette de retour.",
+          "takeaway": "Return label = étiquette de retour."
+        },
+        {
+          "id": "p-p7-40",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "What is indicated about the coat?",
+          "options": [
+            "It was bought on sale.",
+            "It meets the conditions for a refund.",
+            "It was damaged.",
+            "It was delivered late."
+          ],
+          "answer": "B",
+          "explanation": "Reçu le 2 octobre, retourné le 18 (moins de 30 jours), non porté avec étiquettes, acheté plein tarif : remboursable.",
+          "takeaway": "Vérifie chaque condition de la politique."
+        },
+        {
+          "id": "p-p7-41",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "How much will most likely be deducted from Ms. Rossi's refund?",
+          "options": [
+            "Nothing",
+            "€4.95",
+            "The price of the scarf",
+            "Seven euros"
+          ],
+          "answer": "B",
+          "explanation": "Elle n'est pas membre du club : des frais de retour de 4,95 € seront déduits.",
+          "takeaway": "Deduct = déduire."
+        },
+        {
+          "id": "p-p7-42",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "Why can the scarf only be exchanged?",
+          "options": [
+            "It was bought on sale.",
+            "It has no tags.",
+            "It was worn.",
+            "It was a gift."
+          ],
+          "answer": "A",
+          "explanation": "L'écharpe a été achetée pendant les soldes : les articles soldés sont échangeables mais pas remboursables.",
+          "takeaway": "Sale items = articles soldés."
+        },
+        {
+          "id": "p-p7-43",
+          "level": 2,
+          "category": "detail",
+          "prompt": "How will Ms. Rossi receive her refund?",
+          "options": [
+            "By bank check",
+            "In cash",
+            "As store credit",
+            "To her original payment method"
+          ],
+          "answer": "D",
+          "evidence": "Refunds are issued to the original payment method",
+          "explanation": "Le remboursement se fait sur le moyen de paiement d'origine.",
+          "takeaway": "Issue a refund = effectuer un remboursement."
+        }
+      ]
+    },
+    {
+      "id": "p-p7-t02",
+      "part": 7,
+      "kind": "triple",
+      "title": "Parrainage d'un salon : formules, demande, réponse",
+      "docs": [
+        {
+          "type": "table",
+          "title": "Health Tech Expo — Sponsorship Packages",
+          "columns": [
+            "Package",
+            "Price",
+            "Benefits"
+          ],
+          "rows": [
+            [
+              "Bronze",
+              "€3,000",
+              "Logo on website"
+            ],
+            [
+              "Silver",
+              "€6,000",
+              "Logo on website and program; 1 exhibition table"
+            ],
+            [
+              "Gold",
+              "€10,000",
+              "All Silver benefits; 10-minute speaking slot"
+            ],
+            [
+              "Platinum",
+              "€18,000",
+              "All Gold benefits; logo on main stage; 6 free passes"
+            ]
+          ],
+          "note": "Sponsorship requests must be received by 31 January."
+        },
+        {
+          "type": "email",
+          "from": "Ahmed Karim, Marketing Director, MediScan",
+          "to": "sponsors@healthtechexpo.eu",
+          "subject": "Sponsorship",
+          "date": "20 January",
+          "body": "Hello,\n\nMediScan would like to sponsor this year's Expo. We would like to present our new portable scanner to attendees in a short talk, and we will also need a table to display the device. Our budget is €12,000. Could you confirm which package would suit us?\n\nAhmed Karim"
+        },
+        {
+          "type": "email",
+          "from": "Expo Sponsorship Team",
+          "to": "Ahmed Karim",
+          "subject": "RE: Sponsorship",
+          "date": "22 January",
+          "body": "Dear Mr. Karim,\n\nThank you for your interest. Based on your needs and budget, we recommend our Gold package. Please note that speaking slots are assigned in the order in which payments are received, and only two morning slots remain. To secure your place, payment must be made by 31 January.\n\nExpo Sponsorship Team"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p7-44",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "Why did Mr. Karim write to the Expo?",
+          "options": [
+            "To request a refund",
+            "To register as an attendee",
+            "To ask about sponsorship options",
+            "To apply for a job"
+          ],
+          "answer": "C",
+          "evidence": "Could you confirm which package would suit us?",
+          "explanation": "Il demande quelle formule de parrainage conviendrait à son entreprise.",
+          "takeaway": "Sponsor = parrainer."
+        },
+        {
+          "id": "p-p7-45",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "Why is the Gold package recommended instead of Silver?",
+          "options": [
+            "It is cheaper.",
+            "It includes a speaking slot.",
+            "It includes free passes.",
+            "It includes a logo on the main stage."
+          ],
+          "answer": "B",
+          "explanation": "MediScan veut présenter son scanner dans une intervention : seul Gold (et Platinum) inclut un créneau de parole ; Platinum dépasse le budget.",
+          "takeaway": "Associe le besoin au bénéfice correspondant."
+        },
+        {
+          "id": "p-p7-46",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "What will MediScan NOT receive with the recommended package?",
+          "options": [
+            "Free passes",
+            "An exhibition table",
+            "A speaking slot",
+            "A logo in the program"
+          ],
+          "answer": "A",
+          "explanation": "Les entrées gratuites font partie de la formule Platinum uniquement ; Gold inclut logo, table et créneau de parole.",
+          "takeaway": "« All Silver benefits » : additionne les avantages des niveaux inférieurs."
+        },
+        {
+          "id": "p-p7-47",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is indicated about the speaking slots?",
+          "options": [
+            "They take place in the afternoon only.",
+            "They last thirty minutes.",
+            "They are free.",
+            "Few are still available."
+          ],
+          "answer": "D",
+          "evidence": "only two morning slots remain",
+          "explanation": "Il ne reste que deux créneaux le matin : ils sont limités.",
+          "takeaway": "Remain = rester (disponible)."
+        },
+        {
+          "id": "p-p7-48",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "How much less than its budget will MediScan spend if it chooses the recommended package?",
+          "options": [
+            "€2,000",
+            "€6,000",
+            "€8,000",
+            "€12,000"
+          ],
+          "answer": "A",
+          "explanation": "Budget de 12 000 € moins le prix de Gold (10 000 €) = 2 000 €.",
+          "takeaway": "Calcul simple à partir de deux documents."
+        }
+      ]
+    }
+  ]
+}
