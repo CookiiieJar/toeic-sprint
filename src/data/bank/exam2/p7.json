@@ -1,0 +1,1284 @@
+{
+  "pool": "exam2",
+  "part": 7,
+  "sets": [
+    {
+      "id": "e2-p7-s01",
+      "kind": "single",
+      "title": "Messagerie — livraison de mobilier",
+      "docs": [
+        {
+          "type": "chat",
+          "messages": [
+            {
+              "name": "Lena Fischer",
+              "time": "10:02",
+              "text": "Hi Tom, the furniture delivery is here, but the driver says the freight elevator is locked."
+            },
+            {
+              "name": "Tom Reyes",
+              "time": "10:03",
+              "text": "The building manager has the key. He's usually in his office on the ground floor until noon."
+            },
+            {
+              "name": "Lena Fischer",
+              "time": "10:05",
+              "text": "Found him. We're bringing the desks up now."
+            },
+            {
+              "name": "Tom Reyes",
+              "time": "10:06",
+              "text": "Great. Put them in the room next to mine for now."
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p7-01",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What problem does Ms. Fischer mention?",
+          "options": [
+            "A delivery is late.",
+            "A room is too small.",
+            "Some desks are damaged.",
+            "An elevator cannot be used."
+          ],
+          "answer": "D",
+          "evidence": "the freight elevator is locked",
+          "explanation": "Le monte-charge est fermé à clé : on ne peut pas l'utiliser.",
+          "takeaway": "Freight elevator = monte-charge."
+        },
+        {
+          "id": "e2-p7-02",
+          "level": 2,
+          "category": "intention",
+          "prompt": "At 10:05, what does Ms. Fischer most likely mean when she writes, \"Found him\"?",
+          "options": [
+            "She met Mr. Reyes on the ground floor.",
+            "She found the delivery driver.",
+            "She located the person with the key.",
+            "She identified a missing desk."
+          ],
+          "answer": "C",
+          "evidence": "Found him.",
+          "explanation": "M. Reyes vient de dire que le gestionnaire de l'immeuble a la clé ; « Found him » signifie qu'elle l'a trouvé, et ils montent les bureaux.",
+          "takeaway": "Le pronom (him) renvoie à la personne mentionnée juste avant."
+        }
+      ]
+    },
+    {
+      "id": "e2-p7-s02",
+      "kind": "single",
+      "title": "Avis — vente de livres",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Friends of Eastbrook Library — Annual Book Sale",
+          "subtitle": "Saturday, April 12, 9 A.M. – 3 P.M., Community Room",
+          "body": "Thousands of gently used books, DVDs, and audiobooks at prices starting at 50 cents. Members of the Friends association may enter one hour early. All proceeds will fund the library's summer reading program for children. Donations of books in good condition are welcome until April 5 at the main desk."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p7-03",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the purpose of the sale?",
+          "options": [
+            "To clear space in the library",
+            "To raise money for a children's program",
+            "To celebrate a library anniversary",
+            "To promote a new author"
+          ],
+          "answer": "B",
+          "evidence": "All proceeds will fund the library's summer reading program for children.",
+          "explanation": "Les recettes financeront le programme de lecture d'été pour enfants.",
+          "takeaway": "Proceeds = recettes, bénéfices."
+        },
+        {
+          "id": "e2-p7-04",
+          "level": 2,
+          "category": "inference",
+          "prompt": "What is indicated about members of the Friends association?",
+          "options": [
+            "They can shop before the general public.",
+            "They receive free books.",
+            "They must donate books.",
+            "They organize the sale every month."
+          ],
+          "answer": "A",
+          "evidence": "may enter one hour early",
+          "explanation": "Ils peuvent entrer une heure plus tôt, donc acheter avant le grand public.",
+          "takeaway": "Early access = accès anticipé."
+        }
+      ]
+    },
+    {
+      "id": "e2-p7-s03",
+      "kind": "single",
+      "title": "Publicité — station de lavage",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Sparkle Auto Spa — Grand Opening!",
+          "body": "Celebrate our opening with 30% off all full-service washes through June 30. Our eco-friendly system uses 60% less water than traditional car washes. Open seven days a week, 7 A.M.–8 P.M. Monthly unlimited wash memberships available from €29. Located next to the Avenue Foch gas station."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p7-05",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What is mentioned as a feature of Sparkle Auto Spa?",
+          "options": [
+            "It uses less water.",
+            "It offers free coffee.",
+            "It is open 24 hours.",
+            "It sells car parts."
+          ],
+          "answer": "A",
+          "evidence": "uses 60% less water than traditional car washes",
+          "explanation": "Son système consomme 60 % d'eau en moins.",
+          "takeaway": "Eco-friendly = écologique."
+        },
+        {
+          "id": "e2-p7-06",
+          "level": 2,
+          "category": "not-true",
+          "prompt": "What is NOT mentioned in the advertisement?",
+          "options": [
+            "A temporary discount",
+            "A membership option",
+            "Its opening hours",
+            "Free interior cleaning"
+          ],
+          "answer": "D",
+          "explanation": "La réduction jusqu'au 30 juin, l'abonnement mensuel et les horaires sont cités ; le nettoyage intérieur gratuit ne l'est pas.",
+          "takeaway": "NOT : élimine chaque option trouvée dans le texte."
+        }
+      ]
+    },
+    {
+      "id": "e2-p7-s04",
+      "kind": "single",
+      "title": "E-mail d'un architecte",
+      "docs": [
+        {
+          "type": "email",
+          "from": "Rafael Ortiz, Ortiz & Lowe Architects",
+          "to": "Mei Chen",
+          "subject": "Office redesign",
+          "date": "February 6",
+          "body": "Dear Ms. Chen,\n\nThank you for meeting with me on Tuesday to discuss the redesign of your company's offices. As promised, I have attached two preliminary floor plans. The first keeps your current number of private offices, while the second replaces four of them with an open area and two small meeting rooms.\n\nBoth options remain within the budget you mentioned. However, the second would require moving the kitchen, which would add about three weeks to the construction schedule.\n\nI would be happy to present both plans to your management team. I am available any afternoon next week except Thursday.\n\nBest regards,\nRafael Ortiz"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p7-07",
+          "level": 2,
+          "category": "main-idea",
+          "prompt": "Why did Mr. Ortiz write the e-mail?",
+          "options": [
+            "To cancel a project",
+            "To request a larger budget",
+            "To follow up on a meeting",
+            "To introduce his company"
+          ],
+          "answer": "C",
+          "evidence": "Thank you for meeting with me on Tuesday",
+          "explanation": "Il fait suite à la réunion de mardi en envoyant les plans promis.",
+          "takeaway": "As promised = comme promis (suite d'un échange)."
+        },
+        {
+          "id": "e2-p7-08",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is a drawback of the second plan?",
+          "options": [
+            "It is over budget.",
+            "It would take longer to complete.",
+            "It reduces the number of meeting rooms.",
+            "It requires a new kitchen supplier."
+          ],
+          "answer": "B",
+          "evidence": "add about three weeks to the construction schedule",
+          "explanation": "Déplacer la cuisine ajouterait environ trois semaines au chantier.",
+          "traps": "(A) est faux : les deux options respectent le budget.",
+          "takeaway": "Drawback = inconvénient."
+        },
+        {
+          "id": "e2-p7-09",
+          "level": 1,
+          "category": "detail",
+          "prompt": "When would Mr. Ortiz be unable to present the plans next week?",
+          "options": [
+            "On Monday afternoon",
+            "On Wednesday afternoon",
+            "On Thursday afternoon",
+            "On Friday afternoon"
+          ],
+          "answer": "C",
+          "evidence": "I am available any afternoon next week except Thursday.",
+          "explanation": "Il est disponible tous les après-midi sauf jeudi.",
+          "takeaway": "Except = sauf."
+        }
+      ]
+    },
+    {
+      "id": "e2-p7-s05",
+      "kind": "single",
+      "title": "Article — académie de formation",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Hendricks Tools Opens Training Academy",
+          "body": "MILWAUKEE — Hendricks Tools, a manufacturer of professional power tools, will open a training academy for electricians and carpenters next month. The academy, located in a renovated warehouse next to the company's main factory, will offer free courses on the safe use of power tools, as well as paid certification programs. [1]\n\nCompany president Diane Hendricks said the idea came from customer feedback. \"Many of our customers told us that young workers were entering the trades without enough hands-on experience,\" she said. [2]\n\nThe academy will be able to train up to 1,500 people per year. [3] Registration for the first courses opens on the company's website on May 1. [4]"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p7-10",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the article mainly about?",
+          "options": [
+            "A company opening a training facility",
+            "A new line of power tools",
+            "The renovation of a factory",
+            "A shortage of electricians"
+          ],
+          "answer": "A",
+          "evidence": "will open a training academy for electricians and carpenters",
+          "explanation": "L'article annonce l'ouverture d'une académie de formation par un fabricant d'outils.",
+          "takeaway": "Facility = installation, établissement."
+        },
+        {
+          "id": "e2-p7-11",
+          "level": 2,
+          "category": "detail",
+          "prompt": "According to Ms. Hendricks, why was the academy created?",
+          "options": [
+            "To increase tool sales",
+            "Local schools requested it.",
+            "The company needed to use an empty warehouse.",
+            "Customers noticed that young workers lacked practical experience."
+          ],
+          "answer": "D",
+          "evidence": "young workers were entering the trades without enough hands-on experience",
+          "explanation": "Les clients ont signalé que les jeunes manquaient d'expérience pratique (« hands-on experience »).",
+          "takeaway": "Hands-on = pratique."
+        },
+        {
+          "id": "e2-p7-12",
+          "level": 3,
+          "category": "sentence-insertion",
+          "prompt": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"Several local technical schools have already agreed to send their students.\"",
+          "options": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ],
+          "answer": "C",
+          "explanation": "Après la capacité d'accueil (1 500 personnes par an), la phrase indique d'où viendront déjà des stagiaires : les écoles techniques locales.",
+          "traps": "[4] suit l'ouverture des inscriptions en ligne, ce qui rend l'ajout moins naturel.",
+          "takeaway": "Cherche la phrase qui prépare logiquement l'information insérée."
+        }
+      ]
+    },
+    {
+      "id": "e2-p7-s06",
+      "kind": "single",
+      "title": "Contrat de service",
+      "docs": [
+        {
+          "type": "form",
+          "title": "Greenway Landscaping — Service Agreement",
+          "fields": [
+            [
+              "Client",
+              "Brookfield Business Park"
+            ],
+            [
+              "Services",
+              "Lawn mowing (weekly, April–October); hedge trimming (monthly); snow removal (as needed, November–March)"
+            ],
+            [
+              "Contract period",
+              "1 April 2027 – 31 March 2028"
+            ],
+            [
+              "Monthly fee",
+              "€1,850 (snow removal billed separately at €95 per hour)"
+            ]
+          ],
+          "body": "Any additional services must be requested in writing at least five business days in advance. Either party may end this agreement with sixty days' written notice."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p7-13",
+          "level": 1,
+          "category": "detail",
+          "prompt": "Which service is NOT included in the monthly fee?",
+          "options": [
+            "Lawn mowing",
+            "Hedge trimming",
+            "Snow removal",
+            "Contract management"
+          ],
+          "answer": "C",
+          "evidence": "snow removal billed separately at €95 per hour",
+          "explanation": "Le déneigement est facturé à part, à 95 € l'heure.",
+          "takeaway": "Billed separately = facturé en supplément."
+        },
+        {
+          "id": "e2-p7-14",
+          "level": 2,
+          "category": "synonym",
+          "prompt": "How often will the hedges be trimmed?",
+          "options": [
+            "Once a week",
+            "Once a month",
+            "Twice a year",
+            "When requested"
+          ],
+          "answer": "B",
+          "evidence": "hedge trimming (monthly)",
+          "explanation": "Le contrat indique « hedge trimming (monthly) » : la taille des haies a lieu une fois par mois.",
+          "takeaway": "Weekly / monthly / annually."
+        },
+        {
+          "id": "e2-p7-15",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is required to end the agreement?",
+          "options": [
+            "A payment of €95",
+            "Advance written notice",
+            "A meeting with the client",
+            "Approval from the city"
+          ],
+          "answer": "B",
+          "evidence": "Either party may end this agreement with sixty days' written notice.",
+          "explanation": "Chaque partie peut résilier avec un préavis écrit de soixante jours.",
+          "takeaway": "Written notice = préavis écrit."
+        }
+      ]
+    },
+    {
+      "id": "e2-p7-s07",
+      "kind": "single",
+      "title": "Discussion d'équipe",
+      "docs": [
+        {
+          "type": "chat",
+          "messages": [
+            {
+              "name": "Sven Olsen",
+              "time": "11:15",
+              "text": "The supplier just told me the new touchscreen panels won't ship until October 20."
+            },
+            {
+              "name": "Hana Kim",
+              "time": "11:16",
+              "text": "That's two weeks later than planned. Can we still launch the kiosk on November 1?"
+            },
+            {
+              "name": "Sven Olsen",
+              "time": "11:18",
+              "text": "Only if assembly takes less than ten days. Normally it takes twelve."
+            },
+            {
+              "name": "Raj Patel",
+              "time": "11:20",
+              "text": "My team can work Saturdays for two weeks. That should make up the difference."
+            },
+            {
+              "name": "Hana Kim",
+              "time": "11:21",
+              "text": "Let's do that. I'll inform the client that the date stands."
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p7-16",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What problem are the writers discussing?",
+          "options": [
+            "A component will arrive late.",
+            "A client canceled an order.",
+            "A product failed a test.",
+            "A team member is unavailable."
+          ],
+          "answer": "A",
+          "evidence": "the new touchscreen panels won't ship until October 20",
+          "explanation": "Les écrans tactiles n'arriveront qu'à partir du 20 octobre, deux semaines plus tard que prévu.",
+          "takeaway": "Component = composant."
+        },
+        {
+          "id": "e2-p7-17",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does Mr. Patel offer?",
+          "options": [
+            "To find another supplier",
+            "To contact the client",
+            "To postpone the launch",
+            "To have his team work extra days"
+          ],
+          "answer": "D",
+          "evidence": "My team can work Saturdays for two weeks.",
+          "explanation": "Son équipe peut travailler le samedi pendant deux semaines pour rattraper le retard.",
+          "takeaway": "Make up the difference = combler l'écart."
+        },
+        {
+          "id": "e2-p7-18",
+          "level": 3,
+          "category": "intention",
+          "prompt": "At 11:21, what does Ms. Kim mean when she writes, \"the date stands\"?",
+          "options": [
+            "The supplier confirmed the shipping date.",
+            "The client has chosen a new date.",
+            "The launch date will not change.",
+            "The kiosk will be displayed standing up."
+          ],
+          "answer": "C",
+          "evidence": "I'll inform the client that the date stands.",
+          "explanation": "Grâce aux samedis travaillés, le lancement du 1er novembre est maintenu : la date ne change pas.",
+          "takeaway": "The date stands = la date est maintenue."
+        }
+      ]
+    },
+    {
+      "id": "e2-p7-s08",
+      "kind": "single",
+      "title": "Lettre — renouvellement d'adhésion",
+      "docs": [
+        {
+          "type": "text",
+          "title": "European Society of Logistics Professionals",
+          "subtitle": "To: Dr. Kai Albrecht — Membership renewal",
+          "body": "Dear Dr. Albrecht,\n\nYour membership in the European Society of Logistics Professionals expires on 31 January. To ensure uninterrupted access to our member benefits, including our quarterly journal, online job board, and reduced conference fees, please renew before that date.\n\nThis year, members who renew for two years instead of one will pay €310 rather than €340, a saving of nearly ten percent. Renewal can be completed online in a few minutes at eslp.eu/renew.\n\nPlease note that our annual conference will take place in Vienna from 14 to 16 May. Members who renew by 31 January will also receive priority registration.\n\nKind regards,\nMembership Office"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p7-19",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the purpose of the letter?",
+          "options": [
+            "To announce a price increase",
+            "To remind a member to renew",
+            "To invite a speaker",
+            "To confirm a registration"
+          ],
+          "answer": "B",
+          "evidence": "please renew before that date",
+          "explanation": "La lettre rappelle que l'adhésion expire et invite à la renouveler.",
+          "takeaway": "Expire = arriver à échéance."
+        },
+        {
+          "id": "e2-p7-20",
+          "level": 2,
+          "category": "not-true",
+          "prompt": "What is NOT mentioned as a member benefit?",
+          "options": [
+            "Free hotel accommodation",
+            "Job listings",
+            "Discounted event fees",
+            "A publication"
+          ],
+          "answer": "A",
+          "explanation": "Le journal trimestriel, le site d'offres d'emploi et les tarifs réduits aux conférences sont cités ; pas l'hébergement gratuit.",
+          "takeaway": "Questions NOT : coche chaque élément trouvé."
+        },
+        {
+          "id": "e2-p7-21",
+          "level": 3,
+          "category": "inference",
+          "prompt": "What is suggested about the two-year renewal option?",
+          "options": [
+            "It is only available online.",
+            "It is cheaper than renewing for one year twice.",
+            "It includes free conference admission.",
+            "It must be paid by January 1."
+          ],
+          "answer": "B",
+          "evidence": "will pay €310 rather than €340",
+          "explanation": "Deux ans coûtent 310 € au lieu de 340 € (deux fois un an) : l'option est moins chère.",
+          "takeaway": "Rather than = au lieu de."
+        }
+      ]
+    },
+    {
+      "id": "e2-p7-s09",
+      "kind": "single",
+      "title": "Article — vêtements de seconde main",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Secondhand Clothing Moves into the Mainstream",
+          "body": "Once limited to charity shops and flea markets, secondhand clothing is now sold by some of Europe's largest fashion retailers. Last spring, Maison Vela began selling used garments in twenty of its stores, and the results have exceeded expectations. [1]\n\nAccording to a recent survey by the consulting firm Retail Insight, nearly 40 percent of shoppers under thirty bought at least one secondhand item last year. Price is the main reason, but many respondents also cited environmental concerns. [2]\n\nNot everyone is convinced, however. Some analysts warn that resale could reduce sales of new clothing, which still generate most of the industry's profits. [3] Others argue that customers who sell their old garments back to a store tend to spend the credit they receive on new items. [4]"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p7-22",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the article mainly about?",
+          "options": [
+            "A survey of store employees",
+            "The opening of charity shops",
+            "A decline in fashion prices",
+            "The growing popularity of used clothing"
+          ],
+          "answer": "D",
+          "evidence": "secondhand clothing is now sold by some of Europe's largest fashion retailers",
+          "explanation": "L'article décrit l'essor des vêtements d'occasion chez les grandes enseignes.",
+          "takeaway": "Mainstream = grand public, courant."
+        },
+        {
+          "id": "e2-p7-23",
+          "level": 2,
+          "category": "synonym",
+          "prompt": "The word \"cited\" in paragraph 2, line 3, is closest in meaning to",
+          "options": [
+            "quoted",
+            "ignored",
+            "mentioned",
+            "summoned"
+          ],
+          "answer": "C",
+          "evidence": "many respondents also cited environmental concerns",
+          "explanation": "« Cite a reason » = mentionner une raison. Le sens est « mentioned ».",
+          "traps": "« Quoted » (citer textuellement) correspond à un autre sens de « cite ».",
+          "takeaway": "Cite a reason = mentionner, invoquer."
+        },
+        {
+          "id": "e2-p7-24",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What concern do some analysts express?",
+          "options": [
+            "Used clothing may be of poor quality.",
+            "Sales of new clothing could decline.",
+            "Young shoppers spend too little.",
+            "Charity shops may close."
+          ],
+          "answer": "B",
+          "evidence": "resale could reduce sales of new clothing",
+          "explanation": "Certains analystes craignent que la revente fasse baisser les ventes de vêtements neufs.",
+          "takeaway": "Warn that = mettre en garde."
+        },
+        {
+          "id": "e2-p7-25",
+          "level": 3,
+          "category": "sentence-insertion",
+          "prompt": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"The company now plans to extend the program to all of its 140 stores.\"",
+          "options": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ],
+          "answer": "A",
+          "explanation": "« The company » renvoie à Maison Vela, dont on vient de dire que les résultats ont dépassé les attentes : l'extension du programme suit logiquement.",
+          "takeaway": "Les reprises (the company, this program) pointent vers la phrase précédente."
+        }
+      ]
+    },
+    {
+      "id": "e2-p7-s10",
+      "kind": "single",
+      "title": "E-mail RH — visite médicale",
+      "docs": [
+        {
+          "type": "email",
+          "from": "Human Resources",
+          "to": "All staff, Lyon site",
+          "subject": "Annual health check — new procedure",
+          "date": "3 September",
+          "body": "Dear colleagues,\n\nThis year's occupational health checks will take place from 22 September to 3 October in the medical room on the ground floor. Unlike in previous years, appointments will no longer be assigned automatically. Instead, each employee must book a slot through the HR portal by 15 September.\n\nEach appointment lasts about twenty minutes and includes a vision and hearing test. Employees who work night shifts may request an appointment between 6 and 8 A.M. by contacting Julie Mercier directly.\n\nPlease bring your vaccination record if you have one. Employees who do not book a slot by the deadline will be assigned one by HR.\n\nBest regards,\nHuman Resources"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p7-26",
+          "level": 2,
+          "category": "main-idea",
+          "prompt": "What is the main purpose of the e-mail?",
+          "options": [
+            "To explain a change in how appointments are made",
+            "To announce the opening of a medical room",
+            "To introduce a new HR employee",
+            "To request vaccination records"
+          ],
+          "answer": "A",
+          "evidence": "appointments will no longer be assigned automatically",
+          "explanation": "Le mail explique que les rendez-vous ne sont plus attribués automatiquement : chacun doit réserver.",
+          "takeaway": "Unlike in previous years = contrairement aux années précédentes."
+        },
+        {
+          "id": "e2-p7-27",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What must employees do by 15 September?",
+          "options": [
+            "Contact Ms. Mercier",
+            "Submit a medical certificate",
+            "Take a vision test",
+            "Reserve a time online"
+          ],
+          "answer": "D",
+          "evidence": "each employee must book a slot through the HR portal by 15 September",
+          "explanation": "Chacun doit réserver un créneau sur le portail RH avant le 15 septembre.",
+          "takeaway": "Book a slot = réserver un créneau."
+        },
+        {
+          "id": "e2-p7-28",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Why would an employee contact Ms. Mercier?",
+          "options": [
+            "To cancel an appointment",
+            "To obtain a vaccination record",
+            "To request an early-morning appointment",
+            "To report a problem with the portal"
+          ],
+          "answer": "C",
+          "evidence": "may request an appointment between 6 and 8 A.M. by contacting Julie Mercier directly",
+          "explanation": "Les salariés de nuit peuvent demander un rendez-vous entre 6 h et 8 h auprès de Julie Mercier.",
+          "takeaway": "Night shift = poste de nuit."
+        },
+        {
+          "id": "e2-p7-29",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What will happen if an employee does not book by the deadline?",
+          "options": [
+            "The health check will be canceled.",
+            "HR will choose an appointment for the employee.",
+            "The employee will pay a fee.",
+            "The employee will be contacted by a doctor."
+          ],
+          "answer": "B",
+          "evidence": "will be assigned one by HR",
+          "explanation": "Les RH attribueront un créneau aux retardataires.",
+          "takeaway": "Be assigned = se voir attribuer."
+        }
+      ]
+    },
+    {
+      "id": "e2-p7-d01",
+      "kind": "double",
+      "title": "Offre interne + candidature",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Internal Job Opening — Customer Success Manager (Madrid office)",
+          "body": "Kestrel Software is seeking a Customer Success Manager to support our corporate clients in Spain and Portugal. The successful candidate will lead onboarding for new clients, run quarterly account reviews, and identify opportunities for additional sales.\n\nRequirements: at least two years in a client-facing role at Kestrel; fluency in Spanish and English (Portuguese is a plus); willingness to travel up to one week per month.\n\nInternal applicants should submit a short cover letter and their most recent performance review to Carmen Ruiz (HR) by 10 March. Shortlisted candidates will be interviewed by the regional director the week of 17 March."
+        },
+        {
+          "type": "email",
+          "from": "Tiago Mendes",
+          "to": "Carmen Ruiz",
+          "subject": "Customer Success Manager",
+          "date": "6 March",
+          "body": "Dear Ms. Ruiz,\n\nI would like to apply for the Customer Success Manager position in Madrid. I have worked on Kestrel's support desk in Lisbon for the past three years, where I handle calls from clients in Portugal and Brazil, as well as some in Spain.\n\nSpanish is my second language, and I use it daily with clients. I have attached my cover letter. However, my performance review from last year is still being finalized by my manager, Ana Sousa, who is on leave until 12 March. Could I submit it as soon as she returns?\n\nBest regards,\nTiago Mendes"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p7-30",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What is one responsibility of the position?",
+          "options": [
+            "Leading the onboarding of new clients",
+            "Hiring support staff",
+            "Managing the Lisbon office",
+            "Translating contracts"
+          ],
+          "answer": "A",
+          "evidence": "lead onboarding for new clients",
+          "explanation": "Le poste consiste notamment à accompagner l'intégration des nouveaux clients.",
+          "takeaway": "Onboarding = intégration, prise en main."
+        },
+        {
+          "id": "e2-p7-31",
+          "level": 2,
+          "category": "synonym",
+          "prompt": "In the e-mail, the word \"handle\" in paragraph 1, line 2, is closest in meaning to",
+          "options": [
+            "carry",
+            "hold",
+            "operate",
+            "deal with"
+          ],
+          "answer": "D",
+          "evidence": "where I handle calls",
+          "explanation": "« Handle calls » = traiter des appels, s'en occuper : « deal with ».",
+          "traps": "« Hold » correspond au sens physique (tenir).",
+          "takeaway": "Handle = gérer, traiter."
+        },
+        {
+          "id": "e2-p7-32",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "Which requirement does Mr. Mendes clearly meet?",
+          "options": [
+            "Residence in Madrid",
+            "Experience managing a team",
+            "Experience in a client-facing role at Kestrel",
+            "A university degree in sales"
+          ],
+          "answer": "C",
+          "explanation": "L'offre exige deux ans dans un poste en contact avec les clients chez Kestrel ; il travaille au support client depuis trois ans.",
+          "takeaway": "Compare chaque exigence avec le profil décrit."
+        },
+        {
+          "id": "e2-p7-33",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "What qualification does Mr. Mendes most likely have that the job posting describes as a plus?",
+          "options": [
+            "Experience in Brazil",
+            "Knowledge of Portuguese",
+            "A management certificate",
+            "Fluency in English"
+          ],
+          "answer": "B",
+          "explanation": "Il travaille à Lisbonne, avec des clients du Portugal et du Brésil, et l'espagnol est sa deuxième langue : le portugais est très probablement sa langue maternelle. L'offre le présente comme un atout.",
+          "traps": "L'anglais est une exigence, pas un atout.",
+          "takeaway": "Inférence croisée : combine indices et critères."
+        },
+        {
+          "id": "e2-p7-34",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "Why might Mr. Mendes's application be incomplete by the deadline?",
+          "options": [
+            "His manager will return after the deadline.",
+            "He has not written a cover letter.",
+            "He has not worked at Kestrel long enough.",
+            "The regional director is on leave."
+          ],
+          "answer": "A",
+          "explanation": "La date limite est le 10 mars ; sa responsable, qui finalise son évaluation, est absente jusqu'au 12 mars.",
+          "takeaway": "Compare les dates des deux documents."
+        }
+      ]
+    },
+    {
+      "id": "e2-p7-d02",
+      "kind": "double",
+      "title": "Formules de restaurant + demande de réservation",
+      "docs": [
+        {
+          "type": "table",
+          "title": "Brasserie Lumen — Private Dining Packages (minimum 12 guests)",
+          "columns": [
+            "Package",
+            "Price per guest",
+            "Includes"
+          ],
+          "rows": [
+            [
+              "Lunch Express",
+              "€32",
+              "Two courses, coffee; weekdays 12–3 P.M. only"
+            ],
+            [
+              "Classic Dinner",
+              "€55",
+              "Three courses, house wine"
+            ],
+            [
+              "Chef's Table",
+              "€78",
+              "Five-course tasting menu, wine pairing"
+            ],
+            [
+              "Cocktail Reception",
+              "€40",
+              "Canapés, two drinks per guest; standing only"
+            ]
+          ],
+          "note": "A 20% deposit is required to confirm all bookings. Groups of 25 or more receive a private room free of charge."
+        },
+        {
+          "type": "email",
+          "from": "Olivia Grant, Lyra Consulting",
+          "to": "events@brasserielumen.fr",
+          "subject": "Booking request",
+          "date": "9 October",
+          "body": "Hello,\n\nI'd like to book a private dinner for our sales team on Friday, 24 October. There will be twenty-eight of us. We'd like a seated meal with three courses and wine, so the second option on your list seems ideal.\n\nTwo of our guests are vegan; could your chef prepare a suitable main course for them? Also, I'd like to pay the deposit by bank transfer rather than by card. Please let me know if that is possible.\n\nBest regards,\nOlivia Grant"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p7-35",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "Which package does Ms. Grant want to book?",
+          "options": [
+            "Lunch Express",
+            "Cocktail Reception",
+            "Chef's Table",
+            "Classic Dinner"
+          ],
+          "answer": "D",
+          "explanation": "Elle veut un repas assis, trois plats et du vin : la deuxième formule de la liste, Classic Dinner.",
+          "takeaway": "« The second option on your list » renvoie au tableau."
+        },
+        {
+          "id": "e2-p7-36",
+          "level": 2,
+          "category": "inference",
+          "prompt": "What is indicated about the Cocktail Reception package?",
+          "options": [
+            "It is the cheapest option.",
+            "It is available only at lunchtime.",
+            "Guests do not sit down.",
+            "It includes a tasting menu."
+          ],
+          "answer": "C",
+          "evidence": "standing only",
+          "explanation": "« Standing only » : les invités restent debout.",
+          "traps": "(A) est faux : Lunch Express (32 €) est moins cher.",
+          "takeaway": "Standing only = debout uniquement."
+        },
+        {
+          "id": "e2-p7-37",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "What will Ms. Grant's group most likely receive at no extra cost?",
+          "options": [
+            "Vegan desserts",
+            "A private room",
+            "Wine pairing",
+            "Coffee"
+          ],
+          "answer": "B",
+          "explanation": "Les groupes de 25 personnes ou plus ont une salle privée gratuite ; ils seront 28.",
+          "takeaway": "Vérifie les seuils (25 or more) dans les notes."
+        },
+        {
+          "id": "e2-p7-38",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "How much will Ms. Grant most likely pay as a deposit?",
+          "options": [
+            "€308",
+            "€440",
+            "€616",
+            "€1,540"
+          ],
+          "answer": "A",
+          "explanation": "28 × 55 € = 1 540 € ; l'acompte de 20 % représente 308 €.",
+          "traps": "1 540 € est le total, pas l'acompte.",
+          "takeaway": "Calcul en deux étapes : total puis pourcentage."
+        },
+        {
+          "id": "e2-p7-39",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What does Ms. Grant ask about?",
+          "options": [
+            "Special meals for some guests",
+            "A later date",
+            "Live music",
+            "A discount for a large group"
+          ],
+          "answer": "A",
+          "evidence": "could your chef prepare a suitable main course for them?",
+          "explanation": "Elle demande un plat adapté pour deux invités vegans.",
+          "takeaway": "Suitable = adapté."
+        }
+      ]
+    },
+    {
+      "id": "e2-p7-t01",
+      "kind": "triple",
+      "title": "Appel à intervenants + proposition + réponse",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Call for Speakers — Green Supply Chain Forum 2027",
+          "body": "The Green Supply Chain Forum (Rotterdam, 8–9 June) invites proposals for 30-minute presentations on sustainable logistics. Topics of particular interest include electric fleets, packaging reduction, and carbon reporting. Proposals of no more than 300 words must be submitted through our website by 15 February. Speakers whose proposals are accepted will receive free admission to the forum, valued at €650, but are responsible for their own travel costs."
+        },
+        {
+          "type": "email",
+          "from": "Kofi Boateng",
+          "to": "program@gscforum.eu",
+          "subject": "Proposal: Reusable packaging at scale",
+          "date": "12 February",
+          "body": "Dear Program Committee,\n\nPlease find below a summary of my proposed presentation. As head of operations at Pallo Logistics, I led the switch from cardboard to reusable plastic crates across our 14 warehouses, which cut packaging waste by 62 percent in two years. My talk would explain the costs, the challenges, and how we persuaded our clients to take part.\n\nI tried to submit this through your website, but the form returned an error message each time I clicked \"Send.\" I hope submitting by e-mail is acceptable.\n\nKofi Boateng"
+        },
+        {
+          "type": "email",
+          "from": "Program Committee",
+          "to": "Kofi Boateng",
+          "subject": "RE: Proposal: Reusable packaging at scale",
+          "date": "3 March",
+          "body": "Dear Mr. Boateng,\n\nWe are pleased to inform you that your proposal has been accepted. Thank you also for letting us know about the website problem; it has since been fixed. Your presentation is scheduled for 9 June at 11:00 in Hall B. Please send us your slides by 25 May so that our technical team can test them in advance.\n\nThe Program Committee"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p7-40",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "Which topic of particular interest does Mr. Boateng's proposal address?",
+          "options": [
+            "Electric fleets",
+            "Warehouse automation",
+            "Carbon reporting",
+            "Packaging reduction"
+          ],
+          "answer": "D",
+          "explanation": "Sa présentation porte sur le passage à des caisses réutilisables qui a réduit les déchets d'emballage : c'est la réduction des emballages.",
+          "takeaway": "Reformule le sujet du doc 2 avec les catégories du doc 1."
+        },
+        {
+          "id": "e2-p7-41",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "What is indicated about Mr. Boateng's proposal?",
+          "options": [
+            "It exceeded the word limit.",
+            "It was submitted through the website.",
+            "It was sent before the deadline.",
+            "It was rejected at first."
+          ],
+          "answer": "C",
+          "explanation": "Envoyée le 12 février, avant la date limite du 15 février.",
+          "traps": "(B) est faux : il l'a envoyée par e-mail.",
+          "takeaway": "Compare date d'envoi et date limite."
+        },
+        {
+          "id": "e2-p7-42",
+          "level": 1,
+          "category": "detail",
+          "prompt": "Why did Mr. Boateng send his proposal by e-mail?",
+          "options": [
+            "He missed the online deadline.",
+            "A website was not working properly.",
+            "He wanted to attach photos.",
+            "The committee requested it."
+          ],
+          "answer": "B",
+          "evidence": "the form returned an error message each time I clicked",
+          "explanation": "Le formulaire du site affichait un message d'erreur à chaque envoi.",
+          "takeaway": "Error message = message d'erreur."
+        },
+        {
+          "id": "e2-p7-43",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "What will Mr. Boateng most likely have to pay for?",
+          "options": [
+            "His travel to Rotterdam",
+            "His admission to the forum",
+            "The rental of Hall B",
+            "The testing of his slides"
+          ],
+          "answer": "A",
+          "explanation": "Les intervenants retenus ont l'entrée gratuite mais paient leurs frais de déplacement ; sa proposition a été acceptée.",
+          "takeaway": "« Responsible for their own travel costs » = à leur charge."
+        },
+        {
+          "id": "e2-p7-44",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What is Mr. Boateng asked to do by 25 May?",
+          "options": [
+            "Confirm his attendance",
+            "Shorten his proposal",
+            "Pay a registration fee",
+            "Send his presentation materials"
+          ],
+          "answer": "D",
+          "evidence": "Please send us your slides by 25 May",
+          "explanation": "Il doit envoyer ses diapositives avant le 25 mai.",
+          "takeaway": "Slides = presentation materials."
+        }
+      ]
+    },
+    {
+      "id": "e2-p7-t02",
+      "kind": "triple",
+      "title": "Formules d'abonnement + question client + réponse",
+      "docs": [
+        {
+          "type": "table",
+          "title": "TaskFlow — Subscription Plans",
+          "columns": [
+            "Plan",
+            "Users",
+            "Storage",
+            "Price (per month)"
+          ],
+          "rows": [
+            [
+              "Starter",
+              "Up to 5",
+              "20 GB",
+              "€15"
+            ],
+            [
+              "Team",
+              "Up to 20",
+              "200 GB",
+              "€60"
+            ],
+            [
+              "Business",
+              "Up to 50",
+              "1 TB",
+              "€140"
+            ],
+            [
+              "Enterprise",
+              "Unlimited",
+              "Unlimited",
+              "Contact sales"
+            ]
+          ],
+          "note": "Annual subscriptions receive two months free. All plans include mobile apps and e-mail support; phone support is available on Business and Enterprise plans only."
+        },
+        {
+          "type": "email",
+          "from": "Jun Watanabe, Watanabe Design Studio",
+          "to": "support@taskflow.io",
+          "subject": "Upgrade question",
+          "date": "4 April",
+          "body": "Hello,\n\nOur studio has been using TaskFlow on the Starter plan for a year, and we love it. However, we've just hired three new designers, bringing our team to eight people, and our files now take up about 150 GB. Which plan would you recommend?\n\nAlso, we've had trouble syncing the mobile app with our project calendar since your latest update. Is this a known issue?\n\nJun Watanabe"
+        },
+        {
+          "type": "email",
+          "from": "TaskFlow Support",
+          "to": "Jun Watanabe",
+          "subject": "RE: Upgrade question",
+          "date": "5 April",
+          "body": "Dear Mr. Watanabe,\n\nThank you for being a loyal customer. Based on the number of users and the storage you need, the plan that fits your needs best is one level above your current plan. If you switch to annual billing, you will also save the equivalent of two months.\n\nRegarding the calendar issue, our engineers are aware of it, and a fix will be included in the update scheduled for 12 April. Until then, you can sync manually by tapping \"Refresh\" in the calendar view.\n\nTaskFlow Support"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p7-45",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "Why did Mr. Watanabe write to TaskFlow?",
+          "options": [
+            "To cancel his subscription",
+            "To request a refund",
+            "To ask for advice about changing plans",
+            "To report a billing error"
+          ],
+          "answer": "C",
+          "evidence": "Which plan would you recommend?",
+          "explanation": "Son équipe s'agrandit : il demande quelle formule choisir.",
+          "takeaway": "Upgrade = passer à une formule supérieure."
+        },
+        {
+          "id": "e2-p7-46",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "Which plan does TaskFlow recommend?",
+          "options": [
+            "Starter",
+            "Team",
+            "Business",
+            "Enterprise"
+          ],
+          "answer": "B",
+          "explanation": "Le support recommande la formule juste au-dessus de Starter : Team, qui couvre 8 utilisateurs et 150 Go (jusqu'à 20 utilisateurs et 200 Go).",
+          "takeaway": "« One level above your current plan » se lit dans le tableau."
+        },
+        {
+          "id": "e2-p7-47",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "What is indicated about phone support?",
+          "options": [
+            "It is not included in the plan recommended to Mr. Watanabe.",
+            "It is available only during business hours.",
+            "It will be added in the 12 April update.",
+            "Mr. Watanabe used it to report a problem."
+          ],
+          "answer": "A",
+          "explanation": "Le téléphone n'est inclus que dans les formules Business et Enterprise ; la formule recommandée (Team) n'y donne donc pas accès.",
+          "takeaway": "Applique la note du doc 1 à la conclusion du doc 3."
+        },
+        {
+          "id": "e2-p7-48",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What problem does Mr. Watanabe report?",
+          "options": [
+            "A synchronization problem",
+            "A storage limit",
+            "A billing error",
+            "A login failure"
+          ],
+          "answer": "A",
+          "evidence": "we've had trouble syncing the mobile app with our project calendar",
+          "explanation": "L'application mobile ne se synchronise plus bien avec le calendrier.",
+          "takeaway": "Sync = synchroniser."
+        },
+        {
+          "id": "e2-p7-49",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does TaskFlow suggest doing until 12 April?",
+          "options": [
+            "Reinstalling the app",
+            "Contacting the engineers",
+            "Using the desktop version only",
+            "Updating the calendar manually"
+          ],
+          "answer": "D",
+          "evidence": "you can sync manually by tapping \"Refresh\" in the calendar view",
+          "explanation": "En attendant la correction, il peut synchroniser manuellement avec le bouton « Refresh ».",
+          "takeaway": "Manually = manuellement."
+        }
+      ]
+    },
+    {
+      "id": "e2-p7-t03",
+      "kind": "triple",
+      "title": "Itinéraire + demande de modification + confirmation",
+      "docs": [
+        {
+          "type": "form",
+          "title": "Travel Itinerary — Prepared for Claire Dubois (Felder Pharma)",
+          "fields": [
+            [
+              "Outbound flight",
+              "Paris CDG → Montreal YUL, AF 346, Mon 9 June, dep. 13:35, arr. 15:05"
+            ],
+            [
+              "Hotel",
+              "Hôtel Le Belvédère, Montreal, 9–12 June (3 nights)"
+            ],
+            [
+              "Return flight",
+              "Montreal YUL → Paris CDG, AF 347, Thu 12 June, dep. 19:20"
+            ],
+            [
+              "Ground transport",
+              "Airport shuttle booked for arrival"
+            ]
+          ],
+          "body": "Changes to flights may incur fees. Please contact Voyages Pro at least 48 hours before departure."
+        },
+        {
+          "type": "email",
+          "from": "Claire Dubois",
+          "to": "Voyages Pro",
+          "subject": "Change to my Montreal trip",
+          "date": "4 June",
+          "body": "Hello,\n\nThe client meeting on 12 June has been moved to 13 June, so I will need to stay one more night in Montreal and fly back on Friday instead. Could you change my return flight and extend my hotel booking? If possible, I would like to keep the same hotel, as it is close to the client's offices.\n\nThank you,\nClaire Dubois"
+        },
+        {
+          "type": "email",
+          "from": "Voyages Pro",
+          "to": "Claire Dubois",
+          "subject": "RE: Change to my Montreal trip",
+          "date": "5 June",
+          "body": "Dear Ms. Dubois,\n\nYour return flight has been changed to Friday, 13 June, at the same time, for a fee of €75, which will be charged to Felder Pharma's account. Unfortunately, Hôtel Le Belvédère is fully booked on 12 June. We have reserved a room for that night at the Hôtel Saint-Paul, a ten-minute walk away. Your updated itinerary is attached.\n\nVoyages Pro"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p7-50",
+          "level": 1,
+          "category": "detail",
+          "prompt": "Why does Ms. Dubois need to change her plans?",
+          "options": [
+            "Her hotel closed.",
+            "Her flight was canceled.",
+            "A meeting was rescheduled.",
+            "She missed her flight."
+          ],
+          "answer": "C",
+          "evidence": "has been moved to 13 June",
+          "explanation": "La réunion client a été déplacée du 12 au 13 juin.",
+          "takeaway": "Be moved to = être reporté à."
+        },
+        {
+          "id": "e2-p7-51",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "At what time will Ms. Dubois's return flight depart?",
+          "options": [
+            "13:35",
+            "15:05",
+            "19:20",
+            "It has not been decided."
+          ],
+          "answer": "C",
+          "explanation": "Le vol retour est décalé au vendredi « at the same time » : l'heure initiale, 19 h 20.",
+          "traps": "13 h 35 et 15 h 05 correspondent au vol aller.",
+          "takeaway": "« At the same time » renvoie au document d'origine."
+        },
+        {
+          "id": "e2-p7-52",
+          "level": 2,
+          "category": "inference",
+          "prompt": "What is indicated about the change fee?",
+          "options": [
+            "It was waived.",
+            "It will be paid by Ms. Dubois's employer.",
+            "It must be paid at the airport.",
+            "It includes the hotel extension."
+          ],
+          "answer": "B",
+          "evidence": "charged to Felder Pharma's account",
+          "explanation": "Les frais de 75 € seront facturés au compte de Felder Pharma, son employeur.",
+          "takeaway": "Charge to an account = imputer à un compte."
+        },
+        {
+          "id": "e2-p7-53",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Where will Ms. Dubois stay on the night of 12 June?",
+          "options": [
+            "At Hôtel Saint-Paul",
+            "At Hôtel Le Belvédère",
+            "At the client's offices",
+            "At an airport hotel"
+          ],
+          "answer": "A",
+          "evidence": "We have reserved a room for that night at the Hôtel Saint-Paul",
+          "explanation": "Le Belvédère étant complet, elle dormira à l'Hôtel Saint-Paul le 12 juin.",
+          "takeaway": "Fully booked = complet."
+        },
+        {
+          "id": "e2-p7-54",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "Which of Ms. Dubois's requests could Voyages Pro NOT satisfy?",
+          "options": [
+            "Changing her return flight",
+            "Staying at the same hotel for her whole trip",
+            "Returning on Friday",
+            "Receiving an updated itinerary"
+          ],
+          "answer": "B",
+          "explanation": "Elle voulait garder le même hôtel, mais le Belvédère est complet le 12 juin ; les autres demandes ont été satisfaites.",
+          "takeaway": "Compare la demande (doc 2) et la réponse (doc 3) point par point."
+        }
+      ]
+    }
+  ]
+}

@@ -25,7 +25,7 @@ try {
   const report = validateBank(bank, { requireExam: !extra.length });
   console.log(`Questions : ${bank.questions.size} — groupes : ${bank.sets.size}`);
   const s = report.stats;
-  for (const pool of ['exam1', 'diag', 'practice', 'custom']) {
+  for (const pool of [...Object.keys(s).filter((k) => /^pool:exam\d$/.test(k)).map((k) => k.slice(5)).sort(), 'diag', 'practice', 'custom']) {
     if (!s[`pool:${pool}`]) continue;
     const parts = [1, 2, 3, 4, 5, 6, 7].map((p) => `P${p}:${s[`pool:${pool}:part:${p}`] ?? 0}`).join(' ');
     console.log(`  ${pool.padEnd(9)} ${String(s[`pool:${pool}`]).padStart(4)}  ${parts}`);

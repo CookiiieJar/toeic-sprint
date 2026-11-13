@@ -1,0 +1,821 @@
+{
+  "pool": "exam2",
+  "questions": [
+    {
+      "id": "e2-p5-01",
+      "part": 5,
+      "level": 1,
+      "category": "preposition",
+      "prompt": "The new branch office is located ____ the corner of Rue Monge and Boulevard Saint-Germain.",
+      "options": [
+        "in",
+        "by",
+        "on",
+        "at"
+      ],
+      "answer": "D",
+      "explanation": "On dit « at the corner of » pour situer un lieu à l'angle de deux rues.",
+      "traps": "« On the corner » existe aussi en anglais américain familier, mais la forme standard avec « of » au TOEIC est « at the corner of ».",
+      "takeaway": "At the corner of = à l'angle de."
+    },
+    {
+      "id": "e2-p5-02",
+      "part": 5,
+      "level": 1,
+      "category": "word-form",
+      "prompt": "Ms. Kovac gave a very ____ presentation on the new pricing strategy.",
+      "options": [
+        "persuade",
+        "persuasion",
+        "persuasive",
+        "persuasively"
+      ],
+      "answer": "C",
+      "explanation": "Entre « very » et le nom « presentation », il faut un adjectif : « persuasive ».",
+      "traps": "« Persuasively » est un adverbe ; « persuasion » un nom.",
+      "takeaway": "Very + adjectif + nom."
+    },
+    {
+      "id": "e2-p5-03",
+      "part": 5,
+      "level": 2,
+      "category": "verb-tense",
+      "prompt": "The board ____ the proposal at its next meeting, which is scheduled for June 3.",
+      "options": [
+        "discussed",
+        "will discuss",
+        "has discussed",
+        "discussing"
+      ],
+      "answer": "B",
+      "explanation": "« Next meeting » situe l'action dans le futur : « will discuss ».",
+      "traps": "Les formes passées ne conviennent pas à une réunion à venir.",
+      "takeaway": "Next + moment → futur."
+    },
+    {
+      "id": "e2-p5-04",
+      "part": 5,
+      "level": 1,
+      "category": "pronoun",
+      "prompt": "Employees who have not yet submitted ____ travel forms should do so by Friday.",
+      "options": [
+        "their",
+        "them",
+        "theirs",
+        "themselves"
+      ],
+      "answer": "A",
+      "explanation": "Devant le groupe nominal « travel forms », il faut le déterminant possessif « their ».",
+      "traps": "« Theirs » s'emploie sans nom après lui.",
+      "takeaway": "Their + nom ; theirs seul."
+    },
+    {
+      "id": "e2-p5-05",
+      "part": 5,
+      "level": 2,
+      "category": "passive",
+      "prompt": "Several new safety measures ____ since the accident last year.",
+      "options": [
+        "have introduced",
+        "introduced",
+        "are introducing",
+        "have been introduced"
+      ],
+      "answer": "D",
+      "explanation": "Les mesures sont mises en place (sens passif) depuis l'accident (période jusqu'à maintenant) : present perfect passif « have been introduced ».",
+      "traps": "« Have introduced » est actif : les mesures n'introduisent rien elles-mêmes.",
+      "takeaway": "Since + passif → have/has been + participe passé."
+    },
+    {
+      "id": "e2-p5-06",
+      "part": 5,
+      "level": 2,
+      "category": "conjunction",
+      "prompt": "____ the warehouse is fully automated, a small team is still needed to supervise the machines.",
+      "options": [
+        "Despite",
+        "Because",
+        "Although",
+        "Unless"
+      ],
+      "answer": "C",
+      "explanation": "Concession suivie d'une proposition complète : « Although » (bien que).",
+      "traps": "« Despite » exige un nom ; « because » exprime la cause, ce qui contredit « still ».",
+      "takeaway": "« Still » dans la principale signale souvent une concession."
+    },
+    {
+      "id": "e2-p5-07",
+      "part": 5,
+      "level": 2,
+      "category": "vocabulary",
+      "prompt": "Because of its ____ location near the station, the hotel is popular with business travelers.",
+      "options": [
+        "considerate",
+        "convenient",
+        "consistent",
+        "confident"
+      ],
+      "answer": "B",
+      "explanation": "Un emplacement pratique se dit « convenient location ».",
+      "traps": "« Considerate » = attentionné ; « consistent » = régulier ; « confident » = confiant.",
+      "takeaway": "Convenient = pratique, commode."
+    },
+    {
+      "id": "e2-p5-08",
+      "part": 5,
+      "level": 2,
+      "category": "gerund-infinitive",
+      "prompt": "The committee recommended ____ the deadline for applications by two weeks.",
+      "options": [
+        "extending",
+        "to extend",
+        "extend",
+        "extended"
+      ],
+      "answer": "A",
+      "explanation": "« Recommend » est suivi du gérondif quand il n'y a pas de complément de personne : « recommended extending ».",
+      "traps": "*recommend to do est un calque fautif.",
+      "takeaway": "Recommend / suggest + -ing."
+    },
+    {
+      "id": "e2-p5-09",
+      "part": 5,
+      "level": 2,
+      "category": "comparison",
+      "prompt": "The new laptop model is ____ lighter than the previous one.",
+      "options": [
+        "very",
+        "most",
+        "more",
+        "much"
+      ],
+      "answer": "D",
+      "explanation": "Pour renforcer un comparatif (« lighter than »), on emploie « much ».",
+      "traps": "« More lighter » est un double comparatif ; « very » ne modifie pas un comparatif.",
+      "takeaway": "Much / far / a lot + comparatif."
+    },
+    {
+      "id": "e2-p5-10",
+      "part": 5,
+      "level": 2,
+      "category": "relative",
+      "prompt": "Candidates ____ applications are incomplete will not be contacted.",
+      "options": [
+        "who",
+        "whom",
+        "whose",
+        "which"
+      ],
+      "answer": "C",
+      "explanation": "Les candidatures appartiennent aux candidats, et le relatif est suivi d'un nom : « whose ».",
+      "traps": "« Who » serait suivi d'un verbe.",
+      "takeaway": "Whose + nom = dont."
+    },
+    {
+      "id": "e2-p5-11",
+      "part": 5,
+      "level": 2,
+      "category": "preposition",
+      "prompt": "Payment is due ____ thirty days of receipt of the invoice.",
+      "options": [
+        "during",
+        "within",
+        "among",
+        "along"
+      ],
+      "answer": "B",
+      "explanation": "« Within thirty days of » = dans un délai de trente jours à compter de.",
+      "traps": "« During » ne s'emploie pas pour un délai maximal.",
+      "takeaway": "Within + durée = dans un délai de."
+    },
+    {
+      "id": "e2-p5-12",
+      "part": 5,
+      "level": 2,
+      "category": "word-form",
+      "prompt": "The two companies reached an ____ after months of negotiations.",
+      "options": [
+        "agreement",
+        "agreeable",
+        "agreed",
+        "agree"
+      ],
+      "answer": "A",
+      "explanation": "Après l'article « an », il faut un nom : « agreement ». « Reach an agreement » = parvenir à un accord.",
+      "traps": "« Agreeable » (agréable) est un adjectif.",
+      "takeaway": "Reach an agreement = parvenir à un accord."
+    },
+    {
+      "id": "e2-p5-13",
+      "part": 5,
+      "level": 2,
+      "category": "collocation",
+      "prompt": "Please ____ attention to the safety instructions posted near each machine.",
+      "options": [
+        "take",
+        "do",
+        "make",
+        "pay"
+      ],
+      "answer": "D",
+      "explanation": "La collocation est « pay attention to » (faire attention à).",
+      "traps": "Calque du français « faire attention » → make/do, incorrects.",
+      "takeaway": "Pay attention to."
+    },
+    {
+      "id": "e2-p5-14",
+      "part": 5,
+      "level": 3,
+      "category": "agreement",
+      "prompt": "Neither of the two proposals ____ the requirements set by the client.",
+      "options": [
+        "meet",
+        "meeting",
+        "meets",
+        "have met"
+      ],
+      "answer": "C",
+      "explanation": "« Neither of + pluriel » prend un verbe au singulier en anglais soutenu (TOEIC) : « meets ».",
+      "traps": "« Proposals » au pluriel attire l'accord : c'est le piège.",
+      "takeaway": "Neither of / either of / each of + verbe singulier."
+    },
+    {
+      "id": "e2-p5-15",
+      "part": 5,
+      "level": 2,
+      "category": "modal-conditional",
+      "prompt": "Visitors ____ not enter the laboratory without protective glasses.",
+      "options": [
+        "need",
+        "may",
+        "ought",
+        "have"
+      ],
+      "answer": "B",
+      "explanation": "« May not » exprime l'interdiction dans un règlement : les visiteurs ne doivent pas entrer.",
+      "traps": "« Need not » signifierait « n'ont pas besoin d'entrer » ; « ought » exige « to » ; « have not enter » est agrammatical.",
+      "takeaway": "May not = interdiction (registre officiel)."
+    },
+    {
+      "id": "e2-p5-16",
+      "part": 5,
+      "level": 3,
+      "category": "syntax",
+      "prompt": "Rarely ____ such a large increase in online sales in a single quarter.",
+      "options": [
+        "has the company seen",
+        "the company has seen",
+        "has seen the company",
+        "the company seen"
+      ],
+      "answer": "A",
+      "explanation": "Un adverbe négatif (« Rarely ») en tête de phrase impose l'inversion auxiliaire-sujet : « has the company seen ».",
+      "traps": "(B) garde l'ordre normal, impossible après « Rarely » en tête.",
+      "takeaway": "Rarely / Seldom / Never en tête → inversion."
+    },
+    {
+      "id": "e2-p5-17",
+      "part": 5,
+      "level": 3,
+      "category": "verb-tense",
+      "prompt": "It is essential that every participant ____ the confidentiality agreement before the session.",
+      "options": [
+        "signs",
+        "signed",
+        "will sign",
+        "sign"
+      ],
+      "answer": "D",
+      "explanation": "Après « It is essential that », l'anglais formel emploie le subjonctif : base verbale « sign », sans -s.",
+      "traps": "« Signs » paraît correct avec « every participant », mais la structure impose la forme de base.",
+      "takeaway": "It is essential / vital / important that + base verbale."
+    },
+    {
+      "id": "e2-p5-18",
+      "part": 5,
+      "level": 3,
+      "category": "collocation",
+      "prompt": "The proposed merger is still ____ to approval by the regulatory authorities.",
+      "options": [
+        "subjecting",
+        "subjected",
+        "subject",
+        "subjective"
+      ],
+      "answer": "C",
+      "explanation": "« Be subject to approval » = être soumis à approbation (sous réserve d'approbation).",
+      "traps": "« Subjected to » signifie « soumis de force à » (subir) ; « subjective » = subjectif.",
+      "takeaway": "Subject to approval / change = sous réserve de."
+    },
+    {
+      "id": "e2-p5-19",
+      "part": 5,
+      "level": 3,
+      "category": "vocabulary",
+      "prompt": "The figures in the report must be ____ before they are presented to investors.",
+      "options": [
+        "convinced",
+        "verified",
+        "assured",
+        "reminded"
+      ],
+      "answer": "B",
+      "explanation": "Des chiffres doivent être vérifiés : « verified ».",
+      "traps": "« Convinced », « assured » et « reminded » s'appliquent à des personnes.",
+      "takeaway": "Verify figures / data = vérifier."
+    },
+    {
+      "id": "e2-p5-20",
+      "part": 5,
+      "level": 3,
+      "category": "conjunction",
+      "prompt": "The shipment will be delivered on Monday ____ there are no delays at customs.",
+      "options": [
+        "provided that",
+        "whereas",
+        "unless",
+        "so that"
+      ],
+      "answer": "A",
+      "explanation": "Livraison lundi à condition qu'il n'y ait pas de retard : « provided that ».",
+      "traps": "« Unless » avec « no delays » créerait une double négation illogique.",
+      "takeaway": "Provided (that) = à condition que."
+    },
+    {
+      "id": "e2-p5-21",
+      "part": 5,
+      "level": 3,
+      "category": "word-form",
+      "prompt": "____ by the positive reviews, the restaurant decided to open a second location.",
+      "options": [
+        "Encouraging",
+        "To encourage",
+        "Encourage",
+        "Encouraged"
+      ],
+      "answer": "D",
+      "explanation": "Le restaurant a été encouragé par les critiques (sens passif) : participe passé « Encouraged ».",
+      "traps": "« Encouraging » signifierait que le restaurant encourage quelque chose.",
+      "takeaway": "Participe passé en tête = sens passif appliqué au sujet."
+    },
+    {
+      "id": "e2-p5-22",
+      "part": 5,
+      "level": 3,
+      "category": "pronoun",
+      "prompt": "The manager reminded the team that the final decision was ultimately ____ to make.",
+      "options": [
+        "their",
+        "them",
+        "theirs",
+        "they"
+      ],
+      "answer": "C",
+      "explanation": "Le pronom possessif « theirs » remplace « their decision » : la décision leur revenait.",
+      "traps": "« Their » doit être suivi d'un nom.",
+      "takeaway": "Pronom possessif = mine, yours, his, hers, ours, theirs."
+    },
+    {
+      "id": "e2-p5-23",
+      "part": 5,
+      "level": 3,
+      "category": "comparison",
+      "prompt": "This year's conference attracted twice as many participants ____ last year's.",
+      "options": [
+        "than",
+        "as",
+        "so",
+        "like"
+      ],
+      "answer": "B",
+      "explanation": "Structure « twice as many … as » (deux fois plus de … que).",
+      "traps": "« Than » ne s'emploie pas après « as many ».",
+      "takeaway": "Twice / three times as + adj./many + as."
+    },
+    {
+      "id": "e2-p5-24",
+      "part": 5,
+      "level": 3,
+      "category": "vocabulary",
+      "prompt": "The company has ____ its commitment to reducing carbon emissions by 30 percent.",
+      "options": [
+        "reaffirmed",
+        "reminded",
+        "reassured",
+        "recalled"
+      ],
+      "answer": "A",
+      "explanation": "« Reaffirmed its commitment » = a réaffirmé son engagement. « Reaffirm » est le verbe qui se combine avec « commitment ».",
+      "traps": "« Reassure » s'applique à une personne ; « recall » = se rappeler / rappeler un produit.",
+      "takeaway": "Reaffirm / renew a commitment."
+    },
+    {
+      "id": "e2-p5-25",
+      "part": 5,
+      "level": 2,
+      "category": "word-form",
+      "prompt": "The new software has ____ reduced the time needed to process orders.",
+      "options": [
+        "significant",
+        "signified",
+        "significance",
+        "significantly"
+      ],
+      "answer": "D",
+      "explanation": "Entre l'auxiliaire « has » et le participe « reduced », on place un adverbe : « significantly ».",
+      "traps": "« Significant » est un adjectif.",
+      "takeaway": "Has + adverbe + participe passé."
+    },
+    {
+      "id": "e2-p5-26",
+      "part": 5,
+      "level": 3,
+      "category": "vocabulary",
+      "prompt": "Applicants must have a ____ knowledge of accounting software.",
+      "options": [
+        "through",
+        "throughout",
+        "thorough",
+        "though"
+      ],
+      "answer": "C",
+      "explanation": "« A thorough knowledge » = une connaissance approfondie. Seul « thorough » est un adjectif.",
+      "traps": "Mots à l'orthographe proche : through (à travers), throughout (partout), though (bien que).",
+      "takeaway": "Thorough = approfondi, minutieux."
+    },
+    {
+      "id": "e2-p5-27",
+      "part": 5,
+      "level": 3,
+      "category": "preposition",
+      "prompt": "____ the absence of the director, Mr. Patel will chair the meeting.",
+      "options": [
+        "On",
+        "In",
+        "At",
+        "By"
+      ],
+      "answer": "B",
+      "explanation": "L'expression figée est « in the absence of » (en l'absence de).",
+      "takeaway": "In the absence of = en l'absence de."
+    },
+    {
+      "id": "e2-p5-28",
+      "part": 5,
+      "level": 3,
+      "category": "verb-tense",
+      "prompt": "Ms. Grant ____ for the company for ten years when she was promoted to vice president.",
+      "options": [
+        "had been working",
+        "is working",
+        "has been working",
+        "works"
+      ],
+      "answer": "A",
+      "explanation": "Durée d'une action jusqu'à un moment passé (la promotion) : past perfect continu « had been working ».",
+      "traps": "« Has been working » se rattache au présent, pas à un moment passé.",
+      "takeaway": "For + durée … when + prétérit → had been + -ing."
+    },
+    {
+      "id": "e2-p5-29",
+      "part": 5,
+      "level": 3,
+      "category": "gerund-infinitive",
+      "prompt": "The firm hired a consultant to help it ____ its operations.",
+      "options": [
+        "streamlining",
+        "streamlined",
+        "streamlines",
+        "streamline"
+      ],
+      "answer": "D",
+      "explanation": "« Help + objet + base verbale » : « help it streamline » (l'aider à rationaliser).",
+      "traps": "Après « help someone », pas de -ing.",
+      "takeaway": "Help someone (to) do something."
+    },
+    {
+      "id": "e2-p5-30",
+      "part": 5,
+      "level": 3,
+      "category": "vocabulary",
+      "prompt": "Due to ____ demand, additional seats have been added to the evening performance.",
+      "options": [
+        "unprepared",
+        "unpredicted",
+        "unprecedented",
+        "uninformed"
+      ],
+      "answer": "C",
+      "explanation": "« Unprecedented demand » = une demande sans précédent, qui explique l'ajout de places.",
+      "traps": "« Unpredicted » n'est pas une collocation naturelle avec demand ; « unprepared » et « uninformed » s'appliquent à des personnes.",
+      "takeaway": "Unprecedented = sans précédent."
+    }
+  ],
+  "sets": [
+    {
+      "id": "e2-p6-s1",
+      "part": 6,
+      "kind": "text",
+      "title": "Invitation à un lancement",
+      "docs": [
+        {
+          "type": "email",
+          "from": "Estelle Garnier, Norvia Appliances",
+          "to": "Retail partners",
+          "subject": "Invitation: product launch",
+          "date": "May 2",
+          "body": "Dear Valued Partner,\n\nWe are pleased to invite you to the launch of our new line of energy-efficient refrigerators on Thursday, May 22, at the Lumière Conference Center. The event will begin at 6 P.M. with a short {{1}} by our chief engineer, followed by a reception. {{2}} Guests will also have the opportunity to test the new models and speak directly with our product team.\n\nSpace is limited, so please confirm your {{3}} by May 15. You may do so by replying to this e-mail or by calling our events team.\n\nWe look forward to {{4}} you there.\n\nSincerely,\nEstelle Garnier\nPartner Relations"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p6-01",
+          "level": 1,
+          "category": "word-form",
+          "options": [
+            "present",
+            "presenting",
+            "presented",
+            "presentation"
+          ],
+          "answer": "D",
+          "explanation": "Après l'adjectif « short », il faut un nom : « presentation ».",
+          "takeaway": "Article + adjectif + nom."
+        },
+        {
+          "id": "e2-p6-02",
+          "level": 2,
+          "category": "sentence-insertion",
+          "options": [
+            "Our refrigerators were first sold in 1985.",
+            "Light refreshments will be served throughout the evening.",
+            "The conference center is closed on weekends.",
+            "Please return the product if it is damaged."
+          ],
+          "answer": "B",
+          "explanation": "La phrase précédente annonce une réception ; on précise qu'une collation sera servie. « Also » dans la phrase suivante ajoute une autre activité.",
+          "traps": "(A) est hors sujet ; (C) et (D) n'ont pas de lien avec la soirée.",
+          "takeaway": "« Also » dans la phrase suivante indique un ajout à ce qui précède."
+        },
+        {
+          "id": "e2-p6-03",
+          "level": 2,
+          "category": "word-form",
+          "options": [
+            "attend",
+            "attendant",
+            "attendance",
+            "attended"
+          ],
+          "answer": "C",
+          "explanation": "Après « your », il faut un nom : « confirm your attendance » (confirmer votre présence).",
+          "traps": "« Attendant » désigne une personne (agent, préposé).",
+          "takeaway": "Confirm your attendance = confirmer sa présence."
+        },
+        {
+          "id": "e2-p6-04",
+          "level": 2,
+          "category": "gerund-infinitive",
+          "options": [
+            "welcome",
+            "welcoming",
+            "to welcome",
+            "welcomed"
+          ],
+          "answer": "B",
+          "explanation": "« Look forward to » est suivi du gérondif : « welcoming ».",
+          "traps": "« To » est ici une préposition, pas la marque de l'infinitif.",
+          "takeaway": "Look forward to + -ing."
+        }
+      ]
+    },
+    {
+      "id": "e2-p6-s2",
+      "part": 6,
+      "kind": "text",
+      "title": "Article — agences bancaires mobiles",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Clearwater Bank Launches Mobile Branches",
+          "body": "Clearwater Bank has introduced two mobile branches that will travel to rural communities across the region. Each branch, a specially equipped bus, {{1}} two staff members and a cash machine. The service is aimed at residents {{2}} live more than twenty kilometers from the nearest bank office.\n\nThe buses will visit each village once a week on a fixed schedule. {{3}} The schedule will be posted online and in local town halls.\n\nAccording to bank spokesperson Ahmed Ziani, the project is a response to the closure of several small branches over the past five years. \"We want to remain {{4}} to all our customers,\" he said."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p6-05",
+          "level": 2,
+          "category": "agreement",
+          "options": [
+            "carries",
+            "carry",
+            "carrying",
+            "are carried"
+          ],
+          "answer": "A",
+          "explanation": "Le sujet est « Each branch » (singulier), séparé du verbe par une apposition : « carries ».",
+          "traps": "L'apposition « a specially equipped bus » éloigne le sujet du verbe.",
+          "takeaway": "Each + singulier, même avec une apposition intercalée."
+        },
+        {
+          "id": "e2-p6-06",
+          "level": 1,
+          "category": "relative",
+          "options": [
+            "whose",
+            "which",
+            "whom",
+            "who"
+          ],
+          "answer": "D",
+          "explanation": "Antécédent humain (« residents ») et relatif sujet du verbe « live » : « who ».",
+          "takeaway": "Who = personne sujet."
+        },
+        {
+          "id": "e2-p6-07",
+          "level": 2,
+          "category": "sentence-insertion",
+          "options": [
+            "The bank was founded in 1922.",
+            "Bus tickets can be purchased online.",
+            "Customers will be able to open accounts, deposit checks, and get financial advice on board.",
+            "Interest rates will rise next year."
+          ],
+          "answer": "C",
+          "explanation": "Après la fréquence des passages, on décrit les services disponibles à bord. La phrase suivante revient au calendrier publié.",
+          "traps": "(B) joue sur « bus » mais il ne s'agit pas d'un bus de transport.",
+          "takeaway": "Méfie-toi des mots repris dans un autre sens."
+        },
+        {
+          "id": "e2-p6-08",
+          "level": 2,
+          "category": "word-form",
+          "options": [
+            "access",
+            "accessibility",
+            "accessible",
+            "accessing"
+          ],
+          "answer": "C",
+          "explanation": "Après « remain », verbe d'état, il faut un adjectif : « accessible ».",
+          "takeaway": "Remain / stay / become + adjectif."
+        }
+      ]
+    },
+    {
+      "id": "e2-p6-s3",
+      "part": 6,
+      "kind": "text",
+      "title": "Note — mots de passe",
+      "docs": [
+        {
+          "type": "email",
+          "from": "IT Security",
+          "to": "All employees",
+          "subject": "New password policy",
+          "date": "February 12",
+          "body": "Starting March 1, all employees will be required to change their passwords every ninety days. New passwords must contain at least twelve characters, {{1}} one number and one symbol. {{2}}, the system will now lock accounts after five failed login attempts.\n\nThese changes are part of our ongoing effort to protect company and client data. {{3}}\n\nIf you have any questions, please contact the help desk. We appreciate your {{4}} in keeping our systems secure."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p6-09",
+          "level": 2,
+          "category": "preposition",
+          "options": [
+            "include",
+            "including",
+            "included",
+            "inclusion"
+          ],
+          "answer": "B",
+          "explanation": "« Including » (y compris) introduit les éléments que doit contenir le mot de passe.",
+          "traps": "« Included » s'emploie après le nom (one number included).",
+          "takeaway": "Including = y compris."
+        },
+        {
+          "id": "e2-p6-10",
+          "level": 2,
+          "category": "coherence",
+          "options": [
+            "In addition",
+            "Instead",
+            "Otherwise",
+            "Nevertheless"
+          ],
+          "answer": "A",
+          "explanation": "On ajoute une nouvelle règle à la précédente : « In addition » (de plus).",
+          "traps": "« Instead » (au lieu de cela) et « Nevertheless » (néanmoins) n'ajoutent pas.",
+          "takeaway": "In addition / Moreover / Furthermore = ajout."
+        },
+        {
+          "id": "e2-p6-11",
+          "level": 3,
+          "category": "sentence-insertion",
+          "options": [
+            "The cafeteria menu will change in March.",
+            "Please return your laptops to the IT department today.",
+            "Our new office will open in April.",
+            "Several companies in our sector were targeted by cyberattacks last year."
+          ],
+          "answer": "D",
+          "explanation": "La phrase justifie l'effort de protection des données mentionné juste avant : des entreprises du secteur ont été visées par des cyberattaques.",
+          "traps": "(B) évoque l'informatique mais n'a aucun lien avec la sécurité des données.",
+          "takeaway": "La phrase insérée prolonge l'idée précédente (protéger les données → menace)."
+        },
+        {
+          "id": "e2-p6-12",
+          "level": 3,
+          "category": "word-form",
+          "options": [
+            "vigilant",
+            "vigilantly",
+            "vigilance",
+            "vigil"
+          ],
+          "answer": "C",
+          "explanation": "Après « your », il faut un nom : « vigilance ».",
+          "traps": "« Vigil » existe mais signifie veillée, sans rapport.",
+          "takeaway": "We appreciate your + nom (cooperation, vigilance, patience)."
+        }
+      ]
+    },
+    {
+      "id": "e2-p6-s4",
+      "part": 6,
+      "kind": "text",
+      "title": "Lettre — réponse à une réclamation",
+      "docs": [
+        {
+          "type": "email",
+          "from": "Paul Durand, General Manager, Harbor Point Hotel",
+          "to": "Ingrid Andersen",
+          "subject": "Your recent stay",
+          "date": "October 3",
+          "body": "Dear Ms. Andersen,\n\nThank you for taking the time to share your feedback about your recent stay at the Harbor Point Hotel. I was sorry to read that the construction work next door {{1}} your sleep during the first two nights.\n\n{{2}}, we were not informed by the city that the work would begin before eight in the morning. Since then, we have installed additional soundproof windows on the side of the building facing the site.\n\nAs a gesture of goodwill, I would like to offer you a complimentary night on your next visit. {{3}}\n\nWe hope to have the {{4}} of welcoming you again soon.\n\nSincerely,\nPaul Durand"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p6-13",
+          "level": 2,
+          "category": "verb-tense",
+          "options": [
+            "disturbs",
+            "disturbed",
+            "disturbing",
+            "disturbance"
+          ],
+          "answer": "B",
+          "explanation": "Le séjour est terminé : le bruit a perturbé son sommeil, au prétérit « disturbed ».",
+          "traps": "« Disturbs » mettrait l'action au présent.",
+          "takeaway": "Récit d'un événement passé → prétérit."
+        },
+        {
+          "id": "e2-p6-14",
+          "level": 3,
+          "category": "coherence",
+          "options": [
+            "Unfortunately",
+            "Similarly",
+            "Consequently",
+            "Meanwhile"
+          ],
+          "answer": "A",
+          "explanation": "Le directeur explique un fait regrettable (l'hôtel n'a pas été prévenu) : « Unfortunately ».",
+          "traps": "« Consequently » supposerait une conséquence de la phrase précédente.",
+          "takeaway": "Unfortunately = malheureusement."
+        },
+        {
+          "id": "e2-p6-15",
+          "level": 2,
+          "category": "sentence-insertion",
+          "options": [
+            "Our restaurant serves breakfast from seven.",
+            "The construction work is expected to last three years.",
+            "Please complete the attached survey about our spa.",
+            "Simply mention the code HP-2025 when you make your reservation."
+          ],
+          "answer": "D",
+          "explanation": "La phrase explique comment utiliser la nuit offerte annoncée juste avant.",
+          "traps": "(B) découragerait la cliente de revenir, contrairement au but de la lettre.",
+          "takeaway": "Une offre est souvent suivie de la façon d'en bénéficier."
+        },
+        {
+          "id": "e2-p6-16",
+          "level": 2,
+          "category": "word-form",
+          "options": [
+            "pleased",
+            "pleasant",
+            "pleasing",
+            "pleasure"
+          ],
+          "answer": "D",
+          "explanation": "Après « the », il faut un nom : « have the pleasure of » (avoir le plaisir de).",
+          "takeaway": "Have the pleasure of + -ing."
+        }
+      ]
+    }
+  ]
+}

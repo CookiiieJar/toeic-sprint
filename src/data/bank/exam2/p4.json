@@ -1,0 +1,674 @@
+{
+  "pool": "exam2",
+  "part": 4,
+  "sets": [
+    {
+      "id": "e2-p4-t01",
+      "kind": "talk",
+      "title": "Annonce en gare",
+      "audio": [
+        {
+          "s": "W",
+          "t": "Attention, passengers traveling to Nantes on the 14:20 regional train. Due to maintenance work on the tracks, this train will depart from platform 9 instead of platform 4. Please note that the first two carriages will not be in service today, so passengers with reservations in those carriages may sit anywhere in carriages three to six. A refreshment cart will be available on board. We apologize for any inconvenience."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p4-01",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What has changed for the 14:20 train?",
+          "options": [
+            "Its departure time",
+            "Its ticket price",
+            "Its destination",
+            "Its platform"
+          ],
+          "answer": "D",
+          "evidence": "this train will depart from platform 9 instead of platform 4",
+          "explanation": "Le train part du quai 9 au lieu du quai 4.",
+          "takeaway": "Instead of = au lieu de."
+        },
+        {
+          "id": "e2-p4-02",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What are some passengers told they may do?",
+          "options": [
+            "Change their tickets for free",
+            "Take a later train",
+            "Sit in a different part of the train",
+            "Board a bus instead"
+          ],
+          "answer": "C",
+          "evidence": "may sit anywhere in carriages three to six",
+          "explanation": "Les passagers des voitures 1 et 2 peuvent s'asseoir n'importe où dans les voitures 3 à 6.",
+          "takeaway": "Carriage = voiture (de train)."
+        },
+        {
+          "id": "e2-p4-03",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What will be available on the train?",
+          "options": [
+            "Free Wi-Fi",
+            "Food and drinks",
+            "Extra luggage space",
+            "First-class upgrades"
+          ],
+          "answer": "B",
+          "evidence": "A refreshment cart will be available on board.",
+          "explanation": "Un chariot de restauration (boissons et en-cas) passera à bord.",
+          "takeaway": "Refreshments = boissons et collations."
+        }
+      ]
+    },
+    {
+      "id": "e2-p4-t02",
+      "kind": "talk",
+      "title": "Publicité — école de langues",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Need to improve your English for work but can't find the time? At Lingua Pro, our evening classes start at seven P.M. and last just ninety minutes, so you can join us straight from the office. All our teachers are certified and have experience in business environments. Sign up before the end of the month and your first week of classes is free. Plus, students who complete the full course receive a certificate recognized by more than two hundred employers. Visit linguapro.com to take our free online level test."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p4-04",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is being advertised?",
+          "options": [
+            "A language school",
+            "A recruitment agency",
+            "A translation service",
+            "An office rental"
+          ],
+          "answer": "A",
+          "evidence": "improve your English for work",
+          "explanation": "La publicité présente des cours d'anglais du soir : une école de langues.",
+          "takeaway": "Le produit est présenté dans les deux premières phrases."
+        },
+        {
+          "id": "e2-p4-05",
+          "level": 2,
+          "category": "inference",
+          "prompt": "Who is the advertisement mainly intended for?",
+          "options": [
+            "University students",
+            "English teachers",
+            "Retired people",
+            "Working professionals"
+          ],
+          "answer": "D",
+          "evidence": "you can join us straight from the office",
+          "explanation": "Cours du soir, après le bureau, anglais professionnel : la cible est les actifs.",
+          "takeaway": "Straight from the office = directement en sortant du bureau."
+        },
+        {
+          "id": "e2-p4-06",
+          "level": 2,
+          "category": "detail",
+          "prompt": "How can listeners receive free classes?",
+          "options": [
+            "By taking an online test",
+            "By completing the full course",
+            "By registering before a deadline",
+            "By bringing a friend"
+          ],
+          "answer": "C",
+          "evidence": "Sign up before the end of the month and your first week of classes is free",
+          "explanation": "La première semaine est offerte pour une inscription avant la fin du mois.",
+          "traps": "Le test en ligne est gratuit mais ne donne pas de cours gratuits.",
+          "takeaway": "Before the end of the month = avant une date limite."
+        }
+      ]
+    },
+    {
+      "id": "e2-p4-t03",
+      "kind": "talk",
+      "title": "Réunion — résultats trimestriels",
+      "audio": [
+        {
+          "s": "W",
+          "t": "Good morning, everyone. As you've probably seen, our online sales grew by fifteen percent this quarter, mainly thanks to the new mobile app. In-store sales, however, dropped slightly. Now, I know what some of you are thinking. But we're not planning to close any stores. Instead, we'll add pickup counters so customers can collect their online orders in our shops. We'll start with three pilot locations in March, and I'd like each store manager to tell me by Friday whether their store has enough space."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p4-07",
+          "level": 1,
+          "category": "detail",
+          "prompt": "According to the speaker, what caused the increase in online sales?",
+          "options": [
+            "A price reduction",
+            "A new mobile application",
+            "A television campaign",
+            "Longer store hours"
+          ],
+          "answer": "B",
+          "evidence": "mainly thanks to the new mobile app",
+          "explanation": "La hausse vient surtout de la nouvelle application mobile.",
+          "takeaway": "Thanks to = grâce à."
+        },
+        {
+          "id": "e2-p4-08",
+          "level": 3,
+          "category": "intention",
+          "prompt": "Why does the speaker say, \"I know what some of you are thinking\"?",
+          "options": [
+            "To address a concern about store closures",
+            "To ask for new ideas",
+            "To introduce a guest speaker",
+            "To announce a change in management"
+          ],
+          "answer": "A",
+          "evidence": "I know what some of you are thinking.",
+          "explanation": "Après l'annonce de la baisse des ventes en magasin, elle anticipe une inquiétude et précise aussitôt qu'aucune fermeture n'est prévue.",
+          "takeaway": "La phrase qui suit l'expression révèle l'inquiétude visée."
+        },
+        {
+          "id": "e2-p4-09",
+          "level": 2,
+          "category": "next-action",
+          "prompt": "What are store managers asked to do?",
+          "options": [
+            "Hire more staff",
+            "Close their stores early",
+            "Promote the mobile app",
+            "Report on available space"
+          ],
+          "answer": "D",
+          "evidence": "whether their store has enough space",
+          "explanation": "Chaque responsable doit indiquer d'ici vendredi si son magasin a assez de place pour un comptoir de retrait.",
+          "takeaway": "Pilot location = site pilote."
+        }
+      ]
+    },
+    {
+      "id": "e2-p4-t04",
+      "kind": "talk",
+      "title": "Visite du quartier historique",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Welcome to the old harbor district walking tour. Over the next ninety minutes, we'll visit five buildings that date back to the seventeenth century, including the former customs house, which is now the city's maritime library. The streets here are paved with uneven stones, so please watch your step. Halfway through, we'll stop at a café where you can buy refreshments. And if you enjoy today's tour, I'd recommend our evening boat trip, which leaves from this very spot at eight."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p4-10",
+          "level": 1,
+          "category": "inference",
+          "prompt": "Who most likely is the speaker?",
+          "options": [
+            "A boat captain",
+            "A librarian",
+            "A tour guide",
+            "A café owner"
+          ],
+          "answer": "C",
+          "evidence": "Welcome to the old harbor district walking tour.",
+          "explanation": "Il accueille un groupe pour une visite à pied du quartier : c'est un guide.",
+          "takeaway": "Walking tour = visite à pied."
+        },
+        {
+          "id": "e2-p4-11",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does the speaker say about the former customs house?",
+          "options": [
+            "It is closed for renovation.",
+            "It has become a library.",
+            "It was built last century.",
+            "It houses a café."
+          ],
+          "answer": "B",
+          "evidence": "which is now the city's maritime library",
+          "explanation": "L'ancienne douane abrite aujourd'hui la bibliothèque maritime.",
+          "takeaway": "Former = ancien (qui a changé de fonction)."
+        },
+        {
+          "id": "e2-p4-12",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Why does the speaker tell listeners to be careful?",
+          "options": [
+            "The ground is uneven.",
+            "Traffic is heavy.",
+            "The buildings are fragile.",
+            "It may rain."
+          ],
+          "answer": "A",
+          "evidence": "paved with uneven stones, so please watch your step",
+          "explanation": "Les pavés sont irréguliers : il faut regarder où l'on marche.",
+          "takeaway": "Watch your step = attention où vous marchez."
+        }
+      ]
+    },
+    {
+      "id": "e2-p4-t05",
+      "kind": "talk",
+      "title": "Programme modifié (graphique)",
+      "graphic": {
+        "type": "table",
+        "title": "Sales Kickoff — Afternoon Agenda",
+        "columns": [
+          "Time",
+          "Session"
+        ],
+        "rows": [
+          [
+            "1:30",
+            "Regional Results"
+          ],
+          [
+            "2:30",
+            "New Product Line"
+          ],
+          [
+            "3:30",
+            "Coffee Break"
+          ],
+          [
+            "4:00",
+            "Customer Panel"
+          ]
+        ]
+      },
+      "audio": [
+        {
+          "s": "W",
+          "t": "Welcome back from lunch, everyone. Before we continue, one change to the afternoon agenda. Our product director's flight was delayed, so she won't arrive until about three thirty. We'll therefore swap her session with the coffee break, which means you'll get your break a bit earlier than planned. Everything else stays the same. Also, please remember to fill out the feedback form in your folder before you leave tonight; it really helps us plan next year's event."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p4-13",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Why has the schedule been changed?",
+          "options": [
+            "A session was canceled.",
+            "A room is unavailable.",
+            "Lunch took longer than expected.",
+            "A speaker is arriving late."
+          ],
+          "answer": "D",
+          "evidence": "Our product director's flight was delayed",
+          "explanation": "Le vol de la directrice produit a été retardé : elle arrivera vers 15 h 30.",
+          "takeaway": "Delayed flight = vol retardé."
+        },
+        {
+          "id": "e2-p4-14",
+          "level": 3,
+          "category": "graphic",
+          "prompt": "Look at the graphic. When will the coffee break now take place?",
+          "options": [
+            "At 1:30",
+            "At 2:30",
+            "At 3:30",
+            "At 4:00"
+          ],
+          "answer": "B",
+          "explanation": "On inverse la session « New Product Line » (14 h 30) et la pause (15 h 30) : la pause a donc lieu à 14 h 30.",
+          "traps": "15 h 30 est l'horaire initial de la pause.",
+          "takeaway": "Swap = intervertir : applique l'échange au tableau."
+        },
+        {
+          "id": "e2-p4-15",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What are listeners asked to do before leaving?",
+          "options": [
+            "Return their folders",
+            "Register for next year",
+            "Complete a feedback form",
+            "Visit the product stand"
+          ],
+          "answer": "C",
+          "evidence": "please remember to fill out the feedback form in your folder",
+          "explanation": "Ils doivent remplir le formulaire d'avis avant de partir.",
+          "takeaway": "Fill out a form = remplir un formulaire."
+        }
+      ]
+    },
+    {
+      "id": "e2-p4-t06",
+      "kind": "talk",
+      "title": "Message d'un fournisseur",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Hello, Ms. Rossi, this is Victor from Brightline Packaging. I'm calling about your order of five thousand gift boxes. Our printer has run out of the gold ink you selected for your logo, and the next delivery won't arrive for two weeks. We could print the logo in silver instead and ship the order on schedule, or wait for the gold ink. I've e-mailed you a photo showing what the silver version would look like. Please let me know which option you prefer by Thursday so we can plan production."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p4-16",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What problem does the speaker mention?",
+          "options": [
+            "An order was sent to the wrong address.",
+            "A material is out of stock.",
+            "A logo file is damaged.",
+            "A price has increased."
+          ],
+          "answer": "B",
+          "evidence": "Our printer has run out of the gold ink you selected",
+          "explanation": "L'imprimeur n'a plus d'encre dorée : une matière est en rupture.",
+          "takeaway": "Run out of = être à court de."
+        },
+        {
+          "id": "e2-p4-17",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What has the speaker sent to the listener?",
+          "options": [
+            "An image of a sample",
+            "A revised invoice",
+            "A delivery schedule",
+            "A new contract"
+          ],
+          "answer": "A",
+          "evidence": "I've e-mailed you a photo showing what the silver version would look like",
+          "explanation": "Il a envoyé une photo de la version argentée : une image d'échantillon.",
+          "takeaway": "Photo = image."
+        },
+        {
+          "id": "e2-p4-18",
+          "level": 2,
+          "category": "next-action",
+          "prompt": "What does the speaker ask the listener to do?",
+          "options": [
+            "Cancel part of the order",
+            "Pay a deposit",
+            "Send a new logo",
+            "Choose between two options"
+          ],
+          "answer": "D",
+          "evidence": "Please let me know which option you prefer by Thursday",
+          "explanation": "Elle doit choisir entre l'argent maintenant ou l'or plus tard.",
+          "takeaway": "Which option you prefer = choisir."
+        }
+      ]
+    },
+    {
+      "id": "e2-p4-t07",
+      "kind": "talk",
+      "title": "Actualités locales",
+      "audio": [
+        {
+          "s": "W",
+          "t": "In local news, the new pedestrian bridge connecting the business district to Riverside Park will open to the public on Saturday, three weeks ahead of schedule. The city says the bridge will cut walking time between the two areas from twenty minutes to just five. To celebrate the opening, local musicians will perform on the bridge from noon until four. City officials expect large crowds, so visitors are encouraged to take public transportation, as parking near the park will be limited."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p4-19",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the news report mainly about?",
+          "options": [
+            "A new parking garage",
+            "A music festival",
+            "The opening of a bridge",
+            "A park renovation"
+          ],
+          "answer": "C",
+          "evidence": "the new pedestrian bridge connecting the business district to Riverside Park will open",
+          "explanation": "Le reportage annonce l'ouverture d'une passerelle piétonne.",
+          "takeaway": "Pedestrian = piéton."
+        },
+        {
+          "id": "e2-p4-20",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is mentioned about the project?",
+          "options": [
+            "It cost more than expected.",
+            "It was finished early.",
+            "It was designed by local artists.",
+            "It will be open only on weekends."
+          ],
+          "answer": "B",
+          "evidence": "three weeks ahead of schedule",
+          "explanation": "La passerelle ouvre trois semaines en avance.",
+          "takeaway": "Ahead of schedule = en avance."
+        },
+        {
+          "id": "e2-p4-21",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Why are listeners advised to use public transportation?",
+          "options": [
+            "Parking will be limited.",
+            "Some roads will be closed.",
+            "Buses will be free.",
+            "The bridge is far from the city center."
+          ],
+          "answer": "A",
+          "evidence": "parking near the park will be limited",
+          "explanation": "Le stationnement près du parc sera limité, d'où le conseil de prendre les transports en commun.",
+          "takeaway": "Be encouraged to = être invité à."
+        }
+      ]
+    },
+    {
+      "id": "e2-p4-t08",
+      "kind": "talk",
+      "title": "Ouverture d'une formation",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Thanks for coming to this session on our new customer database. I know many of you have used the old system for over ten years. Believe me, I did too. The new database will take a little getting used to, but it will save each of you about an hour a week on data entry. Today we'll cover the basics: searching for customer records and updating contact details. On Thursday, we'll look at the reporting tools. Please log in now using the temporary password on the card in front of you."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p4-22",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the purpose of the session?",
+          "options": [
+            "To collect customer feedback",
+            "To welcome new employees",
+            "To present sales figures",
+            "To train staff on new software"
+          ],
+          "answer": "D",
+          "evidence": "this session on our new customer database",
+          "explanation": "La séance forme le personnel à la nouvelle base de données clients.",
+          "takeaway": "Database = base de données."
+        },
+        {
+          "id": "e2-p4-23",
+          "level": 3,
+          "category": "intention",
+          "prompt": "Why does the speaker say, \"Believe me, I did too\"?",
+          "options": [
+            "To explain why he is late",
+            "To complain about the old system",
+            "To show he understands the listeners' situation",
+            "To ask for volunteers"
+          ],
+          "answer": "C",
+          "evidence": "Believe me, I did too.",
+          "explanation": "Il rappelle qu'il a lui aussi utilisé l'ancien système pendant des années : il montre qu'il comprend la difficulté du changement.",
+          "takeaway": "Intention : créer de l'empathie avant d'annoncer un changement."
+        },
+        {
+          "id": "e2-p4-24",
+          "level": 2,
+          "category": "next-action",
+          "prompt": "What are listeners asked to do now?",
+          "options": [
+            "Change their passwords",
+            "Log in to the system",
+            "Fill out a survey",
+            "Read a manual"
+          ],
+          "answer": "B",
+          "evidence": "Please log in now using the temporary password",
+          "explanation": "Ils doivent se connecter avec le mot de passe temporaire.",
+          "takeaway": "Log in = se connecter."
+        }
+      ]
+    },
+    {
+      "id": "e2-p4-t09",
+      "kind": "talk",
+      "title": "Tarifs d'un service (graphique)",
+      "graphic": {
+        "type": "table",
+        "title": "CleanTeam Office Cleaning — Monthly Plans",
+        "columns": [
+          "Plan",
+          "Visits per week",
+          "Monthly price"
+        ],
+        "rows": [
+          [
+            "Basic",
+            "1",
+            "€240"
+          ],
+          [
+            "Standard",
+            "2",
+            "€420"
+          ],
+          [
+            "Plus",
+            "3",
+            "€580"
+          ],
+          [
+            "Premium",
+            "5",
+            "€900"
+          ]
+        ]
+      },
+      "audio": [
+        {
+          "s": "W",
+          "t": "Hi Jonas, it's Mira. I've looked at the cleaning company's price list you forwarded me. Since we've moved to the larger office and now have thirty people, once a week isn't enough anymore. But daily cleaning seems excessive, and we can't spend more than six hundred euros a month. So please go ahead with the plan that gives us the most visits within that budget. Oh, and ask them whether window cleaning is included."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p4-25",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Why does the company need a different cleaning plan?",
+          "options": [
+            "It has moved to a bigger office.",
+            "Its current contract has ended.",
+            "It received complaints.",
+            "It is hosting a client event."
+          ],
+          "answer": "A",
+          "evidence": "we've moved to the larger office and now have thirty people",
+          "explanation": "L'entreprise a emménagé dans un bureau plus grand avec 30 personnes.",
+          "takeaway": "Larger office = bigger office."
+        },
+        {
+          "id": "e2-p4-26",
+          "level": 3,
+          "category": "graphic",
+          "prompt": "Look at the graphic. Which plan will Jonas most likely choose?",
+          "options": [
+            "Basic",
+            "Standard",
+            "Premium",
+            "Plus"
+          ],
+          "answer": "D",
+          "explanation": "Budget maximum 600 € et le plus de passages possible : la formule Plus (3 passages, 580 €). Premium (900 €) dépasse le budget.",
+          "takeaway": "« The most… within that budget » : maximum sous contrainte."
+        },
+        {
+          "id": "e2-p4-27",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does the speaker want to know?",
+          "options": [
+            "Whether there is a discount",
+            "When the service can start",
+            "If window cleaning is included",
+            "How many cleaners will come"
+          ],
+          "answer": "C",
+          "evidence": "ask them whether window cleaning is included",
+          "explanation": "Elle veut savoir si le nettoyage des vitres est compris.",
+          "takeaway": "Whether = si (interrogation indirecte)."
+        }
+      ]
+    },
+    {
+      "id": "e2-p4-t10",
+      "kind": "talk",
+      "title": "Discours de départ à la retraite",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Thank you all for being here to celebrate Margaret's retirement. Margaret joined us thirty-two years ago as a junior accountant, back when we had a single office and twelve employees. She went on to lead our finance department through three acquisitions. Many of you also know her as the person who started our mentoring program, which has helped more than two hundred new employees. Margaret, we have a small gift for you: a trip to Japan, which I hear you've wanted to take for years."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e2-p4-28",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the purpose of the speech?",
+          "options": [
+            "To announce an acquisition",
+            "To honor a retiring employee",
+            "To introduce a new accountant",
+            "To launch a mentoring program"
+          ],
+          "answer": "B",
+          "evidence": "celebrate Margaret's retirement",
+          "explanation": "Le discours rend hommage à Margaret qui part à la retraite.",
+          "takeaway": "Honor = rendre hommage."
+        },
+        {
+          "id": "e2-p4-29",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What did Margaret create?",
+          "options": [
+            "A mentoring program",
+            "A finance department",
+            "A travel agency",
+            "An accounting firm"
+          ],
+          "answer": "A",
+          "evidence": "the person who started our mentoring program",
+          "explanation": "Elle a lancé le programme de mentorat de l'entreprise.",
+          "traps": "Elle a dirigé le service financier, mais ne l'a pas créé.",
+          "takeaway": "Start a program = créer un programme."
+        },
+        {
+          "id": "e2-p4-30",
+          "level": 2,
+          "category": "inference",
+          "prompt": "What is suggested about Margaret?",
+          "options": [
+            "She is moving abroad.",
+            "She will continue working part-time.",
+            "She was the company's founder.",
+            "She has long wanted to visit Japan."
+          ],
+          "answer": "D",
+          "evidence": "which I hear you've wanted to take for years",
+          "explanation": "On lui offre un voyage au Japon qu'elle souhaite faire depuis des années.",
+          "takeaway": "For years = depuis des années."
+        }
+      ]
+    }
+  ]
+}
