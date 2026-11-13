@@ -1,0 +1,923 @@
+{
+  "part": 5,
+  "pool": "practice",
+  "questions": [
+    {
+      "id": "p-p5-43",
+      "level": 2,
+      "category": "preposition",
+      "prompt": "The new contract will be valid ____ three years from the date of signature.",
+      "options": [
+        "since",
+        "at",
+        "during",
+        "for"
+      ],
+      "answer": "D",
+      "explanation": "Durée de validité : « for three years ».",
+      "traps": "« During » ne s'emploie pas avec une durée chiffrée.",
+      "takeaway": "For + durée."
+    },
+    {
+      "id": "p-p5-44",
+      "level": 2,
+      "category": "word-form",
+      "prompt": "The sales figures were ____ higher than last year's.",
+      "options": [
+        "substantial",
+        "substance",
+        "substantially",
+        "substantiate"
+      ],
+      "answer": "C",
+      "explanation": "On renforce un comparatif avec un adverbe : « substantially higher ».",
+      "traps": "« Substantial » est un adjectif.",
+      "takeaway": "Adverbe + comparatif."
+    },
+    {
+      "id": "p-p5-45",
+      "level": 2,
+      "category": "relative",
+      "prompt": "The candidate ____ we interviewed yesterday has accepted another offer.",
+      "options": [
+        "whose",
+        "whom",
+        "which",
+        "what"
+      ],
+      "answer": "B",
+      "explanation": "Le relatif est complément d'objet (we interviewed him) et renvoie à une personne : « whom ».",
+      "traps": "« Which » renvoie à une chose.",
+      "takeaway": "Whom = personne complément."
+    },
+    {
+      "id": "p-p5-46",
+      "level": 3,
+      "category": "passive",
+      "prompt": "Mr. Grant ____ to the Paris office next month.",
+      "options": [
+        "is being transferred",
+        "transfers",
+        "has transferred",
+        "was transferred"
+      ],
+      "answer": "A",
+      "explanation": "Mutation planifiée (futur proche) qu'il subit : présent continu passif « is being transferred ».",
+      "traps": "« Transfers » (actif) signifierait qu'il transfère quelque chose.",
+      "takeaway": "Be being + participe = passif d'une action planifiée ou en cours."
+    },
+    {
+      "id": "p-p5-47",
+      "level": 2,
+      "category": "conjunction",
+      "prompt": "____ the store is closed on Sundays, online orders are processed seven days a week.",
+      "options": [
+        "Because",
+        "Unless",
+        "Since",
+        "Although"
+      ],
+      "answer": "D",
+      "explanation": "Opposition entre la fermeture du magasin et le traitement des commandes en ligne : « Although ».",
+      "traps": "« Since » et « Because » exprimeraient une cause, illogique ici.",
+      "takeaway": "Although = bien que."
+    },
+    {
+      "id": "p-p5-48",
+      "level": 1,
+      "category": "vocabulary",
+      "prompt": "Please ____ the enclosed form and return it by mail.",
+      "options": [
+        "compete",
+        "complain",
+        "complete",
+        "compile"
+      ],
+      "answer": "C",
+      "explanation": "On remplit un formulaire : « complete the form ».",
+      "traps": "Paronymes : compete (rivaliser), complain (se plaindre), compile (compiler).",
+      "takeaway": "Complete a form = remplir un formulaire."
+    },
+    {
+      "id": "p-p5-49",
+      "level": 1,
+      "category": "word-form",
+      "prompt": "The hotel is famous for its ____ service.",
+      "options": [
+        "exception",
+        "exceptional",
+        "exceptionally",
+        "except"
+      ],
+      "answer": "B",
+      "explanation": "Devant le nom « service », il faut un adjectif : « exceptional ».",
+      "takeaway": "Possessif + adjectif + nom."
+    },
+    {
+      "id": "p-p5-50",
+      "level": 3,
+      "category": "gerund-infinitive",
+      "prompt": "The staff appreciated ____ informed about the changes in advance.",
+      "options": [
+        "being",
+        "be",
+        "to be",
+        "been"
+      ],
+      "answer": "A",
+      "explanation": "« Appreciate » est suivi du gérondif ; ici au passif : « appreciated being informed ».",
+      "traps": "*appreciate to be informed est incorrect.",
+      "takeaway": "Appreciate + -ing (being + participe au passif)."
+    },
+    {
+      "id": "p-p5-51",
+      "level": 1,
+      "category": "comparison",
+      "prompt": "The second proposal was considerably ____ than the first.",
+      "options": [
+        "cheap",
+        "cheapest",
+        "more cheap",
+        "cheaper"
+      ],
+      "answer": "D",
+      "explanation": "« Than » impose un comparatif ; adjectif court : « cheaper ».",
+      "traps": "« More cheap » est incorrect pour un adjectif d'une syllabe.",
+      "takeaway": "Adjectif court + -er + than."
+    },
+    {
+      "id": "p-p5-52",
+      "level": 2,
+      "category": "pronoun",
+      "prompt": "If you cannot attend the meeting, please send someone to represent ____.",
+      "options": [
+        "your",
+        "yourself",
+        "you",
+        "yours"
+      ],
+      "answer": "C",
+      "explanation": "Le sujet de « represent » est « someone » ; le complément désigne la personne à qui l'on parle : « you ».",
+      "traps": "« Yourself » serait réfléchi, alors que le sujet de « represent » n'est pas « you ».",
+      "takeaway": "Le réfléchi n'est possible que si sujet et complément sont identiques."
+    },
+    {
+      "id": "p-p5-52b",
+      "level": 1,
+      "category": "passive",
+      "prompt": "Our products ____ in more than forty countries.",
+      "options": [
+        "sell",
+        "are sold",
+        "are selling",
+        "sold"
+      ],
+      "answer": "B",
+      "explanation": "Les produits sont vendus (ils subissent l'action) : passif présent « are sold ».",
+      "traps": "« Sell » est possible au sens « se vendre » mais le TOEIC attend ici le passif.",
+      "takeaway": "Be + participe passé = passif."
+    },
+    {
+      "id": "p-p5-53",
+      "level": 2,
+      "category": "determiner",
+      "prompt": "Only ____ employees have access to the server room.",
+      "options": [
+        "a few",
+        "much",
+        "a little",
+        "less"
+      ],
+      "answer": "A",
+      "explanation": "« Employees » est dénombrable : « a few » (quelques-uns).",
+      "traps": "« A little », « much » et « less » s'emploient avec des indénombrables.",
+      "takeaway": "A few + pluriel."
+    },
+    {
+      "id": "p-p5-54",
+      "level": 2,
+      "category": "collocation",
+      "prompt": "The company plans to ____ a survey of customer satisfaction next month.",
+      "options": [
+        "carry on",
+        "put up",
+        "take on",
+        "carry out"
+      ],
+      "answer": "D",
+      "explanation": "« Carry out a survey » = réaliser une enquête.",
+      "traps": "« Carry on » = continuer ; « take on » = embaucher / assumer.",
+      "takeaway": "Carry out = effectuer."
+    },
+    {
+      "id": "p-p5-55",
+      "level": 3,
+      "category": "modal-conditional",
+      "prompt": "The report ____ be finished by now; Ms. Lee started it last week.",
+      "options": [
+        "shall",
+        "would",
+        "should",
+        "may not"
+      ],
+      "answer": "C",
+      "explanation": "« Should » exprime ici une attente logique : le rapport devrait être terminé.",
+      "traps": "« May not » contredirait la justification.",
+      "takeaway": "Should = devrait (probabilité attendue)."
+    },
+    {
+      "id": "p-p5-56",
+      "level": 3,
+      "category": "verb-tense",
+      "prompt": "Ms. Patel ____ for twenty minutes when the bus finally arrived.",
+      "options": [
+        "has waited",
+        "had been waiting",
+        "was waited",
+        "is waiting"
+      ],
+      "answer": "B",
+      "explanation": "Durée d'une action avant un moment passé (l'arrivée du bus) : « had been waiting ».",
+      "takeaway": "Had been + -ing + for + durée … when + prétérit."
+    },
+    {
+      "id": "p-p5-57",
+      "level": 3,
+      "category": "syntax",
+      "prompt": "Seldom ____ such strong interest in a new product.",
+      "options": [
+        "have we seen",
+        "we have seen",
+        "we saw",
+        "saw we"
+      ],
+      "answer": "A",
+      "explanation": "« Seldom » (rarement) en tête impose l'inversion auxiliaire-sujet : « have we seen ».",
+      "traps": "« Saw we » inverse le verbe lexical, ce qui est impossible.",
+      "takeaway": "Seldom / Rarely + auxiliaire + sujet."
+    },
+    {
+      "id": "p-p5-58",
+      "level": 2,
+      "category": "word-form",
+      "prompt": "The decision to close the factory was ____ criticized by local officials.",
+      "options": [
+        "wide",
+        "widen",
+        "width",
+        "widely"
+      ],
+      "answer": "D",
+      "explanation": "Entre « was » et « criticized », il faut un adverbe : « widely » (largement).",
+      "takeaway": "Widely = largement, beaucoup."
+    },
+    {
+      "id": "p-p5-59",
+      "level": 3,
+      "category": "collocation",
+      "prompt": "The CEO will ____ the opening ceremony of the new plant.",
+      "options": [
+        "precede",
+        "preside on",
+        "preside over",
+        "prevail"
+      ],
+      "answer": "C",
+      "explanation": "« Preside over a ceremony » = présider une cérémonie.",
+      "traps": "« Precede » = précéder ; « prevail » = l'emporter.",
+      "takeaway": "Preside over = présider."
+    },
+    {
+      "id": "p-p5-60",
+      "level": 3,
+      "category": "conjunction",
+      "prompt": "The supplier agreed to lower its prices ____ we signed a two-year contract.",
+      "options": [
+        "even though",
+        "on condition that",
+        "so as",
+        "in spite"
+      ],
+      "answer": "B",
+      "explanation": "La baisse de prix dépend de la signature : « on condition that » (à condition que).",
+      "traps": "« Even though » exprime une concession, pas une condition.",
+      "takeaway": "On condition that = à condition que."
+    },
+    {
+      "id": "p-p5-61",
+      "level": 3,
+      "category": "vocabulary",
+      "prompt": "The engineers are working to ____ the problem before the launch.",
+      "options": [
+        "rectify",
+        "ratify",
+        "certify",
+        "testify"
+      ],
+      "answer": "A",
+      "explanation": "« Rectify a problem » = corriger un problème.",
+      "traps": "« Ratify » = ratifier (un accord) ; « testify » = témoigner.",
+      "takeaway": "Rectify = corriger."
+    },
+    {
+      "id": "p-p5-62",
+      "level": 3,
+      "category": "verb-tense",
+      "prompt": "The manager suggested that each employee ____ a short report every Friday.",
+      "options": [
+        "submits",
+        "submitted",
+        "submitting",
+        "submit"
+      ],
+      "answer": "D",
+      "explanation": "Après « suggest that », le subjonctif impose la base verbale : « submit », même avec « each employee ».",
+      "takeaway": "Suggest that + sujet + base verbale."
+    },
+    {
+      "id": "p-p5-63",
+      "level": 3,
+      "category": "word-form",
+      "prompt": "Having ____ the contract carefully, the lawyer approved it.",
+      "options": [
+        "review",
+        "reviewing",
+        "reviewed",
+        "to review"
+      ],
+      "answer": "C",
+      "explanation": "« Having + participe passé » marque l'antériorité : « Having reviewed » (après avoir examiné).",
+      "takeaway": "Having done = après avoir fait."
+    },
+    {
+      "id": "p-p5-64",
+      "level": 1,
+      "category": "vocabulary",
+      "prompt": "The museum has ____ its opening hours to attract more visitors.",
+      "options": [
+        "intended",
+        "extended",
+        "pretended",
+        "attended"
+      ],
+      "answer": "B",
+      "explanation": "Prolonger des horaires : « extended its opening hours ».",
+      "traps": "Paronymes : intended (voulu), pretended (feint), attended (assisté).",
+      "takeaway": "Extend hours / a deadline = prolonger."
+    },
+    {
+      "id": "p-p5-65",
+      "level": 2,
+      "category": "relative",
+      "prompt": "This is the factory ____ our products have been made since 1985.",
+      "options": [
+        "where",
+        "which",
+        "that",
+        "what"
+      ],
+      "answer": "A",
+      "explanation": "Antécédent de lieu suivi d'une proposition complète : « where ».",
+      "takeaway": "Where = dans lequel (lieu)."
+    },
+    {
+      "id": "p-p5-66",
+      "level": 3,
+      "category": "agreement",
+      "prompt": "Either the manager or her assistants ____ going to meet the client.",
+      "options": [
+        "is",
+        "has",
+        "was",
+        "are"
+      ],
+      "answer": "D",
+      "explanation": "Avec « either … or », le verbe s'accorde avec le sujet le plus proche : « assistants » → « are ».",
+      "takeaway": "Either / neither … or / nor : accord de proximité."
+    },
+    {
+      "id": "p-p5-67",
+      "level": 2,
+      "category": "vocabulary",
+      "prompt": "The new software is fully ____ with our existing systems.",
+      "options": [
+        "comparable",
+        "compulsory",
+        "compatible",
+        "competent"
+      ],
+      "answer": "C",
+      "explanation": "« Compatible with » = compatible avec : le logiciel fonctionne avec les systèmes existants.",
+      "traps": "« Comparable to » = comparable à ; « compulsory » = obligatoire.",
+      "takeaway": "Compatible with."
+    },
+    {
+      "id": "p-p5-68",
+      "level": 3,
+      "category": "preposition",
+      "prompt": "The meeting has been postponed ____ further notice.",
+      "options": [
+        "by",
+        "until",
+        "to",
+        "for"
+      ],
+      "answer": "B",
+      "explanation": "Expression figée : « until further notice » (jusqu'à nouvel ordre).",
+      "takeaway": "Until further notice = jusqu'à nouvel ordre."
+    },
+    {
+      "id": "p-p5-69",
+      "level": 2,
+      "category": "vocabulary",
+      "prompt": "Due to the storm, all flights have been ____ until tomorrow morning.",
+      "options": [
+        "suspended",
+        "suspected",
+        "suspicious",
+        "sustained"
+      ],
+      "answer": "A",
+      "explanation": "Les vols ont été suspendus : « suspended ».",
+      "traps": "« Suspected » (soupçonné) est un paronyme.",
+      "takeaway": "Suspend = suspendre."
+    },
+    {
+      "id": "p-p5-70",
+      "level": 3,
+      "category": "word-form",
+      "prompt": "Ms. Leclerc is one of the most ____ economists in the country.",
+      "options": [
+        "respectful",
+        "respective",
+        "respecting",
+        "respected"
+      ],
+      "answer": "D",
+      "explanation": "Elle est respectée par les autres : participe passif « respected ».",
+      "traps": "« Respectful » = respectueux (qui respecte) ; « respective » = respectif.",
+      "takeaway": "Respected ≠ respectful ≠ respective."
+    },
+    {
+      "id": "p-p5-71",
+      "level": 3,
+      "category": "comparison",
+      "prompt": "The more we invest in training, the ____ our employees become.",
+      "options": [
+        "most productive",
+        "productive",
+        "more productive",
+        "productivity"
+      ],
+      "answer": "C",
+      "explanation": "Structure « the more …, the more … » : « the more productive ».",
+      "takeaway": "The + comparatif, the + comparatif."
+    },
+    {
+      "id": "p-p5-72",
+      "level": 2,
+      "category": "preposition",
+      "prompt": "All requests must be submitted ____ writing.",
+      "options": [
+        "by",
+        "in",
+        "on",
+        "with"
+      ],
+      "answer": "B",
+      "explanation": "Expression figée : « in writing » (par écrit).",
+      "takeaway": "In writing = par écrit."
+    },
+    {
+      "id": "p-p5-73",
+      "level": 2,
+      "category": "vocabulary",
+      "prompt": "The company offers a generous ____ package, including health insurance.",
+      "options": [
+        "benefits",
+        "benefited",
+        "beneficial",
+        "beneficiary"
+      ],
+      "answer": "A",
+      "explanation": "« Benefits package » = ensemble des avantages sociaux.",
+      "traps": "« Beneficiary » = bénéficiaire (personne).",
+      "takeaway": "Benefits package = avantages sociaux."
+    },
+    {
+      "id": "p-p5-74",
+      "level": 2,
+      "category": "verb-tense",
+      "prompt": "We ____ the results of the survey as soon as they are available.",
+      "options": [
+        "published",
+        "have published",
+        "publish",
+        "will publish"
+      ],
+      "answer": "D",
+      "explanation": "Action future (« as soon as they are available ») : « will publish » dans la principale.",
+      "traps": "Le présent est réservé à la subordonnée (as soon as they are).",
+      "takeaway": "Principale au futur, subordonnée de temps au présent."
+    },
+    {
+      "id": "p-p5-75",
+      "level": 2,
+      "category": "conjunction",
+      "prompt": "The software is neither expensive ____ difficult to install.",
+      "options": [
+        "or",
+        "and",
+        "nor",
+        "but"
+      ],
+      "answer": "C",
+      "explanation": "Corrélation « neither … nor » (ni … ni).",
+      "takeaway": "Neither … nor."
+    },
+    {
+      "id": "p-p5-76",
+      "level": 2,
+      "category": "vocabulary",
+      "prompt": "The hotel ____ a free shuttle service to the airport.",
+      "options": [
+        "supplies with",
+        "provides",
+        "offers to",
+        "gives for"
+      ],
+      "answer": "B",
+      "explanation": "« Provide a service » = fournir un service, sans préposition : l'hôtel « provides » une navette.",
+      "traps": "« Supply with » exige un complément de personne (supply guests with…).",
+      "takeaway": "Provide something / provide someone with something."
+    },
+    {
+      "id": "p-p5-77",
+      "level": 1,
+      "category": "word-form",
+      "prompt": "Customer ____ is our highest priority.",
+      "options": [
+        "satisfaction",
+        "satisfied",
+        "satisfactory",
+        "satisfy"
+      ],
+      "answer": "A",
+      "explanation": "Il faut un nom sujet : « customer satisfaction ».",
+      "takeaway": "Nom + nom (customer satisfaction)."
+    },
+    {
+      "id": "p-p5-78",
+      "level": 2,
+      "category": "passive",
+      "prompt": "Please be ____ that the office will be closed on Monday.",
+      "options": [
+        "advice",
+        "advisable",
+        "advisory",
+        "advised"
+      ],
+      "answer": "D",
+      "explanation": "Formule administrative : « Please be advised that » (veuillez noter que).",
+      "takeaway": "Please be advised that = veuillez noter que."
+    },
+    {
+      "id": "p-p5-79",
+      "level": 2,
+      "category": "passive",
+      "prompt": "The merger is expected to be ____ by the end of the year.",
+      "options": [
+        "finalist",
+        "finality",
+        "finalized",
+        "finally"
+      ],
+      "answer": "C",
+      "explanation": "« To be + participe passé » : la fusion doit être finalisée, « finalized ».",
+      "takeaway": "Be expected to be done."
+    },
+    {
+      "id": "p-p5-80",
+      "level": 2,
+      "category": "gerund-infinitive",
+      "prompt": "The board decided against ____ the company's headquarters.",
+      "options": [
+        "relocate",
+        "relocating",
+        "relocated",
+        "to relocate"
+      ],
+      "answer": "B",
+      "explanation": "Après la préposition « against », gérondif : « relocating ».",
+      "takeaway": "Decide against + -ing = décider de ne pas."
+    },
+    {
+      "id": "p-p5-81",
+      "level": 1,
+      "category": "vocabulary",
+      "prompt": "Applicants should ____ at least two references.",
+      "options": [
+        "provide",
+        "proceed",
+        "promote",
+        "pronounce"
+      ],
+      "answer": "A",
+      "explanation": "Fournir des références : « provide references ».",
+      "takeaway": "Provide = fournir."
+    },
+    {
+      "id": "p-p5-82",
+      "level": 2,
+      "category": "conjunction",
+      "prompt": "____ the new system was installed, processing times have fallen by half.",
+      "options": [
+        "Until",
+        "While",
+        "Unless",
+        "Since"
+      ],
+      "answer": "D",
+      "explanation": "Point de départ + present perfect dans la principale : « Since ».",
+      "takeaway": "Since + événement passé, present perfect dans la principale."
+    },
+    {
+      "id": "p-p5-83",
+      "level": 3,
+      "category": "relative",
+      "prompt": "It was the director ____ approved the final design.",
+      "options": [
+        "whom",
+        "which",
+        "who",
+        "whose"
+      ],
+      "answer": "C",
+      "explanation": "Phrase clivée « It was X who… » : le relatif est sujet de « approved » et renvoie à une personne.",
+      "takeaway": "It was … who / that … (mise en relief)."
+    },
+    {
+      "id": "p-p5-84",
+      "level": 2,
+      "category": "vocabulary",
+      "prompt": "The two departments will ____ their efforts to meet the deadline.",
+      "options": [
+        "compile",
+        "combine",
+        "comply",
+        "commute"
+      ],
+      "answer": "B",
+      "explanation": "« Combine efforts » = unir leurs efforts.",
+      "takeaway": "Combine = combiner, unir."
+    },
+    {
+      "id": "p-p5-85",
+      "level": 3,
+      "category": "word-form",
+      "prompt": "The proposal was rejected because of its ____ cost.",
+      "options": [
+        "prohibitive",
+        "prohibition",
+        "prohibit",
+        "prohibitively"
+      ],
+      "answer": "A",
+      "explanation": "Devant le nom « cost », adjectif : « prohibitive cost » (coût prohibitif).",
+      "takeaway": "Prohibitive = excessif, prohibitif."
+    },
+    {
+      "id": "p-p5-86",
+      "level": 2,
+      "category": "passive",
+      "prompt": "The final report ____ yet.",
+      "options": [
+        "didn't complete",
+        "hasn't completed",
+        "isn't completing",
+        "hasn't been completed"
+      ],
+      "answer": "D",
+      "explanation": "« Yet » appelle le present perfect ; le rapport subit l'action : « hasn't been completed ».",
+      "takeaway": "Not … yet → present perfect."
+    },
+    {
+      "id": "p-p5-87",
+      "level": 1,
+      "category": "vocabulary",
+      "prompt": "Visitors must ____ their badges at all times while in the building.",
+      "options": [
+        "put",
+        "carry on",
+        "wear",
+        "hold up"
+      ],
+      "answer": "C",
+      "explanation": "On porte un badge sur soi : « wear a badge ». C'est le verbe des vêtements et accessoires.",
+      "traps": "« Put » exige un complément de lieu ; « carry on » = continuer.",
+      "takeaway": "Wear a badge / uniform."
+    },
+    {
+      "id": "p-p5-88",
+      "level": 2,
+      "category": "vocabulary",
+      "prompt": "The new model sold out ____ immediately after its release.",
+      "options": [
+        "most",
+        "almost",
+        "mostly",
+        "utmost"
+      ],
+      "answer": "B",
+      "explanation": "« Almost immediately » = presque immédiatement.",
+      "traps": "« Mostly » = principalement.",
+      "takeaway": "Almost = presque."
+    },
+    {
+      "id": "p-p5-89",
+      "level": 1,
+      "category": "vocabulary",
+      "prompt": "The company has a strict ____ against using personal phones on the production floor.",
+      "options": [
+        "policy",
+        "politics",
+        "police",
+        "polite"
+      ],
+      "answer": "A",
+      "explanation": "Une règle interne d'entreprise se dit « policy » : une politique stricte contre les téléphones.",
+      "traps": "« Politics » = la politique (vie publique).",
+      "takeaway": "Policy = règle, politique interne."
+    },
+    {
+      "id": "p-p5-90",
+      "level": 2,
+      "category": "modal-conditional",
+      "prompt": "If I ____ you, I would accept the job offer.",
+      "options": [
+        "am",
+        "was being",
+        "had",
+        "were"
+      ],
+      "answer": "D",
+      "explanation": "2e conditionnel, conseil : « If I were you ».",
+      "takeaway": "If I were you = à ta place."
+    },
+    {
+      "id": "p-p5-91",
+      "level": 3,
+      "category": "vocabulary",
+      "prompt": "The new regulations ____ all companies with more than fifty employees.",
+      "options": [
+        "effect",
+        "afford",
+        "affect",
+        "affirm"
+      ],
+      "answer": "C",
+      "explanation": "« Affect » (verbe) = concerner, toucher. « Effect » est généralement un nom.",
+      "takeaway": "Affect (verbe) / effect (nom)."
+    },
+    {
+      "id": "p-p5-92",
+      "level": 3,
+      "category": "preposition",
+      "prompt": "The price of the tickets varies ____ the time of day.",
+      "options": [
+        "due",
+        "according to",
+        "thanks",
+        "instead"
+      ],
+      "answer": "B",
+      "explanation": "« Vary according to » = varier selon : le prix dépend du moment de la journée.",
+      "traps": "« Due » et « thanks » exigent « to » et expriment la cause.",
+      "takeaway": "According to = selon."
+    },
+    {
+      "id": "p-p5-93",
+      "level": 2,
+      "category": "word-form",
+      "prompt": "The candidates were selected on the basis of their ____ and experience.",
+      "options": [
+        "qualifications",
+        "qualified",
+        "qualifying",
+        "qualify"
+      ],
+      "answer": "A",
+      "explanation": "Après « their » et coordonné à « experience », il faut un nom : « qualifications ».",
+      "takeaway": "Les éléments coordonnés par « and » ont la même nature."
+    },
+    {
+      "id": "p-p5-94",
+      "level": 2,
+      "category": "word-form",
+      "prompt": "The finance department is responsible for the ____ of funds to each project.",
+      "options": [
+        "allocate",
+        "allocated",
+        "allocating",
+        "allocation"
+      ],
+      "answer": "D",
+      "explanation": "Entre « the » et « of », il faut un nom : « allocation ».",
+      "takeaway": "The + nom + of."
+    },
+    {
+      "id": "p-p5-95",
+      "level": 3,
+      "category": "syntax",
+      "prompt": "Not until the contract was signed ____ the project officially begin.",
+      "options": [
+        "does",
+        "had",
+        "did",
+        "was"
+      ],
+      "answer": "C",
+      "explanation": "« Not until » en tête impose l'inversion ; le verbe « begin » est à la base verbale : auxiliaire « did ».",
+      "takeaway": "Not until … did + sujet + base verbale."
+    },
+    {
+      "id": "p-p5-96",
+      "level": 3,
+      "category": "vocabulary",
+      "prompt": "The company's sales have ____ significantly since the price reduction.",
+      "options": [
+        "raised",
+        "risen",
+        "arisen",
+        "aroused"
+      ],
+      "answer": "B",
+      "explanation": "« Rise » est intransitif : les ventes ont augmenté, « have risen ».",
+      "traps": "« Raise » est transitif (il faut un complément) ; « arise » = survenir.",
+      "takeaway": "Rise / rose / risen (intransitif)."
+    },
+    {
+      "id": "p-p5-97",
+      "level": 2,
+      "category": "agreement",
+      "prompt": "Every one of the samples ____ been tested.",
+      "options": [
+        "has",
+        "have",
+        "are",
+        "were"
+      ],
+      "answer": "A",
+      "explanation": "« Every one of » est singulier : « has been tested ».",
+      "takeaway": "Every one / each one of + verbe singulier."
+    },
+    {
+      "id": "p-p5-98",
+      "level": 1,
+      "category": "word-form",
+      "prompt": "Please let us know if you require any further ____.",
+      "options": [
+        "assistant",
+        "assist",
+        "assisted",
+        "assistance"
+      ],
+      "answer": "D",
+      "explanation": "Après « any further », il faut un nom abstrait : « assistance ».",
+      "traps": "« Assistant » désigne une personne.",
+      "takeaway": "Further assistance = aide supplémentaire."
+    },
+    {
+      "id": "p-p5-99",
+      "level": 3,
+      "category": "relative",
+      "prompt": "The office is close to the station, ____ makes it convenient for commuters.",
+      "options": [
+        "what",
+        "that",
+        "which",
+        "it"
+      ],
+      "answer": "C",
+      "explanation": "Relatif qui reprend toute la proposition précédente : « , which makes it convenient » (ce qui).",
+      "traps": "« That » est interdit après une virgule ; « it » créerait deux propositions sans liaison.",
+      "takeaway": ", which = ce qui (reprise de proposition)."
+    },
+    {
+      "id": "p-p5-100",
+      "level": 3,
+      "category": "vocabulary",
+      "prompt": "The report ____ several recommendations for improving efficiency.",
+      "options": [
+        "outlets",
+        "outlines",
+        "outlooks",
+        "outputs"
+      ],
+      "answer": "B",
+      "explanation": "« Outline » (verbe) = présenter dans les grandes lignes : « outlines recommendations ».",
+      "traps": "Les autres mots sont des noms (outlet = point de vente, outlook = perspective, output = production).",
+      "takeaway": "Outline = exposer, présenter."
+    }
+  ]
+}

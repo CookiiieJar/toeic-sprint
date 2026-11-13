@@ -1,0 +1,606 @@
+{
+  "part": 2,
+  "pool": "practice",
+  "questions": [
+    {
+      "id": "p-p2-25",
+      "level": 1,
+      "category": "wh-question",
+      "prompt": "Where's the closest post office?",
+      "options": [
+        "I posted it yesterday.",
+        "Two blocks past the bank.",
+        "At nine o'clock."
+      ],
+      "answer": "B",
+      "explanation": "« Where » : à deux rues après la banque.",
+      "traps": "(A) joue sur post ; (C) répond à « when ».",
+      "takeaway": "Past = après (en dépassant)."
+    },
+    {
+      "id": "p-p2-26",
+      "level": 2,
+      "category": "indirect-answer",
+      "prompt": "When is Ms. Novak returning from Tokyo?",
+      "options": [
+        "She returned the files.",
+        "By plane.",
+        "Her assistant would know."
+      ],
+      "answer": "C",
+      "explanation": "Réponse indirecte : son assistant connaît la date.",
+      "traps": "(B) répond à « how » ; (A) joue sur returning / returned.",
+      "takeaway": "Renvoyer vers la bonne personne = réponse correcte."
+    },
+    {
+      "id": "p-p2-27",
+      "level": 1,
+      "category": "wh-question",
+      "prompt": "Who left these boxes in the hallway?",
+      "options": [
+        "The delivery company, this morning.",
+        "Turn left at the hallway.",
+        "About six boxes."
+      ],
+      "answer": "A",
+      "explanation": "« Who » : la société de livraison, ce matin.",
+      "traps": "(B) joue sur left (gauche) ; (C) répond à « how many ».",
+      "takeaway": "Left : passé de leave (laisser) ou gauche."
+    },
+    {
+      "id": "p-p2-28",
+      "level": 2,
+      "category": "yes-no",
+      "prompt": "Did you manage to fix the printer?",
+      "options": [
+        "The prints look great.",
+        "No, I had to call a technician.",
+        "It's a fixed price."
+      ],
+      "answer": "B",
+      "explanation": "Réponse directe : non, il a fallu appeler un technicien.",
+      "traps": "(A) joue sur printer / prints ; (C) joue sur fix / fixed.",
+      "takeaway": "Manage to = réussir à."
+    },
+    {
+      "id": "p-p2-29",
+      "level": 3,
+      "category": "statement",
+      "prompt": "The client wants the presentation in Spanish.",
+      "options": [
+        "She's from Barcelona, isn't she?",
+        "I present it every week.",
+        "Then we'll need a translator."
+      ],
+      "answer": "C",
+      "explanation": "Conséquence logique : il faudra un traducteur.",
+      "traps": "(B) joue sur presentation / present ; (A) est un lien thématique non pertinent.",
+      "takeaway": "Then = alors (conséquence)."
+    },
+    {
+      "id": "p-p2-30",
+      "level": 2,
+      "category": "choice-question",
+      "prompt": "Would you like tea or coffee with your dessert?",
+      "options": [
+        "Just water, thanks.",
+        "Yes, I'd like that.",
+        "The dessert was sweet."
+      ],
+      "answer": "A",
+      "explanation": "La personne ne choisit ni le thé ni le café : elle demande simplement de l'eau.",
+      "traps": "« Yes » ne choisit pas.",
+      "takeaway": "Une 3e option est une réponse valable."
+    },
+    {
+      "id": "p-p2-31",
+      "level": 1,
+      "category": "wh-question",
+      "prompt": "What time does the train to Lille leave?",
+      "options": [
+        "From platform six.",
+        "At ten past four.",
+        "It's a fast train."
+      ],
+      "answer": "B",
+      "explanation": "« What time » demande une heure : le train part à 16 h 10 (ten past four).",
+      "traps": "(A) répond à « where ».",
+      "takeaway": "Ten past four = 4 h 10."
+    },
+    {
+      "id": "p-p2-32",
+      "level": 2,
+      "category": "request-offer",
+      "prompt": "Could you take a look at this budget before I send it?",
+      "options": [
+        "I sent it already.",
+        "It looks like rain.",
+        "Sure, leave it on my desk."
+      ],
+      "answer": "C",
+      "explanation": "Demande acceptée : laisse-le sur mon bureau.",
+      "traps": "(B) joue sur look ; (A) reprend « send ».",
+      "takeaway": "Take a look at = jeter un œil à."
+    },
+    {
+      "id": "p-p2-33",
+      "level": 3,
+      "category": "tag-question",
+      "prompt": "The shipment left the warehouse yesterday, didn't it?",
+      "options": [
+        "It's scheduled for this afternoon.",
+        "Yes, it's a warehouse.",
+        "I left early."
+      ],
+      "answer": "A",
+      "explanation": "Correction implicite : l'envoi est prévu cet après-midi, il n'est donc pas encore parti.",
+      "traps": "(B) reprend « warehouse » ; (C) reprend « left ».",
+      "takeaway": "La réponse corrige souvent la supposition."
+    },
+    {
+      "id": "p-p2-34",
+      "level": 2,
+      "category": "wh-question",
+      "prompt": "Why was the staff meeting canceled?",
+      "options": [
+        "Half the team is at a trade fair.",
+        "It's in room 12.",
+        "Every Monday morning."
+      ],
+      "answer": "A",
+      "explanation": "« Why » : la moitié de l'équipe est à un salon.",
+      "traps": "(B) répond à « where » ; (C) à « how often ».",
+      "takeaway": "Why → cause."
+    },
+    {
+      "id": "p-p2-35",
+      "level": 3,
+      "category": "indirect-answer",
+      "prompt": "How much does the conference registration cost?",
+      "options": [
+        "About three days.",
+        "It's free for members.",
+        "In the main hall."
+      ],
+      "answer": "B",
+      "explanation": "Réponse indirecte mais précise : gratuite pour les membres.",
+      "traps": "(A) répond à « how long » ; (C) à « where ».",
+      "takeaway": "Free = gratuit."
+    },
+    {
+      "id": "p-p2-36",
+      "level": 1,
+      "category": "request-offer",
+      "prompt": "Can I help you carry those files?",
+      "options": [
+        "I can't find the file.",
+        "The files are blue.",
+        "Thanks, that's very kind."
+      ],
+      "answer": "C",
+      "explanation": "L'offre d'aide est acceptée avec un remerciement : « c'est très gentil ».",
+      "traps": "(B) et (A) reprennent « files ».",
+      "takeaway": "That's very kind = c'est très gentil."
+    },
+    {
+      "id": "p-p2-37",
+      "level": 2,
+      "category": "statement",
+      "prompt": "Our new website went live this morning.",
+      "options": [
+        "I've already had a look; it's great.",
+        "We live near the office.",
+        "It's morning in Tokyo."
+      ],
+      "answer": "A",
+      "explanation": "Réaction positive : elle l'a déjà consulté.",
+      "traps": "(B) joue sur live (vivre) ; (C) reprend « morning ».",
+      "takeaway": "Go live = être mis en ligne."
+    },
+    {
+      "id": "p-p2-38",
+      "level": 2,
+      "category": "tag-question",
+      "prompt": "Haven't you met our new sales director?",
+      "options": [
+        "We met our sales targets.",
+        "Not yet, but I've heard good things about her.",
+        "The director's office."
+      ],
+      "answer": "B",
+      "explanation": "Pas encore, mais elle en a entendu du bien.",
+      "traps": "(A) joue sur met (rencontrer / atteindre).",
+      "takeaway": "Meet targets = atteindre des objectifs."
+    },
+    {
+      "id": "p-p2-39",
+      "level": 3,
+      "category": "choice-question",
+      "prompt": "Are you driving to the client's office or taking the train?",
+      "options": [
+        "The office is on the left.",
+        "Yes, I'm driving.",
+        "My car is still at the garage."
+      ],
+      "answer": "C",
+      "explanation": "Réponse implicite : sa voiture est au garage, il prendra donc le train.",
+      "traps": "« Yes » ne choisit pas ; (A) reprend « office ».",
+      "takeaway": "Une contrainte élimine une option."
+    },
+    {
+      "id": "p-p2-40",
+      "level": 1,
+      "category": "wh-question",
+      "prompt": "How many people work in the Lyon office?",
+      "options": [
+        "About sixty, I think.",
+        "It works well.",
+        "In Lyon."
+      ],
+      "answer": "A",
+      "explanation": "« How many » demande un nombre : environ soixante personnes travaillent à Lyon.",
+      "traps": "(B) joue sur work ; (C) reprend « Lyon ».",
+      "takeaway": "How many → nombre."
+    },
+    {
+      "id": "p-p2-41",
+      "level": 2,
+      "category": "request-offer",
+      "prompt": "Why don't we order lunch for the whole team?",
+      "options": [
+        "Because it's lunchtime.",
+        "Great idea; I'll collect everyone's orders.",
+        "The whole team is here."
+      ],
+      "answer": "B",
+      "explanation": "Suggestion acceptée : il récupérera les commandes de chacun.",
+      "traps": "(A) commence par « Because ».",
+      "takeaway": "Why don't we…? = suggestion."
+    },
+    {
+      "id": "p-p2-42",
+      "level": 3,
+      "category": "statement",
+      "prompt": "The quarterly report has a few errors in the charts.",
+      "options": [
+        "The chart is on the wall.",
+        "It's a quarter past two.",
+        "I'll ask Ji-woo to correct them before the meeting."
+      ],
+      "answer": "C",
+      "explanation": "Solution proposée : faire corriger les graphiques avant la réunion.",
+      "traps": "(B) joue sur quarterly / quarter ; (A) reprend « chart ».",
+      "takeaway": "Problème → action corrective."
+    },
+    {
+      "id": "p-p2-43",
+      "level": 2,
+      "category": "wh-question",
+      "prompt": "Which room is the interview in?",
+      "options": [
+        "The small one next to reception.",
+        "At three o'clock.",
+        "She's a good candidate."
+      ],
+      "answer": "A",
+      "explanation": "« Which » : la petite salle à côté de l'accueil.",
+      "traps": "(B) répond à « when ».",
+      "takeaway": "The one next to… = celle à côté de…"
+    },
+    {
+      "id": "p-p2-44",
+      "level": 3,
+      "category": "indirect-answer",
+      "prompt": "Has the marketing budget been approved?",
+      "options": [
+        "The board meets on Thursday.",
+        "Yes, the market is open.",
+        "I approve of it."
+      ],
+      "answer": "A",
+      "explanation": "Réponse indirecte : le conseil se réunit jeudi, la décision n'est donc pas encore prise.",
+      "traps": "(B) joue sur marketing / market ; (C) joue sur approved / approve.",
+      "takeaway": "Une date de décision future = « pas encore »."
+    },
+    {
+      "id": "p-p2-45",
+      "level": 1,
+      "category": "yes-no",
+      "prompt": "Is the cafeteria open during the holidays?",
+      "options": [
+        "Yes, I'm on holiday.",
+        "Only in the mornings.",
+        "It's a large cafeteria."
+      ],
+      "answer": "B",
+      "explanation": "Réponse précise sans « yes » : la cafétéria n'ouvre que le matin pendant les vacances.",
+      "traps": "(A) reprend « holiday » ; (C) reprend « cafeteria ».",
+      "takeaway": "Only = seulement."
+    },
+    {
+      "id": "p-p2-46",
+      "level": 2,
+      "category": "request-offer",
+      "prompt": "Would you mind if I opened the window?",
+      "options": [
+        "I don't mind the rain.",
+        "The window is broken.",
+        "Go ahead; it's warm in here."
+      ],
+      "answer": "C",
+      "explanation": "Autorisation accordée : vas-y, il fait chaud.",
+      "traps": "(A) reprend « mind » sans répondre.",
+      "takeaway": "Go ahead = vas-y."
+    },
+    {
+      "id": "p-p2-47",
+      "level": 3,
+      "category": "tag-question",
+      "prompt": "You're presenting the sales figures tomorrow, aren't you?",
+      "options": [
+        "Actually, Marco offered to do it.",
+        "The figures are on page three.",
+        "It's a present for you."
+      ],
+      "answer": "A",
+      "explanation": "« Actually » corrige : Marco a proposé de s'en charger.",
+      "traps": "(B) reprend « figures » ; (C) joue sur presenting / present.",
+      "takeaway": "Actually = en fait (correction)."
+    },
+    {
+      "id": "p-p2-48",
+      "level": 2,
+      "category": "wh-question",
+      "prompt": "How did the negotiations with the supplier go?",
+      "options": [
+        "We went by taxi.",
+        "We got a better price than we expected.",
+        "Supplies are low."
+      ],
+      "answer": "B",
+      "explanation": "« How did … go » : très bien, meilleur prix que prévu.",
+      "traps": "(A) répond à « how did you go » ; (C) joue sur supplier / supplies.",
+      "takeaway": "How did it go? = comment ça s'est passé ?"
+    },
+    {
+      "id": "p-p2-49",
+      "level": 1,
+      "category": "wh-question",
+      "prompt": "When does the sale end?",
+      "options": [
+        "This Sunday.",
+        "In the shoe department.",
+        "Twenty percent off."
+      ],
+      "answer": "A",
+      "explanation": "« When » demande un moment : les soldes se terminent ce dimanche.",
+      "traps": "(B) répond à « where » ; (C) répond à « how much off ».",
+      "takeaway": "When → date / moment."
+    },
+    {
+      "id": "p-p2-50",
+      "level": 3,
+      "category": "statement",
+      "prompt": "I think we should move the deadline to next week.",
+      "options": [
+        "The line is dead.",
+        "We moved last year.",
+        "The client won't accept that."
+      ],
+      "answer": "C",
+      "explanation": "Objection : le client ne l'acceptera pas.",
+      "traps": "(B) joue sur move ; (A) joue sur deadline / dead line.",
+      "takeaway": "Une objection est une réaction valable à une suggestion."
+    },
+    {
+      "id": "p-p2-51",
+      "level": 2,
+      "category": "yes-no",
+      "prompt": "Do you have the contact details for the caterer?",
+      "options": [
+        "They're in the shared folder.",
+        "We had a lot of contact.",
+        "The cat is outside."
+      ],
+      "answer": "A",
+      "explanation": "Elle indique où trouver les coordonnées.",
+      "traps": "(B) joue sur contact ; (C) est un piège phonétique (caterer / cat).",
+      "takeaway": "Contact details = coordonnées."
+    },
+    {
+      "id": "p-p2-52",
+      "level": 2,
+      "category": "choice-question",
+      "prompt": "Should we meet in your office or in the conference room?",
+      "options": [
+        "Yes, let's meet.",
+        "Mine is a bit small for five people.",
+        "The conference was interesting."
+      ],
+      "answer": "B",
+      "explanation": "Réponse implicite : son bureau est trop petit, donc la salle de conférence.",
+      "traps": "« Yes » ne choisit pas.",
+      "takeaway": "Mine = mon bureau (pronom possessif)."
+    },
+    {
+      "id": "p-p2-53",
+      "level": 1,
+      "category": "request-offer",
+      "prompt": "Could you turn down the music, please?",
+      "options": [
+        "The music is from Brazil.",
+        "Turn right at the corner.",
+        "Sorry, of course."
+      ],
+      "answer": "C",
+      "explanation": "Excuse et acceptation : désolé, bien sûr.",
+      "traps": "(B) joue sur turn.",
+      "takeaway": "Turn down = baisser (le volume)."
+    },
+    {
+      "id": "p-p2-54",
+      "level": 3,
+      "category": "indirect-answer",
+      "prompt": "Who's going to replace Karen while she's on leave?",
+      "options": [
+        "We're interviewing temporary staff this week.",
+        "She left on Friday.",
+        "Replace the batteries."
+      ],
+      "answer": "A",
+      "explanation": "Réponse indirecte : on recrute un intérimaire, la personne n'est pas encore choisie.",
+      "traps": "(B) joue sur leave / left ; (C) reprend « replace ».",
+      "takeaway": "On leave = en congé."
+    },
+    {
+      "id": "p-p2-55",
+      "level": 2,
+      "category": "wh-question",
+      "prompt": "Where should I put the visitors' coats?",
+      "options": [
+        "In the closet by the entrance.",
+        "They're warm coats.",
+        "The visitors are from Seoul."
+      ],
+      "answer": "A",
+      "explanation": "« Where » : dans le placard près de l'entrée.",
+      "traps": "(B) et (C) reprennent des mots de la question.",
+      "takeaway": "Closet = placard."
+    },
+    {
+      "id": "p-p2-56",
+      "level": 2,
+      "category": "tag-question",
+      "prompt": "Isn't this the latest version of the contract?",
+      "options": [
+        "I'm not late.",
+        "No, the lawyer sent a new one this morning.",
+        "The contract is long."
+      ],
+      "answer": "B",
+      "explanation": "Non, l'avocat en a envoyé une nouvelle ce matin.",
+      "traps": "(A) joue sur latest / late.",
+      "takeaway": "Latest = la plus récente."
+    },
+    {
+      "id": "p-p2-57",
+      "level": 3,
+      "category": "statement",
+      "prompt": "The new intern seems a bit lost.",
+      "options": [
+        "Interns start in June.",
+        "I lost my keys.",
+        "Maybe someone should show her around."
+      ],
+      "answer": "C",
+      "explanation": "Proposition logique : quelqu'un devrait lui faire visiter les lieux.",
+      "traps": "(B) joue sur lost ; (A) reprend « intern ».",
+      "takeaway": "Show someone around = faire visiter."
+    },
+    {
+      "id": "p-p2-58",
+      "level": 1,
+      "category": "wh-question",
+      "prompt": "What's the topic of tomorrow's seminar?",
+      "options": [
+        "Digital marketing for small businesses.",
+        "In the auditorium.",
+        "At ten o'clock."
+      ],
+      "answer": "A",
+      "explanation": "« What » : le marketing numérique pour les petites entreprises.",
+      "traps": "(B) répond à « where » ; (C) à « when ».",
+      "takeaway": "Topic = sujet."
+    },
+    {
+      "id": "p-p2-59",
+      "level": 2,
+      "category": "request-offer",
+      "prompt": "Would you like to join our running club?",
+      "options": [
+        "The club is running late.",
+        "I'd love to, but I'm not very fit.",
+        "We joined last year."
+      ],
+      "answer": "B",
+      "explanation": "Réponse nuancée : avec plaisir, mais il n'est pas très en forme.",
+      "traps": "(A) joue sur running ; (C) reprend « join ».",
+      "takeaway": "Fit = en forme."
+    },
+    {
+      "id": "p-p2-60",
+      "level": 3,
+      "category": "choice-question",
+      "prompt": "Do you want the report printed or sent electronically?",
+      "options": [
+        "The printer is new.",
+        "Yes, I want it.",
+        "I left my laptop at home this week."
+      ],
+      "answer": "C",
+      "explanation": "Réponse implicite : sans son ordinateur cette semaine, il lui faut une version imprimée.",
+      "traps": "« Yes » ne choisit pas entre les deux options ; (A) reprend « printed ».",
+      "takeaway": "Une contrainte matérielle désigne implicitement l'option choisie."
+    },
+    {
+      "id": "p-p2-61",
+      "level": 2,
+      "category": "wh-question",
+      "prompt": "How long will the renovation take?",
+      "options": [
+        "At least two months.",
+        "Since last year.",
+        "It's a long building."
+      ],
+      "answer": "A",
+      "explanation": "« How long » demande une durée : les travaux prendront au moins deux mois.",
+      "traps": "(B) répond à « since when » ; (C) joue sur long.",
+      "takeaway": "At least = au moins."
+    },
+    {
+      "id": "p-p2-62",
+      "level": 3,
+      "category": "indirect-answer",
+      "prompt": "Where are we holding the training session?",
+      "options": [
+        "We held it last month.",
+        "Didn't you see the e-mail from HR?",
+        "It's a short session."
+      ],
+      "answer": "B",
+      "explanation": "Réponse par une question : l'information figure dans l'e-mail des RH.",
+      "traps": "(A) joue sur holding / held.",
+      "takeaway": "Renvoi vers une source = réponse valable."
+    },
+    {
+      "id": "p-p2-63",
+      "level": 1,
+      "category": "yes-no",
+      "prompt": "Are there any seats left for the workshop?",
+      "options": [
+        "The workshop was good.",
+        "I left my seat.",
+        "Just two, near the back."
+      ],
+      "answer": "C",
+      "explanation": "Il ne reste que deux places, au fond : réponse précise à « Are there any seats left? ».",
+      "traps": "(B) joue sur left.",
+      "takeaway": "Left = restant (seats left)."
+    },
+    {
+      "id": "p-p2-64",
+      "level": 2,
+      "category": "statement",
+      "prompt": "The supplier's prices went up again.",
+      "options": [
+        "Maybe it's time to look for a new one.",
+        "Go up the stairs.",
+        "The supplies are in the closet."
+      ],
+      "answer": "A",
+      "explanation": "Réaction logique : il est peut-être temps de changer de fournisseur.",
+      "traps": "(B) joue sur went up / go up ; (C) joue sur supplier / supplies.",
+      "takeaway": "Go up = augmenter."
+    }
+  ]
+}
