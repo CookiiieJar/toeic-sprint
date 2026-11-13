@@ -1,0 +1,685 @@
+{
+  "pool": "exam4",
+  "part": 4,
+  "sets": [
+    {
+      "id": "e4-p4-t01",
+      "kind": "talk",
+      "title": "Annonce à bord d'un avion",
+      "audio": [
+        {
+          "s": "W",
+          "t": "Good afternoon, ladies and gentlemen. This is your captain speaking. We've just been informed that there's heavy traffic at Frankfurt airport, so we'll be holding on the ground here for about twenty minutes before takeoff. I apologize for the delay. We expect to make up some of the time in the air, so our arrival should be only about ten minutes later than scheduled. Passengers with connecting flights in Frankfurt should have enough time, but ground staff will be available at the gate to assist you."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p4-01",
+          "level": 1,
+          "category": "inference",
+          "prompt": "Who most likely is the speaker?",
+          "options": [
+            "A flight attendant",
+            "A gate agent",
+            "A travel agent",
+            "A pilot"
+          ],
+          "answer": "D",
+          "evidence": "This is your captain speaking.",
+          "explanation": "« Your captain » : c'est le commandant de bord, le pilote.",
+          "takeaway": "Captain = commandant de bord."
+        },
+        {
+          "id": "e4-p4-02",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is causing the delay?",
+          "options": [
+            "Bad weather",
+            "A mechanical problem",
+            "Traffic at the destination airport",
+            "Late passengers"
+          ],
+          "answer": "C",
+          "evidence": "there's heavy traffic at Frankfurt airport",
+          "explanation": "Le trafic est dense à l'aéroport de Francfort, la destination.",
+          "takeaway": "Hold on the ground = attendre au sol."
+        },
+        {
+          "id": "e4-p4-03",
+          "level": 3,
+          "category": "inference",
+          "prompt": "What does the speaker suggest about the arrival time?",
+          "options": [
+            "The flight will arrive on time.",
+            "The delay will be shorter than the wait on the ground.",
+            "Connections will be missed.",
+            "The flight will land at a different airport."
+          ],
+          "answer": "B",
+          "evidence": "our arrival should be only about ten minutes later than scheduled",
+          "explanation": "On attend 20 minutes au sol, mais l'arrivée n'aura que 10 minutes de retard : on rattrapera du temps en vol.",
+          "takeaway": "Make up time = rattraper du temps."
+        }
+      ]
+    },
+    {
+      "id": "e4-p4-t02",
+      "kind": "talk",
+      "title": "Publicité — logiciel de comptabilité",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Tired of spending your evenings on invoices and receipts? LedgerLite is the accounting software designed for freelancers and small shops. Just take a photo of a receipt with your phone, and LedgerLite records the expense automatically. At the end of each quarter, it prepares a tax summary you can send directly to your accountant. Try it free for sixty days, no credit card required. And if you switch from another software before June, we'll transfer all your data for you at no cost."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p4-04",
+          "level": 1,
+          "category": "inference",
+          "prompt": "Who is the advertisement mainly intended for?",
+          "options": [
+            "Self-employed people and small businesses",
+            "Large corporations",
+            "Accounting students",
+            "Tax inspectors"
+          ],
+          "answer": "A",
+          "evidence": "designed for freelancers and small shops",
+          "explanation": "Le logiciel vise les indépendants et les petits commerces.",
+          "takeaway": "Freelancer = indépendant."
+        },
+        {
+          "id": "e4-p4-05",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does the software do with photos of receipts?",
+          "options": [
+            "Prints them",
+            "Stores them for ten years",
+            "Sends them to a bank",
+            "Records expenses automatically"
+          ],
+          "answer": "D",
+          "evidence": "LedgerLite records the expense automatically",
+          "explanation": "La photo d'un reçu suffit pour enregistrer automatiquement la dépense.",
+          "takeaway": "Record = enregistrer."
+        },
+        {
+          "id": "e4-p4-06",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is offered to customers who switch before June?",
+          "options": [
+            "A free phone",
+            "A discount on the first year",
+            "A free data transfer",
+            "Free tax preparation"
+          ],
+          "answer": "C",
+          "evidence": "we'll transfer all your data for you at no cost",
+          "explanation": "Le transfert des données est gratuit pour ceux qui changent avant juin.",
+          "takeaway": "At no cost = gratuitement."
+        }
+      ]
+    },
+    {
+      "id": "e4-p4-t03",
+      "kind": "talk",
+      "title": "Réunion d'équipe — nouveau client",
+      "audio": [
+        {
+          "s": "W",
+          "t": "I have some great news. We've signed a three-year contract with Halvorsen Hotels to manage the marketing for their twelve properties in Scandinavia. This is our largest account ever. Now, I realize we're already busy with the spring campaigns. That's why we'll hire two additional designers next month, and Mark will lead the Halvorsen team. Mark, I'd like you to set up a kickoff meeting with their marketing director before the end of next week."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p4-07",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the main topic of the talk?",
+          "options": [
+            "A hotel opening",
+            "A new client contract",
+            "A spring sale",
+            "A staff reduction"
+          ],
+          "answer": "B",
+          "evidence": "We've signed a three-year contract with Halvorsen Hotels",
+          "explanation": "L'entreprise a signé un contrat de trois ans avec une chaîne d'hôtels.",
+          "takeaway": "Account = client (grand compte)."
+        },
+        {
+          "id": "e4-p4-08",
+          "level": 3,
+          "category": "intention",
+          "prompt": "Why does the speaker say, \"I realize we're already busy with the spring campaigns\"?",
+          "options": [
+            "To acknowledge a concern about workload",
+            "To postpone the new project",
+            "To praise the team's work",
+            "To ask for volunteers"
+          ],
+          "answer": "A",
+          "evidence": "I realize we're already busy with the spring campaigns.",
+          "explanation": "Elle reconnaît que l'équipe est déjà chargée, puis annonce deux recrutements pour y répondre.",
+          "takeaway": "« That's why » montre que la phrase précédente posait un problème."
+        },
+        {
+          "id": "e4-p4-09",
+          "level": 2,
+          "category": "next-action",
+          "prompt": "What is Mark asked to do?",
+          "options": [
+            "Hire two designers",
+            "Finish the spring campaigns",
+            "Travel to Scandinavia",
+            "Organize a first meeting with the client"
+          ],
+          "answer": "D",
+          "evidence": "set up a kickoff meeting with their marketing director",
+          "explanation": "Mark doit organiser une réunion de lancement avec la directrice marketing du client.",
+          "takeaway": "Kickoff meeting = réunion de lancement."
+        }
+      ]
+    },
+    {
+      "id": "e4-p4-t04",
+      "kind": "talk",
+      "title": "Message — retour d'une candidature",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Hello, Ms. Osei. This is Roland Petit from the human resources department at Vireo Labs. Thank you for interviewing with us on Tuesday. The team was very impressed with your experience in clinical research. Before we can make a final decision, we'd like you to complete a short written exercise, which should take about two hours. I'll send it to you by e-mail this afternoon. Please return it by Monday morning, and feel free to call me if you have any questions."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p4-10",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "Why is the speaker calling?",
+          "options": [
+            "To offer a promotion",
+            "To schedule a medical appointment",
+            "To follow up on a job interview",
+            "To cancel a meeting"
+          ],
+          "answer": "C",
+          "evidence": "Thank you for interviewing with us on Tuesday.",
+          "explanation": "Il fait suite à l'entretien d'embauche de mardi.",
+          "takeaway": "Interview with = passer un entretien chez."
+        },
+        {
+          "id": "e4-p4-11",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is the listener asked to do?",
+          "options": [
+            "Provide references",
+            "Complete a written task",
+            "Attend a second interview",
+            "Sign a contract"
+          ],
+          "answer": "B",
+          "evidence": "we'd like you to complete a short written exercise",
+          "explanation": "Elle doit réaliser un court exercice écrit avant la décision finale.",
+          "takeaway": "Written exercise = épreuve écrite."
+        },
+        {
+          "id": "e4-p4-12",
+          "level": 2,
+          "category": "detail",
+          "prompt": "When must the listener return the exercise?",
+          "options": [
+            "This afternoon",
+            "By Tuesday",
+            "By Monday morning",
+            "Within two hours"
+          ],
+          "answer": "C",
+          "evidence": "Please return it by Monday morning",
+          "explanation": "Elle doit le rendre lundi matin au plus tard.",
+          "traps": "Deux heures est la durée estimée de l'exercice, pas le délai.",
+          "takeaway": "Distingue durée et date limite."
+        }
+      ]
+    },
+    {
+      "id": "e4-p4-t05",
+      "kind": "talk",
+      "title": "Visite guidée d'une cave (graphique)",
+      "graphic": {
+        "type": "table",
+        "title": "Domaine Lescure — Wine Tasting",
+        "columns": [
+          "Wine",
+          "Type",
+          "Price per bottle"
+        ],
+        "rows": [
+          [
+            "Clos du Moulin",
+            "White",
+            "€14"
+          ],
+          [
+            "Les Terrasses",
+            "Rosé",
+            "€12"
+          ],
+          [
+            "Vieilles Vignes",
+            "Red",
+            "€22"
+          ],
+          [
+            "Cuvée Héritage",
+            "Red",
+            "€35"
+          ]
+        ]
+      },
+      "audio": [
+        {
+          "s": "W",
+          "t": "Welcome to Domaine Lescure. We'll begin the tasting with our two lighter wines and finish with the reds. I should mention that our most expensive red comes from vines planted by my great-grandfather in 1921, and only two thousand bottles are produced each year. As for our less expensive red, it won a silver medal at the Lyon wine competition last spring. All wines are available in the shop at the end of the tour, and we offer free delivery on orders of twelve bottles or more."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p4-13",
+          "level": 1,
+          "category": "inference",
+          "prompt": "Where most likely is the talk taking place?",
+          "options": [
+            "At a winery",
+            "At a restaurant",
+            "At a wine competition",
+            "At a grocery store"
+          ],
+          "answer": "A",
+          "evidence": "Welcome to Domaine Lescure.",
+          "explanation": "Dégustation, vignes, boutique en fin de visite : on est dans un domaine viticole.",
+          "takeaway": "Winery = domaine viticole."
+        },
+        {
+          "id": "e4-p4-14",
+          "level": 3,
+          "category": "graphic",
+          "prompt": "Look at the graphic. Which wine won a medal?",
+          "options": [
+            "Clos du Moulin",
+            "Les Terrasses",
+            "Cuvée Héritage",
+            "Vieilles Vignes"
+          ],
+          "answer": "D",
+          "explanation": "Le rouge le moins cher a reçu une médaille d'argent : parmi les rouges, c'est Vieilles Vignes (22 €).",
+          "traps": "Cuvée Héritage est le rouge le plus cher, issu des vignes de 1921.",
+          "takeaway": "« Less expensive red » : filtre d'abord par type, puis par prix."
+        },
+        {
+          "id": "e4-p4-15",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is offered for large orders?",
+          "options": [
+            "A discount",
+            "A free bottle",
+            "Free delivery",
+            "A private tour"
+          ],
+          "answer": "C",
+          "evidence": "we offer free delivery on orders of twelve bottles or more",
+          "explanation": "La livraison est gratuite à partir de douze bouteilles.",
+          "takeaway": "Or more = ou plus."
+        }
+      ]
+    },
+    {
+      "id": "e4-p4-t06",
+      "kind": "talk",
+      "title": "Bulletin — fermeture d'une route",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Here's a traffic update for drivers in the western suburbs. Route 9 between Maple Avenue and the river bridge will be closed overnight from ten P.M. to five A.M. all week, while crews replace the street lights. During the closure, drivers should follow the detour signs through Oak Street. The work was originally planned for last month but was postponed because of the cycling race. City officials say the new lights will use sixty percent less electricity."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p4-16",
+          "level": 1,
+          "category": "detail",
+          "prompt": "Why will Route 9 be closed?",
+          "options": [
+            "To repair the bridge",
+            "To replace street lights",
+            "For a cycling race",
+            "To repaint road markings"
+          ],
+          "answer": "B",
+          "evidence": "while crews replace the street lights",
+          "explanation": "La route ferme la nuit pour remplacer l'éclairage public.",
+          "traps": "La course cycliste a seulement causé le report des travaux.",
+          "takeaway": "Crews = équipes (d'ouvriers)."
+        },
+        {
+          "id": "e4-p4-17",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What are drivers told to do?",
+          "options": [
+            "Follow a detour",
+            "Use public transportation",
+            "Drive only during the day",
+            "Park on Maple Avenue"
+          ],
+          "answer": "A",
+          "evidence": "drivers should follow the detour signs through Oak Street",
+          "explanation": "Ils doivent suivre la déviation par Oak Street.",
+          "takeaway": "Detour = déviation."
+        },
+        {
+          "id": "e4-p4-18",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is mentioned about the new lights?",
+          "options": [
+            "They are brighter.",
+            "They cost less to install.",
+            "They were made locally.",
+            "They use less energy."
+          ],
+          "answer": "D",
+          "evidence": "will use sixty percent less electricity",
+          "explanation": "Les nouveaux éclairages consomment 60 % d'électricité en moins.",
+          "takeaway": "Electricity = energy."
+        }
+      ]
+    },
+    {
+      "id": "e4-p4-t07",
+      "kind": "talk",
+      "title": "Formation — sécurité informatique",
+      "audio": [
+        {
+          "s": "W",
+          "t": "Good morning. Today's session is about recognizing fraudulent e-mails. Last year, nearly forty percent of security incidents at companies our size started with a single click on a fake link. These messages often look like they come from a colleague or a supplier, and they usually create a sense of urgency. Now, I'm going to show you five real examples, with company names removed. For each one, I'd like you to find at least two warning signs. You'll work in pairs, and we'll discuss your answers in fifteen minutes."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p4-19",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the session about?",
+          "options": [
+            "Choosing suppliers",
+            "Writing professional e-mails",
+            "Identifying fraudulent e-mails",
+            "Managing urgent projects"
+          ],
+          "answer": "C",
+          "evidence": "Today's session is about recognizing fraudulent e-mails.",
+          "explanation": "La séance porte sur la détection des e-mails frauduleux.",
+          "takeaway": "Fraudulent = frauduleux."
+        },
+        {
+          "id": "e4-p4-20",
+          "level": 2,
+          "category": "detail",
+          "prompt": "According to the speaker, what do such messages often do?",
+          "options": [
+            "Contain spelling mistakes",
+            "Create pressure to act quickly",
+            "Offer free products",
+            "Use company logos"
+          ],
+          "answer": "B",
+          "evidence": "they usually create a sense of urgency",
+          "explanation": "Ces messages créent souvent un sentiment d'urgence.",
+          "takeaway": "Sense of urgency = impression d'urgence."
+        },
+        {
+          "id": "e4-p4-21",
+          "level": 2,
+          "category": "next-action",
+          "prompt": "What will listeners do next?",
+          "options": [
+            "Analyze examples in pairs",
+            "Watch a video",
+            "Change their passwords",
+            "Take a written test"
+          ],
+          "answer": "A",
+          "evidence": "You'll work in pairs",
+          "explanation": "Ils vont analyser cinq exemples réels, par deux.",
+          "takeaway": "In pairs = en binômes."
+        }
+      ]
+    },
+    {
+      "id": "e4-p4-t08",
+      "kind": "talk",
+      "title": "Annonce au personnel d'un hôpital",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Attention, all staff. The east parking lot will be closed starting Monday for resurfacing. The work is expected to take three weeks. During this time, staff may park in the visitors' garage on levels four and five only; the lower levels must remain available for patients. Your current parking badge will open the garage gate. I know the garage is a longer walk from the main building, so a shuttle will run every ten minutes during shift changes."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p4-22",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Where are staff allowed to park during the work?",
+          "options": [
+            "On the lower levels of a garage",
+            "In the west parking lot",
+            "On the street",
+            "On the upper levels of a garage"
+          ],
+          "answer": "D",
+          "evidence": "staff may park in the visitors' garage on levels four and five only",
+          "explanation": "Le personnel doit utiliser les niveaux 4 et 5 du parking visiteurs.",
+          "traps": "Les niveaux inférieurs sont réservés aux patients.",
+          "takeaway": "Only = seulement (restriction)."
+        },
+        {
+          "id": "e4-p4-23",
+          "level": 3,
+          "category": "intention",
+          "prompt": "Why does the speaker say, \"I know the garage is a longer walk from the main building\"?",
+          "options": [
+            "To apologize for the closure",
+            "To discourage staff from driving",
+            "To introduce a solution to an inconvenience",
+            "To explain why the work is needed"
+          ],
+          "answer": "C",
+          "evidence": "I know the garage is a longer walk from the main building",
+          "explanation": "Il reconnaît l'inconvénient avant d'annoncer la navette toutes les dix minutes.",
+          "takeaway": "« I know… so… » : inconvénient puis solution."
+        },
+        {
+          "id": "e4-p4-24",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What will staff use to enter the garage?",
+          "options": [
+            "A temporary ticket",
+            "Their current badges",
+            "A code",
+            "A new card"
+          ],
+          "answer": "B",
+          "evidence": "Your current parking badge will open the garage gate.",
+          "explanation": "Le badge de parking actuel ouvre la barrière.",
+          "takeaway": "Current = actuel."
+        }
+      ]
+    },
+    {
+      "id": "e4-p4-t09",
+      "kind": "talk",
+      "title": "Comparaison de fournisseurs (graphique)",
+      "graphic": {
+        "type": "table",
+        "title": "Packaging Suppliers — Comparison",
+        "columns": [
+          "Supplier",
+          "Price per 1,000 boxes",
+          "Delivery time",
+          "Recycled material"
+        ],
+        "rows": [
+          [
+            "Cartex",
+            "€310",
+            "3 days",
+            "50%"
+          ],
+          [
+            "BoxLine",
+            "€285",
+            "10 days",
+            "100%"
+          ],
+          [
+            "EcoPack",
+            "€340",
+            "4 days",
+            "100%"
+          ],
+          [
+            "Pakvo",
+            "€270",
+            "5 days",
+            "30%"
+          ]
+        ]
+      },
+      "audio": [
+        {
+          "s": "W",
+          "t": "As you know, we're replacing our packaging supplier. Our clients have made it clear that they want fully recycled packaging, so that's our first requirement. Second, because we ship fresh products, we can't wait more than a week for deliveries. Based on those two criteria, there's only one option, even though it isn't the cheapest. I'll ask the purchasing team to start negotiating with them tomorrow."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p4-25",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is the company's first requirement?",
+          "options": [
+            "Fully recycled packaging",
+            "The lowest price",
+            "Fast delivery",
+            "Local production"
+          ],
+          "answer": "A",
+          "evidence": "they want fully recycled packaging, so that's our first requirement",
+          "explanation": "La première exigence est un emballage entièrement recyclé.",
+          "takeaway": "Requirement = exigence."
+        },
+        {
+          "id": "e4-p4-26",
+          "level": 3,
+          "category": "graphic",
+          "prompt": "Look at the graphic. Which supplier will the company most likely choose?",
+          "options": [
+            "Cartex",
+            "BoxLine",
+            "Pakvo",
+            "EcoPack"
+          ],
+          "answer": "D",
+          "explanation": "100 % recyclé et livraison en moins d'une semaine : seul EcoPack (100 %, 4 jours) répond aux deux critères. BoxLine est 100 % recyclé mais livre en 10 jours.",
+          "takeaway": "Applique les critères dans l'ordre donné."
+        },
+        {
+          "id": "e4-p4-27",
+          "level": 2,
+          "category": "next-action",
+          "prompt": "What will happen tomorrow?",
+          "options": [
+            "Products will be shipped.",
+            "A contract will be signed.",
+            "Negotiations will begin.",
+            "Clients will be surveyed."
+          ],
+          "answer": "C",
+          "evidence": "start negotiating with them tomorrow",
+          "explanation": "L'équipe achats commencera à négocier avec le fournisseur demain.",
+          "takeaway": "Negotiate = négocier."
+        }
+      ]
+    },
+    {
+      "id": "e4-p4-t10",
+      "kind": "talk",
+      "title": "Discours — inauguration d'une bibliothèque",
+      "audio": [
+        {
+          "s": "W",
+          "t": "Thank you all for coming to the opening of the new Eastside Library. This building used to be a textile factory, and the architects kept many of its original features, including the large windows and the iron columns you see around you. The library has twice as many computers as the old one, and a recording studio that residents can book for free. I'd especially like to thank the hundreds of volunteers who helped move more than eighty thousand books in just two weekends."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p4-28",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What event is taking place?",
+          "options": [
+            "A factory tour",
+            "A library opening",
+            "A book sale",
+            "An architecture award ceremony"
+          ],
+          "answer": "B",
+          "evidence": "the opening of the new Eastside Library",
+          "explanation": "Il s'agit de l'inauguration de la nouvelle bibliothèque.",
+          "takeaway": "Opening = inauguration, ouverture."
+        },
+        {
+          "id": "e4-p4-29",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is mentioned about the building?",
+          "options": [
+            "It was previously a factory.",
+            "It was designed by volunteers.",
+            "It has no windows.",
+            "It was built last century as a school."
+          ],
+          "answer": "A",
+          "evidence": "This building used to be a textile factory",
+          "explanation": "Le bâtiment était autrefois une usine textile.",
+          "takeaway": "Used to be = était autrefois."
+        },
+        {
+          "id": "e4-p4-30",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Why does the speaker thank volunteers?",
+          "options": [
+            "They organized the opening.",
+            "They raised money.",
+            "They designed the studio.",
+            "They helped transport books."
+          ],
+          "answer": "D",
+          "evidence": "helped move more than eighty thousand books",
+          "explanation": "Les bénévoles ont aidé à déménager plus de 80 000 livres.",
+          "takeaway": "Move = déplacer, déménager."
+        }
+      ]
+    }
+  ]
+}

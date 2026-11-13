@@ -1,0 +1,802 @@
+{
+  "pool": "exam4",
+  "questions": [
+    {
+      "id": "e4-p5-01",
+      "part": 5,
+      "level": 2,
+      "category": "preposition",
+      "prompt": "The awards ceremony will take place ____ the evening of June 5.",
+      "options": [
+        "in",
+        "by",
+        "at",
+        "on"
+      ],
+      "answer": "D",
+      "explanation": "On dit « in the evening », mais « on the evening of + date » car la date impose « on ».",
+      "traps": "« In the evening » est correct seul, mais pas avec une date précise.",
+      "takeaway": "On + jour/date, y compris on the morning/evening of…"
+    },
+    {
+      "id": "e4-p5-02",
+      "part": 5,
+      "level": 1,
+      "category": "word-form",
+      "prompt": "The new manager has made several ____ changes to the work schedule.",
+      "options": [
+        "benefit",
+        "benefited",
+        "beneficial",
+        "beneficially"
+      ],
+      "answer": "C",
+      "explanation": "Devant le nom « changes », il faut un adjectif : « beneficial » (bénéfique).",
+      "traps": "« Beneficially » est un adverbe.",
+      "takeaway": "Adjectif + nom."
+    },
+    {
+      "id": "e4-p5-03",
+      "part": 5,
+      "level": 1,
+      "category": "verb-tense",
+      "prompt": "Our sales team ____ more than two hundred clients last month.",
+      "options": [
+        "has contacted",
+        "contacted",
+        "contacts",
+        "is contacting"
+      ],
+      "answer": "B",
+      "explanation": "« Last month » = période terminée : prétérit « contacted ».",
+      "traps": "Le present perfect est incompatible avec « last month ».",
+      "takeaway": "Last + période → prétérit."
+    },
+    {
+      "id": "e4-p5-04",
+      "part": 5,
+      "level": 2,
+      "category": "gerund-infinitive",
+      "prompt": "All visitors are required ____ in at the security desk.",
+      "options": [
+        "to sign",
+        "signing",
+        "signed",
+        "sign"
+      ],
+      "answer": "A",
+      "explanation": "« Be required to + base verbale » : « are required to sign ».",
+      "traps": "*required signing est incorrect.",
+      "takeaway": "Be required / expected / asked to do."
+    },
+    {
+      "id": "e4-p5-05",
+      "part": 5,
+      "level": 2,
+      "category": "relative",
+      "prompt": "The supplier, ____ headquarters are in Rotterdam, has opened an office in Lyon.",
+      "options": [
+        "which",
+        "who",
+        "whom",
+        "whose"
+      ],
+      "answer": "D",
+      "explanation": "Le relatif est suivi d'un nom (« headquarters ») appartenant au fournisseur : « whose ».",
+      "traps": "« Which » serait suivi d'un verbe.",
+      "takeaway": "Whose fonctionne aussi pour une entreprise."
+    },
+    {
+      "id": "e4-p5-06",
+      "part": 5,
+      "level": 2,
+      "category": "conjunction",
+      "prompt": "The meeting was postponed ____ the director was traveling.",
+      "options": [
+        "because of",
+        "despite",
+        "because",
+        "although"
+      ],
+      "answer": "C",
+      "explanation": "Cause suivie d'une proposition complète : « because ».",
+      "traps": "« Because of » exige un nom (because of the director's trip).",
+      "takeaway": "Because + proposition ; because of + nom."
+    },
+    {
+      "id": "e4-p5-07",
+      "part": 5,
+      "level": 3,
+      "category": "vocabulary",
+      "prompt": "The hotel offers a ____ breakfast to all guests staying more than two nights.",
+      "options": [
+        "complementary",
+        "complimentary",
+        "compliant",
+        "complicated"
+      ],
+      "answer": "B",
+      "explanation": "« Complimentary » = offert, gratuit. « Complementary » (complémentaire) est un paronyme.",
+      "takeaway": "Complimentary = gratuit ; complementary = complémentaire."
+    },
+    {
+      "id": "e4-p5-08",
+      "part": 5,
+      "level": 2,
+      "category": "word-form",
+      "prompt": "Mr. Ruiz spoke ____ about the company's plans for expansion.",
+      "options": [
+        "enthusiastically",
+        "enthusiasm",
+        "enthusiastic",
+        "enthuse"
+      ],
+      "answer": "A",
+      "explanation": "Le mot modifie le verbe « spoke » : adverbe « enthusiastically ».",
+      "takeaway": "Verbe + adverbe."
+    },
+    {
+      "id": "e4-p5-09",
+      "part": 5,
+      "level": 2,
+      "category": "comparison",
+      "prompt": "The new office is not ____ spacious as the previous one.",
+      "options": [
+        "more",
+        "so much",
+        "than",
+        "as"
+      ],
+      "answer": "D",
+      "explanation": "Comparaison d'égalité négative : « not as … as » (pas aussi … que).",
+      "traps": "« More » exigerait « than ».",
+      "takeaway": "Not as + adjectif + as."
+    },
+    {
+      "id": "e4-p5-10",
+      "part": 5,
+      "level": 3,
+      "category": "agreement",
+      "prompt": "The information in these files ____ confidential.",
+      "options": [
+        "are",
+        "were",
+        "is",
+        "have"
+      ],
+      "answer": "C",
+      "explanation": "« Information » est indénombrable donc singulier : « is ».",
+      "traps": "« Files » au pluriel attire l'accord.",
+      "takeaway": "Information, equipment, advice, furniture = singulier."
+    },
+    {
+      "id": "e4-p5-11",
+      "part": 5,
+      "level": 2,
+      "category": "preposition",
+      "prompt": "Please send the documents ____ e-mail rather than by post.",
+      "options": [
+        "with",
+        "by",
+        "on",
+        "through"
+      ],
+      "answer": "B",
+      "explanation": "Moyen de communication : « by e-mail », comme « by post ».",
+      "takeaway": "By e-mail / phone / post / car."
+    },
+    {
+      "id": "e4-p5-12",
+      "part": 5,
+      "level": 3,
+      "category": "modal-conditional",
+      "prompt": "You ____ have told me about the meeting; I would have attended.",
+      "options": [
+        "should",
+        "must",
+        "can",
+        "will"
+      ],
+      "answer": "A",
+      "explanation": "Reproche sur le passé : « should have + participe » (tu aurais dû).",
+      "traps": "« Must have told » exprimerait une déduction (tu as dû me le dire).",
+      "takeaway": "Should have done = aurait dû."
+    },
+    {
+      "id": "e4-p5-13",
+      "part": 5,
+      "level": 2,
+      "category": "determiner",
+      "prompt": "We have received ____ applications for the position, so the deadline has been extended.",
+      "options": [
+        "little",
+        "a little",
+        "much",
+        "few"
+      ],
+      "answer": "D",
+      "explanation": "Peu de candidatures (dénombrable, sens négatif) justifient le report : « few ».",
+      "traps": "« Little / a little / much » s'emploient avec des indénombrables.",
+      "takeaway": "Few + pluriel = peu de."
+    },
+    {
+      "id": "e4-p5-14",
+      "part": 5,
+      "level": 2,
+      "category": "gerund-infinitive",
+      "prompt": "The manager insisted on ____ the contract before signing it.",
+      "options": [
+        "review",
+        "to review",
+        "reviewing",
+        "reviewed"
+      ],
+      "answer": "C",
+      "explanation": "Après la préposition « on », on emploie le gérondif : « insisted on reviewing ».",
+      "takeaway": "Préposition + -ing."
+    },
+    {
+      "id": "e4-p5-15",
+      "part": 5,
+      "level": 2,
+      "category": "word-form",
+      "prompt": "The proposal was ____ received by the board.",
+      "options": [
+        "favorable",
+        "favorably",
+        "favor",
+        "favorite"
+      ],
+      "answer": "B",
+      "explanation": "Entre « was » et le participe « received », il faut un adverbe : « favorably ».",
+      "takeaway": "Be + adverbe + participe passé."
+    },
+    {
+      "id": "e4-p5-16",
+      "part": 5,
+      "level": 3,
+      "category": "syntax",
+      "prompt": "Hardly ____ the meeting begun when the fire alarm went off.",
+      "options": [
+        "had",
+        "has",
+        "did",
+        "was"
+      ],
+      "answer": "A",
+      "explanation": "« Hardly … when » (à peine … que) en tête impose l'inversion au past perfect : « had the meeting begun ».",
+      "traps": "« Begun » est un participe passé : il exige « had », pas « did ».",
+      "takeaway": "Hardly had + sujet + participe… when + prétérit."
+    },
+    {
+      "id": "e4-p5-17",
+      "part": 5,
+      "level": 3,
+      "category": "modal-conditional",
+      "prompt": "____ the train been on time, we would have arrived before the presentation.",
+      "options": [
+        "If",
+        "Should",
+        "Were",
+        "Had"
+      ],
+      "answer": "D",
+      "explanation": "Inversion du 3e conditionnel : « Had the train been » = « If the train had been ».",
+      "traps": "« If the train been » est agrammatical.",
+      "takeaway": "Had + sujet + participe = If + past perfect."
+    },
+    {
+      "id": "e4-p5-18",
+      "part": 5,
+      "level": 2,
+      "category": "collocation",
+      "prompt": "The new regulations will ____ effect on January 1.",
+      "options": [
+        "make",
+        "have",
+        "take",
+        "give"
+      ],
+      "answer": "C",
+      "explanation": "La collocation figée est « take effect » : la réglementation entrera en vigueur le 1er janvier.",
+      "traps": "« Have an effect on » signifie « avoir un effet sur », autre sens.",
+      "takeaway": "Take effect = entrer en vigueur."
+    },
+    {
+      "id": "e4-p5-19",
+      "part": 5,
+      "level": 3,
+      "category": "vocabulary",
+      "prompt": "Employees must ____ with all safety regulations at the plant.",
+      "options": [
+        "apply",
+        "comply",
+        "supply",
+        "imply"
+      ],
+      "answer": "B",
+      "explanation": "« Comply with » = se conformer à. C'est la seule option qui se construit avec « with » et a ce sens.",
+      "traps": "Paronymes : apply (postuler), supply (fournir), imply (impliquer).",
+      "takeaway": "Comply with regulations."
+    },
+    {
+      "id": "e4-p5-20",
+      "part": 5,
+      "level": 2,
+      "category": "word-form",
+      "prompt": "The company's profits have increased ____ over the past five years.",
+      "options": [
+        "steadily",
+        "steady",
+        "steadiness",
+        "steadied"
+      ],
+      "answer": "A",
+      "explanation": "Le mot modifie le verbe « increased » : adverbe « steadily » (régulièrement).",
+      "takeaway": "Increase steadily = augmenter régulièrement."
+    },
+    {
+      "id": "e4-p5-21",
+      "part": 5,
+      "level": 3,
+      "category": "pronoun",
+      "prompt": "The two companies have agreed to share research data with ____.",
+      "options": [
+        "themselves",
+        "theirs",
+        "them",
+        "each other"
+      ],
+      "answer": "D",
+      "explanation": "Les deux entreprises partagent des données l'une avec l'autre : réciprocité, « each other ».",
+      "traps": "« Themselves » est réfléchi (chacune avec elle-même).",
+      "takeaway": "Each other = l'un l'autre (réciproque)."
+    },
+    {
+      "id": "e4-p5-22",
+      "part": 5,
+      "level": 2,
+      "category": "conjunction",
+      "prompt": "____ his lack of experience, Mr. Kim was chosen to lead the project.",
+      "options": [
+        "Although",
+        "Even",
+        "Despite",
+        "However"
+      ],
+      "answer": "C",
+      "explanation": "Suivi d'un groupe nominal (« his lack of experience ») : « Despite ».",
+      "traps": "« Although » exige une proposition.",
+      "takeaway": "Despite + nom."
+    },
+    {
+      "id": "e4-p5-23",
+      "part": 5,
+      "level": 3,
+      "category": "passive",
+      "prompt": "The package ____ by the time you get home.",
+      "options": [
+        "will deliver",
+        "will have been delivered",
+        "delivers",
+        "has delivered"
+      ],
+      "answer": "B",
+      "explanation": "Action achevée avant un moment futur, au passif : « will have been delivered ».",
+      "traps": "« Will deliver » est actif : le colis ne livre rien.",
+      "takeaway": "By the time + présent → will have (been) + participe."
+    },
+    {
+      "id": "e4-p5-24",
+      "part": 5,
+      "level": 1,
+      "category": "word-form",
+      "prompt": "The firm is known for its ____ approach to product design.",
+      "options": [
+        "innovative",
+        "innovate",
+        "innovation",
+        "innovatively"
+      ],
+      "answer": "A",
+      "explanation": "Devant le nom « approach », il faut un adjectif : « innovative ».",
+      "takeaway": "Its + adjectif + nom."
+    },
+    {
+      "id": "e4-p5-25",
+      "part": 5,
+      "level": 2,
+      "category": "word-form",
+      "prompt": "The marketing budget was ____ cut due to falling sales.",
+      "options": [
+        "drastic",
+        "drasticness",
+        "drastics",
+        "drastically"
+      ],
+      "answer": "D",
+      "explanation": "Entre « was » et « cut », adverbe : « drastically » (radicalement).",
+      "takeaway": "Be + adverbe + participe passé."
+    },
+    {
+      "id": "e4-p5-26",
+      "part": 5,
+      "level": 2,
+      "category": "passive",
+      "prompt": "Attendees are ____ to arrive fifteen minutes early to complete registration.",
+      "options": [
+        "advice",
+        "advisory",
+        "advised",
+        "advising"
+      ],
+      "answer": "C",
+      "explanation": "« Be advised to » = être invité à (passif) : « are advised ».",
+      "traps": "« Advice » est un nom.",
+      "takeaway": "Be advised / encouraged / asked to."
+    },
+    {
+      "id": "e4-p5-27",
+      "part": 5,
+      "level": 3,
+      "category": "relative",
+      "prompt": "____ the company needs now is a clear long-term strategy.",
+      "options": [
+        "That",
+        "What",
+        "Which",
+        "Whatever"
+      ],
+      "answer": "B",
+      "explanation": "« What » = ce que, sans antécédent : « What the company needs is… » (ce dont l'entreprise a besoin…).",
+      "traps": "« That » et « which » exigent un antécédent.",
+      "takeaway": "What = ce que / ce qui."
+    },
+    {
+      "id": "e4-p5-28",
+      "part": 5,
+      "level": 3,
+      "category": "vocabulary",
+      "prompt": "The contract will be ____ automatically unless either party cancels it.",
+      "options": [
+        "renewed",
+        "renovated",
+        "restored",
+        "replaced"
+      ],
+      "answer": "A",
+      "explanation": "Un contrat est reconduit : « renewed » (renouvelé).",
+      "traps": "« Renovated » s'applique à un bâtiment.",
+      "takeaway": "Renew a contract = renouveler."
+    },
+    {
+      "id": "e4-p5-29",
+      "part": 5,
+      "level": 1,
+      "category": "word-form",
+      "prompt": "Our new headquarters will be ____ accessible by public transportation.",
+      "options": [
+        "easy",
+        "easier",
+        "ease",
+        "easily"
+      ],
+      "answer": "D",
+      "explanation": "Le mot modifie l'adjectif « accessible » : adverbe « easily ».",
+      "takeaway": "Adverbe + adjectif."
+    },
+    {
+      "id": "e4-p5-30",
+      "part": 5,
+      "level": 3,
+      "category": "conjunction",
+      "prompt": "The product will be launched in March, ____ the final tests are successful.",
+      "options": [
+        "assume",
+        "assumed",
+        "assuming",
+        "assumption"
+      ],
+      "answer": "C",
+      "explanation": "« Assuming (that) » = en supposant que, à condition que.",
+      "traps": "« Assumed » et « assume » ne peuvent pas introduire une condition ici.",
+      "takeaway": "Assuming / provided / supposing (that) = à condition que."
+    }
+  ],
+  "sets": [
+    {
+      "id": "e4-p6-s1",
+      "part": 6,
+      "kind": "text",
+      "title": "E-mail — enquête de satisfaction",
+      "docs": [
+        {
+          "type": "email",
+          "from": "Customer Experience Team, Lindgren Home",
+          "to": "Customer",
+          "subject": "Tell us about your visit",
+          "date": "12 June",
+          "body": "Dear Valued Customer,\n\nThank you for shopping at Lindgren Home. We are always looking for ways to improve our service, and your opinion matters to us. We would be grateful if you could take a few minutes to {{1}} a short online survey about your recent visit.\n\nThe survey consists of ten questions and takes about five minutes. {{2}} As a thank-you, all participants will receive a €10 voucher, which can be used {{3}} their next purchase.\n\nThe survey will remain open until 30 June. Your responses will be kept strictly {{4}}.\n\nKind regards,\nCustomer Experience Team"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p6-01",
+          "level": 1,
+          "category": "word-form",
+          "options": [
+            "completing",
+            "completion",
+            "completely",
+            "complete"
+          ],
+          "answer": "D",
+          "explanation": "Après « to », il faut la base verbale : « to complete a survey ».",
+          "takeaway": "Take a few minutes to + verbe."
+        },
+        {
+          "id": "e4-p6-02",
+          "level": 2,
+          "category": "sentence-insertion",
+          "options": [
+            "Our stores are closed on public holidays.",
+            "We have opened three new stores this year.",
+            "It can be accessed on any smartphone, tablet, or computer.",
+            "Please keep your receipt in a safe place."
+          ],
+          "answer": "C",
+          "explanation": "Après la description du questionnaire, la phrase précise comment y accéder : sur tout appareil.",
+          "takeaway": "« It » renvoie au questionnaire mentionné juste avant."
+        },
+        {
+          "id": "e4-p6-03",
+          "level": 3,
+          "category": "preposition",
+          "options": [
+            "among",
+            "toward",
+            "across",
+            "upon"
+          ],
+          "answer": "B",
+          "explanation": "« Use a voucher toward a purchase » = utiliser un bon pour un achat (en déduction).",
+          "takeaway": "Toward = pour, en déduction de (paiement)."
+        },
+        {
+          "id": "e4-p6-04",
+          "level": 2,
+          "category": "word-form",
+          "options": [
+            "confidential",
+            "confidence",
+            "confidentially",
+            "confide"
+          ],
+          "answer": "A",
+          "explanation": "« Keep + objet + adjectif » : les réponses resteront « confidential ».",
+          "takeaway": "Keep something confidential."
+        }
+      ]
+    },
+    {
+      "id": "e4-p6-s2",
+      "part": 6,
+      "kind": "text",
+      "title": "Article — levée de fonds d'une start-up",
+      "docs": [
+        {
+          "type": "text",
+          "title": "GreenRoute Raises €5 Million",
+          "body": "Nantes-based startup GreenRoute, which develops route-planning software for delivery companies, has raised €5 million from a group of investors. The software calculates the most fuel-efficient routes for delivery vans, {{1}} customers to cut fuel costs by up to 15 percent.\n\nThe company plans to use the funds to {{2}} its engineering team and to enter the German market. {{3}}\n\nFounded in 2021 by two former logistics managers, GreenRoute now works with more than 300 clients. Co-founder Léa Garnier says the company {{4}} profitable by the end of next year."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p6-05",
+          "level": 2,
+          "category": "word-form",
+          "options": [
+            "allows",
+            "allowed",
+            "to allow",
+            "allowing"
+          ],
+          "answer": "D",
+          "explanation": "Après la virgule, participe présent qui exprime la conséquence : « allowing customers to cut costs ».",
+          "traps": "« Allows » créerait un verbe conjugué sans sujet.",
+          "takeaway": "…, allowing / enabling + objet + to = ce qui permet de."
+        },
+        {
+          "id": "e4-p6-06",
+          "level": 1,
+          "category": "word-form",
+          "options": [
+            "expanding",
+            "expansion",
+            "expand",
+            "expanded"
+          ],
+          "answer": "C",
+          "explanation": "Après « use the funds to », il faut la base verbale : « to expand its team ».",
+          "takeaway": "To + base verbale."
+        },
+        {
+          "id": "e4-p6-07",
+          "level": 3,
+          "category": "sentence-insertion",
+          "options": [
+            "Fuel prices fell last year.",
+            "It already has several clients in Belgium and Switzerland.",
+            "Nantes is located in western France.",
+            "Delivery vans must be inspected annually."
+          ],
+          "answer": "B",
+          "explanation": "Après l'annonce de l'expansion en Allemagne, la phrase précise que l'entreprise est déjà présente à l'étranger.",
+          "traps": "(A) concerne le carburant mais contredit l'intérêt du logiciel.",
+          "takeaway": "« Already » situe la phrase dans la continuité de l'expansion."
+        },
+        {
+          "id": "e4-p6-08",
+          "level": 2,
+          "category": "verb-tense",
+          "options": [
+            "expects to become",
+            "expected becoming",
+            "is expecting become",
+            "expect to"
+          ],
+          "answer": "A",
+          "explanation": "Discours rapporté au présent (« says ») : « the company expects to become profitable ».",
+          "traps": "« Expect to » oublie le -s et le verbe ; « expected becoming » est agrammatical.",
+          "takeaway": "Expect to + base verbale."
+        }
+      ]
+    },
+    {
+      "id": "e4-p6-s3",
+      "part": 6,
+      "kind": "text",
+      "title": "Avis aux locataires — ascenseurs",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Notice to Tenants — Tower B Elevators",
+          "body": "Dear Tenants,\n\nPlease be informed that the elevators in Tower B will be modernized starting Monday, 6 May. The work will be carried out on one elevator at a time, {{1}} at least one elevator will remain in service throughout the project.\n\n{{2}} During peak hours, waiting times may be longer than usual. We recommend using the stairs for trips of one or two floors.\n\nThe project is expected to be completed by the end of June. Once finished, the new elevators will be faster and more energy-efficient. We thank you for your {{3}} and apologize for any {{4}} this may cause."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p6-09",
+          "level": 2,
+          "category": "conjunction",
+          "options": [
+            "but",
+            "or",
+            "yet",
+            "so"
+          ],
+          "answer": "D",
+          "explanation": "Conséquence : on travaille sur un ascenseur à la fois, donc au moins un reste en service : « so ».",
+          "traps": "« But » et « yet » introduiraient une opposition.",
+          "takeaway": "So = donc (conséquence)."
+        },
+        {
+          "id": "e4-p6-10",
+          "level": 3,
+          "category": "sentence-insertion",
+          "options": [
+            "The building was constructed in 1985.",
+            "Our parking garage is open 24 hours.",
+            "Rent payments are due on the first of each month.",
+            "Tenants with heavy deliveries are asked to schedule them with the front desk."
+          ],
+          "answer": "D",
+          "explanation": "Avec un seul ascenseur disponible, les livraisons lourdes doivent être planifiées : la phrase prépare l'idée d'attentes plus longues.",
+          "takeaway": "La phrase insérée découle de la contrainte annoncée."
+        },
+        {
+          "id": "e4-p6-11",
+          "level": 2,
+          "category": "word-form",
+          "options": [
+            "understand",
+            "understood",
+            "understanding",
+            "understandable"
+          ],
+          "answer": "C",
+          "explanation": "Après « your », il faut un nom : « your understanding » (votre compréhension).",
+          "takeaway": "Thank you for your understanding."
+        },
+        {
+          "id": "e4-p6-12",
+          "level": 1,
+          "category": "word-form",
+          "options": [
+            "inconvenient",
+            "inconvenience",
+            "inconveniently",
+            "inconvenienced"
+          ],
+          "answer": "B",
+          "explanation": "Après « any », il faut un nom : « any inconvenience » (toute gêne).",
+          "takeaway": "Apologize for any inconvenience."
+        }
+      ]
+    },
+    {
+      "id": "e4-p6-s4",
+      "part": 6,
+      "kind": "text",
+      "title": "E-mail interne — nouvel outil",
+      "docs": [
+        {
+          "type": "email",
+          "from": "Anna Bergström",
+          "to": "Product team",
+          "subject": "Switching to Trackwise",
+          "date": "14 August",
+          "body": "Hi everyone,\n\nAs discussed at last week's meeting, we will start using Trackwise to manage all our projects from 1 September. Trackwise will replace the shared spreadsheets we have been using, which have become difficult to {{1}} as the team has grown.\n\n{{2}} All current projects will be transferred by the IT team over the last weekend of August, so you will not need to re-enter any information.\n\nA one-hour training session {{3}} on 28 August at 10 A.M. in Room 3. Attendance is strongly {{4}}, especially for team leads.\n\nThanks,\nAnna"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p6-13",
+          "level": 2,
+          "category": "word-form",
+          "options": [
+            "maintain",
+            "maintenance",
+            "maintained",
+            "maintaining"
+          ],
+          "answer": "A",
+          "explanation": "« Difficult to + base verbale » : « difficult to maintain » (difficiles à tenir à jour).",
+          "takeaway": "Adjectif + to + base verbale."
+        },
+        {
+          "id": "e4-p6-14",
+          "level": 2,
+          "category": "sentence-insertion",
+          "options": [
+            "Each of you will receive login details by e-mail next week.",
+            "The spreadsheets were created in 2019.",
+            "Our team will grow by three people next year.",
+            "Room 3 has been renovated."
+          ],
+          "answer": "A",
+          "explanation": "La phrase explique la mise en place pratique de l'outil (identifiants), avant le transfert des projets.",
+          "takeaway": "Cherche l'étape logique du déploiement."
+        },
+        {
+          "id": "e4-p6-15",
+          "level": 2,
+          "category": "passive",
+          "options": [
+            "holds",
+            "has held",
+            "was held",
+            "will be held"
+          ],
+          "answer": "D",
+          "explanation": "La formation aura lieu le 28 août (futur) et subit l'action : « will be held ».",
+          "takeaway": "Be held = avoir lieu."
+        },
+        {
+          "id": "e4-p6-16",
+          "level": 2,
+          "category": "word-form",
+          "options": [
+            "encourage",
+            "encouraging",
+            "encouraged",
+            "encouragement"
+          ],
+          "answer": "C",
+          "explanation": "Passif « is strongly encouraged » : la présence est vivement recommandée.",
+          "takeaway": "Strongly encouraged = vivement conseillé."
+        }
+      ]
+    }
+  ]
+}

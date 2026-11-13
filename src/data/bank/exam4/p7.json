@@ -1,0 +1,1349 @@
+{
+  "pool": "exam4",
+  "part": 7,
+  "sets": [
+    {
+      "id": "e4-p7-s01",
+      "kind": "single",
+      "title": "Messagerie — épreuve d'imprimeur",
+      "docs": [
+        {
+          "type": "chat",
+          "messages": [
+            {
+              "name": "Elif Demir",
+              "time": "15:40",
+              "text": "The printer sent the proof of the spring brochure. The phone number on the back is wrong."
+            },
+            {
+              "name": "Owen Clarke",
+              "time": "15:42",
+              "text": "Which one did they use?"
+            },
+            {
+              "name": "Elif Demir",
+              "time": "15:43",
+              "text": "Our old number, from before the move."
+            },
+            {
+              "name": "Owen Clarke",
+              "time": "15:44",
+              "text": "I must have sent them last year's file. I'll send the corrected version right away."
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p7-01",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What problem does Ms. Demir report?",
+          "options": [
+            "Some photos are missing.",
+            "A printer is broken.",
+            "A delivery is late.",
+            "A brochure contains incorrect contact information."
+          ],
+          "answer": "D",
+          "evidence": "The phone number on the back is wrong.",
+          "explanation": "Le numéro de téléphone au dos de la brochure est erroné.",
+          "takeaway": "Proof = épreuve (avant impression)."
+        },
+        {
+          "id": "e4-p7-02",
+          "level": 2,
+          "category": "inference",
+          "prompt": "What does Mr. Clarke suggest?",
+          "options": [
+            "The company has not moved yet.",
+            "The printer made a mistake.",
+            "He provided an outdated file.",
+            "The brochure should be canceled."
+          ],
+          "answer": "C",
+          "evidence": "I must have sent them last year's file.",
+          "explanation": "Il pense avoir envoyé le fichier de l'an dernier : un fichier obsolète.",
+          "takeaway": "Must have + participe = déduction sur le passé."
+        }
+      ]
+    },
+    {
+      "id": "e4-p7-s02",
+      "kind": "single",
+      "title": "Règlement d'un café",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Laptop Policy — Bean & Byte Café",
+          "body": "To make sure everyone can find a seat, guests using laptops are asked to limit their stay to two hours between 11:30 A.M. and 2 P.M. on weekdays. Outside these hours, there is no time limit. Power outlets are located along the window counter. The Wi-Fi password changes daily and is printed on your receipt."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p7-03",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the purpose of the notice?",
+          "options": [
+            "To announce new opening hours",
+            "To explain rules for customers using computers",
+            "To advertise a lunch menu",
+            "To apologize for a Wi-Fi problem"
+          ],
+          "answer": "B",
+          "evidence": "guests using laptops are asked to limit their stay to two hours",
+          "explanation": "L'avis fixe les règles pour les clients qui utilisent un ordinateur portable.",
+          "takeaway": "Policy = règlement."
+        },
+        {
+          "id": "e4-p7-04",
+          "level": 2,
+          "category": "inference",
+          "prompt": "How can customers most likely obtain the Wi-Fi password?",
+          "options": [
+            "By making a purchase",
+            "By asking at the window counter",
+            "By registering online",
+            "By staying more than two hours"
+          ],
+          "answer": "A",
+          "evidence": "is printed on your receipt",
+          "explanation": "Le mot de passe est imprimé sur le ticket de caisse : il faut donc acheter quelque chose.",
+          "takeaway": "Receipt = ticket de caisse (preuve d'achat)."
+        }
+      ]
+    },
+    {
+      "id": "e4-p7-s03",
+      "kind": "single",
+      "title": "Publicité — formation en ligne",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Data Skills for Managers — 6-week online course",
+          "body": "Learn to read dashboards, ask the right questions, and make better decisions with data, with no programming required. Live sessions every Tuesday evening, recorded for those who can't attend. Course fee: €390; employers can be invoiced directly. Next session starts 3 March. Enroll at datamanagers.eu."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p7-05",
+          "level": 2,
+          "category": "inference",
+          "prompt": "For whom is the course most likely intended?",
+          "options": [
+            "Software developers",
+            "Data entry clerks",
+            "University professors",
+            "Managers without technical training"
+          ],
+          "answer": "D",
+          "evidence": "no programming required",
+          "explanation": "Le cours s'adresse aux managers et ne demande aucune compétence en programmation.",
+          "takeaway": "No … required = aucun prérequis."
+        },
+        {
+          "id": "e4-p7-06",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is indicated about the live sessions?",
+          "options": [
+            "They take place on weekends.",
+            "They are optional.",
+            "They can be watched later.",
+            "They are held in person."
+          ],
+          "answer": "C",
+          "evidence": "recorded for those who can't attend",
+          "explanation": "Les sessions sont enregistrées pour ceux qui ne peuvent pas y assister.",
+          "takeaway": "Recorded = enregistré."
+        }
+      ]
+    },
+    {
+      "id": "e4-p7-s04",
+      "kind": "single",
+      "title": "E-mail — organisation d'une conférence",
+      "docs": [
+        {
+          "type": "email",
+          "from": "Clara Jensen, Nordic Retail Association",
+          "to": "Dr. Amina Bello",
+          "subject": "Your keynote on 15 May",
+          "date": "2 April",
+          "body": "Dear Dr. Bello,\n\nThank you again for agreeing to give the keynote address at our annual meeting. I am writing to confirm a few practical details.\n\nYour talk is scheduled for 9:30 A.M. in the main auditorium and should last 40 minutes, including questions. The auditorium is equipped with a projector and a wireless microphone. If you plan to show a video, please let us know in advance so that our technician can test the sound.\n\nWe have booked a room for you at the Hotel Strand for the night of 14 May. A driver will pick you up at the airport; please send us your flight details by 1 May.\n\nKind regards,\nClara Jensen"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p7-07",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "Why did Ms. Jensen write to Dr. Bello?",
+          "options": [
+            "To invite her to a meeting",
+            "To confirm arrangements for a talk",
+            "To cancel a hotel booking",
+            "To request a video"
+          ],
+          "answer": "B",
+          "evidence": "I am writing to confirm a few practical details.",
+          "explanation": "Elle confirme les détails pratiques de la conférence d'ouverture.",
+          "takeaway": "Arrangements = dispositions pratiques."
+        },
+        {
+          "id": "e4-p7-08",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What should Dr. Bello do if she plans to show a video?",
+          "options": [
+            "Inform the organizers beforehand",
+            "Bring her own projector",
+            "Shorten her talk",
+            "Arrive the day before"
+          ],
+          "answer": "A",
+          "evidence": "please let us know in advance",
+          "explanation": "Elle doit prévenir à l'avance pour que le technicien teste le son.",
+          "takeaway": "In advance = beforehand = à l'avance."
+        },
+        {
+          "id": "e4-p7-09",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What must Dr. Bello send by 1 May?",
+          "options": [
+            "Her presentation slides",
+            "Her hotel preferences",
+            "A signed contract",
+            "Her flight information"
+          ],
+          "answer": "D",
+          "evidence": "please send us your flight details by 1 May",
+          "explanation": "Elle doit envoyer les informations de son vol pour qu'un chauffeur vienne la chercher.",
+          "takeaway": "Flight details = informations de vol."
+        }
+      ]
+    },
+    {
+      "id": "e4-p7-s05",
+      "kind": "single",
+      "title": "Article — ferries électriques",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Ferry Company Adds Electric Vessels",
+          "body": "STOCKHOLM — Baltic Link, which operates ferries between Stockholm and the islands of the archipelago, will add three electric vessels to its fleet next summer. The new ferries, built by a shipyard in Gdańsk, can carry 150 passengers each and recharge in fifteen minutes at the docks. [1]\n\nAccording to the company, the vessels will reduce its fuel consumption by about a quarter. [2] Passengers will also notice a difference: the electric engines are much quieter than diesel ones.\n\nTicket prices will not change, the company said. [3] If the new vessels perform well, Baltic Link plans to replace its entire fleet by 2032. [4]"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p7-10",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the article mainly about?",
+          "options": [
+            "An increase in ticket prices",
+            "A shipyard opening in Gdańsk",
+            "A transportation company introducing new boats",
+            "Tourism in the Stockholm archipelago"
+          ],
+          "answer": "C",
+          "evidence": "will add three electric vessels to its fleet next summer",
+          "explanation": "L'article annonce l'arrivée de trois ferries électriques dans la flotte de Baltic Link.",
+          "takeaway": "Vessel = navire."
+        },
+        {
+          "id": "e4-p7-11",
+          "level": 2,
+          "category": "not-true",
+          "prompt": "What is NOT mentioned about the new vessels?",
+          "options": [
+            "Their passenger capacity",
+            "Their purchase price",
+            "Where they were built",
+            "Their recharging time"
+          ],
+          "answer": "B",
+          "explanation": "Capacité (150 passagers), recharge (15 minutes) et chantier (Gdańsk) sont cités ; le prix d'achat ne l'est pas.",
+          "takeaway": "NOT : cherche ce qui manque."
+        },
+        {
+          "id": "e4-p7-12",
+          "level": 3,
+          "category": "sentence-insertion",
+          "prompt": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"They will initially serve the busiest route, between Stockholm and Vaxholm.\"",
+          "options": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ],
+          "answer": "A",
+          "explanation": "« They » reprend « the new ferries » décrits juste avant [1] ; la phrase complète la présentation des navires avant le paragraphe sur les économies.",
+          "takeaway": "Les pronoms (they) renvoient au sujet de la phrase précédente."
+        }
+      ]
+    },
+    {
+      "id": "e4-p7-s06",
+      "kind": "single",
+      "title": "Confirmation d'inscription",
+      "docs": [
+        {
+          "type": "form",
+          "title": "Registration Confirmation — HR Innovation Forum",
+          "fields": [
+            [
+              "Attendee",
+              "Paolo Ricci, Talent Manager, Vela Foods"
+            ],
+            [
+              "Ticket",
+              "Two-day pass (early-bird rate)"
+            ],
+            [
+              "Amount paid",
+              "€420"
+            ],
+            [
+              "Workshops selected",
+              "Remote onboarding (Day 1, 14:00); Employer branding (Day 2, 10:00)"
+            ]
+          ],
+          "body": "Please bring this confirmation and a photo ID to collect your badge. Workshop changes can be made online until 48 hours before the event. Cancellations made after 1 September are not refundable, but tickets may be transferred to a colleague."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p7-13",
+          "level": 2,
+          "category": "inference",
+          "prompt": "What is indicated about Mr. Ricci's ticket?",
+          "options": [
+            "It was bought at a reduced rate.",
+            "It is valid for one day.",
+            "It includes a hotel room.",
+            "It was paid by Mr. Ricci personally."
+          ],
+          "answer": "A",
+          "evidence": "early-bird rate",
+          "explanation": "« Early-bird rate » = tarif réduit pour inscription anticipée.",
+          "takeaway": "Early-bird = tarif préférentiel anticipé."
+        },
+        {
+          "id": "e4-p7-14",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What must Mr. Ricci bring to the event?",
+          "options": [
+            "A business card",
+            "A printed program",
+            "A laptop",
+            "Identification"
+          ],
+          "answer": "D",
+          "evidence": "a photo ID",
+          "explanation": "Il doit apporter sa confirmation et une pièce d'identité avec photo.",
+          "takeaway": "Photo ID = identification."
+        },
+        {
+          "id": "e4-p7-15",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What can Mr. Ricci do if he is unable to attend after 1 September?",
+          "options": [
+            "Get a full refund",
+            "Change the dates",
+            "Give his ticket to a coworker",
+            "Attend online"
+          ],
+          "answer": "C",
+          "evidence": "tickets may be transferred to a colleague",
+          "explanation": "Pas de remboursement après le 1er septembre, mais le billet peut être cédé à un collègue.",
+          "takeaway": "Transfer a ticket = céder un billet."
+        }
+      ]
+    },
+    {
+      "id": "e4-p7-s07",
+      "kind": "single",
+      "title": "Discussion — remplacement au restaurant",
+      "docs": [
+        {
+          "type": "chat",
+          "messages": [
+            {
+              "name": "Marta Silva",
+              "time": "7:02",
+              "text": "Good morning! Teodor just called in sick. Can anyone cover his lunch shift?"
+            },
+            {
+              "name": "Yann Leroy",
+              "time": "7:05",
+              "text": "I'm already working the evening shift today. A double shift would be twelve hours."
+            },
+            {
+              "name": "Priya Nair",
+              "time": "7:06",
+              "text": "I can do it, but I have to leave by 3 to pick up my son."
+            },
+            {
+              "name": "Marta Silva",
+              "time": "7:07",
+              "text": "That's fine. Lunch service ends at 2:30. Thanks, Priya!"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p7-16",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "Why did Ms. Silva send the first message?",
+          "options": [
+            "To change the lunch menu",
+            "To find a replacement for an employee",
+            "To announce a new schedule",
+            "To report an accident"
+          ],
+          "answer": "B",
+          "evidence": "Can anyone cover his lunch shift?",
+          "explanation": "Un employé est malade : elle cherche quelqu'un pour le remplacer.",
+          "takeaway": "Call in sick = se déclarer malade."
+        },
+        {
+          "id": "e4-p7-17",
+          "level": 3,
+          "category": "intention",
+          "prompt": "At 7:05, why does Mr. Leroy write, \"A double shift would be twelve hours\"?",
+          "options": [
+            "To explain why he cannot help",
+            "To ask for extra pay",
+            "To complain about the schedule",
+            "To offer to work all day"
+          ],
+          "answer": "A",
+          "evidence": "A double shift would be twelve hours.",
+          "explanation": "Il travaille déjà le soir ; enchaîner deux services ferait douze heures : il refuse implicitement.",
+          "takeaway": "Refus implicite par une contrainte."
+        },
+        {
+          "id": "e4-p7-18",
+          "level": 3,
+          "category": "inference",
+          "prompt": "What is suggested about Ms. Nair?",
+          "options": [
+            "She will bring her son to work.",
+            "She will arrive late.",
+            "She usually works evenings.",
+            "She will be able to work the whole lunch service."
+          ],
+          "answer": "D",
+          "evidence": "Lunch service ends at 2:30.",
+          "explanation": "Le service se termine à 14 h 30 et elle doit partir à 15 h : elle peut assurer tout le service.",
+          "takeaway": "Compare deux horaires pour déduire."
+        }
+      ]
+    },
+    {
+      "id": "e4-p7-s08",
+      "kind": "single",
+      "title": "Lettre d'une banque",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Banque Rhône-Alpes",
+          "subtitle": "To our Rue Garibaldi branch customers",
+          "body": "Dear Customer,\n\nWe are writing to let you know that, from 1 March, our Rue Garibaldi branch will change its opening hours. The branch will be open from 10 A.M. to 6 P.M., Tuesday to Saturday, instead of 9 A.M. to 5 P.M., Monday to Friday. This change follows a customer survey in which many respondents said they could only visit the branch after work or on weekends.\n\nOur cash machines will remain available 24 hours a day. You can also manage your accounts at any time through our mobile app.\n\nIf you have an appointment with your advisor on a Monday after 1 March, he or she will contact you to reschedule.\n\nSincerely,\nBanque Rhône-Alpes"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p7-19",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the purpose of the letter?",
+          "options": [
+            "To close a branch",
+            "To introduce a mobile app",
+            "To announce new opening hours",
+            "To present survey results"
+          ],
+          "answer": "C",
+          "evidence": "our Rue Garibaldi branch will change its opening hours",
+          "explanation": "La lettre annonce de nouveaux horaires d'ouverture de l'agence.",
+          "takeaway": "Opening hours = horaires d'ouverture."
+        },
+        {
+          "id": "e4-p7-20",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Why is the change being made?",
+          "options": [
+            "To reduce costs",
+            "To respond to customers' preferences",
+            "Because of staff shortages",
+            "Because of new regulations"
+          ],
+          "answer": "B",
+          "evidence": "many respondents said they could only visit the branch after work or on weekends",
+          "explanation": "Les clients interrogés ne peuvent venir qu'après le travail ou le week-end.",
+          "takeaway": "Respondents = personnes interrogées."
+        },
+        {
+          "id": "e4-p7-21",
+          "level": 2,
+          "category": "inference",
+          "prompt": "What is suggested about appointments on Mondays after 1 March?",
+          "options": [
+            "They will need to be moved.",
+            "They will take place by phone.",
+            "They will be free of charge.",
+            "They will be held at another branch."
+          ],
+          "answer": "A",
+          "evidence": "he or she will contact you to reschedule",
+          "explanation": "L'agence fermera le lundi : les rendez-vous ce jour-là devront être déplacés.",
+          "takeaway": "Reschedule = reprogrammer."
+        }
+      ]
+    },
+    {
+      "id": "e4-p7-s09",
+      "kind": "single",
+      "title": "Article — semaine de quatre jours",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Four-Day Week Trial Pays Off at Codexa",
+          "body": "Last year, Lisbon-based software company Codexa let its 120 employees work four days a week for six months without any reduction in pay. The results, published this week, were striking. Productivity, measured by completed projects, remained stable, while sick days fell by 35 percent. [1]\n\nNot every team adapted easily, however. Customer support, which must answer calls five days a week, had to introduce a rotation system so that the help desk was always staffed. [2]\n\nFollowing the trial, Codexa has decided to make the four-day week permanent. [3] Chief executive Rui Matos admitted that he had been skeptical at first. \"I expected our output to fall,\" he said. \"Instead, people became more focused.\" [4]"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p7-22",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the article mainly about?",
+          "options": [
+            "A new customer support system",
+            "The opening of a new office",
+            "A change in management",
+            "The results of a work-schedule experiment"
+          ],
+          "answer": "D",
+          "evidence": "The results, published this week, were striking.",
+          "explanation": "L'article présente les résultats de l'essai de la semaine de quatre jours.",
+          "takeaway": "Trial = essai, expérience."
+        },
+        {
+          "id": "e4-p7-23",
+          "level": 2,
+          "category": "synonym",
+          "prompt": "The word \"striking\" in paragraph 1, line 3, is closest in meaning to",
+          "options": [
+            "physical",
+            "aggressive",
+            "remarkable",
+            "delayed"
+          ],
+          "answer": "C",
+          "evidence": "were striking",
+          "explanation": "« Striking results » = des résultats frappants, remarquables.",
+          "traps": "« Strike » signifie aussi frapper ou faire grève : sens inadaptés ici.",
+          "takeaway": "Striking = frappant, remarquable."
+        },
+        {
+          "id": "e4-p7-24",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Why did the customer support team need a special arrangement?",
+          "options": [
+            "It had too many employees.",
+            "It had to remain available five days a week.",
+            "Its productivity fell.",
+            "It worked in a different country."
+          ],
+          "answer": "B",
+          "evidence": "which must answer calls five days a week",
+          "explanation": "Le support doit répondre cinq jours sur sept : un roulement a été mis en place.",
+          "takeaway": "Staffed = pourvu en personnel."
+        },
+        {
+          "id": "e4-p7-25",
+          "level": 3,
+          "category": "sentence-insertion",
+          "prompt": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"Employee surveys also showed a sharp rise in job satisfaction.\"",
+          "options": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ],
+          "answer": "A",
+          "explanation": "« Also » ajoute un résultat positif à ceux du premier paragraphe (productivité stable, arrêts maladie en baisse).",
+          "takeaway": "« Also » s'insère après une liste de résultats du même type."
+        }
+      ]
+    },
+    {
+      "id": "e4-p7-s10",
+      "kind": "single",
+      "title": "E-mail — programme de leadership",
+      "docs": [
+        {
+          "type": "email",
+          "from": "Learning & Development",
+          "to": "All managers",
+          "subject": "Leadership program 2027",
+          "date": "5 January",
+          "body": "Dear managers,\n\nWe are pleased to announce the third edition of our Leadership Development Program. The program consists of four full-day workshops held once a month from February to May, plus individual coaching sessions.\n\nThis year, places are limited to 16 participants. Managers who wish to apply should submit a short statement (no more than one page) explaining what they hope to gain from the program, along with their supervisor's approval, by 20 January.\n\nParticipants who completed the program last year reported significant improvements in team engagement. Please note that attendance at all four workshops is required to receive the certificate.\n\nLearning & Development"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p7-26",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the purpose of the e-mail?",
+          "options": [
+            "To invite managers to apply for a program",
+            "To announce workshop results",
+            "To introduce a new coach",
+            "To request feedback"
+          ],
+          "answer": "A",
+          "evidence": "Managers who wish to apply should submit a short statement",
+          "explanation": "Le mail invite les managers à postuler au programme de leadership.",
+          "takeaway": "Apply for = postuler à."
+        },
+        {
+          "id": "e4-p7-27",
+          "level": 2,
+          "category": "not-true",
+          "prompt": "What is NOT required to apply?",
+          "options": [
+            "A written statement",
+            "A supervisor's approval",
+            "A recommendation from a former participant",
+            "Submission by 20 January"
+          ],
+          "answer": "C",
+          "explanation": "Il faut une lettre d'une page, l'accord du responsable et un envoi avant le 20 janvier ; aucune recommandation d'un ancien participant n'est demandée.",
+          "takeaway": "NOT : coche chaque exigence citée."
+        },
+        {
+          "id": "e4-p7-28",
+          "level": 2,
+          "category": "inference",
+          "prompt": "What is indicated about the program?",
+          "options": [
+            "It lasts one week.",
+            "It is open to all employees.",
+            "It takes place online.",
+            "It has been offered before."
+          ],
+          "answer": "D",
+          "evidence": "the third edition",
+          "explanation": "C'est la troisième édition : le programme a déjà existé.",
+          "takeaway": "Edition = édition (d'un événement récurrent)."
+        },
+        {
+          "id": "e4-p7-29",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is necessary to receive the certificate?",
+          "options": [
+            "Coaching a colleague",
+            "Passing a final exam",
+            "Attending every workshop",
+            "Writing a report"
+          ],
+          "answer": "C",
+          "evidence": "attendance at all four workshops is required to receive the certificate",
+          "explanation": "Il faut assister aux quatre ateliers pour obtenir le certificat.",
+          "takeaway": "Attendance = présence."
+        }
+      ]
+    },
+    {
+      "id": "e4-p7-d01",
+      "kind": "double",
+      "title": "Planning de cours + e-mail d'une adhérente",
+      "docs": [
+        {
+          "type": "table",
+          "title": "Studio Forma — Weekly Class Schedule",
+          "columns": [
+            "Class",
+            "Day",
+            "Time",
+            "Instructor"
+          ],
+          "rows": [
+            [
+              "Yoga Basics",
+              "Monday",
+              "7:00 A.M.",
+              "Léa"
+            ],
+            [
+              "HIIT",
+              "Tuesday",
+              "6:30 P.M.",
+              "Karim"
+            ],
+            [
+              "Pilates",
+              "Wednesday",
+              "12:15 P.M.",
+              "Léa"
+            ],
+            [
+              "Spin",
+              "Thursday",
+              "6:30 P.M.",
+              "Mateo"
+            ],
+            [
+              "Stretch & Relax",
+              "Saturday",
+              "10:00 A.M.",
+              "Karim"
+            ]
+          ],
+          "note": "Members on the Day plan may attend only classes starting before 5 P.M. Members on the Full plan may attend all classes."
+        },
+        {
+          "type": "email",
+          "from": "Ines Kowalski",
+          "to": "info@studioforma.fr",
+          "subject": "Class question",
+          "date": "8 October",
+          "body": "Hello,\n\nI joined Studio Forma last month on the Day plan. I work near the studio, so I usually come during my lunch break. A colleague recommended Léa's classes, and I'd like to try the ones that fit my schedule. Could I also try one evening class before deciding whether to upgrade my membership?\n\nInes Kowalski"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p7-30",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "Which class will Ms. Kowalski most likely attend during her lunch break?",
+          "options": [
+            "Yoga Basics",
+            "Pilates",
+            "Spin",
+            "Stretch & Relax"
+          ],
+          "answer": "B",
+          "explanation": "Elle vient à midi et veut essayer les cours de Léa : le Pilates du mercredi à 12 h 15.",
+          "traps": "Yoga Basics est aussi donné par Léa, mais à 7 h du matin.",
+          "takeaway": "Croise deux critères : horaire et professeur."
+        },
+        {
+          "id": "e4-p7-31",
+          "level": 2,
+          "category": "inference",
+          "prompt": "What is indicated about Karim?",
+          "options": [
+            "He teaches on more than one day.",
+            "He teaches only evening classes.",
+            "He recommended Léa's classes.",
+            "He manages the studio."
+          ],
+          "answer": "A",
+          "evidence": "Stretch & Relax Saturday 10:00 A.M. Karim",
+          "explanation": "Karim donne le HIIT le mardi et le Stretch & Relax le samedi.",
+          "takeaway": "Lis toutes les lignes du tableau."
+        },
+        {
+          "id": "e4-p7-32",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "Why can't Ms. Kowalski take the Spin class with her current membership?",
+          "options": [
+            "It starts after 5 P.M.",
+            "It is fully booked.",
+            "It is only for beginners.",
+            "It requires extra payment."
+          ],
+          "answer": "A",
+          "explanation": "Elle a la formule Day, limitée aux cours commençant avant 17 h ; le Spin commence à 18 h 30.",
+          "takeaway": "Applique la note du tableau à la situation de l'adhérente."
+        },
+        {
+          "id": "e4-p7-33",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What does Ms. Kowalski ask?",
+          "options": [
+            "Whether she can try an evening class",
+            "Whether she can get a refund",
+            "Whether Léa teaches private lessons",
+            "Whether the studio is open on Sundays"
+          ],
+          "answer": "A",
+          "evidence": "Could I also try one evening class",
+          "explanation": "Elle demande si elle peut essayer un cours du soir.",
+          "takeaway": "Could I…? = puis-je… ?"
+        },
+        {
+          "id": "e4-p7-34",
+          "level": 2,
+          "category": "inference",
+          "prompt": "What is suggested about Ms. Kowalski?",
+          "options": [
+            "She prefers morning classes.",
+            "She works at Studio Forma.",
+            "She has been a member for several years.",
+            "She is considering changing her membership."
+          ],
+          "answer": "D",
+          "evidence": "before deciding whether to upgrade my membership",
+          "explanation": "Elle envisage de passer à une formule supérieure.",
+          "takeaway": "Upgrade = passer à une formule supérieure."
+        }
+      ]
+    },
+    {
+      "id": "e4-p7-d02",
+      "kind": "double",
+      "title": "Facture d'eau + contestation",
+      "docs": [
+        {
+          "type": "table",
+          "title": "Aqualis Water — Invoice for Café Moretti (July–September)",
+          "columns": [
+            "Item",
+            "Details",
+            "Amount"
+          ],
+          "rows": [
+            [
+              "Water consumption",
+              "412 m³ × €2.10",
+              "€865.20"
+            ],
+            [
+              "Fixed service charge",
+              "3 months × €18",
+              "€54.00"
+            ],
+            [
+              "Late payment fee (previous quarter)",
+              "",
+              "€25.00"
+            ],
+            [
+              "Total due by 31 October",
+              "",
+              "€944.20"
+            ]
+          ],
+          "note": "Average consumption for businesses of your size: 150 m³ per quarter."
+        },
+        {
+          "type": "email",
+          "from": "Luca Moretti",
+          "to": "billing@aqualis.fr",
+          "subject": "Invoice question",
+          "date": "12 October",
+          "body": "Dear Sir or Madam,\n\nI was surprised by our latest invoice. Our café was closed for renovation for the whole of August, yet our water consumption is almost three times higher than usual. I suspect there may be a leak or a problem with the meter. Could you send a technician to check it?\n\nAlso, I paid the previous invoice on time; I have attached the bank confirmation. I would therefore ask you to remove the late fee.\n\nLuca Moretti"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p7-35",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "Why did Mr. Moretti write the e-mail?",
+          "options": [
+            "To open a new account",
+            "To report a renovation",
+            "To question an invoice",
+            "To request a payment extension"
+          ],
+          "answer": "C",
+          "evidence": "I was surprised by our latest invoice.",
+          "explanation": "M. Moretti conteste sa dernière facture d'eau, qu'il juge anormalement élevée.",
+          "takeaway": "Question an invoice = contester une facture."
+        },
+        {
+          "id": "e4-p7-36",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does Mr. Moretti suspect?",
+          "options": [
+            "A billing software error",
+            "A technical problem",
+            "A change in price",
+            "Unauthorized use by a neighbor"
+          ],
+          "answer": "B",
+          "evidence": "I suspect there may be a leak or a problem with the meter.",
+          "explanation": "Il soupçonne une fuite ou un compteur défectueux : un problème technique.",
+          "takeaway": "Leak = fuite ; meter = compteur."
+        },
+        {
+          "id": "e4-p7-37",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "Which amount does Mr. Moretti ask to have removed?",
+          "options": [
+            "€25.00",
+            "€54.00",
+            "€865.20",
+            "€944.20"
+          ],
+          "answer": "A",
+          "explanation": "Il demande la suppression des pénalités de retard, qui s'élèvent à 25 € sur la facture.",
+          "takeaway": "Late fee = pénalité de retard."
+        },
+        {
+          "id": "e4-p7-38",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "What is suggested about the café's recorded consumption?",
+          "options": [
+            "It is far above the average for similar businesses.",
+            "It matches the café's usual use.",
+            "It was estimated, not measured.",
+            "It includes the renovation company's use."
+          ],
+          "answer": "A",
+          "explanation": "412 m³ contre une moyenne de 150 m³ pour une entreprise de cette taille : près de trois fois plus, comme le note M. Moretti.",
+          "takeaway": "Compare les chiffres de la facture et de la note."
+        },
+        {
+          "id": "e4-p7-39",
+          "level": 2,
+          "category": "synonym",
+          "prompt": "What did Mr. Moretti attach to his e-mail?",
+          "options": [
+            "A previous invoice",
+            "A photo of the meter",
+            "The renovation contract",
+            "Proof of payment"
+          ],
+          "answer": "D",
+          "evidence": "I have attached the bank confirmation",
+          "explanation": "La confirmation bancaire prouve son paiement : c'est une preuve de paiement.",
+          "takeaway": "Bank confirmation = proof of payment."
+        }
+      ]
+    },
+    {
+      "id": "e4-p7-t01",
+      "kind": "triple",
+      "title": "Programme de stages : annonce, candidature, e-mail",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Summer Internship Program — Aurelia Biotech",
+          "body": "Aurelia Biotech offers paid ten-week internships in its Research, Regulatory Affairs, and Marketing departments. Interns receive a monthly stipend of €1,100, and those who live more than 50 km from our Toulouse campus are also eligible for a housing allowance of €400 per month. Applications close on 28 February. Candidates selected for an interview will be contacted by 20 March."
+        },
+        {
+          "type": "form",
+          "title": "Internship Application",
+          "fields": [
+            [
+              "Name",
+              "Chloé Bernard"
+            ],
+            [
+              "University",
+              "Université de Montpellier, MSc Biochemistry"
+            ],
+            [
+              "Preferred department",
+              "Regulatory Affairs"
+            ],
+            [
+              "Second choice",
+              "Research"
+            ],
+            [
+              "Home address",
+              "Montpellier (approx. 240 km from Toulouse)"
+            ],
+            [
+              "Available from",
+              "2 June"
+            ],
+            [
+              "Date submitted",
+              "24 February"
+            ]
+          ]
+        },
+        {
+          "type": "email",
+          "from": "Aurelia Biotech HR",
+          "to": "Chloé Bernard",
+          "subject": "Interview invitation",
+          "date": "18 March",
+          "body": "Dear Ms. Bernard,\n\nThank you for your application. We are pleased to invite you to an interview for an internship in our Research department, as all positions in your preferred department have already been filled. The interview will take place by video on 26 March at 11:00. If this department does not interest you, please let us know.\n\nAurelia Biotech HR"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p7-40",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What is indicated about the internships?",
+          "options": [
+            "They are only in Marketing.",
+            "They last six months.",
+            "They are paid.",
+            "They start in February."
+          ],
+          "answer": "C",
+          "evidence": "offers paid ten-week internships",
+          "explanation": "Les stages sont rémunérés (1 100 € par mois).",
+          "takeaway": "Stipend = gratification de stage."
+        },
+        {
+          "id": "e4-p7-41",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "What will Ms. Bernard most likely receive if she is selected?",
+          "options": [
+            "Free housing on campus",
+            "A housing allowance in addition to her stipend",
+            "A permanent contract",
+            "Travel expenses for the interview"
+          ],
+          "answer": "B",
+          "explanation": "Elle habite à environ 240 km de Toulouse, au-delà des 50 km : elle a droit à l'aide au logement de 400 € en plus de la gratification.",
+          "takeaway": "Compare la distance (doc 2) au seuil (doc 1)."
+        },
+        {
+          "id": "e4-p7-42",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "What is indicated about Ms. Bernard's application?",
+          "options": [
+            "It was submitted before the deadline.",
+            "It was incomplete.",
+            "It was sent after 28 February.",
+            "It listed Marketing as a choice."
+          ],
+          "answer": "A",
+          "explanation": "Envoyée le 24 février, avant la clôture du 28 février.",
+          "takeaway": "Compare les dates."
+        },
+        {
+          "id": "e4-p7-43",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "Why is Ms. Bernard invited for a Research internship?",
+          "options": [
+            "Her first-choice department has no openings left.",
+            "She studied research methods.",
+            "She asked to change departments.",
+            "Research pays more."
+          ],
+          "answer": "A",
+          "explanation": "Elle avait choisi en priorité Regulatory Affairs, mais tous les postes y sont pourvus ; Research était son second choix.",
+          "takeaway": "Filled = pourvu."
+        },
+        {
+          "id": "e4-p7-44",
+          "level": 1,
+          "category": "detail",
+          "prompt": "How will the interview be conducted?",
+          "options": [
+            "In person in Toulouse",
+            "By telephone",
+            "In writing",
+            "By video"
+          ],
+          "answer": "D",
+          "evidence": "The interview will take place by video",
+          "explanation": "L'entretien aura lieu en visioconférence.",
+          "takeaway": "By video = en visio."
+        }
+      ]
+    },
+    {
+      "id": "e4-p7-t02",
+      "kind": "triple",
+      "title": "Location de voiture : tarifs, demande, réponse",
+      "docs": [
+        {
+          "type": "table",
+          "title": "Rivo Car Rental — Weekly Rates (Nice Airport)",
+          "columns": [
+            "Category",
+            "Example model",
+            "Seats",
+            "Price per week"
+          ],
+          "rows": [
+            [
+              "Economy",
+              "Fiat 500",
+              "4",
+              "€210"
+            ],
+            [
+              "Compact",
+              "Peugeot 308",
+              "5",
+              "€280"
+            ],
+            [
+              "Family",
+              "Citroën Berlingo",
+              "7",
+              "€390"
+            ],
+            [
+              "Premium",
+              "BMW 5 Series",
+              "5",
+              "€560"
+            ]
+          ],
+          "note": "Additional driver: €8 per day. Child seats: €48 each per rental. Free cancellation up to 48 hours before pickup."
+        },
+        {
+          "type": "email",
+          "from": "Henrik Lund",
+          "to": "Rivo Nice",
+          "subject": "Rental 14–21 July",
+          "date": "2 July",
+          "body": "Hello,\n\nI'd like to rent a car at Nice Airport from 14 to 21 July. We are a family of six (two adults and four children), and we'll need two child seats. My wife will also drive, so please add her as a second driver. Could you confirm the total price?\n\nHenrik Lund"
+        },
+        {
+          "type": "email",
+          "from": "Rivo Car Rental",
+          "to": "Henrik Lund",
+          "subject": "RE: Rental 14–21 July",
+          "date": "3 July",
+          "body": "Dear Mr. Lund,\n\nThank you for your request. Based on the size of your family, we have reserved a vehicle in the appropriate category. The total for seven days, including the extras you requested, is €542. Please note that the vehicle must be returned with a full tank; otherwise, a refueling fee of €2.50 per liter will be charged.\n\nRivo Car Rental"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p7-45",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "Why did Mr. Lund write to Rivo?",
+          "options": [
+            "To cancel a reservation",
+            "To complain about a vehicle",
+            "To request a booking and a price",
+            "To ask about insurance"
+          ],
+          "answer": "C",
+          "evidence": "Could you confirm the total price?",
+          "explanation": "Il demande une réservation et la confirmation du prix total.",
+          "takeaway": "Confirm = confirmer."
+        },
+        {
+          "id": "e4-p7-46",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "Which category of vehicle was reserved for Mr. Lund?",
+          "options": [
+            "Economy",
+            "Family",
+            "Compact",
+            "Premium"
+          ],
+          "answer": "B",
+          "explanation": "Ils sont six : seule la catégorie Family (7 places) convient.",
+          "takeaway": "« Appropriate category » renvoie au tableau."
+        },
+        {
+          "id": "e4-p7-47",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "How much will Mr. Lund pay for the child seats?",
+          "options": [
+            "€48",
+            "€56",
+            "€96",
+            "€152"
+          ],
+          "answer": "C",
+          "explanation": "Deux sièges à 48 € chacun = 96 €. Vérification : 390 € + 56 € (conducteur, 7 × 8 €) + 96 € = 542 €.",
+          "traps": "56 € correspond au conducteur supplémentaire.",
+          "takeaway": "Retrouve le total pour vérifier ton calcul."
+        },
+        {
+          "id": "e4-p7-48",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What is Mr. Lund asked to do when returning the car?",
+          "options": [
+            "Fill the fuel tank",
+            "Clean the interior",
+            "Return the child seats separately",
+            "Arrive two hours early"
+          ],
+          "answer": "A",
+          "evidence": "the vehicle must be returned with a full tank",
+          "explanation": "La voiture doit être rendue avec le plein, sinon des frais s'appliquent.",
+          "takeaway": "Full tank = plein (d'essence)."
+        },
+        {
+          "id": "e4-p7-49",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "Until when can Mr. Lund cancel without paying a fee?",
+          "options": [
+            "2 July",
+            "12 July",
+            "14 July",
+            "21 July"
+          ],
+          "answer": "B",
+          "explanation": "L'annulation est gratuite jusqu'à 48 h avant la prise en charge du 14 juillet, soit jusqu'au 12 juillet.",
+          "takeaway": "Calcule à partir de la date de prise en charge."
+        }
+      ]
+    },
+    {
+      "id": "e4-p7-t03",
+      "kind": "triple",
+      "title": "Journée bénévole : article, inscriptions, e-mail",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Volunteer Day — Friday, 17 October",
+          "subtitle": "Talbot Insurance internal newsletter",
+          "body": "This year, every Talbot Insurance employee is invited to spend one paid working day volunteering with a local organization. Choose one of the four projects listed on the sign-up sheet on the intranet. Each project has a limited number of places, assigned on a first-come, first-served basis. Lunch will be provided by the company at every site."
+        },
+        {
+          "type": "table",
+          "title": "Volunteer Day — Sign-up Sheet (as of 6 October)",
+          "columns": [
+            "Project",
+            "Location",
+            "Places",
+            "Places left"
+          ],
+          "rows": [
+            [
+              "Food bank sorting",
+              "Vénissieux",
+              "20",
+              "0"
+            ],
+            [
+              "Park cleanup",
+              "Parc de Gerland",
+              "30",
+              "12"
+            ],
+            [
+              "Reading with children",
+              "Bibliothèque Jean Macé",
+              "10",
+              "1"
+            ],
+            [
+              "Repainting a youth center",
+              "Villeurbanne",
+              "15",
+              "6"
+            ]
+          ]
+        },
+        {
+          "type": "email",
+          "from": "Jasmine Cole",
+          "to": "Volunteer Committee",
+          "subject": "Sign-up",
+          "date": "7 October",
+          "body": "Hello,\n\nI tried to sign up for the food bank project, which I did last year and really enjoyed, but there are no places left. My second choice would be the reading project, since I studied education before joining Talbot. Could you add me to it? Also, I have a nut allergy; could you let the caterer know?\n\nJasmine Cole"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e4-p7-50",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the purpose of the newsletter article?",
+          "options": [
+            "To present the company's results",
+            "To announce a new office",
+            "To recruit new employees",
+            "To invite employees to take part in community work"
+          ],
+          "answer": "D",
+          "evidence": "every Talbot Insurance employee is invited to spend one paid working day volunteering",
+          "explanation": "L'article invite les salariés à une journée de bénévolat rémunérée.",
+          "takeaway": "Volunteer = faire du bénévolat."
+        },
+        {
+          "id": "e4-p7-51",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is indicated about Ms. Cole?",
+          "options": [
+            "She organizes the event.",
+            "She works in education.",
+            "She volunteered last year.",
+            "She lives in Vénissieux."
+          ],
+          "answer": "C",
+          "evidence": "which I did last year and really enjoyed",
+          "explanation": "Elle a participé au projet de la banque alimentaire l'an dernier.",
+          "traps": "Elle a étudié l'éducation, mais elle travaille chez Talbot.",
+          "takeaway": "Distingue études passées et emploi actuel."
+        },
+        {
+          "id": "e4-p7-52",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "Why could Ms. Cole not join her first-choice project?",
+          "options": [
+            "It was canceled.",
+            "It was full.",
+            "It was too far away.",
+            "It was reserved for managers."
+          ],
+          "answer": "B",
+          "explanation": "La banque alimentaire n'a plus aucune place (0 restante sur la feuille d'inscription).",
+          "takeaway": "Places left = places restantes."
+        },
+        {
+          "id": "e4-p7-53",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "What is suggested about the reading project?",
+          "options": [
+            "It had only one place remaining when Ms. Cole wrote.",
+            "It is held at a park.",
+            "It has the most places.",
+            "It requires a teaching degree."
+          ],
+          "answer": "A",
+          "explanation": "Au 6 octobre, il restait une seule place ; Mme Cole écrit le 7 : elle demande peut-être la dernière place, attribuée selon le principe « premier arrivé, premier servi ».",
+          "takeaway": "Croise date, nombre de places et règle d'attribution."
+        },
+        {
+          "id": "e4-p7-54",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does Ms. Cole ask the committee to do?",
+          "options": [
+            "Send her the project list",
+            "Change the date of the event",
+            "Organize transportation",
+            "Inform the caterer of a dietary restriction"
+          ],
+          "answer": "D",
+          "evidence": "I have a nut allergy; could you let the caterer know?",
+          "explanation": "Elle demande de prévenir le traiteur de son allergie aux fruits à coque.",
+          "takeaway": "Dietary restriction = restriction alimentaire."
+        }
+      ]
+    }
+  ]
+}
