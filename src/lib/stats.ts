@@ -61,7 +61,7 @@ export interface Weakness {
 
 /** Poids d'une catégorie dans un examen (fréquence dans la banque d'examen) */
 function categoryWeights(bank: Bank): Map<string, number> {
-  const exam = [...bank.questions.values()].filter((q) => q.pool === 'exam1');
+  const exam = [...bank.questions.values()].filter((q) => q.pool.startsWith('exam'));
   const g = groupBy(exam, (q) => q.category);
   return new Map([...g.entries()].map(([k, v]) => [k, v.length]));
 }

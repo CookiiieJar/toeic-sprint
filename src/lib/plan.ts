@@ -49,17 +49,17 @@ const TEMPLATE: Record<number, T[]> = {
   16: [t('errors', 15, 'Comprendre mes erreurs du diagnostic'), t('grammar', 15, 'Fiche de grammaire + mini-quiz'), t('daily', 20, 'Révision du jour ciblée', { scope: 'weak' })],
   15: [t('intensive', 45, 'Session intensive — parties faibles', { scope: 'weak' }), t('flashcards', 10, 'Flashcards vocabulaire'), t('errors', 10, 'Erreurs à revoir')],
   14: [t('intensive', 90, 'Grosse session — parties faibles', { scope: 'weak' }), t('flashcards', 15, 'Flashcards'), t('errors', 15, 'Erreurs à revoir')],
-  13: [t('mini-exam', 35, 'Mini-examen 50 questions', { size: 50 }), t('intensive', 45, 'Listening : conversations & monologues', { parts: [3, 4] }), t('flashcards', 10, 'Flashcards')],
+  13: [t('exam-full', 120, 'Examen blanc complet n°1 (conditions réelles)'), t('errors', 20, "Analyse des erreurs de l'examen")],
   12: [t('intensive', 45, 'Reading ciblé', { scope: 'reading' }), t('flashcards', 10, 'Flashcards'), t('errors', 15, 'Erreurs à revoir')],
   11: [t('intensive', 45, 'Listening intensif', { scope: 'listening' }), t('grammar', 15, 'Fiche de grammaire'), t('errors', 10, 'Erreurs à revoir')],
-  10: [t('intensive', 60, 'Session mixte — difficulté élevée', { scope: 'mixed', hard: true }), t('flashcards', 10, 'Flashcards')],
+  10: [t('exam-full', 120, 'Examen blanc complet'), t('errors', 15, "Erreurs de l'examen")],
   9: [t('intensive', 45, 'Reading chronométré (Parts 5 & 7)', { parts: [5, 7], timed: true }), t('errors', 15, 'Erreurs à revoir')],
   8: [t('mini-exam', 25, 'Mini-examen 30 questions', { size: 30 }), t('errors', 20, 'Analyse des erreurs'), t('flashcards', 10, 'Flashcards')],
   7: [t('exam-full', 120, 'Examen blanc complet (200 questions)'), t('errors', 20, "Correction de l'examen blanc")],
   6: [t('errors', 30, "Erreurs de l'examen blanc"), t('intensive', 60, 'Parties faibles', { scope: 'weak' })],
-  5: [t('intensive', 45, 'Part 7 chronométrée — vitesse', { parts: [7], timed: true }), t('flashcards', 10, 'Flashcards'), t('errors', 10, 'Erreurs à revoir')],
+  5: [t('exam-full', 120, 'Examen blanc complet'), t('errors', 15, "Erreurs de l'examen")],
   4: [t('errors', 30, 'Difficultés persistantes'), t('intensive', 45, 'Session difficile sur les points faibles', { scope: 'weak', hard: true })],
-  3: [t('mini-exam', 35, 'Mini-examen 50 questions en conditions réelles', { size: 50 }), t('errors', 20, 'Erreurs à revoir')],
+  3: [t('exam-full', 120, 'Dernier examen blanc complet'), t('errors', 20, 'Erreurs à revoir')],
   2: [t('intensive', 60, 'Dernière grosse session mixte', { scope: 'mixed' }), t('flashcards', 15, 'Flashcards')],
   1: [t('flashcards', 15, 'Flashcards (léger)'), t('errors', 15, 'Erreurs récurrentes'), t('daily', 10, 'Quelques exercices courts')],
   0: [t('checklist', 5, 'Checklist du jour J')],
@@ -70,6 +70,8 @@ export interface PlanInput {
   sessions: Session[];
   logs: DayLog[];
   weakParts: Part[];
+  /** nombre d'examens blancs complets disponibles */
+  examCount?: number;
   today?: string;
   startDay?: string;
 }
@@ -106,12 +108,13 @@ export function phaseFor(j: number) {
   return PHASES.find((p) => j <= p.from && j >= p.to) ?? PHASES[0];
 }
 
-export function buildPlan({ profile, sessions, logs, weakParts, today = dayKey(), startDay }: PlanInput): PlanDay[] {
+export function buildPlan({ profile, sessions, logs, weakParts, examCount = 1, today = dayKey(), startDay }: PlanInput): PlanDay[] {
   const exam = profile.examDate;
   const start = startDay ?? addDays(exam, -17);
   const done = sessions.filter((s) => s.status === 'done');
   const diagDone = !!profile.diagnosticSessionId || done.some((s) => s.type === 'diagnostic');
-  const fullExamDone = done.some((s) => s.type === 'exam' && s.examKind === 'full');
+  const doneFull = done.filter((s) => s.type === 'exam' && s.examKind === 'full').length;
+  let remaining = Math.max(0, examCount - doneFull);
   const logMap = new Map(logs.map((l) => [l.day, l]));
   const days: PlanDay[] = [];
   const total = diffDays(start, exam);
@@ -132,10 +135,15 @@ export function buildPlan({ profile, sessions, logs, weakParts, today = dayKey()
       tpl.unshift(t('diagnostic', 45, 'Test diagnostic (non fait)'));
       note = 'Le diagnostic n\'a pas encore été fait : il passe en priorité pour cibler ton travail.';
     }
-    if (fullExamDone) {
-      const ei = tpl.findIndex((x) => x.kind === 'exam-full');
-      if (ei >= 0 && !isPast && !(isToday && done.some((s) => s.type === 'exam' && s.examKind === 'full' && sessionDay(s) === day)))
-        tpl[ei] = t('mini-exam', 35, 'Mini-examen 50 questions (examen complet déjà passé)', { size: 50 });
+    const ei = tpl.findIndex((x) => x.kind === 'exam-full');
+    const examDoneToday = done.some((s) => s.type === 'exam' && s.examKind === 'full' && sessionDay(s) === day);
+    if (ei >= 0 && !isPast && !examDoneToday) {
+      // un examen blanc inédit est-il encore disponible pour ce jour ?
+      if (remaining > 0) remaining--;
+      else tpl[ei] = t('mini-exam', 35, 'Mini-examen 50 questions (tous les examens blancs sont passés)', { size: 50 });
+    }
+    if (doneFull > 0) {
+      /* rien : la suite du planning gère les examens restants */
     } else if (isToday && j <= 6 && j >= 2 && !tpl.some((x) => x.kind === 'exam-full')) {
       const ii = tpl.findIndex((x) => x.kind === 'intensive' || x.kind === 'mini-exam');
       const ex = t('exam-full', 120, 'Examen blanc complet (reporté — à faire dès que possible)');

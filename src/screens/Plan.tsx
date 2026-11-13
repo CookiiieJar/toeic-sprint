@@ -1,3 +1,5 @@
+import { examPools } from '../lib/bankCore';
+import { getBank } from '../lib/bank';
 import { useMemo } from 'react';
 import { useAttempts, useLogs, useProfile, useSessions } from '../lib/hooks';
 import { buildPlan, PHASES } from '../lib/plan';
@@ -13,7 +15,7 @@ export function Plan() {
   const logs = useLogs();
   const attempts = useAttempts();
   const today = dayKey();
-  const plan = useMemo(() => (profile ? buildPlan({ profile, sessions, logs, weakParts: weakPartsOf(attempts) }) : []), [profile, sessions, logs, attempts]);
+  const plan = useMemo(() => (profile ? buildPlan({ profile, sessions, logs, weakParts: weakPartsOf(attempts), examCount: examPools(getBank()).length }) : []), [profile, sessions, logs, attempts]);
   if (!profile) return null;
   const wp = weakPartsOf(attempts);
   return (

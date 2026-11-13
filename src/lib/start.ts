@@ -1,9 +1,9 @@
 import { db } from './db';
 import { getBank } from './bank';
-import { byPool } from './bankCore';
+import { byPool, examPools } from './bankCore';
 import { buildMiniExam, errorQuestionIds, selectQuestions } from './selection';
 import { createSession, practicePools } from './sessions';
-import type { Part, QState } from './types';
+import type { ExamPool, Part, QState } from './types';
 import { LISTENING_PARTS, READING_PARTS, PART_FR } from './labels';
 import { navigate } from './router';
 
@@ -66,12 +66,20 @@ export async function startDiagnostic() {
   go(s.id);
 }
 
-export async function startExam(kind: 'full' | 'listening' | 'reading') {
-  const all = byPool(getBank(), 'exam1');
+export async function startExam(kind: 'full' | 'listening' | 'reading', pool: ExamPool = 'exam1') {
+  const all = byPool(getBank(), pool);
+  const num = pool.slice(4);
   const qids = all.filter((q) => (kind === 'full' ? true : kind === 'listening' ? q.part <= 4 : q.part >= 5)).map((q) => q.id);
-  const title = kind === 'full' ? 'Examen blanc complet' : kind === 'listening' ? 'Examen blanc — Listening' : 'Examen blanc — Reading';
-  const s = await createSession({ type: 'exam', title, mode: 'exam', qids, examKind: kind, readingLimitSec: kind === 'listening' ? undefined : 75 * 60, meta: { bank: 'exam1' } });
+  const title = kind === 'full' ? `Examen blanc n°${num} — complet` : kind === 'listening' ? `Examen blanc n°${num} — Listening` : `Examen blanc n°${num} — Reading`;
+  const s = await createSession({ type: 'exam', title, mode: 'exam', qids, examKind: kind, readingLimitSec: kind === 'listening' ? undefined : 75 * 60, meta: { bank: pool } });
   go(s.id);
+}
+
+/** Prochain examen blanc jamais commencé (sinon le dernier) */
+export async function nextExamPool(): Promise<ExamPool> {
+  const all = examPools(getBank());
+  const used = new Set((await db.sessions.filter((s) => s.type === 'exam' && s.examKind !== 'mini' && s.status !== 'abandoned').toArray()).map((s) => (s.meta?.bank as string) ?? 'exam1'));
+  return all.find((p) => !used.has(p)) ?? all[all.length - 1];
 }
 
 export async function startMiniExam(size: number) {

@@ -1,5 +1,8 @@
 import { useSessions, run } from '../lib/hooks';
 import { startExam, startMiniExam } from '../lib/start';
+import { examPools } from '../lib/bankCore';
+import { getBank } from '../lib/bank';
+import type { ExamPool } from '../lib/types';
 import { navigate } from '../lib/router';
 import { formatDayFr, dayKey, formatDuration } from '../lib/dates';
 import { estimateFromRates } from '../lib/scoring';
@@ -10,30 +13,60 @@ export function Exams() {
   const sessions = useSessions();
   const exams = sessions.filter((s) => s.type === 'exam' || s.type === 'diagnostic');
   const done = exams.filter((s) => s.status === 'done').reverse();
-  const exam1Done = done.some((s) => s.type === 'exam' && s.examKind !== 'mini');
+  const pools = examPools(getBank());
+  const examSessions = (ep: string) => exams.filter((s) => s.type === 'exam' && s.examKind !== 'mini' && ((s.meta?.bank as string) ?? 'exam1') === ep);
   const series = [...done].reverse().map((s) => ({
     label: formatDayFr(dayKey(s.finishedAt!), false),
     l: s.summary?.listening?.total ? s.summary.listening.correct / s.summary.listening.total : null,
     r: s.summary?.reading?.total ? s.summary.reading.correct / s.summary.reading.total : null,
   }));
-  const confirmRetake = (fn: () => Promise<void>) => () => {
-    if (exam1Done && !confirm("Tu as déjà passé cet examen blanc : le refaire surestimera ton niveau (questions déjà vues). Continuer ?")) return;
-    run(fn);
+  const launch = (ep: ExamPool, kind: 'full' | 'listening' | 'reading') => () => {
+    const already = examSessions(ep).some((s) => s.status === 'done' && (s.examKind === 'full' || s.examKind === kind));
+    if (already && !confirm('Tu as déjà passé cet examen blanc : le refaire surestimera ton niveau (questions déjà vues). Continuer ?')) return;
+    run(() => startExam(kind, ep));
   };
+  const next = pools.find((ep) => !examSessions(ep).length);
   return (
     <>
       <Header title="Examens blancs" />
       <Page>
-        <Card>
-          <h2 className="m-0 text-lg font-bold">Examen complet — 200 questions</h2>
-          <p className="mt-1 text-sm text-muted">Listening 100 q. (~45 min, rythme imposé par l'audio, lecture unique) puis Reading 100 q. en 75 min chronométrées, avec grille et questions marquées.</p>
-          <Button block className="mt-3" onClick={confirmRetake(() => startExam('full'))}>Commencer l'examen complet (2 h)</Button>
-          <div className="mt-2 grid grid-cols-2 gap-2">
-            <Button variant="soft" onClick={confirmRetake(() => startExam('listening'))}>Listening seul</Button>
-            <Button variant="soft" onClick={confirmRetake(() => startExam('reading'))}>Reading seul (75 min)</Button>
-          </div>
-          <p className="mt-2 text-xs text-muted">Les sections seules utilisent les mêmes questions que l'examen complet. Prévois l'examen complet un jour calme (planning : J-7).</p>
-        </Card>
+        <p className="mt-0 text-sm text-muted">{pools.length} examens blancs complets de 200 questions, tous différents et jamais proposés en entraînement tant que tu ne les as pas passés. Listening (~45 min, une seule écoute) puis Reading en 75 min chronométrées.</p>
+        <div className="space-y-3">
+          {pools.map((ep) => {
+            const ss = examSessions(ep);
+            const fin = ss.filter((s) => s.status === 'done');
+            const full = fin.find((s) => s.examKind === 'full');
+            const inProgress = ss.find((s) => s.status === 'active' || s.status === 'paused');
+            const sum = full?.summary;
+            const est = sum ? estimateFromRates(sum.listening!.correct / Math.max(1, sum.listening!.total), sum.reading!.correct / Math.max(1, sum.reading!.total), 'full-exam') : null;
+            return (
+              <Card key={ep} className={ep === next ? '!border-primary' : ''}>
+                <div className="flex items-start justify-between gap-2">
+                  <div>
+                    <h2 className="m-0 text-base font-bold">Examen blanc n°{ep.slice(4)}</h2>
+                    <p className="m-0 text-xs text-muted">
+                      {full ? `Passé le ${formatDayFr(dayKey(full.finishedAt!), false)} · ${sum!.correct}/200${est ? ` · estimation indicative ${est.total.low}–${est.total.high}` : ''}` : fin.length ? `Section(s) passée(s) : ${fin.map((s) => (s.examKind === 'listening' ? 'Listening' : 'Reading')).join(', ')}` : inProgress ? 'En cours — reprends-le depuis l\'accueil' : 'Jamais commencé'}
+                    </p>
+                  </div>
+                  {ep === next && <span className="shrink-0 rounded-full bg-primary-soft px-2 py-0.5 text-xs font-semibold text-primary">Suivant</span>}
+                </div>
+                {inProgress ? (
+                  <Button block className="mt-3" onClick={() => navigate(`/session?id=${inProgress.id}`)}>Reprendre</Button>
+                ) : (
+                  <>
+                    <Button block className="mt-3" variant={full ? 'ghost' : 'primary'} onClick={launch(ep, 'full')}>{full ? 'Repasser (déconseillé)' : 'Examen complet (2 h)'}</Button>
+                    <div className="mt-2 grid grid-cols-2 gap-2">
+                      <Button size="sm" variant="soft" onClick={launch(ep, 'listening')}>Listening seul</Button>
+                      <Button size="sm" variant="soft" onClick={launch(ep, 'reading')}>Reading seul</Button>
+                    </div>
+                  </>
+                )}
+                {full && <Button size="sm" variant="ghost" className="mt-2" onClick={() => navigate(`/summary?id=${full.id}`)}>Voir la correction</Button>}
+              </Card>
+            );
+          })}
+        </div>
+        <p className="mt-2 text-xs text-muted">Conseil : passe-les dans l'ordre, en conditions réelles (2 h d'affilée), en espaçant de 2 à 3 jours pour analyser tes erreurs entre deux.</p>
 
         <SectionTitle>Mini-examens</SectionTitle>
         <Card>

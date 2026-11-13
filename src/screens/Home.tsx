@@ -1,3 +1,4 @@
+import { examPools } from '../lib/bankCore';
 import { useMemo, useState } from 'react';
 import { useAttempts, useLogs, useProfile, useSessions, useStates, run } from '../lib/hooks';
 import { accOf, dailySeries, masteredCount, recent, sections, streak, weaknesses } from '../lib/stats';
@@ -7,7 +8,7 @@ import { getBank } from '../lib/bank';
 import { estimateFromRates, requiredRates } from '../lib/scoring';
 import { encouragement } from '../lib/badges';
 import { navigate } from '../lib/router';
-import { startDaily, startDiagnostic, startErrors, startExam, startIntensive, startMiniExam } from '../lib/start';
+import { nextExamPool, startDaily, startDiagnostic, startErrors, startExam, startIntensive, startMiniExam } from '../lib/start';
 import type { Part, Session } from '../lib/types';
 import { Button, Card, Icon, Notice, Page, Pct, Progress, SectionTitle, Sheet, Stat, cx } from '../components/ui';
 import { LineChart } from '../components/Charts';
@@ -33,7 +34,7 @@ export async function launchTask(t: PlanTask) {
     case 'errors': return startErrors('due').catch(() => startErrors('all'));
     case 'flashcards': return navigate('/flashcards');
     case 'grammar': return navigate('/grammar');
-    case 'exam-full': return startExam('full');
+    case 'exam-full': return startExam('full', await nextExamPool());
     case 'mini-exam': return startMiniExam(t.size ?? 30);
     case 'checklist': return navigate('/exam-day');
   }
@@ -52,7 +53,7 @@ export function Home() {
     const bank = getBank();
     const weak = weaknesses(attempts, bank, 3);
     const wp = weakPartsOf(attempts);
-    const plan = profile ? buildPlan({ profile, sessions, logs, weakParts: wp }) : [];
+    const plan = profile ? buildPlan({ profile, sessions, logs, weakParts: wp, examCount: examPools(bank).length }) : [];
     const tp = todayPlan(plan, today);
     const todayLog = logs.find((l) => l.day === today);
     const rec = accOf(recent(attempts, 50));

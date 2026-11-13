@@ -1,7 +1,7 @@
 import { db } from './db';
 import { getBank } from './bank';
 import { letterIndex, targetSec, toUnits } from './bankCore';
-import type { Attempt, Letter, Part, Pool, Profile, QState, Session, SessionSummary, SessionType, Unit } from './types';
+import type { Attempt, ExamPool, Letter, Part, Pool, Profile, QState, Session, SessionSummary, SessionType, Unit } from './types';
 import { dayKey } from './dates';
 import { errStatus, gradeAnswer, newSrs, review } from './srs';
 import { isListening } from './labels';
@@ -30,13 +30,19 @@ export async function saveProfile(patch: Partial<Profile>) {
 
 const uid = () => `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`;
 
+/** Examens blancs (pools) déjà passés au moins en partie */
+export async function doneExamPools(): Promise<ExamPool[]> {
+  const done = await db.sessions.filter((s) => s.type === 'exam' && s.status === 'done' && s.examKind !== 'mini').toArray();
+  return [...new Set(done.map((s) => (s.meta?.bank as ExamPool) ?? 'exam1'))];
+}
+
 /** Pools utilisables en entraînement. Les questions de l'examen blanc restent réservées tant qu'il n'a pas été passé. */
 export async function practicePools(): Promise<Pool[]> {
   const pools: Pool[] = ['practice', 'custom'];
   const p = await getProfile();
   if (p.diagnosticSessionId) pools.push('diag');
-  const examDone = await db.sessions.filter((s) => s.type === 'exam' && s.status === 'done' && s.examKind !== 'mini').count();
-  if (examDone) pools.push('exam1');
+  // chaque examen blanc ne rejoint l'entraînement qu'une fois passé (évaluation non biaisée)
+  for (const ep of await doneExamPools()) pools.push(ep);
   return pools;
 }
 

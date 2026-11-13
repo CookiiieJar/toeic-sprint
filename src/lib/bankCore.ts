@@ -1,4 +1,4 @@
-import type { BankFile, Part, Pool, QSet, Question, Unit } from './types';
+import type { BankFile, ExamPool, Part, Pool, QSet, Question, Unit } from './types';
 import { DEFAULT_TARGET_SEC, EXAM_STRUCTURE } from './labels';
 
 export interface Bank {
@@ -216,15 +216,27 @@ export function validateBank(bank: Bank, opts: { requireExam?: boolean } = {}): 
   }
 
   if (opts.requireExam) {
-    for (const p of [1, 2, 3, 4, 5, 6, 7] as Part[]) {
-      const c = stats[`pool:exam1:part:${p}`] ?? 0;
-      if (c !== EXAM_STRUCTURE[p]) errors.push(`Examen 1 : Part ${p} contient ${c} questions (attendu ${EXAM_STRUCTURE[p]})`);
+    const pools = examPools(bank);
+    if (!pools.includes('exam1')) errors.push('Examen 1 manquant');
+    for (const ep of pools) {
+      const n = ep.slice(4);
+      for (const p of [1, 2, 3, 4, 5, 6, 7] as Part[]) {
+        const c = stats[`pool:${ep}:part:${p}`] ?? 0;
+        if (c !== EXAM_STRUCTURE[p]) errors.push(`Examen ${n} : Part ${p} contient ${c} questions (attendu ${EXAM_STRUCTURE[p]})`);
+      }
+      if ((stats[`p7:${ep}:single`] ?? 0) !== 29) errors.push(`Examen ${n} : Part 7 documents simples = ${stats[`p7:${ep}:single`] ?? 0} (attendu 29)`);
+      const multi = (stats[`p7:${ep}:double`] ?? 0) + (stats[`p7:${ep}:triple`] ?? 0);
+      if (multi !== 25) errors.push(`Examen ${n} : Part 7 documents multiples = ${multi} (attendu 25)`);
     }
-    if ((stats['p7:exam1:single'] ?? 0) !== 29) errors.push(`Examen 1 : Part 7 documents simples = ${stats['p7:exam1:single'] ?? 0} (attendu 29)`);
-    const multi = (stats['p7:exam1:double'] ?? 0) + (stats['p7:exam1:triple'] ?? 0);
-    if (multi !== 25) errors.push(`Examen 1 : Part 7 documents multiples = ${multi} (attendu 25)`);
   }
   return { errors, warnings, stats };
+}
+
+/** Examens blancs complets présents dans la banque, triés (exam1, exam2…) */
+export function examPools(bank: Bank): ExamPool[] {
+  const set = new Set<string>();
+  for (const q of bank.questions.values()) if (/^exam\d$/.test(q.pool)) set.add(q.pool);
+  return [...set].sort() as ExamPool[];
 }
 
 /** Questions d'un pool pour une partie donnée */

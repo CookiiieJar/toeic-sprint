@@ -8,13 +8,20 @@ const sess = (p: Partial<Session>): Session => ({ id: Math.random().toString(), 
 
 describe('planning adaptatif', () => {
   it('couvre du 11 au 28 novembre avec les bonnes phases', () => {
-    const plan = buildPlan({ profile, sessions: [], logs: [], weakParts: [], today: '2026-11-11' });
+    const plan = buildPlan({ profile, sessions: [], logs: [], weakParts: [], examCount: 5, today: '2026-11-11' });
     expect(plan[0].day).toBe('2026-11-11');
     expect(plan.at(-1)!.day).toBe('2026-11-28');
     expect(plan[0].tasks[0].kind).toBe('diagnostic');
     expect(plan.find((d) => d.day === '2026-11-27')!.tasks.every((t) => t.minutes <= 15)).toBe(true);
     expect(plan.at(-1)!.tasks[0].kind).toBe('checklist');
     expect(plan.find((d) => d.day === '2026-11-21')!.tasks.some((t) => t.kind === 'exam-full')).toBe(true);
+  });
+  it("répartit les examens blancs disponibles puis bascule sur des mini-examens", () => {
+    const five = buildPlan({ profile, sessions: [], logs: [], weakParts: [], examCount: 5, today: '2026-11-11' });
+    expect(five.filter((d) => d.tasks.some((t) => t.kind === 'exam-full')).map((d) => d.j)).toEqual([13, 10, 7, 5, 3]);
+    const one = buildPlan({ profile, sessions: [], logs: [], weakParts: [], examCount: 1, today: '2026-11-11' });
+    expect(one.filter((d) => d.tasks.some((t) => t.kind === 'exam-full')).length).toBe(1);
+    expect(one.filter((d) => d.tasks.some((t) => t.kind === 'mini-exam')).length).toBeGreaterThanOrEqual(3);
   });
   it("ajoute le diagnostic s'il n'a pas été fait", () => {
     const plan = buildPlan({ profile, sessions: [], logs: [], weakParts: [], today: '2026-11-14' });

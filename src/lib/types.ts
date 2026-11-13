@@ -1,7 +1,8 @@
 // ───────────── Banque de questions ─────────────
 export type Part = 1 | 2 | 3 | 4 | 5 | 6 | 7;
 export type Letter = 'A' | 'B' | 'C' | 'D';
-export type Pool = 'exam1' | 'diag' | 'practice' | 'custom';
+export type ExamPool = 'exam1' | 'exam2' | 'exam3' | 'exam4' | 'exam5' | 'exam6';
+export type Pool = ExamPool | 'diag' | 'practice' | 'custom';
 export type Level = 1 | 2 | 3;
 /** M/W = homme/femme, M2/W2 = second homme/femme, N = narrateur */
 export type Speaker = 'M' | 'W' | 'M2' | 'W2' | 'N';
