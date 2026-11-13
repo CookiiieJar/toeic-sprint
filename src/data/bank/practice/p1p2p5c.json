@@ -1,0 +1,1231 @@
+{
+  "pool": "practice",
+  "questions": [
+    {
+      "id": "p-p1-07",
+      "part": 1,
+      "level": 2,
+      "category": "photo-action",
+      "scene": {
+        "bg": "office",
+        "alt": "Une femme debout près d'une fenêtre parle au téléphone ; un bureau avec un écran se trouve derrière elle.",
+        "els": [
+          {
+            "t": "window",
+            "x": 250,
+            "y": 45,
+            "w": 120,
+            "h": 90
+          },
+          {
+            "t": "desk",
+            "x": 120,
+            "w": 180
+          },
+          {
+            "t": "monitor",
+            "x": 120
+          },
+          {
+            "t": "person",
+            "x": 280,
+            "pose": "stand",
+            "facing": "left",
+            "arms": "phone",
+            "hold": "phone",
+            "shirt": "#0d9488",
+            "hair": "#292524",
+            "long": true,
+            "skin": 3
+          }
+        ]
+      },
+      "options": [
+        "She's typing on a keyboard.",
+        "She's sitting at her desk.",
+        "She's closing the blinds.",
+        "She's talking on the phone."
+      ],
+      "answer": "D",
+      "explanation": "La femme est debout et tient un téléphone à l'oreille : elle téléphone.",
+      "traps": "Le bureau et l'écran sont visibles, mais elle n'y est pas assise.",
+      "takeaway": "Vérifie la posture : debout (standing) ou assis (sitting)."
+    },
+    {
+      "id": "p-p1-08",
+      "part": 1,
+      "level": 3,
+      "category": "photo-state",
+      "scene": {
+        "bg": "warehouse",
+        "alt": "Une pile de cartons est posée contre une étagère vide ; personne n'est présent.",
+        "els": [
+          {
+            "t": "shelf",
+            "x": 220,
+            "w": 150,
+            "h": 150
+          },
+          {
+            "t": "boxes",
+            "x": 140,
+            "n": 3
+          }
+        ]
+      },
+      "options": [
+        "Workers are unloading a truck.",
+        "Some boxes are being stacked by a worker.",
+        "Some boxes have been piled up near a shelf.",
+        "A shelf is being repaired."
+      ],
+      "answer": "C",
+      "explanation": "Les cartons sont empilés près de l'étagère et personne n'est là : « have been piled up ».",
+      "traps": "« Are being stacked » et « is being repaired » sont des actions en cours qui exigent une personne.",
+      "takeaway": "Have been + participe = état visible sur l'image."
+    },
+    {
+      "id": "p-p1-09",
+      "part": 1,
+      "level": 1,
+      "category": "photo-action",
+      "scene": {
+        "bg": "outdoor",
+        "alt": "Un homme assis sur un banc dans un parc tient un téléphone à son oreille.",
+        "els": [
+          {
+            "t": "tree",
+            "x": 60
+          },
+          {
+            "t": "bench",
+            "x": 230
+          },
+          {
+            "t": "person",
+            "x": 220,
+            "pose": "sit",
+            "facing": "left",
+            "arms": "phone",
+            "hold": "phone",
+            "shirt": "#b45309",
+            "hair": "#1f2937",
+            "skin": 2
+          }
+        ]
+      },
+      "options": [
+        "He's climbing a tree.",
+        "He's sitting on a bench.",
+        "He's painting a bench.",
+        "He's jogging in a park."
+      ],
+      "answer": "B",
+      "explanation": "L'homme est assis sur le banc (en téléphonant) : « He's sitting on a bench ».",
+      "traps": "L'arbre est visible mais il ne grimpe pas ; personne ne peint ni ne court.",
+      "takeaway": "Plusieurs descriptions peuvent être vraies : choisis celle qui est proposée."
+    },
+    {
+      "id": "p-p1-10",
+      "part": 1,
+      "level": 2,
+      "category": "photo-state",
+      "scene": {
+        "bg": "meeting",
+        "alt": "Une salle de réunion vide : un ordinateur portable ouvert est posé sur la table, entre deux chaises.",
+        "els": [
+          {
+            "t": "table",
+            "x": 200,
+            "w": 240
+          },
+          {
+            "t": "laptop",
+            "x": 200
+          },
+          {
+            "t": "chair",
+            "x": 120,
+            "facing": "right"
+          },
+          {
+            "t": "chair",
+            "x": 280,
+            "facing": "left"
+          }
+        ]
+      },
+      "options": [
+        "A laptop has been left on a table.",
+        "People are watching a presentation.",
+        "Chairs are being carried out.",
+        "A laptop is being repaired."
+      ],
+      "answer": "A",
+      "explanation": "Un ordinateur portable est posé sur la table d'une salle vide : « has been left on a table ».",
+      "traps": "Aucune personne n'est présente pour regarder, porter ou réparer.",
+      "takeaway": "Has been left = a été laissé."
+    },
+    {
+      "id": "p-p1-11",
+      "part": 1,
+      "level": 2,
+      "category": "photo-action",
+      "scene": {
+        "bg": "street",
+        "alt": "Une femme marche dans la rue en portant un colis dans ses bras.",
+        "els": [
+          {
+            "t": "sign",
+            "x": 330,
+            "text": "POST"
+          },
+          {
+            "t": "person",
+            "x": 180,
+            "pose": "walk",
+            "facing": "right",
+            "arms": "carry",
+            "hold": "box",
+            "shirt": "#be123c",
+            "hair": "#0f172a",
+            "long": true,
+            "skin": 1
+          }
+        ]
+      },
+      "options": [
+        "She's mailing a letter.",
+        "She's waiting in line.",
+        "She's opening a box.",
+        "She's carrying a package down a street."
+      ],
+      "answer": "D",
+      "explanation": "La femme marche en portant un colis : « carrying a package ».",
+      "traps": "Le panneau « POST » suggère la poste, mais elle n'envoie rien : distracteur visuel.",
+      "takeaway": "Un mot affiché peut servir de piège."
+    },
+    {
+      "id": "p-p1-12",
+      "part": 1,
+      "level": 3,
+      "category": "photo-state",
+      "scene": {
+        "bg": "cafe",
+        "alt": "Des plantes en pot sont alignées sur un comptoir de café ; personne n'est visible.",
+        "els": [
+          {
+            "t": "counter",
+            "x": 200,
+            "w": 320
+          },
+          {
+            "t": "plant",
+            "x": 110,
+            "y": 145,
+            "size": 0.6
+          },
+          {
+            "t": "plant",
+            "x": 200,
+            "y": 145,
+            "size": 0.6
+          },
+          {
+            "t": "plant",
+            "x": 290,
+            "y": 145,
+            "size": 0.6
+          }
+        ]
+      },
+      "options": [
+        "Plants are being watered.",
+        "A server is arranging flowers.",
+        "Potted plants have been placed on a counter.",
+        "Some plants are being sold outside."
+      ],
+      "answer": "C",
+      "explanation": "Les plantes en pot sont posées sur le comptoir, sans personne : « have been placed ».",
+      "traps": "Les passifs progressifs (are being watered / sold) supposent une action en cours.",
+      "takeaway": "Potted plant = plante en pot."
+    },
+    {
+      "id": "p-p2-65",
+      "part": 2,
+      "level": 1,
+      "category": "wh-question",
+      "prompt": "Where can I recharge my phone?",
+      "options": [
+        "It's a new phone.",
+        "There's an outlet behind the sofa.",
+        "Call me later."
+      ],
+      "answer": "B",
+      "explanation": "« Where » demande un lieu : une prise derrière le canapé.",
+      "traps": "(A) décrit le téléphone ; (C) reprend le thème du téléphone.",
+      "takeaway": "Outlet = prise électrique."
+    },
+    {
+      "id": "p-p2-66",
+      "part": 2,
+      "level": 2,
+      "category": "indirect-answer",
+      "prompt": "Who's organizing the holiday party this year?",
+      "options": [
+        "It was a great party.",
+        "Last December.",
+        "They haven't asked anyone yet."
+      ],
+      "answer": "C",
+      "explanation": "Réponse indirecte : personne n'a encore été désigné pour l'organiser.",
+      "traps": "(B) répond à « when » ; (A) parle d'une fête passée.",
+      "takeaway": "« Not yet decided » répond à « Who »."
+    },
+    {
+      "id": "p-p2-67",
+      "part": 2,
+      "level": 2,
+      "category": "yes-no",
+      "prompt": "Have you booked the train tickets for Monday?",
+      "options": [
+        "I'm waiting for the final schedule.",
+        "I read that book.",
+        "The train was late."
+      ],
+      "answer": "A",
+      "explanation": "Réponse implicite « pas encore » : elle attend le programme définitif.",
+      "traps": "(B) joue sur booked / book ; (C) reprend « train ».",
+      "takeaway": "Book = réserver / livre."
+    },
+    {
+      "id": "p-p2-68",
+      "part": 2,
+      "level": 3,
+      "category": "statement",
+      "prompt": "The parking garage will be closed all next week.",
+      "options": [
+        "The garage door is open.",
+        "I guess I'll take the bus, then.",
+        "Close to the station."
+      ],
+      "answer": "B",
+      "explanation": "Réaction logique : elle prendra le bus pendant la fermeture.",
+      "traps": "(A) reprend « garage » ; (C) joue sur closed / close.",
+      "takeaway": "I guess… then = je suppose que… alors."
+    },
+    {
+      "id": "p-p2-69",
+      "part": 2,
+      "level": 2,
+      "category": "choice-question",
+      "prompt": "Should we send the samples by express mail or regular mail?",
+      "options": [
+        "The client needs them by Wednesday.",
+        "Yes, send them.",
+        "The samples are small."
+      ],
+      "answer": "A",
+      "explanation": "Réponse implicite : le client en a besoin mercredi, donc l'express s'impose.",
+      "traps": "« Yes » ne choisit pas ; (C) n'aide pas à choisir.",
+      "takeaway": "Une contrainte de délai désigne l'option rapide."
+    },
+    {
+      "id": "p-p2-70",
+      "part": 2,
+      "level": 1,
+      "category": "wh-question",
+      "prompt": "What's on the agenda for today's meeting?",
+      "options": [
+        "Around two hours.",
+        "In conference room A.",
+        "Mainly next year's budget."
+      ],
+      "answer": "C",
+      "explanation": "« What » : principalement le budget de l'année prochaine.",
+      "traps": "(B) répond à « where » ; (A) à « how long ».",
+      "takeaway": "Agenda = ordre du jour."
+    },
+    {
+      "id": "p-p2-71",
+      "part": 2,
+      "level": 3,
+      "category": "tag-question",
+      "prompt": "You've used this software before, haven't you?",
+      "options": [
+        "Only an older version.",
+        "It's soft and light.",
+        "I use the stairs."
+      ],
+      "answer": "A",
+      "explanation": "Réponse nuancée : seulement une ancienne version.",
+      "traps": "(B) joue sur software / soft ; (C) joue sur used / use.",
+      "takeaway": "Only… = nuance la réponse."
+    },
+    {
+      "id": "p-p2-72",
+      "part": 2,
+      "level": 2,
+      "category": "request-offer",
+      "prompt": "Can you cover the front desk while I'm at lunch?",
+      "options": [
+        "The desk is new.",
+        "Sure, take your time.",
+        "Lunch was delicious."
+      ],
+      "answer": "B",
+      "explanation": "Demande acceptée : bien sûr, prends ton temps.",
+      "traps": "(A) reprend « desk » ; (C) reprend « lunch ».",
+      "takeaway": "Cover the desk = tenir l'accueil à la place de quelqu'un."
+    },
+    {
+      "id": "p-p2-73",
+      "part": 2,
+      "level": 2,
+      "category": "wh-question",
+      "prompt": "Why did the client cancel the order?",
+      "options": [
+        "They found a cheaper supplier.",
+        "In order of size.",
+        "Next Tuesday."
+      ],
+      "answer": "A",
+      "explanation": "« Why » : le client a trouvé un fournisseur moins cher.",
+      "traps": "(B) joue sur order ; (C) répond à « when ».",
+      "takeaway": "Why → raison."
+    },
+    {
+      "id": "p-p2-74",
+      "part": 2,
+      "level": 3,
+      "category": "indirect-answer",
+      "prompt": "How many people will attend the product launch?",
+      "options": [
+        "The product is very popular.",
+        "It was launched last year.",
+        "We're still receiving replies."
+      ],
+      "answer": "C",
+      "explanation": "Réponse indirecte : les réponses arrivent encore, le nombre n'est pas connu.",
+      "traps": "(B) reprend « launch » au passé ; (A) reprend « product ».",
+      "takeaway": "Still = encore (en cours)."
+    },
+    {
+      "id": "p-p2-75",
+      "part": 2,
+      "level": 1,
+      "category": "yes-no",
+      "prompt": "Is the elevator working again?",
+      "options": [
+        "Yes, it was fixed this morning.",
+        "I work on the fifth floor.",
+        "Again and again."
+      ],
+      "answer": "A",
+      "explanation": "Réponse directe : oui, il a été réparé ce matin.",
+      "traps": "(B) joue sur working / work ; (C) reprend « again ».",
+      "takeaway": "Fix = réparer."
+    },
+    {
+      "id": "p-p2-76",
+      "part": 2,
+      "level": 2,
+      "category": "statement",
+      "prompt": "These new chairs are really uncomfortable.",
+      "options": [
+        "Please take a seat.",
+        "Maybe we can still return them.",
+        "The chairperson is here."
+      ],
+      "answer": "B",
+      "explanation": "Solution proposée : on peut peut-être encore les renvoyer.",
+      "traps": "(A) est associé aux chaises ; (C) joue sur chairs / chairperson.",
+      "takeaway": "Return = renvoyer, retourner."
+    },
+    {
+      "id": "p-p2-77",
+      "part": 2,
+      "level": 3,
+      "category": "request-offer",
+      "prompt": "How about hiring a photographer for the event?",
+      "options": [
+        "It was hired last year.",
+        "About two hundred guests.",
+        "Our marketing intern takes great photos."
+      ],
+      "answer": "C",
+      "explanation": "Contre-proposition implicite : le stagiaire marketing fait d'excellentes photos, inutile d'engager un photographe.",
+      "traps": "« How about » n'est pas « how many » : (B) est un piège ; (A) reprend « hire ».",
+      "takeaway": "How about + -ing ? = suggestion."
+    },
+    {
+      "id": "p-p2-78",
+      "part": 2,
+      "level": 2,
+      "category": "wh-question",
+      "prompt": "When did you start working here?",
+      "options": [
+        "About five years ago.",
+        "On the third floor.",
+        "I'm working on it."
+      ],
+      "answer": "A",
+      "explanation": "« When » au passé : il y a environ cinq ans.",
+      "traps": "(B) répond à « where » ; (C) joue sur working.",
+      "takeaway": "Ago = il y a."
+    },
+    {
+      "id": "p-p2-79",
+      "part": 2,
+      "level": 1,
+      "category": "request-offer",
+      "prompt": "Would you like a copy of the report?",
+      "options": [
+        "I'd like a coffee.",
+        "Yes, please send it to me.",
+        "The report was long."
+      ],
+      "answer": "B",
+      "explanation": "L'offre d'une copie du rapport est acceptée : « oui, envoyez-le-moi ».",
+      "traps": "(A) joue sur la structure « I'd like » ; (C) reprend « report ».",
+      "takeaway": "Would you like…? = offre."
+    },
+    {
+      "id": "p-p2-80",
+      "part": 2,
+      "level": 3,
+      "category": "choice-question",
+      "prompt": "Is the conference in Berlin or in Munich this year?",
+      "options": [
+        "Berlin is a big city.",
+        "Yes, it is.",
+        "They moved it online."
+      ],
+      "answer": "C",
+      "explanation": "Ni l'un ni l'autre : la conférence se tient en ligne cette année.",
+      "traps": "« Yes » ne répond pas à une alternative ; (A) reprend « Berlin ».",
+      "takeaway": "La bonne réponse peut écarter les deux options."
+    },
+    {
+      "id": "p-p2-81",
+      "part": 2,
+      "level": 2,
+      "category": "tag-question",
+      "prompt": "Didn't you send the invoice last week?",
+      "options": [
+        "I did, but the client says it never arrived.",
+        "The voice was clear.",
+        "Next week is fine."
+      ],
+      "answer": "A",
+      "explanation": "Confirmation suivie d'un problème : la facture n'est jamais arrivée chez le client.",
+      "traps": "(B) joue sur invoice / voice ; (C) joue sur last / next week.",
+      "takeaway": "I did, but… = oui, mais…"
+    },
+    {
+      "id": "p-p2-82",
+      "part": 2,
+      "level": 2,
+      "category": "wh-question",
+      "prompt": "Which train should I take to the airport?",
+      "options": [
+        "I'll train the new staff.",
+        "The express leaves every fifteen minutes.",
+        "At gate four."
+      ],
+      "answer": "B",
+      "explanation": "On recommande l'express, qui part toutes les quinze minutes.",
+      "traps": "(A) joue sur train (former) ; (C) répond à « where ».",
+      "takeaway": "Train (nom) / train (verbe = former)."
+    },
+    {
+      "id": "p-p2-83",
+      "part": 2,
+      "level": 3,
+      "category": "statement",
+      "prompt": "I'm not sure the client understood our proposal.",
+      "options": [
+        "I'm sure about it.",
+        "The proposal was approved.",
+        "Why don't we send her a short summary?"
+      ],
+      "answer": "C",
+      "explanation": "Solution proposée : envoyer un court résumé à la cliente.",
+      "traps": "(B) contredit l'inquiétude ; (A) joue sur sure.",
+      "takeaway": "Problème → suggestion."
+    },
+    {
+      "id": "p-p2-84",
+      "part": 2,
+      "level": 1,
+      "category": "wh-question",
+      "prompt": "How long is the flight to Montreal?",
+      "options": [
+        "About seven hours.",
+        "At ten fifteen.",
+        "It's a long story."
+      ],
+      "answer": "A",
+      "explanation": "« How long » demande une durée : le vol pour Montréal dure environ sept heures.",
+      "traps": "(B) répond à « when » ; (C) joue sur long.",
+      "takeaway": "How long = combien de temps."
+    },
+    {
+      "id": "p-p5-101",
+      "part": 5,
+      "level": 2,
+      "category": "preposition",
+      "prompt": "The seminar will focus ____ new trends in digital marketing.",
+      "options": [
+        "at",
+        "to",
+        "in",
+        "on"
+      ],
+      "answer": "D",
+      "explanation": "Le verbe « focus » se construit avec « on » : le séminaire se concentre sur les tendances.",
+      "takeaway": "Focus on = se concentrer sur."
+    },
+    {
+      "id": "p-p5-102",
+      "part": 5,
+      "level": 2,
+      "category": "word-form",
+      "prompt": "The new design is both ____ and inexpensive to produce.",
+      "options": [
+        "attract",
+        "attraction",
+        "attractive",
+        "attractively"
+      ],
+      "answer": "C",
+      "explanation": "Coordonné à l'adjectif « inexpensive », il faut un adjectif : « attractive ».",
+      "takeaway": "Both A and B : même nature grammaticale."
+    },
+    {
+      "id": "p-p5-103",
+      "part": 5,
+      "level": 3,
+      "category": "verb-tense",
+      "prompt": "By the time the auditors arrived, the finance team ____ all the documents.",
+      "options": [
+        "has prepared",
+        "had prepared",
+        "prepares",
+        "will have prepared"
+      ],
+      "answer": "B",
+      "explanation": "Action achevée avant un moment passé (arrived) : past perfect « had prepared ».",
+      "traps": "« Will have prepared » s'emploie avec un moment futur.",
+      "takeaway": "By the time + prétérit → had + participe."
+    },
+    {
+      "id": "p-p5-104",
+      "part": 5,
+      "level": 2,
+      "category": "relative",
+      "prompt": "The employees ____ offices are on the third floor will move next week.",
+      "options": [
+        "whose",
+        "who",
+        "which",
+        "whom"
+      ],
+      "answer": "A",
+      "explanation": "Relatif suivi d'un nom (« offices ») appartenant aux employés : « whose ».",
+      "takeaway": "Whose + nom."
+    },
+    {
+      "id": "p-p5-105",
+      "part": 5,
+      "level": 3,
+      "category": "conjunction",
+      "prompt": "The project will go ahead ____ the board approves the additional funding.",
+      "options": [
+        "so that",
+        "even though",
+        "whereas",
+        "as long as"
+      ],
+      "answer": "D",
+      "explanation": "Le projet avancera à condition que le conseil approuve les fonds : « as long as ».",
+      "traps": "« Even though » est une concession ; « so that » exprime le but.",
+      "takeaway": "As long as = à condition que."
+    },
+    {
+      "id": "p-p5-106",
+      "part": 5,
+      "level": 2,
+      "category": "vocabulary",
+      "prompt": "Please ____ the receptionist if you need a visitor badge.",
+      "options": [
+        "consult with on",
+        "connect",
+        "contact",
+        "contract"
+      ],
+      "answer": "C",
+      "explanation": "« Contact the receptionist » = s'adresser à la réceptionniste, sans préposition.",
+      "traps": "« Contract » (contracter) est un paronyme.",
+      "takeaway": "Contact someone (pas de préposition)."
+    },
+    {
+      "id": "p-p5-107",
+      "part": 5,
+      "level": 2,
+      "category": "passive",
+      "prompt": "All packages must be ____ before 4 P.M. to be shipped the same day.",
+      "options": [
+        "receive",
+        "received",
+        "receiving",
+        "receipt"
+      ],
+      "answer": "B",
+      "explanation": "Passif « must be + participe passé » : « received ».",
+      "traps": "« Receipt » est un nom (reçu).",
+      "takeaway": "Modal + be + participe passé."
+    },
+    {
+      "id": "p-p5-108",
+      "part": 5,
+      "level": 3,
+      "category": "syntax",
+      "prompt": "Only by working together ____ we meet this deadline.",
+      "options": [
+        "can we",
+        "we can",
+        "we could",
+        "do we can"
+      ],
+      "answer": "A",
+      "explanation": "« Only by … » en tête impose l'inversion modal-sujet : « can we ».",
+      "takeaway": "Only by / Only when / Only if + inversion."
+    },
+    {
+      "id": "p-p5-109",
+      "part": 5,
+      "level": 2,
+      "category": "word-form",
+      "prompt": "The hotel manager responded ____ to every complaint.",
+      "options": [
+        "prompt",
+        "prompted",
+        "promptness",
+        "promptly"
+      ],
+      "answer": "D",
+      "explanation": "Le mot modifie le verbe « responded » : adverbe « promptly » (rapidement).",
+      "takeaway": "Promptly = rapidement."
+    },
+    {
+      "id": "p-p5-110",
+      "part": 5,
+      "level": 3,
+      "category": "vocabulary",
+      "prompt": "The company was forced to ____ several employees due to falling demand.",
+      "options": [
+        "lay down",
+        "lay out",
+        "lay off",
+        "lie off"
+      ],
+      "answer": "C",
+      "explanation": "« Lay off employees » = licencier pour raison économique.",
+      "traps": "« Lay out » = disposer, présenter ; « lie off » n'existe pas.",
+      "takeaway": "Lay off = licencier (économique)."
+    },
+    {
+      "id": "p-p5-111",
+      "part": 5,
+      "level": 2,
+      "category": "comparison",
+      "prompt": "This year's results were not as good ____ we had hoped.",
+      "options": [
+        "than",
+        "as",
+        "that",
+        "so"
+      ],
+      "answer": "B",
+      "explanation": "Comparaison d'égalité « not as … as » : « as we had hoped ».",
+      "takeaway": "Not as + adjectif + as = pas aussi … que."
+    },
+    {
+      "id": "p-p5-112",
+      "part": 5,
+      "level": 3,
+      "category": "gerund-infinitive",
+      "prompt": "The manager reminded the team ____ their timesheets by Friday.",
+      "options": [
+        "to submit",
+        "submitting",
+        "submit",
+        "submitted"
+      ],
+      "answer": "A",
+      "explanation": "« Remind someone to do » = rappeler à quelqu'un de faire : « to submit ».",
+      "takeaway": "Remind / ask / tell someone to do."
+    },
+    {
+      "id": "p-p5-113",
+      "part": 5,
+      "level": 2,
+      "category": "determiner",
+      "prompt": "____ employees in the department received the new training manual.",
+      "options": [
+        "Every",
+        "Each",
+        "Much",
+        "All"
+      ],
+      "answer": "D",
+      "explanation": "Devant un nom pluriel (« employees »), il faut « All ».",
+      "traps": "« Every » et « each » exigent un singulier ; « much » un indénombrable.",
+      "takeaway": "All + pluriel."
+    },
+    {
+      "id": "p-p5-114",
+      "part": 5,
+      "level": 3,
+      "category": "vocabulary",
+      "prompt": "Ms. Varga was praised for her ____ attention to detail.",
+      "options": [
+        "meticulousness",
+        "meticulously",
+        "meticulous",
+        "meter"
+      ],
+      "answer": "C",
+      "explanation": "Devant le nom « attention », il faut un adjectif : « meticulous » (minutieux).",
+      "takeaway": "Meticulous = minutieux."
+    },
+    {
+      "id": "p-p5-115",
+      "part": 5,
+      "level": 2,
+      "category": "preposition",
+      "prompt": "The museum is located ____ walking distance of the hotel.",
+      "options": [
+        "inside",
+        "within",
+        "among",
+        "into"
+      ],
+      "answer": "B",
+      "explanation": "Expression figée : « within walking distance of » (à distance de marche de).",
+      "takeaway": "Within walking distance = accessible à pied."
+    },
+    {
+      "id": "p-p5-116",
+      "part": 5,
+      "level": 3,
+      "category": "modal-conditional",
+      "prompt": "If the delivery ____ later than Friday, please let us know immediately.",
+      "options": [
+        "arrives",
+        "would arrive",
+        "will arrive",
+        "arrived"
+      ],
+      "answer": "A",
+      "explanation": "Condition réelle sur le futur : présent simple dans la subordonnée, « arrives ».",
+      "traps": "« Will » ne s'emploie pas après « if » dans ce sens.",
+      "takeaway": "If + présent (sens futur)."
+    },
+    {
+      "id": "p-p5-117",
+      "part": 5,
+      "level": 2,
+      "category": "word-form",
+      "prompt": "The ____ of the new software took longer than expected.",
+      "options": [
+        "install",
+        "installing",
+        "installed",
+        "installation"
+      ],
+      "answer": "D",
+      "explanation": "Après « The » et avant « of », il faut un nom : « installation ».",
+      "takeaway": "The + nom + of."
+    },
+    {
+      "id": "p-p5-118",
+      "part": 5,
+      "level": 3,
+      "category": "vocabulary",
+      "prompt": "The CEO's speech was intended to ____ employees about the company's future.",
+      "options": [
+        "insure",
+        "ensure",
+        "reassure",
+        "assure of"
+      ],
+      "answer": "C",
+      "explanation": "« Reassure someone about something » = rassurer quelqu'un sur quelque chose.",
+      "traps": "« Ensure » et « insure » ne prennent pas de complément de personne de cette façon.",
+      "takeaway": "Reassure = rassurer."
+    },
+    {
+      "id": "p-p5-119",
+      "part": 5,
+      "level": 2,
+      "category": "conjunction",
+      "prompt": "Please arrive early ____ we can start the meeting on time.",
+      "options": [
+        "because",
+        "so that",
+        "unless",
+        "even if"
+      ],
+      "answer": "B",
+      "explanation": "But : « so that » (pour que) nous puissions commencer à l'heure.",
+      "takeaway": "So that + sujet + can = pour que."
+    },
+    {
+      "id": "p-p5-120",
+      "part": 5,
+      "level": 3,
+      "category": "agreement",
+      "prompt": "The quality of the products ____ improved considerably since last year.",
+      "options": [
+        "has",
+        "have",
+        "are",
+        "were"
+      ],
+      "answer": "A",
+      "explanation": "Le sujet est « The quality » (singulier) : « has improved ».",
+      "traps": "« Products » au pluriel attire l'accord.",
+      "takeaway": "Accorde avec le noyau du sujet."
+    },
+    {
+      "id": "p-p5-121",
+      "part": 5,
+      "level": 2,
+      "category": "vocabulary",
+      "prompt": "Our customer service team is available ____ the clock.",
+      "options": [
+        "along",
+        "over",
+        "through",
+        "around"
+      ],
+      "answer": "D",
+      "explanation": "Expression figée : « around the clock » (24 heures sur 24).",
+      "takeaway": "Around the clock = 24 h/24."
+    },
+    {
+      "id": "p-p5-122",
+      "part": 5,
+      "level": 3,
+      "category": "word-form",
+      "prompt": "The new policy has been ____ effective in reducing waste.",
+      "options": [
+        "remark",
+        "remarkable",
+        "remarkably",
+        "remarked"
+      ],
+      "answer": "C",
+      "explanation": "Le mot modifie l'adjectif « effective » : adverbe « remarkably ».",
+      "takeaway": "Adverbe + adjectif."
+    },
+    {
+      "id": "p-p5-123",
+      "part": 5,
+      "level": 2,
+      "category": "pronoun",
+      "prompt": "The directors met with the union representatives to discuss ____ concerns.",
+      "options": [
+        "they",
+        "their",
+        "them",
+        "theirs"
+      ],
+      "answer": "B",
+      "explanation": "Devant le nom « concerns », il faut un déterminant possessif : « their ».",
+      "takeaway": "Possessif + nom."
+    },
+    {
+      "id": "p-p5-124",
+      "part": 5,
+      "level": 3,
+      "category": "collocation",
+      "prompt": "The two companies hope to ____ a deal before the end of the quarter.",
+      "options": [
+        "strike",
+        "hit",
+        "beat",
+        "knock"
+      ],
+      "answer": "A",
+      "explanation": "La collocation « strike a deal » signifie conclure un accord ; les autres verbes ne s'emploient pas ainsi.",
+      "takeaway": "Strike a deal = conclure un marché."
+    },
+    {
+      "id": "p-p5-125",
+      "part": 5,
+      "level": 2,
+      "category": "verb-tense",
+      "prompt": "The new store ____ next Saturday at 10 A.M.",
+      "options": [
+        "opened",
+        "has opened",
+        "was opening",
+        "opens"
+      ],
+      "answer": "D",
+      "explanation": "Événement futur fixé à un horaire : le présent simple « opens » (horaire officiel).",
+      "traps": "« Opened » et « has opened » renvoient au passé.",
+      "takeaway": "Présent simple = horaire programmé."
+    },
+    {
+      "id": "p-p5-126",
+      "part": 5,
+      "level": 3,
+      "category": "vocabulary",
+      "prompt": "The proposal will be reviewed by an ____ panel of experts.",
+      "options": [
+        "independently",
+        "independence",
+        "independent",
+        "dependent"
+      ],
+      "answer": "C",
+      "explanation": "Devant le nom « panel », il faut un adjectif : « independent » (indépendant).",
+      "takeaway": "Independent = indépendant."
+    },
+    {
+      "id": "p-p5-127",
+      "part": 5,
+      "level": 2,
+      "category": "preposition",
+      "prompt": "The CEO will be traveling ____ Asia for most of next month.",
+      "options": [
+        "between",
+        "throughout",
+        "along",
+        "among"
+      ],
+      "answer": "B",
+      "explanation": "Voyager partout en Asie : « throughout Asia ».",
+      "traps": "« Between » exige deux éléments.",
+      "takeaway": "Throughout = partout dans."
+    },
+    {
+      "id": "p-p5-128",
+      "part": 5,
+      "level": 3,
+      "category": "passive",
+      "prompt": "Customers ____ of any changes to their delivery date by text message.",
+      "options": [
+        "will be notified",
+        "will notify",
+        "notify",
+        "notifying"
+      ],
+      "answer": "A",
+      "explanation": "Les clients seront prévenus (ils subissent l'action) : « will be notified ».",
+      "takeaway": "Notify someone of = informer quelqu'un de."
+    },
+    {
+      "id": "p-p5-129",
+      "part": 5,
+      "level": 2,
+      "category": "vocabulary",
+      "prompt": "Please ____ from smoking anywhere on the premises.",
+      "options": [
+        "avoid",
+        "stop of",
+        "prevent",
+        "refrain"
+      ],
+      "answer": "D",
+      "explanation": "« Refrain from + -ing » = s'abstenir de.",
+      "traps": "« Avoid » se construit sans « from » (avoid smoking).",
+      "takeaway": "Refrain from."
+    },
+    {
+      "id": "p-p5-130",
+      "part": 5,
+      "level": 3,
+      "category": "word-form",
+      "prompt": "The firm's rapid growth has made it one of the most ____ employers in the region.",
+      "options": [
+        "sought",
+        "seeking",
+        "sought-after",
+        "seek"
+      ],
+      "answer": "C",
+      "explanation": "« Sought-after » = très recherché, adjectif composé devant un nom.",
+      "takeaway": "Sought-after = prisé, recherché."
+    },
+    {
+      "id": "p-p5-131",
+      "part": 5,
+      "level": 2,
+      "category": "relative",
+      "prompt": "The report, ____ was published last week, has received a lot of attention.",
+      "options": [
+        "that",
+        "which",
+        "what",
+        "who"
+      ],
+      "answer": "B",
+      "explanation": "Relative non restrictive (entre virgules) sur une chose : « which ».",
+      "takeaway": "Virgule + chose → which."
+    },
+    {
+      "id": "p-p5-132",
+      "part": 5,
+      "level": 3,
+      "category": "vocabulary",
+      "prompt": "The new factory is expected to ____ 500 jobs in the area.",
+      "options": [
+        "generate",
+        "generous",
+        "generation",
+        "generally"
+      ],
+      "answer": "A",
+      "explanation": "Après « to », il faut un verbe : « generate jobs » (créer des emplois).",
+      "takeaway": "Generate = créer, générer."
+    },
+    {
+      "id": "p-p5-133",
+      "part": 5,
+      "level": 2,
+      "category": "conjunction",
+      "prompt": "The office will remain closed ____ the repairs are completed.",
+      "options": [
+        "since",
+        "by",
+        "during",
+        "until"
+      ],
+      "answer": "D",
+      "explanation": "« Until » + proposition : le bureau reste fermé jusqu'à la fin des travaux.",
+      "traps": "« By » et « during » sont des prépositions.",
+      "takeaway": "Until + proposition = jusqu'à ce que."
+    },
+    {
+      "id": "p-p5-134",
+      "part": 5,
+      "level": 3,
+      "category": "gerund-infinitive",
+      "prompt": "The company can't afford ____ any more delays on this project.",
+      "options": [
+        "having",
+        "have",
+        "to have",
+        "had"
+      ],
+      "answer": "C",
+      "explanation": "« Afford » est suivi de l'infinitif : « can't afford to have ».",
+      "takeaway": "Can't afford to do = ne pas pouvoir se permettre de."
+    },
+    {
+      "id": "p-p5-135",
+      "part": 5,
+      "level": 2,
+      "category": "word-form",
+      "prompt": "Mr. Chen's ____ to the project was invaluable.",
+      "options": [
+        "contribute",
+        "contribution",
+        "contributor",
+        "contributed"
+      ],
+      "answer": "B",
+      "explanation": "Après le possessif « Mr. Chen's », il faut un nom abstrait : « contribution ».",
+      "traps": "« Contributor » désigne une personne.",
+      "takeaway": "Contribution to = contribution à."
+    },
+    {
+      "id": "p-p5-136",
+      "part": 5,
+      "level": 3,
+      "category": "vocabulary",
+      "prompt": "The two candidates have very ____ backgrounds, so the decision will be difficult.",
+      "options": [
+        "similar",
+        "familiar",
+        "simulated",
+        "assimilated"
+      ],
+      "answer": "A",
+      "explanation": "Des parcours semblables rendent le choix difficile : « similar ».",
+      "traps": "« Familiar » = familier, connu.",
+      "takeaway": "Similar = semblable."
+    },
+    {
+      "id": "p-p5-137",
+      "part": 5,
+      "level": 3,
+      "category": "modal-conditional",
+      "prompt": "You ____ have brought your laptop; the room has computers.",
+      "options": [
+        "shouldn't to",
+        "mustn't",
+        "couldn't",
+        "needn't"
+      ],
+      "answer": "D",
+      "explanation": "« Needn't have + participe » = ce n'était pas nécessaire (mais c'est fait).",
+      "traps": "« Mustn't have » n'a pas ce sens ; « shouldn't to » est agrammatical.",
+      "takeaway": "Needn't have done = ce n'était pas la peine."
+    },
+    {
+      "id": "p-p5-138",
+      "part": 5,
+      "level": 2,
+      "category": "preposition",
+      "prompt": "The tickets are available ____ a first-come, first-served basis.",
+      "options": [
+        "in",
+        "at",
+        "on",
+        "by"
+      ],
+      "answer": "C",
+      "explanation": "Expression figée : « on a first-come, first-served basis » (premier arrivé, premier servi).",
+      "takeaway": "On a … basis = sur une base…"
+    },
+    {
+      "id": "p-p5-139",
+      "part": 5,
+      "level": 3,
+      "category": "word-form",
+      "prompt": "The board was ____ divided over the merger proposal.",
+      "options": [
+        "sharp",
+        "sharply",
+        "sharpen",
+        "sharpness"
+      ],
+      "answer": "B",
+      "explanation": "Le mot modifie le participe « divided » : adverbe « sharply » (profondément).",
+      "takeaway": "Sharply divided = profondément divisé."
+    },
+    {
+      "id": "p-p5-140",
+      "part": 5,
+      "level": 2,
+      "category": "vocabulary",
+      "prompt": "The new employee handbook ____ all of the company's policies.",
+      "options": [
+        "covers",
+        "recovers",
+        "discovers",
+        "uncovers"
+      ],
+      "answer": "A",
+      "explanation": "« Cover » = traiter un sujet : le manuel « covers » toutes les règles de l'entreprise.",
+      "traps": "« Discover » = découvrir ; « recover » = récupérer.",
+      "takeaway": "Cover a topic = traiter un sujet."
+    }
+  ]
+}
