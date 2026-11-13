@@ -1,0 +1,654 @@
+{
+  "pool": "exam3",
+  "questions": [
+    {
+      "id": "e3-p1-01",
+      "part": 1,
+      "level": 1,
+      "category": "photo-action",
+      "scene": {
+        "bg": "office",
+        "alt": "Une femme debout tend le bras pour attraper un classeur sur une étagère haute, près d'une fenêtre.",
+        "els": [
+          {
+            "t": "window",
+            "x": 40,
+            "y": 45,
+            "w": 100,
+            "h": 85
+          },
+          {
+            "t": "shelf",
+            "x": 230,
+            "w": 140,
+            "h": 170
+          },
+          {
+            "t": "person",
+            "x": 200,
+            "pose": "stand",
+            "facing": "right",
+            "arms": "up",
+            "shirt": "#7c3aed",
+            "hair": "#111827",
+            "long": true,
+            "skin": 1
+          }
+        ]
+      },
+      "options": [
+        "She's sitting at a desk.",
+        "She's opening a window.",
+        "She's carrying some boxes.",
+        "She's reaching toward a shelf."
+      ],
+      "answer": "D",
+      "explanation": "La femme lève le bras vers l'étagère : « She's reaching toward a shelf ».",
+      "traps": "La fenêtre est visible mais elle ne l'ouvre pas ; elle est debout et ne porte rien.",
+      "takeaway": "Reach toward / for = tendre le bras vers."
+    },
+    {
+      "id": "e3-p1-02",
+      "part": 1,
+      "level": 2,
+      "category": "photo-state",
+      "scene": {
+        "bg": "street",
+        "alt": "Une voiture rouge est garée au bord de la route, devant des immeubles. Personne n'est visible.",
+        "els": [
+          {
+            "t": "car",
+            "x": 160,
+            "color": "#dc2626"
+          }
+        ]
+      },
+      "options": [
+        "A car is being towed away.",
+        "A driver is parking a car.",
+        "A vehicle is parked along a street.",
+        "Some people are waiting for a bus."
+      ],
+      "answer": "C",
+      "explanation": "La voiture est stationnée au bord de la rue, sans personne : « is parked along a street » décrit un état.",
+      "traps": "« Is being towed » et « is parking » supposent une action en cours.",
+      "takeaway": "Vehicle = car (terme générique souvent utilisé)."
+    },
+    {
+      "id": "e3-p1-03",
+      "part": 1,
+      "level": 3,
+      "category": "photo-state",
+      "scene": {
+        "bg": "office",
+        "alt": "Un bureau vide : un écran, une lampe et une pile de documents sont posés sur la table ; une chaise est rangée devant.",
+        "els": [
+          {
+            "t": "desk",
+            "x": 200,
+            "w": 240
+          },
+          {
+            "t": "monitor",
+            "x": 200
+          },
+          {
+            "t": "lamp",
+            "x": 290
+          },
+          {
+            "t": "papers",
+            "x": 120
+          },
+          {
+            "t": "chair",
+            "x": 200,
+            "facing": "right"
+          }
+        ]
+      },
+      "options": [
+        "A worker is adjusting a lamp.",
+        "Some documents have been stacked on a desk.",
+        "A monitor is being installed.",
+        "Papers are scattered on the floor."
+      ],
+      "answer": "B",
+      "explanation": "Des documents sont empilés sur le bureau et personne n'est présent : « have been stacked ».",
+      "traps": "« Is being installed » est une action en cours ; les papiers sont sur le bureau, pas par terre.",
+      "takeaway": "Scattered = éparpillé ; stacked = empilé."
+    },
+    {
+      "id": "e3-p1-04",
+      "part": 1,
+      "level": 2,
+      "category": "photo-action",
+      "scene": {
+        "bg": "warehouse",
+        "alt": "Un homme marche en portant un carton près d'un chariot vide dans un entrepôt.",
+        "els": [
+          {
+            "t": "cart",
+            "x": 290,
+            "boxes": 0
+          },
+          {
+            "t": "person",
+            "x": 150,
+            "pose": "walk",
+            "facing": "right",
+            "arms": "carry",
+            "hold": "box",
+            "shirt": "#ca8a04",
+            "hair": "#292524",
+            "skin": 2
+          }
+        ]
+      },
+      "options": [
+        "He's carrying a box.",
+        "He's pushing a cart.",
+        "He's stacking boxes on a shelf.",
+        "He's repairing a cart."
+      ],
+      "answer": "A",
+      "explanation": "L'homme tient un carton dans ses bras en marchant : il le porte.",
+      "traps": "Le chariot est présent mais il ne le pousse pas : distracteur classique avec un objet visible.",
+      "takeaway": "Carry = porter."
+    },
+    {
+      "id": "e3-p1-05",
+      "part": 1,
+      "level": 3,
+      "category": "photo-state",
+      "scene": {
+        "bg": "outdoor",
+        "alt": "Une échelle est appuyée contre le tronc d'un arbre dans un jardin. Personne n'est visible.",
+        "els": [
+          {
+            "t": "tree",
+            "x": 270
+          },
+          {
+            "t": "ladder",
+            "x": 180,
+            "h": 140,
+            "lean": 40
+          }
+        ]
+      },
+      "options": [
+        "A man is climbing a tree.",
+        "Some branches are being cut.",
+        "A fence is being built.",
+        "A ladder is leaning against a tree."
+      ],
+      "answer": "D",
+      "explanation": "L'échelle est appuyée contre l'arbre : « is leaning against a tree » décrit une position.",
+      "traps": "« Are being cut » et « is being built » exigent quelqu'un en action. Personne ne grimpe.",
+      "takeaway": "Lean against = être appuyé contre (état, même au présent continu)."
+    },
+    {
+      "id": "e3-p1-06",
+      "part": 1,
+      "level": 2,
+      "category": "photo-action",
+      "scene": {
+        "bg": "meeting",
+        "alt": "Une femme et un homme sont assis face à face à une table de réunion : elle tape sur un ordinateur portable, il téléphone.",
+        "els": [
+          {
+            "t": "table",
+            "x": 200,
+            "w": 230
+          },
+          {
+            "t": "laptop",
+            "x": 150
+          },
+          {
+            "t": "chair",
+            "x": 100,
+            "facing": "right"
+          },
+          {
+            "t": "person",
+            "x": 100,
+            "pose": "sit",
+            "facing": "right",
+            "arms": "type",
+            "shirt": "#0891b2",
+            "hair": "#3f3f46",
+            "long": true
+          },
+          {
+            "t": "chair",
+            "x": 300,
+            "facing": "left"
+          },
+          {
+            "t": "person",
+            "x": 300,
+            "pose": "sit",
+            "facing": "left",
+            "arms": "phone",
+            "hold": "phone",
+            "shirt": "#4d7c0f",
+            "hair": "#111827",
+            "skin": 2
+          }
+        ]
+      },
+      "options": [
+        "They're shaking hands across a table.",
+        "A woman is closing a laptop.",
+        "A man is talking on the phone.",
+        "They're standing near a window."
+      ],
+      "answer": "C",
+      "explanation": "L'homme assis à droite tient un téléphone contre son oreille : il téléphone.",
+      "traps": "La femme utilise l'ordinateur sans le fermer ; ils sont assis, pas debout.",
+      "takeaway": "Talk on the phone = téléphoner."
+    },
+    {
+      "id": "e3-p2-01",
+      "part": 2,
+      "level": 1,
+      "category": "wh-question",
+      "prompt": "Where is the welcome reception being held tonight?",
+      "options": [
+        "At around seven.",
+        "On the hotel's rooftop terrace.",
+        "Thank you, it was very warm."
+      ],
+      "answer": "B",
+      "explanation": "« Where » : la réception a lieu sur la terrasse sur le toit de l'hôtel.",
+      "traps": "(A) répond à « when » ; (C) joue sur welcome / warm welcome.",
+      "takeaway": "Be held = avoir lieu."
+    },
+    {
+      "id": "e3-p2-02",
+      "part": 2,
+      "level": 2,
+      "category": "indirect-answer",
+      "prompt": "When will the revised contract be ready?",
+      "options": [
+        "The contract was signed in May.",
+        "It's ready for the printer.",
+        "Our lawyer is reviewing it now."
+      ],
+      "answer": "C",
+      "explanation": "Réponse indirecte : l'avocat est en train de le relire, donc il n'est pas encore prêt.",
+      "traps": "(B) reprend « ready » de façon illogique ; (A) parle d'un contrat déjà signé.",
+      "takeaway": "« Someone is reviewing it » = pas encore prêt."
+    },
+    {
+      "id": "e3-p2-03",
+      "part": 2,
+      "level": 1,
+      "category": "wh-question",
+      "prompt": "Who's in charge of the new hires' orientation?",
+      "options": [
+        "Charlotte from human resources.",
+        "About twelve new hires.",
+        "It's in the main hall."
+      ],
+      "answer": "A",
+      "explanation": "« Who » : Charlotte, des ressources humaines.",
+      "traps": "(B) répond à « how many » ; (C) répond à « where ».",
+      "takeaway": "New hires = nouvelles recrues."
+    },
+    {
+      "id": "e3-p2-04",
+      "part": 2,
+      "level": 2,
+      "category": "yes-no",
+      "prompt": "Is there a pharmacy near the conference center?",
+      "options": [
+        "The conference starts at nine.",
+        "There's one in the train station.",
+        "I'd like a farm vacation."
+      ],
+      "answer": "B",
+      "explanation": "Réponse utile sans « yes » : il y en a une dans la gare.",
+      "traps": "(A) reprend « conference » ; (C) joue sur pharmacy / farm.",
+      "takeaway": "« There's one… » répond à « Is there…? »."
+    },
+    {
+      "id": "e3-p2-05",
+      "part": 2,
+      "level": 3,
+      "category": "statement",
+      "prompt": "We're running low on business cards.",
+      "options": [
+        "The cards were on the table.",
+        "She ran the business for years.",
+        "I'll place an order this afternoon."
+      ],
+      "answer": "C",
+      "explanation": "Réaction logique au problème : je passerai commande cet après-midi.",
+      "traps": "(B) joue sur running / ran et business ; (A) reprend « cards ».",
+      "takeaway": "Run low on = commencer à manquer de."
+    },
+    {
+      "id": "e3-p2-06",
+      "part": 2,
+      "level": 2,
+      "category": "choice-question",
+      "prompt": "Do you want the report in English or in French?",
+      "options": [
+        "Both versions would be helpful.",
+        "Yes, I want it.",
+        "I reported it yesterday."
+      ],
+      "answer": "A",
+      "explanation": "La personne choisit les deux versions : réponse valable à une alternative.",
+      "traps": "« Yes » ne choisit pas ; (C) joue sur report / reported.",
+      "takeaway": "Both / either / neither répondent aux alternatives."
+    },
+    {
+      "id": "e3-p2-07",
+      "part": 2,
+      "level": 1,
+      "category": "wh-question",
+      "prompt": "Why are the lights off in the lobby?",
+      "options": [
+        "It's a light suitcase.",
+        "They're replacing the light fixtures.",
+        "Turn left at the lobby."
+      ],
+      "answer": "B",
+      "explanation": "« Why » demande une cause : les lumières sont éteintes parce qu'on remplace les luminaires du hall.",
+      "traps": "(A) joue sur light (léger) ; (C) reprend « lobby » et joue sur left / off.",
+      "takeaway": "Light fixture = luminaire."
+    },
+    {
+      "id": "e3-p2-08",
+      "part": 2,
+      "level": 2,
+      "category": "request-offer",
+      "prompt": "Would you mind reviewing my slides before the meeting?",
+      "options": [
+        "The meeting went well.",
+        "Yes, I minded the store.",
+        "Not at all; send them over."
+      ],
+      "answer": "C",
+      "explanation": "« Would you mind…? » → « Not at all » = avec plaisir ; elle demande l'envoi des diapositives.",
+      "traps": "« Yes » signifierait que cela dérange ; (B) joue sur mind.",
+      "takeaway": "Would you mind…? → Not at all = d'accord."
+    },
+    {
+      "id": "e3-p2-09",
+      "part": 2,
+      "level": 3,
+      "category": "tag-question",
+      "prompt": "The printer on the fourth floor has been fixed, hasn't it?",
+      "options": [
+        "The technician is coming tomorrow.",
+        "The fourth of July.",
+        "It's fixed at fifty euros."
+      ],
+      "answer": "A",
+      "explanation": "Réponse implicite « non » : le technicien vient seulement demain.",
+      "traps": "(B) reprend « fourth » ; (C) joue sur fixed (prix fixe).",
+      "takeaway": "Réponse indirecte typique : une information qui implique « pas encore »."
+    },
+    {
+      "id": "e3-p2-10",
+      "part": 2,
+      "level": 2,
+      "category": "wh-question",
+      "prompt": "How much does it cost to ship this package to Singapore?",
+      "options": [
+        "About five days.",
+        "It depends on the weight.",
+        "The ship left yesterday."
+      ],
+      "answer": "B",
+      "explanation": "Le prix dépend du poids : réponse valable à « how much ».",
+      "traps": "(A) répond à « how long » ; (C) joue sur ship (navire).",
+      "takeaway": "It depends on… = cela dépend de…"
+    },
+    {
+      "id": "e3-p2-11",
+      "part": 2,
+      "level": 3,
+      "category": "indirect-answer",
+      "prompt": "Which caterer did we use for last year's gala?",
+      "options": [
+        "The gala was a great success.",
+        "We used about two hundred plates.",
+        "It should be in the events folder."
+      ],
+      "answer": "C",
+      "explanation": "La personne ne s'en souvient pas mais indique où trouver l'information : le dossier des événements.",
+      "traps": "(B) reprend « used » ; (A) reprend « gala ».",
+      "takeaway": "Indiquer où trouver l'info = réponse correcte."
+    },
+    {
+      "id": "e3-p2-12",
+      "part": 2,
+      "level": 1,
+      "category": "request-offer",
+      "prompt": "Can you lend me your umbrella?",
+      "options": [
+        "Sure, just bring it back tomorrow.",
+        "It's raining in London.",
+        "I borrowed it last week."
+      ],
+      "answer": "A",
+      "explanation": "Demande acceptée avec une condition : rapporte-le demain.",
+      "traps": "(B) est associé à la pluie sans répondre ; (C) inverse lend / borrow.",
+      "takeaway": "Lend = prêter ; borrow = emprunter."
+    },
+    {
+      "id": "e3-p2-13",
+      "part": 2,
+      "level": 2,
+      "category": "statement",
+      "prompt": "The new office chairs are much more comfortable.",
+      "options": [
+        "The chair of the committee.",
+        "I agree; my back doesn't hurt anymore.",
+        "Comfortable shoes are important."
+      ],
+      "answer": "B",
+      "explanation": "Accord appuyé par une expérience personnelle.",
+      "traps": "(A) joue sur chair (président) ; (C) reprend « comfortable ».",
+      "takeaway": "I agree = je suis d'accord."
+    },
+    {
+      "id": "e3-p2-14",
+      "part": 2,
+      "level": 2,
+      "category": "tag-question",
+      "prompt": "Didn't you order more toner last week?",
+      "options": [
+        "The tone was too loud.",
+        "In order of priority.",
+        "Yes, but it hasn't arrived yet."
+      ],
+      "answer": "C",
+      "explanation": "Confirmation suivie d'une précision : commandé mais pas encore reçu.",
+      "traps": "(B) joue sur order ; (A) joue sur toner / tone.",
+      "takeaway": "Didn't you…? = demande de confirmation."
+    },
+    {
+      "id": "e3-p2-15",
+      "part": 2,
+      "level": 3,
+      "category": "request-offer",
+      "prompt": "Why don't you present the findings at the board meeting?",
+      "options": [
+        "I'd be happy to, if Nora can help me prepare.",
+        "Because the board approved it.",
+        "The meeting room is on the left."
+      ],
+      "answer": "A",
+      "explanation": "Suggestion acceptée sous condition : avec l'aide de Nora.",
+      "traps": "(B) commence par « Because » comme si c'était une vraie question de cause.",
+      "takeaway": "Why don't you…? = suggestion."
+    },
+    {
+      "id": "e3-p2-16",
+      "part": 2,
+      "level": 1,
+      "category": "wh-question",
+      "prompt": "What floor is the accounting department on?",
+      "options": [
+        "They count the inventory every month.",
+        "The sixth, next to the elevators.",
+        "It's a wooden floor."
+      ],
+      "answer": "B",
+      "explanation": "On demande l'étage : le sixième, à côté des ascenseurs.",
+      "traps": "(A) joue sur accounting / count ; (C) joue sur floor (sol).",
+      "takeaway": "Floor = étage ou sol."
+    },
+    {
+      "id": "e3-p2-17",
+      "part": 2,
+      "level": 2,
+      "category": "yes-no",
+      "prompt": "Has the client confirmed the delivery address?",
+      "options": [
+        "Yes, it was delivered on time.",
+        "The address book is full.",
+        "I'm still waiting for her reply."
+      ],
+      "answer": "C",
+      "explanation": "Réponse implicite « pas encore » : il attend la réponse de la cliente.",
+      "traps": "(A) commence par « Yes » mais parle de la livraison effectuée.",
+      "takeaway": "Still waiting = toujours en attente."
+    },
+    {
+      "id": "e3-p2-18",
+      "part": 2,
+      "level": 3,
+      "category": "statement",
+      "prompt": "The keynote speaker's flight has been canceled.",
+      "options": [
+        "Could she give her talk by video?",
+        "The speakers are too loud.",
+        "Flights to Berlin are cheap."
+      ],
+      "answer": "A",
+      "explanation": "Proposition d'une solution : intervenir par visioconférence.",
+      "traps": "(B) joue sur speaker (haut-parleur) ; (C) reprend « flight ».",
+      "takeaway": "Problème → solution proposée sous forme de question."
+    },
+    {
+      "id": "e3-p2-19",
+      "part": 2,
+      "level": 2,
+      "category": "wh-question",
+      "prompt": "How often do you back up the customer database?",
+      "options": [
+        "Back to the office.",
+        "Every night at midnight.",
+        "The customers were satisfied."
+      ],
+      "answer": "B",
+      "explanation": "« How often » demande une fréquence : la base est sauvegardée chaque nuit à minuit.",
+      "traps": "(A) joue sur back ; (C) reprend « customer ».",
+      "takeaway": "Back up = sauvegarder."
+    },
+    {
+      "id": "e3-p2-20",
+      "part": 2,
+      "level": 3,
+      "category": "choice-question",
+      "prompt": "Are we meeting the investors at their office or at ours?",
+      "options": [
+        "Yes, we're meeting them.",
+        "The office supplies arrived.",
+        "They've asked to see our new lab."
+      ],
+      "answer": "C",
+      "explanation": "Réponse implicite : les investisseurs veulent voir le laboratoire, donc la réunion aura lieu chez nous.",
+      "traps": "« Yes » ne choisit pas ; (B) reprend « office ».",
+      "takeaway": "Alternative → réponse souvent implicite au niveau avancé."
+    },
+    {
+      "id": "e3-p2-21",
+      "part": 2,
+      "level": 1,
+      "category": "wh-question",
+      "prompt": "When does the cafeteria close?",
+      "options": [
+        "At two thirty.",
+        "It's close to the exit.",
+        "Some sandwiches and salads."
+      ],
+      "answer": "A",
+      "explanation": "« When » demande un moment : la cafétéria ferme à 14 h 30.",
+      "traps": "(B) joue sur close (proche) ; (C) répond à « what ».",
+      "takeaway": "Close (verbe) / close (adjectif)."
+    },
+    {
+      "id": "e3-p2-22",
+      "part": 2,
+      "level": 2,
+      "category": "indirect-answer",
+      "prompt": "Who approved this purchase order?",
+      "options": [
+        "We purchased new laptops.",
+        "Let me check the signature.",
+        "In order of arrival."
+      ],
+      "answer": "B",
+      "explanation": "Elle va vérifier la signature pour le savoir : réponse indirecte pertinente.",
+      "traps": "(A) joue sur purchase ; (C) joue sur order.",
+      "takeaway": "Let me check = je vais vérifier."
+    },
+    {
+      "id": "e3-p2-23",
+      "part": 2,
+      "level": 2,
+      "category": "request-offer",
+      "prompt": "Should I call the client or send an e-mail?",
+      "options": [
+        "I e-mailed the photos.",
+        "Yes, you should.",
+        "A call would be more personal."
+      ],
+      "answer": "C",
+      "explanation": "Choix justifié : un appel serait plus personnel.",
+      "traps": "« Yes » ne répond pas à « A or B » ; (A) reprend « e-mail ».",
+      "takeaway": "Should I A or B? → recommandation."
+    },
+    {
+      "id": "e3-p2-24",
+      "part": 2,
+      "level": 3,
+      "category": "tag-question",
+      "prompt": "You're presenting at the conference in Seoul, aren't you?",
+      "options": [
+        "My proposal is still under review.",
+        "The present was wrapped.",
+        "Seoul is a large city."
+      ],
+      "answer": "A",
+      "explanation": "Réponse implicite : ce n'est pas encore sûr, sa proposition est en cours d'examen.",
+      "traps": "(B) joue sur present (cadeau) ; (C) reprend « Seoul ».",
+      "takeaway": "Under review = en cours d'examen."
+    },
+    {
+      "id": "e3-p2-25",
+      "part": 2,
+      "level": 2,
+      "category": "wh-question",
+      "prompt": "What was the outcome of the negotiation?",
+      "options": [
+        "Outside the building.",
+        "We agreed on a two-year contract.",
+        "It lasted three hours."
+      ],
+      "answer": "B",
+      "explanation": "« Outcome » = résultat : un contrat de deux ans a été conclu.",
+      "traps": "(A) joue sur outcome / outside ; (C) répond à « how long ».",
+      "takeaway": "Outcome = résultat, issue."
+    }
+  ]
+}

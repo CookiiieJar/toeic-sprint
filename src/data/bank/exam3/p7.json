@@ -1,0 +1,1320 @@
+{
+  "pool": "exam3",
+  "part": 7,
+  "sets": [
+    {
+      "id": "e3-p7-s01",
+      "kind": "single",
+      "title": "Messagerie — déjeuner client",
+      "docs": [
+        {
+          "type": "chat",
+          "messages": [
+            {
+              "name": "Amir Haddad",
+              "time": "12:31",
+              "text": "Are you still at the restaurant with the clients from Kyoto?"
+            },
+            {
+              "name": "Julia Weber",
+              "time": "12:33",
+              "text": "Yes, they loved the food. We just ordered dessert."
+            },
+            {
+              "name": "Amir Haddad",
+              "time": "12:34",
+              "text": "Great. Their 3 o'clock meeting with the design team has been moved to 3:30, so there's no rush."
+            },
+            {
+              "name": "Julia Weber",
+              "time": "12:35",
+              "text": "Perfect timing. One of them wanted to visit the bookstore next door."
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p7-01",
+          "level": 1,
+          "category": "detail",
+          "prompt": "Who is Ms. Weber having lunch with?",
+          "options": [
+            "A bookstore owner",
+            "The design team",
+            "Mr. Haddad",
+            "Some visiting clients"
+          ],
+          "answer": "D",
+          "evidence": "Are you still at the restaurant with the clients from Kyoto?",
+          "explanation": "Elle déjeune avec des clients venus de Kyoto.",
+          "takeaway": "Visiting clients = clients en visite."
+        },
+        {
+          "id": "e3-p7-02",
+          "level": 3,
+          "category": "intention",
+          "prompt": "At 12:35, what does Ms. Weber mean when she writes, \"Perfect timing\"?",
+          "options": [
+            "The meeting should start immediately.",
+            "The dessert arrived quickly.",
+            "The schedule change allows time for another activity.",
+            "She arrived at the restaurant on time."
+          ],
+          "answer": "C",
+          "evidence": "Perfect timing.",
+          "explanation": "La réunion est décalée de 30 minutes : un client pourra donc visiter la librairie voisine.",
+          "takeaway": "Relie l'expression à l'information précédente (meeting moved) et à la suivante (bookstore)."
+        }
+      ]
+    },
+    {
+      "id": "e3-p7-s02",
+      "kind": "single",
+      "title": "Avis — coupure d'eau",
+      "docs": [
+        {
+          "type": "text",
+          "title": "NOTICE — Northgate Office Center",
+          "body": "Due to scheduled maintenance on the main water line, water service in the Northgate Office Center will be interrupted on Saturday, 9 March, from 7 A.M. to 1 P.M. Restrooms on all floors will be unavailable during this time. Tenants planning to work on Saturday may use the facilities at the fitness center next door, which has kindly agreed to make them available. We apologize for any inconvenience.\n\nBuilding Management"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p7-03",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the purpose of the notice?",
+          "options": [
+            "To advertise a fitness center",
+            "To announce a temporary service interruption",
+            "To change office hours",
+            "To request tenant feedback"
+          ],
+          "answer": "B",
+          "evidence": "water service in the Northgate Office Center will be interrupted",
+          "explanation": "L'avis annonce une coupure d'eau temporaire samedi matin.",
+          "takeaway": "Interrupted = interrompu."
+        },
+        {
+          "id": "e3-p7-04",
+          "level": 2,
+          "category": "inference",
+          "prompt": "What is suggested about the fitness center?",
+          "options": [
+            "It will close on Saturday.",
+            "It will allow tenants to use its restrooms.",
+            "It offers discounts to tenants.",
+            "It is located on the ground floor."
+          ],
+          "answer": "B",
+          "evidence": "may use the facilities at the fitness center next door",
+          "explanation": "La salle de sport voisine met ses sanitaires (« facilities ») à disposition des locataires.",
+          "takeaway": "Facilities = installations, ici sanitaires."
+        }
+      ]
+    },
+    {
+      "id": "e3-p7-s03",
+      "kind": "single",
+      "title": "Offre d'emploi — barista",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Part-time Barista Wanted — Café Odette",
+          "body": "We're looking for a friendly, reliable barista to join our team on weekends (Saturday and Sunday, 8 A.M.–4 P.M.). Previous experience is preferred but not required; full training will be provided. Benefits include free meals during shifts and a 20% discount on all products. To apply, stop by with your résumé any weekday between 2 and 5 P.M., and ask for the manager, Rémi."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p7-05",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What is indicated about the position?",
+          "options": [
+            "Training will be provided.",
+            "It requires previous experience.",
+            "It is a full-time job.",
+            "It includes weekday evenings."
+          ],
+          "answer": "A",
+          "evidence": "full training will be provided",
+          "explanation": "Une formation complète est assurée ; l'expérience est seulement souhaitée.",
+          "takeaway": "Preferred but not required = souhaité mais non exigé."
+        },
+        {
+          "id": "e3-p7-06",
+          "level": 2,
+          "category": "detail",
+          "prompt": "How should candidates apply?",
+          "options": [
+            "By e-mail",
+            "By phone",
+            "Through a website",
+            "By visiting the café"
+          ],
+          "answer": "D",
+          "evidence": "stop by with your résumé any weekday between 2 and 5 P.M.",
+          "explanation": "Les candidats doivent passer au café avec leur CV en semaine.",
+          "takeaway": "Stop by = passer (en personne)."
+        }
+      ]
+    },
+    {
+      "id": "e3-p7-s04",
+      "kind": "single",
+      "title": "E-mail d'une rédactrice",
+      "docs": [
+        {
+          "type": "email",
+          "from": "Hannah Weiss, Editor, Urban Business Review",
+          "to": "Diego Salas",
+          "subject": "Your article",
+          "date": "18 August",
+          "body": "Dear Mr. Salas,\n\nThank you for submitting your article on small-business lending. Our editorial team found it informative and well researched, and we would like to publish it in our October issue.\n\nHowever, at 2,800 words, the article is longer than our usual limit of 2,000 words. Could you shorten it accordingly? We would suggest removing the section on historical interest rates, which is interesting but less relevant to our readers.\n\nPlease send the revised version by 5 September. As discussed, you will receive a fee of €400 upon publication.\n\nBest regards,\nHannah Weiss"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p7-07",
+          "level": 2,
+          "category": "main-idea",
+          "prompt": "What is the main purpose of the e-mail?",
+          "options": [
+            "To reject an article",
+            "To request a new article",
+            "To accept an article on certain conditions",
+            "To announce a new magazine"
+          ],
+          "answer": "C",
+          "evidence": "we would like to publish it in our October issue",
+          "explanation": "L'article est accepté, à condition d'être raccourci.",
+          "takeaway": "« However » introduit la condition."
+        },
+        {
+          "id": "e3-p7-08",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What is Mr. Salas asked to do?",
+          "options": [
+            "Add more research",
+            "Reduce the length of his article",
+            "Change the title",
+            "Meet the editorial team"
+          ],
+          "answer": "B",
+          "evidence": "Could you shorten it accordingly?",
+          "explanation": "Il doit ramener l'article de 2 800 à 2 000 mots.",
+          "takeaway": "Shorten = raccourcir."
+        },
+        {
+          "id": "e3-p7-09",
+          "level": 2,
+          "category": "detail",
+          "prompt": "When will Mr. Salas receive payment?",
+          "options": [
+            "When he signs a contract",
+            "By 5 September",
+            "When the article is published",
+            "In August"
+          ],
+          "answer": "C",
+          "evidence": "you will receive a fee of €400 upon publication",
+          "explanation": "« Upon publication » = à la publication.",
+          "takeaway": "Upon + nom = dès, au moment de."
+        }
+      ]
+    },
+    {
+      "id": "e3-p7-s05",
+      "kind": "single",
+      "title": "Article — prix à l'export",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Local Firm Wins Export Award",
+          "body": "VALENCE — Duarte Ceramics, a family-owned maker of kitchen tiles, has won this year's Regional Export Award. Founded in 1978 by Mário Duarte, the company now sells its products in fourteen countries, and exports account for 70 percent of its revenue. [1]\n\nThe company's growth abroad began in 2015, when it started selling through an online platform for architects. [2] Today, its tiles can be found in hotels in Dubai and restaurants in Tokyo.\n\nManaging director Inês Duarte, the founder's granddaughter, said the award belongs to the company's 85 employees. [3] The company plans to open a showroom in Milan next spring. [4]"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p7-10",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the article mainly about?",
+          "options": [
+            "A company receiving an award",
+            "A new online platform",
+            "The opening of a hotel",
+            "A change in management"
+          ],
+          "answer": "A",
+          "evidence": "has won this year's Regional Export Award",
+          "explanation": "L'article annonce que Duarte Ceramics a remporté un prix à l'export.",
+          "takeaway": "Award = prix, récompense."
+        },
+        {
+          "id": "e3-p7-11",
+          "level": 2,
+          "category": "not-true",
+          "prompt": "What is NOT stated about Duarte Ceramics?",
+          "options": [
+            "It is run by a family.",
+            "Most of its revenue comes from exports.",
+            "It sells through an online platform.",
+            "It operates a factory in Milan."
+          ],
+          "answer": "D",
+          "explanation": "Entreprise familiale, 70 % du chiffre à l'export, plateforme en ligne : tout est cité. Milan accueillera un showroom, pas une usine.",
+          "traps": "« Milan » apparaît dans le texte, mais pour un autre type de lieu.",
+          "takeaway": "NOT : vérifie le détail exact (showroom ≠ factory)."
+        },
+        {
+          "id": "e3-p7-12",
+          "level": 3,
+          "category": "sentence-insertion",
+          "prompt": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"Orders from that platform tripled within two years.\"",
+          "options": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ],
+          "answer": "B",
+          "explanation": "« That platform » renvoie à la plateforme en ligne pour architectes citée juste avant la position [2].",
+          "takeaway": "That + nom renvoie à un élément déjà mentionné."
+        }
+      ]
+    },
+    {
+      "id": "e3-p7-s06",
+      "kind": "single",
+      "title": "Devis de garage",
+      "docs": [
+        {
+          "type": "form",
+          "title": "Repair Estimate — Hartley Auto Service",
+          "fields": [
+            [
+              "Customer",
+              "Naomi Baker"
+            ],
+            [
+              "Vehicle",
+              "2019 Peugeot 308"
+            ],
+            [
+              "Date",
+              "14 May"
+            ],
+            [
+              "Work",
+              "Replace front brake pads (€180); replace windshield wiper blades (€35); oil change (€70)"
+            ],
+            [
+              "Estimated total",
+              "€285"
+            ]
+          ],
+          "body": "This estimate is valid for 30 days. Additional repairs will only be carried out with the customer's approval. Vehicles not collected within 3 days of completion will be charged a storage fee of €15 per day."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p7-13",
+          "level": 1,
+          "category": "detail",
+          "prompt": "Which service costs the most?",
+          "options": [
+            "Oil change",
+            "Wiper blade replacement",
+            "Brake pad replacement",
+            "Vehicle storage"
+          ],
+          "answer": "C",
+          "evidence": "Replace front brake pads (€180)",
+          "explanation": "Le remplacement des plaquettes de frein (180 €) est le poste le plus cher.",
+          "takeaway": "Brake pads = plaquettes de frein."
+        },
+        {
+          "id": "e3-p7-14",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is indicated about additional repairs?",
+          "options": [
+            "They are free of charge.",
+            "They require the customer's consent.",
+            "They are done within 3 days.",
+            "They are not guaranteed."
+          ],
+          "answer": "B",
+          "evidence": "Additional repairs will only be carried out with the customer's approval.",
+          "explanation": "Toute réparation supplémentaire nécessite l'accord du client.",
+          "takeaway": "Approval = consent = accord."
+        },
+        {
+          "id": "e3-p7-15",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What could cause an extra charge?",
+          "options": [
+            "Paying by card",
+            "Leaving the car at the garage too long",
+            "Changing the appointment",
+            "Requesting an estimate"
+          ],
+          "answer": "B",
+          "evidence": "will be charged a storage fee of €15 per day",
+          "explanation": "Un véhicule non récupéré dans les 3 jours entraîne des frais de gardiennage.",
+          "takeaway": "Storage fee = frais de stockage / gardiennage."
+        }
+      ]
+    },
+    {
+      "id": "e3-p7-s07",
+      "kind": "single",
+      "title": "Discussion — agence immobilière",
+      "docs": [
+        {
+          "type": "chat",
+          "messages": [
+            {
+              "name": "Gloria Pinto",
+              "time": "9:05",
+              "text": "The buyers for the Rue Bonaparte apartment want a second visit before making an offer."
+            },
+            {
+              "name": "Hugo Lefèvre",
+              "time": "9:07",
+              "text": "The owners are away until Monday. Do we have a key?"
+            },
+            {
+              "name": "Nina Okafor",
+              "time": "9:08",
+              "text": "I have one in my desk drawer. I can meet the buyers there tomorrow at noon."
+            },
+            {
+              "name": "Gloria Pinto",
+              "time": "9:10",
+              "text": "That works. They mentioned they want to measure the living room for their piano."
+            },
+            {
+              "name": "Nina Okafor",
+              "time": "9:11",
+              "text": "I'll bring a tape measure, then."
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p7-16",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What will happen tomorrow?",
+          "options": [
+            "Some buyers will visit an apartment.",
+            "The owners will return.",
+            "An offer will be signed.",
+            "A piano will be delivered."
+          ],
+          "answer": "A",
+          "evidence": "I can meet the buyers there tomorrow at noon.",
+          "explanation": "Mme Okafor fera visiter l'appartement aux acheteurs demain à midi.",
+          "takeaway": "Second visit = contre-visite."
+        },
+        {
+          "id": "e3-p7-17",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does Mr. Lefèvre ask about?",
+          "options": [
+            "The price of the apartment",
+            "The owners' phone number",
+            "The buyers' schedule",
+            "Access to the property"
+          ],
+          "answer": "D",
+          "evidence": "Do we have a key?",
+          "explanation": "Il demande si l'agence a une clé pour accéder au logement.",
+          "takeaway": "Access = accès."
+        },
+        {
+          "id": "e3-p7-18",
+          "level": 3,
+          "category": "intention",
+          "prompt": "At 9:11, what does Ms. Okafor most likely mean when she writes, \"I'll bring a tape measure, then\"?",
+          "options": [
+            "She thinks the apartment is too small.",
+            "She will measure the piano.",
+            "She will help the buyers check the size of a room.",
+            "She will buy new office equipment."
+          ],
+          "answer": "C",
+          "evidence": "I'll bring a tape measure, then.",
+          "explanation": "Les acheteurs veulent mesurer le salon pour leur piano : elle apportera un mètre ruban.",
+          "takeaway": "« Then » relie la réponse à la remarque précédente."
+        }
+      ]
+    },
+    {
+      "id": "e3-p7-s08",
+      "kind": "single",
+      "title": "Lettre de la ville — travaux",
+      "docs": [
+        {
+          "type": "text",
+          "title": "City of Lisieux — Department of Public Works",
+          "subtitle": "To: Business owners, Rue Victor Hugo",
+          "body": "Dear Business Owner,\n\nThe City of Lisieux will begin replacing the water pipes under Rue Victor Hugo on 3 June. The work will be carried out in three sections, each taking approximately two weeks, and the street will remain open to pedestrians throughout.\n\nDuring the work, deliveries to businesses on the street will only be possible before 9 A.M. Parking spaces on the affected section will be temporarily unavailable; however, customers may park free of charge at the Place du Marché lot for the duration of the project.\n\nA meeting for local business owners will be held at City Hall on 20 May at 6 P.M. to answer any questions.\n\nSincerely,\nDepartment of Public Works"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p7-19",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "Why was the letter sent?",
+          "options": [
+            "To announce a new parking fee",
+            "To inform businesses about upcoming roadwork",
+            "To invite businesses to a festival",
+            "To request payment of a tax"
+          ],
+          "answer": "B",
+          "evidence": "will begin replacing the water pipes under Rue Victor Hugo on 3 June",
+          "explanation": "La lettre informe les commerçants de travaux de remplacement des canalisations.",
+          "takeaway": "Roadwork = travaux de voirie."
+        },
+        {
+          "id": "e3-p7-20",
+          "level": 2,
+          "category": "inference",
+          "prompt": "How long will the project most likely last?",
+          "options": [
+            "About six weeks",
+            "About three weeks",
+            "About two weeks",
+            "About three months"
+          ],
+          "answer": "A",
+          "evidence": "carried out in three sections, each taking approximately two weeks",
+          "explanation": "Trois tronçons de deux semaines chacun : environ six semaines.",
+          "traps": "Deux semaines correspond à un seul tronçon.",
+          "takeaway": "Inférence chiffrée : multiplie les informations."
+        },
+        {
+          "id": "e3-p7-21",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What will be offered to customers during the work?",
+          "options": [
+            "A shuttle bus",
+            "Free deliveries",
+            "Discounts at local shops",
+            "Free parking nearby"
+          ],
+          "answer": "D",
+          "evidence": "customers may park free of charge at the Place du Marché lot",
+          "explanation": "Les clients pourront se garer gratuitement sur le parking de la place du Marché.",
+          "takeaway": "Free of charge = gratuitement."
+        }
+      ]
+    },
+    {
+      "id": "e3-p7-s09",
+      "kind": "single",
+      "title": "Critique de livre",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Book Review: Leading Without a Title, by Carmen Vidal",
+          "body": "In her second book, management consultant Carmen Vidal argues that the most effective leaders in many organizations are not managers at all. Drawing on interviews with more than 200 employees in twelve countries, Vidal shows how people without formal authority shape decisions, resolve conflicts, and keep projects moving. [1]\n\nThe book's strongest chapters describe practical techniques, such as how to build support for an idea before a meeting. [2] Each chapter ends with a short exercise that readers can try at work.\n\nSome readers may find the final section, which discusses leadership research, rather academic. [3] Nevertheless, Leading Without a Title is a valuable read for anyone who wants to have more influence at work, whatever their position. [4]\n\nPublished by Harrow Press, 312 pages, €24."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p7-22",
+          "level": 2,
+          "category": "main-idea",
+          "prompt": "What is the main idea of Ms. Vidal's book?",
+          "options": [
+            "Leadership research is often inaccurate.",
+            "Managers should hold fewer meetings.",
+            "Employees without management roles can be effective leaders.",
+            "International companies need more managers."
+          ],
+          "answer": "C",
+          "evidence": "the most effective leaders in many organizations are not managers at all",
+          "explanation": "Le livre soutient que les leaders les plus efficaces ne sont souvent pas des managers.",
+          "takeaway": "Argue that = soutenir que."
+        },
+        {
+          "id": "e3-p7-23",
+          "level": 2,
+          "category": "inference",
+          "prompt": "What is indicated about Ms. Vidal?",
+          "options": [
+            "She has written a book before.",
+            "She is a university professor.",
+            "She manages a team of 200 people.",
+            "She works for Harrow Press."
+          ],
+          "answer": "A",
+          "evidence": "In her second book",
+          "explanation": "C'est son deuxième livre : elle en a donc déjà écrit un.",
+          "takeaway": "Les ordinaux (second, third) permettent des inférences."
+        },
+        {
+          "id": "e3-p7-24",
+          "level": 2,
+          "category": "synonym",
+          "prompt": "The word \"shape\" in paragraph 1, line 4, is closest in meaning to",
+          "options": [
+            "form physically",
+            "influence",
+            "describe",
+            "delay"
+          ],
+          "answer": "B",
+          "evidence": "shape decisions",
+          "explanation": "« Shape decisions » = influencer les décisions.",
+          "traps": "« Form physically » est le sens concret (modeler), inadapté ici.",
+          "takeaway": "Shape = influencer, façonner (sens figuré)."
+        },
+        {
+          "id": "e3-p7-25",
+          "level": 3,
+          "category": "sentence-insertion",
+          "prompt": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"Readers less familiar with academic writing may wish to skip it.\"",
+          "options": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ],
+          "answer": "C",
+          "explanation": "« It » renvoie à la dernière partie, jugée « rather academic » juste avant la position [3].",
+          "takeaway": "Pronom + thème (academic) = indices de position."
+        }
+      ]
+    },
+    {
+      "id": "e3-p7-s10",
+      "kind": "single",
+      "title": "Note de service — déménagement",
+      "docs": [
+        {
+          "type": "text",
+          "title": "MEMO",
+          "subtitle": "To: All Lyon staff — From: Operations — Date: 2 October — Re: Move to the Part-Dieu office",
+          "body": "As you know, our team will move to the new Part-Dieu office on Monday, 20 October. To ensure a smooth transition, please note the following:\n\n• Moving boxes will be delivered to each department on 13 October. Please pack your personal items by 17 October at noon.\n• IT staff will disconnect and transport all computers. Do not pack your own equipment.\n• The current office will close at 1 P.M. on Friday, 17 October. Employees may work from home that afternoon.\n• Your new access badge will be available at the Part-Dieu reception desk from 8 A.M. on 20 October.\n\nQuestions should be sent to Lucie Moreau in Operations."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p7-26",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the purpose of the memo?",
+          "options": [
+            "To give instructions about an office move",
+            "To announce new office hours",
+            "To introduce a new IT system",
+            "To request volunteers"
+          ],
+          "answer": "A",
+          "evidence": "our team will move to the new Part-Dieu office",
+          "explanation": "Le mémo donne les consignes du déménagement vers les nouveaux locaux.",
+          "takeaway": "Smooth transition = transition en douceur."
+        },
+        {
+          "id": "e3-p7-27",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What are employees told not to do?",
+          "options": [
+            "Leave before noon",
+            "Work from home",
+            "Contact Operations",
+            "Pack their computers"
+          ],
+          "answer": "D",
+          "evidence": "Do not pack your own equipment.",
+          "explanation": "Le service informatique s'occupe des ordinateurs : les employés ne doivent pas les emballer.",
+          "takeaway": "Equipment = matériel."
+        },
+        {
+          "id": "e3-p7-28",
+          "level": 2,
+          "category": "inference",
+          "prompt": "What is suggested about the afternoon of 17 October?",
+          "options": [
+            "The new office will open.",
+            "A farewell party will be held.",
+            "Employees will not work at the old office.",
+            "Badges will be distributed."
+          ],
+          "answer": "C",
+          "evidence": "Employees may work from home that afternoon.",
+          "explanation": "L'ancien bureau ferme à 13 h : les employés travailleront depuis chez eux l'après-midi.",
+          "takeaway": "Inférence à partir d'une fermeture annoncée."
+        },
+        {
+          "id": "e3-p7-29",
+          "level": 1,
+          "category": "detail",
+          "prompt": "Where can employees collect their new badges?",
+          "options": [
+            "From Lucie Moreau",
+            "At a reception desk",
+            "From the IT department",
+            "At the old office"
+          ],
+          "answer": "B",
+          "evidence": "Your new access badge will be available at the Part-Dieu reception desk",
+          "explanation": "Les badges seront à l'accueil de Part-Dieu dès 8 h le 20 octobre.",
+          "takeaway": "Available at = disponible à."
+        }
+      ]
+    },
+    {
+      "id": "e3-p7-d01",
+      "kind": "double",
+      "title": "Horaires d'autocar + e-mail",
+      "docs": [
+        {
+          "type": "table",
+          "title": "Express Coach — Lyon to Geneva",
+          "columns": [
+            "Departs Lyon",
+            "Arrives Geneva",
+            "Wi-Fi",
+            "Price"
+          ],
+          "rows": [
+            [
+              "06:45",
+              "08:50",
+              "Yes",
+              "€19"
+            ],
+            [
+              "09:30",
+              "11:40",
+              "Yes",
+              "€24"
+            ],
+            [
+              "13:15",
+              "15:20",
+              "No",
+              "€17"
+            ],
+            [
+              "17:00",
+              "19:10",
+              "Yes",
+              "€24"
+            ]
+          ],
+          "note": "Bicycles can be transported on the 06:45 and 13:15 coaches only (reservation required, €8)."
+        },
+        {
+          "type": "email",
+          "from": "Paul Mercier",
+          "to": "Aline Rousseau",
+          "subject": "Thursday",
+          "date": "3 June",
+          "body": "Hi Aline,\n\nI'm planning to take the coach to Geneva on Thursday for the workshop at 2 P.M. I'd like to bring my bike so I can ride from the station to the venue, since it's quite far. I also need to work during the trip, so Wi-Fi would be helpful. Would you like to travel together?\n\nPaul"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p7-30",
+          "level": 1,
+          "category": "detail",
+          "prompt": "Why is Mr. Mercier going to Geneva?",
+          "options": [
+            "To attend a workshop",
+            "To visit a friend",
+            "To buy a bicycle",
+            "To give a presentation"
+          ],
+          "answer": "A",
+          "evidence": "for the workshop at 2 P.M.",
+          "explanation": "M. Mercier se rend à Genève pour assister à un atelier qui commence à 14 h.",
+          "takeaway": "Workshop = atelier."
+        },
+        {
+          "id": "e3-p7-31",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "Which coach will Mr. Mercier most likely take?",
+          "options": [
+            "06:45",
+            "09:30",
+            "13:15",
+            "17:00"
+          ],
+          "answer": "A",
+          "explanation": "Il veut emporter son vélo (06:45 ou 13:15 seulement), arriver avant 14 h et avoir le Wi-Fi : seul le car de 6 h 45 remplit ces conditions.",
+          "traps": "Le car de 13 h 15 accepte les vélos mais arrive à 15 h 20, sans Wi-Fi.",
+          "takeaway": "Croise toutes les contraintes du doc 2 avec le tableau."
+        },
+        {
+          "id": "e3-p7-32",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "How much will Mr. Mercier most likely pay in total for his trip to Geneva?",
+          "options": [
+            "€19",
+            "€24",
+            "€27",
+            "€32"
+          ],
+          "answer": "C",
+          "explanation": "Billet du car de 6 h 45 (19 €) + réservation vélo (8 €) = 27 €.",
+          "takeaway": "N'oublie pas les frais annexes en note."
+        },
+        {
+          "id": "e3-p7-33",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Why does Mr. Mercier want to bring his bicycle?",
+          "options": [
+            "Taxis are expensive in Geneva.",
+            "He plans to ride back to Lyon.",
+            "He is taking part in a race.",
+            "The workshop venue is far from the station."
+          ],
+          "answer": "D",
+          "evidence": "since it's quite far",
+          "explanation": "Le lieu de l'atelier est loin de la gare.",
+          "takeaway": "Since = puisque (cause)."
+        },
+        {
+          "id": "e3-p7-34",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What does Mr. Mercier ask Ms. Rousseau?",
+          "options": [
+            "Whether she booked the tickets",
+            "Whether she can lend him a bicycle",
+            "Whether she wants to travel with him",
+            "Whether the workshop has been moved"
+          ],
+          "answer": "C",
+          "evidence": "Would you like to travel together?",
+          "explanation": "Il lui propose de faire le trajet ensemble.",
+          "takeaway": "Would you like to…? = proposition."
+        }
+      ]
+    },
+    {
+      "id": "e3-p7-d02",
+      "kind": "double",
+      "title": "Garantie + demande de réparation",
+      "docs": [
+        {
+          "type": "form",
+          "title": "Limited Warranty — Brisa Air Purifier (Model AP-40)",
+          "fields": [
+            [
+              "Motor and electronic components",
+              "3 years from date of purchase"
+            ],
+            [
+              "Filters",
+              "6 months"
+            ],
+            [
+              "Exclusions",
+              "Damage caused by misuse, accidents, or unauthorized repairs"
+            ],
+            [
+              "Registration",
+              "Register online within 30 days of purchase to extend coverage on the motor to 5 years"
+            ]
+          ],
+          "body": "To make a claim, contact Brisa Customer Care with your proof of purchase and the product's serial number."
+        },
+        {
+          "type": "email",
+          "from": "Katarzyna Nowak",
+          "to": "care@brisa.eu",
+          "subject": "AP-40 problem",
+          "date": "22 November",
+          "body": "Hello,\n\nI bought a Brisa AP-40 on 10 March of last year and registered it online the same week. For the past few days, the motor has been making a loud rattling noise, and yesterday it stopped working completely. I have not dropped or opened the unit. I have attached my receipt; the serial number is AP40-77821. Could you tell me how to arrange a repair?\n\nKatarzyna Nowak"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p7-35",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "Why did Ms. Nowak write the e-mail?",
+          "options": [
+            "To register a product",
+            "To request a repair",
+            "To order new filters",
+            "To complain about a delivery"
+          ],
+          "answer": "B",
+          "evidence": "Could you tell me how to arrange a repair?",
+          "explanation": "Son purificateur est en panne : elle demande comment organiser une réparation.",
+          "takeaway": "Arrange a repair = organiser une réparation."
+        },
+        {
+          "id": "e3-p7-36",
+          "level": 1,
+          "category": "detail",
+          "prompt": "According to the warranty, which part is covered for the shortest time?",
+          "options": [
+            "The filters",
+            "The electronic components",
+            "The motor",
+            "The power cable"
+          ],
+          "answer": "A",
+          "evidence": "6 months",
+          "explanation": "Les filtres ne sont garantis que 6 mois.",
+          "takeaway": "Coverage = couverture (garantie)."
+        },
+        {
+          "id": "e3-p7-37",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "What is indicated about Ms. Nowak's purifier?",
+          "options": [
+            "It needs new filters.",
+            "Its warranty has expired.",
+            "It was registered too late.",
+            "Its motor is still under warranty."
+          ],
+          "answer": "D",
+          "explanation": "Achetée il y a environ 20 mois et enregistrée la même semaine (garantie moteur étendue à 5 ans), la panne de moteur est couverte. Même sans enregistrement, elle serait dans les 3 ans.",
+          "takeaway": "Calcule la durée écoulée et compare-la à la garantie."
+        },
+        {
+          "id": "e3-p7-38",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "Why does Ms. Nowak most likely mention that she has not dropped or opened the unit?",
+          "options": [
+            "To request a refund instead of a repair",
+            "To explain how to use the product",
+            "To show that the damage is not excluded from coverage",
+            "To describe the rattling noise"
+          ],
+          "answer": "C",
+          "explanation": "La garantie exclut accidents et réparations non autorisées : elle précise qu'aucune de ces exclusions ne s'applique.",
+          "takeaway": "Un détail apparemment superflu répond souvent à une condition de l'autre document."
+        },
+        {
+          "id": "e3-p7-39",
+          "level": 2,
+          "category": "synonym",
+          "prompt": "What has Ms. Nowak sent with her e-mail?",
+          "options": [
+            "A photo of the purifier",
+            "Proof of purchase",
+            "A repair invoice",
+            "A warranty card"
+          ],
+          "answer": "B",
+          "evidence": "I have attached my receipt",
+          "explanation": "Elle a joint son ticket de caisse : une preuve d'achat.",
+          "takeaway": "Receipt = proof of purchase."
+        }
+      ]
+    },
+    {
+      "id": "e3-p7-t01",
+      "kind": "triple",
+      "title": "Course caritative : annonce, e-mail, résultats",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Riverside 10K Charity Run — Sunday, 14 September",
+          "body": "Registration fees: €25 (adults), €10 (under 18). Runners who register before 31 August receive a free T-shirt. All proceeds will go to the Riverside Children's Hospital. Teams of five or more from the same company can register together and will be listed on the event's website. Race start: 9 A.M., Parc de la Tête d'Or (main gate)."
+        },
+        {
+          "type": "email",
+          "from": "Marc Olivier, HR, Velis Bank",
+          "to": "All staff",
+          "subject": "Join our team for the Riverside 10K!",
+          "date": "25 August",
+          "body": "Dear colleagues,\n\nFor the third year in a row, Velis Bank will enter a team in the Riverside 10K. The bank will cover the registration fee for any employee who takes part. So far, four people have signed up, so we need at least one more to be listed as a company team! Please let me know by 29 August if you'd like to join.\n\nMarc Olivier"
+        },
+        {
+          "type": "table",
+          "title": "Riverside 10K — Company Team Results",
+          "columns": [
+            "Team",
+            "Members",
+            "Average time",
+            "Funds raised"
+          ],
+          "rows": [
+            [
+              "Velis Bank",
+              "7",
+              "52 min",
+              "€3,400"
+            ],
+            [
+              "Orion Telecom",
+              "5",
+              "49 min",
+              "€2,150"
+            ],
+            [
+              "Atelier Brun",
+              "6",
+              "58 min",
+              "€1,900"
+            ],
+            [
+              "Lumen Pharma",
+              "9",
+              "55 min",
+              "€4,800"
+            ]
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p7-40",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the purpose of the e-mail?",
+          "options": [
+            "To encourage employees to take part in an event",
+            "To announce race results",
+            "To collect donations",
+            "To change the race date"
+          ],
+          "answer": "A",
+          "evidence": "Please let me know by 29 August if you'd like to join.",
+          "explanation": "M. Olivier invite ses collègues à rejoindre l'équipe de la banque.",
+          "takeaway": "Join = rejoindre."
+        },
+        {
+          "id": "e3-p7-41",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "What did the Velis Bank runners who signed up through Mr. Olivier most likely receive?",
+          "options": [
+            "A discount on banking fees",
+            "A cash prize",
+            "A hospital tour",
+            "A free T-shirt"
+          ],
+          "answer": "D",
+          "explanation": "Ils se sont inscrits avant le 29 août, donc avant le 31 août : ils ont droit au t-shirt offert.",
+          "takeaway": "Compare la date limite interne et celle de l'offre."
+        },
+        {
+          "id": "e3-p7-42",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is indicated about Velis Bank?",
+          "options": [
+            "It sponsors the hospital.",
+            "It organizes the race.",
+            "It has taken part in the event before.",
+            "It has the largest team."
+          ],
+          "answer": "C",
+          "evidence": "For the third year in a row",
+          "explanation": "C'est la troisième participation consécutive de la banque.",
+          "traps": "La plus grande équipe est Lumen Pharma (9 membres).",
+          "takeaway": "In a row = consécutif."
+        },
+        {
+          "id": "e3-p7-43",
+          "level": 1,
+          "category": "detail",
+          "prompt": "Which team had the fastest average time?",
+          "options": [
+            "Velis Bank",
+            "Orion Telecom",
+            "Atelier Brun",
+            "Lumen Pharma"
+          ],
+          "answer": "B",
+          "evidence": "49 min",
+          "explanation": "Orion Telecom a le temps moyen le plus court (49 min).",
+          "takeaway": "Fastest time = temps le plus court."
+        },
+        {
+          "id": "e3-p7-44",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "What is true about the Velis Bank team in the end?",
+          "options": [
+            "More employees joined than the minimum required.",
+            "It raised the most money.",
+            "It was not listed on the website.",
+            "It had exactly five members."
+          ],
+          "answer": "A",
+          "explanation": "Il fallait au moins cinq coureurs pour être listé comme équipe ; Velis Bank en compte finalement sept.",
+          "traps": "Lumen Pharma a collecté le plus de fonds.",
+          "takeaway": "Compare le seuil (doc 1) et le résultat (doc 3)."
+        }
+      ]
+    },
+    {
+      "id": "e3-p7-t02",
+      "kind": "triple",
+      "title": "Critique de restaurant + carte + réponse du propriétaire",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Restaurant Review: Saffron & Salt",
+          "subtitle": "Paola Greco, Lyon Weekly",
+          "body": "Saffron & Salt, which opened last month on Quai Saint-Antoine, offers a creative take on Mediterranean cuisine. The grilled octopus was perfectly tender, and the lamb with apricots was the highlight of my meal. The dining room is bright and welcoming, though it becomes noisy when full. My only real disappointment was the dessert menu, which offered just two options on the evening I visited."
+        },
+        {
+          "type": "table",
+          "title": "Saffron & Salt — Dinner Menu (excerpt)",
+          "columns": [
+            "Dish",
+            "Price"
+          ],
+          "rows": [
+            [
+              "Grilled octopus, lemon and herbs",
+              "€16"
+            ],
+            [
+              "Lamb with apricots and almonds",
+              "€26"
+            ],
+            [
+              "Sea bass with fennel",
+              "€24"
+            ],
+            [
+              "Vegetable tagine",
+              "€19"
+            ]
+          ],
+          "note": "Tasting menu (5 courses): €58. Our dessert selection changes weekly."
+        },
+        {
+          "type": "email",
+          "from": "Youssef Amrani",
+          "to": "Paola Greco",
+          "subject": "Thank you",
+          "date": "10 May",
+          "body": "Dear Ms. Greco,\n\nThank you for your kind review of Saffron & Salt. I'm glad you enjoyed the lamb; it's my grandmother's recipe. You were right about the desserts. We've hired a pastry chef, Élodie Marchand, who joins us next week, and she will offer at least five desserts every evening. We've also installed sound-absorbing panels on the ceiling. I hope you'll visit us again soon.\n\nYoussef Amrani"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p7-45",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What is indicated about Saffron & Salt?",
+          "options": [
+            "It has moved to a new location.",
+            "It specializes in seafood.",
+            "It is closed on weekends.",
+            "It opened recently."
+          ],
+          "answer": "D",
+          "evidence": "which opened last month",
+          "explanation": "La critique précise que le restaurant a ouvert le mois dernier : il est récent.",
+          "takeaway": "Recently = récemment."
+        },
+        {
+          "id": "e3-p7-46",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "How much does the dish Ms. Greco liked most cost?",
+          "options": [
+            "€16",
+            "€19",
+            "€24",
+            "€26"
+          ],
+          "answer": "D",
+          "explanation": "Le point fort de son repas était l'agneau aux abricots, à 26 € sur la carte.",
+          "takeaway": "Highlight = point fort."
+        },
+        {
+          "id": "e3-p7-47",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "What change has Mr. Amrani made in response to a criticism of the dining room?",
+          "options": [
+            "He enlarged the room.",
+            "He added more lighting.",
+            "He reduced the noise level.",
+            "He changed the decoration."
+          ],
+          "answer": "C",
+          "explanation": "La critique trouvait la salle bruyante ; il a installé des panneaux acoustiques au plafond.",
+          "takeaway": "Sound-absorbing = insonorisant."
+        },
+        {
+          "id": "e3-p7-48",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What will happen to the dessert menu?",
+          "options": [
+            "It will become cheaper.",
+            "It will offer more choices.",
+            "It will be removed.",
+            "It will no longer change weekly."
+          ],
+          "answer": "B",
+          "evidence": "she will offer at least five desserts every evening",
+          "explanation": "La nouvelle pâtissière proposera au moins cinq desserts chaque soir.",
+          "takeaway": "At least = au moins."
+        },
+        {
+          "id": "e3-p7-49",
+          "level": 1,
+          "category": "detail",
+          "prompt": "Who is Élodie Marchand?",
+          "options": [
+            "A pastry chef",
+            "A food critic",
+            "The restaurant's owner",
+            "Mr. Amrani's grandmother"
+          ],
+          "answer": "A",
+          "evidence": "We've hired a pastry chef, Élodie Marchand",
+          "explanation": "Élodie Marchand est la pâtissière recrutée.",
+          "takeaway": "Pastry chef = chef pâtissier."
+        }
+      ]
+    },
+    {
+      "id": "e3-p7-t03",
+      "kind": "triple",
+      "title": "Conditions + bon de commande + e-mail client",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Papeterie Martin — Business Customers",
+          "body": "Free next-day delivery on orders over €150 placed before 2 P.M. Orders under €150 are charged a €12 delivery fee. Business customers who order at least once a month for six months receive a 5% discount on all future orders. Returns are accepted within 14 days in original packaging."
+        },
+        {
+          "type": "form",
+          "title": "Order #PM-5512",
+          "fields": [
+            [
+              "Customer",
+              "Studio Kerr Architects"
+            ],
+            [
+              "Date and time of order",
+              "Tuesday 4 March, 11:20"
+            ],
+            [
+              "Items",
+              "A3 drawing paper (10 packs) €84; black ink cartridges (4) €96; desk lamps (2) €58"
+            ],
+            [
+              "Discount",
+              "5% loyalty discount applied"
+            ]
+          ],
+          "body": "Total after discount: €225.20. Delivery fee: €0."
+        },
+        {
+          "type": "email",
+          "from": "Fiona Kerr",
+          "to": "Papeterie Martin",
+          "subject": "Order PM-5512",
+          "date": "6 March",
+          "body": "Hello,\n\nOur order arrived yesterday, as promised. Everything was in order except that one of the desk lamps does not switch on. I'd like to return it for a replacement. I still have the original box. Should I bring it to your shop or will your driver collect it?\n\nFiona Kerr"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p7-50",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "What is indicated about Studio Kerr Architects?",
+          "options": [
+            "It has ordered from Papeterie Martin regularly.",
+            "It is a new customer.",
+            "It paid a delivery fee.",
+            "It ordered after 2 P.M."
+          ],
+          "answer": "A",
+          "explanation": "La remise fidélité de 5 % est appliquée : elle est réservée aux clients qui commandent au moins une fois par mois depuis six mois.",
+          "takeaway": "Une remise appliquée révèle une condition remplie."
+        },
+        {
+          "id": "e3-p7-51",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "Why was no delivery fee charged?",
+          "options": [
+            "The order was late.",
+            "The customer picked up the order.",
+            "A coupon was used.",
+            "The order exceeded a minimum amount."
+          ],
+          "answer": "D",
+          "explanation": "La commande (225,20 €) dépasse 150 € : la livraison est gratuite.",
+          "takeaway": "Vérifie les seuils (over €150)."
+        },
+        {
+          "id": "e3-p7-52",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "On what day did the order most likely arrive?",
+          "options": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "answer": "B",
+          "explanation": "Commande passée le mardi 4 mars à 11 h 20 (avant 14 h) : livraison le lendemain, mercredi 5 mars, ce que confirme l'e-mail du 6 (« arrived yesterday »).",
+          "takeaway": "Next-day delivery = livraison le lendemain."
+        },
+        {
+          "id": "e3-p7-53",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What problem does Ms. Kerr report?",
+          "options": [
+            "An ink cartridge leaked.",
+            "Some paper is missing.",
+            "A lamp does not work.",
+            "The invoice is incorrect."
+          ],
+          "answer": "C",
+          "evidence": "one of the desk lamps does not switch on",
+          "explanation": "Une des lampes de bureau ne s'allume pas.",
+          "takeaway": "Switch on = s'allumer."
+        },
+        {
+          "id": "e3-p7-54",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "What is suggested about Ms. Kerr's return?",
+          "options": [
+            "It is too late to be accepted.",
+            "It meets the store's return conditions.",
+            "It requires a fee.",
+            "It must be made by mail."
+          ],
+          "answer": "B",
+          "explanation": "Elle signale le problème deux jours après la livraison et a gardé l'emballage d'origine : les conditions (14 jours, emballage d'origine) sont respectées.",
+          "takeaway": "Vérifie chaque condition de retour du doc 1."
+        }
+      ]
+    }
+  ]
+}

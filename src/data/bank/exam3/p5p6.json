@@ -1,0 +1,811 @@
+{
+  "pool": "exam3",
+  "questions": [
+    {
+      "id": "e3-p5-01",
+      "part": 5,
+      "level": 1,
+      "category": "preposition",
+      "prompt": "Ms. Reyes has worked in the finance department ____ 2019.",
+      "options": [
+        "for",
+        "during",
+        "from",
+        "since"
+      ],
+      "answer": "D",
+      "explanation": "Point de départ (2019) + present perfect : « since ».",
+      "traps": "« For » s'emploie avec une durée (for six years).",
+      "takeaway": "Since + date ; for + durée."
+    },
+    {
+      "id": "e3-p5-02",
+      "part": 5,
+      "level": 1,
+      "category": "word-form",
+      "prompt": "The hotel staff were extremely ____ during our stay.",
+      "options": [
+        "help",
+        "helpfully",
+        "helpful",
+        "helpfulness"
+      ],
+      "answer": "C",
+      "explanation": "Après « were extremely », il faut un adjectif : « helpful » (serviable).",
+      "traps": "« Helpfully » est un adverbe.",
+      "takeaway": "Be + (adverbe) + adjectif."
+    },
+    {
+      "id": "e3-p5-03",
+      "part": 5,
+      "level": 1,
+      "category": "verb-tense",
+      "prompt": "Mr. Adler usually ____ the bus to work, but today he drove.",
+      "options": [
+        "taking",
+        "takes",
+        "took",
+        "take"
+      ],
+      "answer": "B",
+      "explanation": "« Usually » exprime une habitude : présent simple, 3e personne « takes ».",
+      "traps": "« Took » serait une action passée unique ; « take » oublie le -s.",
+      "takeaway": "Habitude (usually, often) → présent simple."
+    },
+    {
+      "id": "e3-p5-04",
+      "part": 5,
+      "level": 2,
+      "category": "passive",
+      "prompt": "The winners of the design competition ____ at the ceremony next Friday.",
+      "options": [
+        "will be announced",
+        "will announce",
+        "announced",
+        "are announcing"
+      ],
+      "answer": "A",
+      "explanation": "Les gagnants seront annoncés (ils subissent l'action), dans le futur : « will be announced ».",
+      "traps": "« Will announce » ferait des gagnants ceux qui annoncent.",
+      "takeaway": "Sujet passif + futur → will be + participe passé."
+    },
+    {
+      "id": "e3-p5-05",
+      "part": 5,
+      "level": 2,
+      "category": "conjunction",
+      "prompt": "Please turn off your mobile phones ____ the performance begins.",
+      "options": [
+        "during",
+        "since",
+        "while",
+        "before"
+      ],
+      "answer": "D",
+      "explanation": "On éteint son téléphone avant que le spectacle commence : « before ».",
+      "traps": "« During » est une préposition ; « since » et « while » n'ont pas le bon sens.",
+      "takeaway": "Before + proposition au présent (sens futur)."
+    },
+    {
+      "id": "e3-p5-06",
+      "part": 5,
+      "level": 2,
+      "category": "vocabulary",
+      "prompt": "The marketing team will ____ the results of the survey at Monday's meeting.",
+      "options": [
+        "attend",
+        "occur",
+        "present",
+        "attract"
+      ],
+      "answer": "C",
+      "explanation": "On présente des résultats : « present the results ».",
+      "traps": "« Attend » = assister à ; « occur » = se produire (sans complément).",
+      "takeaway": "Present results / findings."
+    },
+    {
+      "id": "e3-p5-07",
+      "part": 5,
+      "level": 2,
+      "category": "relative",
+      "prompt": "The conference room ____ we usually meet is being renovated.",
+      "options": [
+        "which",
+        "where",
+        "whose",
+        "what"
+      ],
+      "answer": "B",
+      "explanation": "Le relatif reprend un lieu suivi d'une proposition complète (we usually meet) : « where ».",
+      "traps": "« Which » exigerait une préposition (in which we usually meet).",
+      "takeaway": "Where = in which (lieu)."
+    },
+    {
+      "id": "e3-p5-08",
+      "part": 5,
+      "level": 2,
+      "category": "word-form",
+      "prompt": "The company's ____ to customer service has earned it many loyal clients.",
+      "options": [
+        "commitment",
+        "commit",
+        "committed",
+        "committing"
+      ],
+      "answer": "A",
+      "explanation": "Après le possessif « The company's », il faut un nom : « commitment » (engagement).",
+      "traps": "« Committed » est un adjectif ou participe.",
+      "takeaway": "Commitment to = engagement envers."
+    },
+    {
+      "id": "e3-p5-09",
+      "part": 5,
+      "level": 2,
+      "category": "determiner",
+      "prompt": "There is ____ time left before the deadline, so we must work quickly.",
+      "options": [
+        "few",
+        "many",
+        "a few",
+        "little"
+      ],
+      "answer": "D",
+      "explanation": "« Time » est indénombrable et le sens est négatif (il reste peu de temps) : « little ».",
+      "traps": "« Few / a few / many » s'emploient avec des dénombrables.",
+      "takeaway": "Little + indénombrable (sens négatif)."
+    },
+    {
+      "id": "e3-p5-10",
+      "part": 5,
+      "level": 2,
+      "category": "gerund-infinitive",
+      "prompt": "To avoid ____ late fees, please pay your invoice by the due date.",
+      "options": [
+        "to pay",
+        "pay",
+        "paying",
+        "paid"
+      ],
+      "answer": "C",
+      "explanation": "« Avoid » est suivi du gérondif : « avoid paying ».",
+      "traps": "Le « To » en début de phrase exprime le but, il n'impose rien après « avoid ».",
+      "takeaway": "Avoid + -ing."
+    },
+    {
+      "id": "e3-p5-11",
+      "part": 5,
+      "level": 2,
+      "category": "comparison",
+      "prompt": "The second quarter was the ____ profitable period in the company's history.",
+      "options": [
+        "more",
+        "most",
+        "much",
+        "very"
+      ],
+      "answer": "B",
+      "explanation": "« The … in the company's history » impose un superlatif : « the most profitable ».",
+      "traps": "« More » serait un comparatif sans « than ».",
+      "takeaway": "The most + adjectif + in/of."
+    },
+    {
+      "id": "e3-p5-12",
+      "part": 5,
+      "level": 2,
+      "category": "modal-conditional",
+      "prompt": "Employees who wish to work remotely ____ obtain their manager's approval first.",
+      "options": [
+        "must",
+        "may not",
+        "would",
+        "can't"
+      ],
+      "answer": "A",
+      "explanation": "C'est une condition obligatoire : « must obtain ».",
+      "traps": "« May not » et « can't » interdiraient d'obtenir l'accord, ce qui est illogique.",
+      "takeaway": "Must = obligation."
+    },
+    {
+      "id": "e3-p5-13",
+      "part": 5,
+      "level": 2,
+      "category": "pronoun",
+      "prompt": "Ms. Chu and ____ will represent the company at the trade fair in Milan.",
+      "options": [
+        "me",
+        "my",
+        "mine",
+        "I"
+      ],
+      "answer": "D",
+      "explanation": "Le pronom fait partie du sujet du verbe « will represent » : forme sujet « I ».",
+      "traps": "« Me » est fréquent à l'oral mais incorrect en position sujet dans l'anglais du TOEIC.",
+      "takeaway": "X and I (sujet) ; X and me (complément)."
+    },
+    {
+      "id": "e3-p5-14",
+      "part": 5,
+      "level": 2,
+      "category": "collocation",
+      "prompt": "Customers can ____ a complaint online or by phone.",
+      "options": [
+        "fill",
+        "make up",
+        "file",
+        "take"
+      ],
+      "answer": "C",
+      "explanation": "La collocation est « file a complaint » (déposer une réclamation).",
+      "traps": "« Fill » se construit avec « in/out a form ».",
+      "takeaway": "File a complaint / a claim."
+    },
+    {
+      "id": "e3-p5-15",
+      "part": 5,
+      "level": 3,
+      "category": "modal-conditional",
+      "prompt": "If the company had invested in new equipment last year, its production costs ____ lower now.",
+      "options": [
+        "would have been",
+        "would be",
+        "will be",
+        "were"
+      ],
+      "answer": "B",
+      "explanation": "Conditionnel mixte : condition passée (had invested … last year), conséquence présente (now) → « would be ».",
+      "traps": "« Would have been » conviendrait à une conséquence passée, mais « now » situe le résultat au présent.",
+      "takeaway": "If + past perfect, would + base verbale + now (conditionnel mixte)."
+    },
+    {
+      "id": "e3-p5-16",
+      "part": 5,
+      "level": 3,
+      "category": "agreement",
+      "prompt": "A number of employees ____ requested additional training in data analysis.",
+      "options": [
+        "have",
+        "is",
+        "has",
+        "was"
+      ],
+      "answer": "A",
+      "explanation": "« A number of » (plusieurs) est suivi d'un verbe au pluriel : « have requested ».",
+      "traps": "Ne pas confondre avec « the number of », qui est singulier.",
+      "takeaway": "A number of + pluriel ; the number of + singulier."
+    },
+    {
+      "id": "e3-p5-17",
+      "part": 5,
+      "level": 3,
+      "category": "syntax",
+      "prompt": "Under no circumstances ____ confidential documents be removed from the building.",
+      "options": [
+        "they should",
+        "are",
+        "do",
+        "should"
+      ],
+      "answer": "D",
+      "explanation": "« Under no circumstances » en tête impose l'inversion : « should confidential documents be removed ».",
+      "traps": "« Do » et « are » ne peuvent pas précéder « be removed » ainsi.",
+      "takeaway": "Under no circumstances / In no case + inversion."
+    },
+    {
+      "id": "e3-p5-18",
+      "part": 5,
+      "level": 2,
+      "category": "word-form",
+      "prompt": "The project's success depends on the ____ of all departments.",
+      "options": [
+        "cooperate",
+        "cooperative",
+        "cooperation",
+        "cooperatively"
+      ],
+      "answer": "C",
+      "explanation": "Entre « the » et « of », il faut un nom : « cooperation ».",
+      "traps": "« Cooperative » est un adjectif (ou une coopérative, sens différent).",
+      "takeaway": "The + nom + of."
+    },
+    {
+      "id": "e3-p5-19",
+      "part": 5,
+      "level": 3,
+      "category": "vocabulary",
+      "prompt": "Ms. Ndiaye was ____ to the position of chief financial officer last month.",
+      "options": [
+        "applied",
+        "appointed",
+        "admitted",
+        "attended"
+      ],
+      "answer": "B",
+      "explanation": "« Be appointed to a position » = être nommé à un poste.",
+      "traps": "« Apply for » = postuler ; « admitted » = admis ; « attended » = assisté.",
+      "takeaway": "Appoint = nommer."
+    },
+    {
+      "id": "e3-p5-20",
+      "part": 5,
+      "level": 3,
+      "category": "conjunction",
+      "prompt": "____ sales increased in Europe, they declined sharply in Asia.",
+      "options": [
+        "Whereas",
+        "Because",
+        "Unless",
+        "So that"
+      ],
+      "answer": "A",
+      "explanation": "Contraste entre deux régions : « Whereas » (tandis que).",
+      "traps": "« Because » exprimerait une cause, ce qui est illogique.",
+      "takeaway": "Whereas / while = tandis que (contraste)."
+    },
+    {
+      "id": "e3-p5-21",
+      "part": 5,
+      "level": 3,
+      "category": "word-form",
+      "prompt": "The documents ____ to this e-mail contain the final figures.",
+      "options": [
+        "attaching",
+        "attach",
+        "are attached",
+        "attached"
+      ],
+      "answer": "D",
+      "explanation": "Participe passé à valeur passive après le nom : les documents (qui sont) joints, « attached ».",
+      "traps": "« Are attached » créerait deux verbes conjugués dans la même proposition.",
+      "takeaway": "Nom + participe passé = relative réduite (which are attached)."
+    },
+    {
+      "id": "e3-p5-22",
+      "part": 5,
+      "level": 3,
+      "category": "vocabulary",
+      "prompt": "The company decided to ____ the launch until the safety tests were completed.",
+      "options": [
+        "proceed",
+        "precede",
+        "postpone",
+        "prevent"
+      ],
+      "answer": "C",
+      "explanation": "Reporter le lancement jusqu'à la fin des tests : « postpone ».",
+      "traps": "« Proceed » (poursuivre) et « precede » (précéder) sont des paronymes trompeurs.",
+      "takeaway": "Postpone until = reporter jusqu'à."
+    },
+    {
+      "id": "e3-p5-23",
+      "part": 5,
+      "level": 3,
+      "category": "verb-tense",
+      "prompt": "By the end of this month, the team ____ on the project for a full year.",
+      "options": [
+        "has worked",
+        "will have been working",
+        "will work",
+        "is working"
+      ],
+      "answer": "B",
+      "explanation": "Durée qui se prolonge jusqu'à un point futur (by the end of this month) : futur antérieur continu « will have been working ».",
+      "takeaway": "By + futur + for + durée → will have been + -ing."
+    },
+    {
+      "id": "e3-p5-24",
+      "part": 5,
+      "level": 3,
+      "category": "preposition",
+      "prompt": "Prices are subject to change ____ notice.",
+      "options": [
+        "without",
+        "except",
+        "beyond",
+        "against"
+      ],
+      "answer": "A",
+      "explanation": "Formule figée : « subject to change without notice » (sans préavis).",
+      "takeaway": "Without (prior) notice = sans préavis."
+    },
+    {
+      "id": "e3-p5-25",
+      "part": 5,
+      "level": 2,
+      "category": "passive",
+      "prompt": "The CEO's remarks were ____ by several newspapers the next day.",
+      "options": [
+        "quoting",
+        "quotes",
+        "quotation",
+        "quoted"
+      ],
+      "answer": "D",
+      "explanation": "Passif « were + participe passé » : les propos ont été cités, « quoted ».",
+      "takeaway": "Be quoted = être cité."
+    },
+    {
+      "id": "e3-p5-26",
+      "part": 5,
+      "level": 3,
+      "category": "vocabulary",
+      "prompt": "The engineers ran several tests to ____ the cause of the malfunction.",
+      "options": [
+        "deter",
+        "deteriorate",
+        "determine",
+        "depend"
+      ],
+      "answer": "C",
+      "explanation": "Établir la cause d'une panne : « determine the cause ».",
+      "traps": "« Deteriorate » = se dégrader ; « deter » = dissuader.",
+      "takeaway": "Determine the cause = établir la cause."
+    },
+    {
+      "id": "e3-p5-27",
+      "part": 5,
+      "level": 3,
+      "category": "collocation",
+      "prompt": "Our new branch is expected to ____ even within its first year.",
+      "options": [
+        "turn",
+        "break",
+        "make",
+        "come"
+      ],
+      "answer": "B",
+      "explanation": "« Break even » = atteindre le seuil de rentabilité.",
+      "takeaway": "Break even = être à l'équilibre financier."
+    },
+    {
+      "id": "e3-p5-28",
+      "part": 5,
+      "level": 3,
+      "category": "verb-tense",
+      "prompt": "The director would rather we ____ the report by e-mail than print it.",
+      "options": [
+        "sent",
+        "sending",
+        "send",
+        "will send"
+      ],
+      "answer": "A",
+      "explanation": "« Would rather + sujet + prétérit » exprime une préférence sur l'action de quelqu'un d'autre : « sent ».",
+      "traps": "Le prétérit n'a pas ici de valeur passée mais une valeur hypothétique.",
+      "takeaway": "I'd rather you did… = je préférerais que tu fasses…"
+    },
+    {
+      "id": "e3-p5-29",
+      "part": 5,
+      "level": 3,
+      "category": "vocabulary",
+      "prompt": "Only employees with the ____ security clearance may enter the server room.",
+      "options": [
+        "approximate",
+        "apparent",
+        "approving",
+        "appropriate"
+      ],
+      "answer": "D",
+      "explanation": "« The appropriate clearance » = l'habilitation adéquate.",
+      "traps": "« Approximate » (approximatif) et « apparent » (apparent) sont des paronymes.",
+      "takeaway": "Appropriate = approprié, adéquat."
+    },
+    {
+      "id": "e3-p5-30",
+      "part": 5,
+      "level": 2,
+      "category": "word-form",
+      "prompt": "The shipment arrived ____ two days later than scheduled.",
+      "options": [
+        "near",
+        "nearby",
+        "nearly",
+        "nearest"
+      ],
+      "answer": "C",
+      "explanation": "L'adverbe « nearly » (presque) modifie « two days later ».",
+      "traps": "« Nearby » = à proximité.",
+      "takeaway": "Nearly = almost = presque."
+    }
+  ],
+  "sets": [
+    {
+      "id": "e3-p6-s1",
+      "part": 6,
+      "kind": "text",
+      "title": "Annonce — adhésion au musée",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Riverside Museum of Modern Art — New Membership Program",
+          "body": "The Riverside Museum of Modern Art is pleased to announce the launch of its new membership program. For an annual fee of €45, members will enjoy unlimited free {{1}} to all permanent and temporary exhibitions.\n\nMembers will also receive invitations to exclusive evening previews of new exhibitions. {{2}} In addition, they will benefit from a 10 percent discount at the museum shop and café.\n\nMemberships can be purchased at the ticket desk or online. Anyone who joins {{3}} the end of March will receive a free tote bag designed by local artist Léa Martin. {{4}}, all membership fees will help fund the museum's educational programs."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p6-01",
+          "level": 1,
+          "category": "word-form",
+          "options": [
+            "admit",
+            "admissible",
+            "admitted",
+            "admission"
+          ],
+          "answer": "D",
+          "explanation": "Après l'adjectif « free », il faut un nom : « admission » (entrée).",
+          "takeaway": "Free admission = entrée gratuite."
+        },
+        {
+          "id": "e3-p6-02",
+          "level": 2,
+          "category": "sentence-insertion",
+          "options": [
+            "The museum was built in 1932.",
+            "These events give members the chance to meet the artists in person.",
+            "Tickets for children are free on weekends.",
+            "Photography is not permitted in the galleries."
+          ],
+          "answer": "B",
+          "explanation": "« These events » reprend les avant-premières du soir mentionnées juste avant.",
+          "traps": "(C) parle des billets, pas des avantages membres.",
+          "takeaway": "These + nom renvoie à ce qui précède."
+        },
+        {
+          "id": "e3-p6-03",
+          "level": 2,
+          "category": "preposition",
+          "options": [
+            "during",
+            "since",
+            "before",
+            "within"
+          ],
+          "answer": "C",
+          "explanation": "L'offre concerne ceux qui adhèrent avant la fin mars : « before ».",
+          "traps": "« Since » exige un point de départ passé ; « within the end » n'existe pas.",
+          "takeaway": "Before the end of = avant la fin de."
+        },
+        {
+          "id": "e3-p6-04",
+          "level": 2,
+          "category": "coherence",
+          "options": [
+            "However",
+            "Furthermore",
+            "Otherwise",
+            "For instance"
+          ],
+          "answer": "B",
+          "explanation": "On ajoute un argument supplémentaire en faveur de l'adhésion : « Furthermore » (de plus).",
+          "traps": "« However » introduirait une opposition ; « For instance » un exemple.",
+          "takeaway": "Furthermore = en outre."
+        }
+      ]
+    },
+    {
+      "id": "e3-p6-s2",
+      "part": 6,
+      "kind": "text",
+      "title": "E-mail — hausse de prix",
+      "docs": [
+        {
+          "type": "email",
+          "from": "Sofia Brandt, Arabica Direct",
+          "to": "Marc Laurent",
+          "subject": "Price update",
+          "date": "1 March",
+          "body": "Dear Mr. Laurent,\n\nI am writing to inform you that, {{1}} 1 April, the prices of our organic coffee beans will increase by 6 percent. This change reflects rising transportation costs and a poor harvest in several producing regions.\n\nWe understand that this {{2}} may affect your budget. {{3}} Orders placed before 31 March will be invoiced at current prices, regardless of the delivery date.\n\nWe truly value our partnership and remain {{4}} to providing you with the highest quality coffee.\n\nKind regards,\nSofia Brandt\nSales Manager"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p6-05",
+          "level": 3,
+          "category": "vocabulary",
+          "options": [
+            "effective",
+            "effect",
+            "effectively",
+            "effectiveness"
+          ],
+          "answer": "A",
+          "explanation": "« Effective 1 April » = à compter du 1er avril (entrée en vigueur).",
+          "traps": "« Effectively » signifie « en fait / efficacement ».",
+          "takeaway": "Effective + date = à compter de."
+        },
+        {
+          "id": "e3-p6-06",
+          "level": 2,
+          "category": "word-form",
+          "options": [
+            "increasingly",
+            "increased",
+            "increasing",
+            "increase"
+          ],
+          "answer": "D",
+          "explanation": "Après le démonstratif « this », il faut un nom : « this increase » (cette hausse).",
+          "takeaway": "Increase = nom ou verbe selon la position."
+        },
+        {
+          "id": "e3-p6-07",
+          "level": 2,
+          "category": "sentence-insertion",
+          "options": [
+            "Our company was founded in 1998.",
+            "Coffee is best stored in a cool, dry place.",
+            "To help you plan ahead, we are offering the following option.",
+            "Please find the delivery schedule for April attached."
+          ],
+          "answer": "C",
+          "explanation": "La phrase annonce la solution décrite juste après : commander avant le 31 mars au prix actuel.",
+          "traps": "(D) mentionne avril mais ne prépare pas l'offre qui suit.",
+          "takeaway": "« The following » annonce la phrase suivante."
+        },
+        {
+          "id": "e3-p6-08",
+          "level": 2,
+          "category": "word-form",
+          "options": [
+            "commit",
+            "commitment",
+            "committed",
+            "committing"
+          ],
+          "answer": "C",
+          "explanation": "« Remain committed to + -ing » = rester engagé à. Après « remain », il faut un adjectif : « committed ».",
+          "takeaway": "Be / remain committed to + -ing."
+        }
+      ]
+    },
+    {
+      "id": "e3-p6-s3",
+      "part": 6,
+      "kind": "text",
+      "title": "Article — collecte des déchets alimentaires",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Grenoble Tests Food Waste Collection",
+          "body": "The city of Grenoble has introduced a new system for collecting food waste. Since January, residents in three neighborhoods {{1}} brown bins for kitchen scraps, which are collected twice a week.\n\nThe waste is taken to a facility outside the city, where it is turned into compost and biogas. {{2}}, the city hopes to reduce the amount of garbage sent to landfills by 20 percent.\n\nEarly results are encouraging. {{3}} If the trial continues to succeed, the program will be {{4}} to the entire city next year."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p6-09",
+          "level": 2,
+          "category": "verb-tense",
+          "options": [
+            "receive",
+            "have received",
+            "will receive",
+            "received"
+          ],
+          "answer": "B",
+          "explanation": "« Since January » : situation commencée dans le passé et toujours valable → « have received ».",
+          "takeaway": "Since + date → present perfect."
+        },
+        {
+          "id": "e3-p6-10",
+          "level": 3,
+          "category": "coherence",
+          "options": [
+            "Through this initiative",
+            "Despite this",
+            "Instead",
+            "On the contrary"
+          ],
+          "answer": "A",
+          "explanation": "Le recyclage en compost est le moyen de réduire les déchets : « Through this initiative » (grâce à cette initiative).",
+          "traps": "« Despite this » et « On the contrary » introduisent une opposition.",
+          "takeaway": "Through = au moyen de, grâce à."
+        },
+        {
+          "id": "e3-p6-11",
+          "level": 2,
+          "category": "sentence-insertion",
+          "options": [
+            "Grenoble is surrounded by mountains.",
+            "Residents must pay a fee for parking.",
+            "In the first month alone, participating households produced 30 percent less garbage.",
+            "Compost is often used by gardeners."
+          ],
+          "answer": "C",
+          "explanation": "La phrase illustre les « premiers résultats encourageants » annoncés juste avant.",
+          "traps": "(D) parle du compost mais n'apporte aucun résultat.",
+          "takeaway": "Une affirmation générale est souvent suivie d'un exemple chiffré."
+        },
+        {
+          "id": "e3-p6-12",
+          "level": 2,
+          "category": "passive",
+          "options": [
+            "expand",
+            "expanding",
+            "expansion",
+            "expanded"
+          ],
+          "answer": "D",
+          "explanation": "« Will be + participe passé » (passif) : le programme sera étendu, « expanded ».",
+          "takeaway": "Expand to = étendre à."
+        }
+      ]
+    },
+    {
+      "id": "e3-p6-s4",
+      "part": 6,
+      "kind": "text",
+      "title": "E-mail — réservation de groupe à l'hôtel",
+      "docs": [
+        {
+          "type": "email",
+          "from": "Hugo Ferreira, Grand Meridian Hotel",
+          "to": "Adaeze Oyelaran",
+          "subject": "Your conference booking",
+          "date": "2 April",
+          "body": "Dear Ms. Oyelaran,\n\nThank you for choosing the Grand Meridian Hotel for your company's sales conference. We are pleased to confirm the reservation of 35 rooms for the nights of 14 and 15 May, as well as the Atlas Ballroom for your main sessions.\n\n{{1}} your request, we have arranged for a projector, two microphones, and a stage to be set up in the ballroom. {{2}}\n\nPlease note that the {{3}} number of rooms must be confirmed by 30 April. Any rooms not confirmed by that date will be released. Should you need any further assistance, please do not {{4}} to contact me.\n\nBest regards,\nHugo Ferreira\nEvents Coordinator"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p6-13",
+          "level": 3,
+          "category": "preposition",
+          "options": [
+            "Despite",
+            "Instead of",
+            "As per",
+            "Except for"
+          ],
+          "answer": "C",
+          "explanation": "« As per your request » = conformément à votre demande.",
+          "traps": "« Despite » (malgré) donnerait un sens contraire.",
+          "takeaway": "As per = conformément à."
+        },
+        {
+          "id": "e3-p6-14",
+          "level": 2,
+          "category": "sentence-insertion",
+          "options": [
+            "Our spa offers a wide range of treatments.",
+            "Check-out time is noon.",
+            "A technician will be available throughout the day to assist your speakers.",
+            "The hotel was renovated in 2015."
+          ],
+          "answer": "C",
+          "explanation": "La phrase prolonge l'équipement audiovisuel décrit juste avant : un technicien aidera les intervenants.",
+          "takeaway": "La phrase insérée reste dans le même thème que la précédente."
+        },
+        {
+          "id": "e3-p6-15",
+          "level": 2,
+          "category": "word-form",
+          "options": [
+            "finally",
+            "final",
+            "finality",
+            "finalize"
+          ],
+          "answer": "B",
+          "explanation": "Devant le nom « number », il faut un adjectif : « final number ».",
+          "takeaway": "Final number = nombre définitif."
+        },
+        {
+          "id": "e3-p6-16",
+          "level": 1,
+          "category": "vocabulary",
+          "options": [
+            "hesitate",
+            "hesitation",
+            "hesitant",
+            "hesitating"
+          ],
+          "answer": "A",
+          "explanation": "Après « do not », il faut la base verbale : « do not hesitate to contact me ».",
+          "takeaway": "Do not hesitate to = n'hésitez pas à."
+        }
+      ]
+    }
+  ]
+}

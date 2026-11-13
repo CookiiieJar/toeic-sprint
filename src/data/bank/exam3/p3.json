@@ -1,0 +1,1034 @@
+{
+  "pool": "exam3",
+  "part": 3,
+  "sets": [
+    {
+      "id": "e3-p3-c01",
+      "kind": "conversation",
+      "title": "Commande de fournitures médicales",
+      "audio": [
+        {
+          "s": "W",
+          "t": "Hello, I'm calling from Westside Dental Clinic. We ordered two hundred boxes of disposable gloves last week, but we only received one hundred and fifty."
+        },
+        {
+          "s": "M",
+          "t": "Let me check your order. Yes, the last fifty boxes were placed on back order because our warehouse ran out. They should ship on Monday."
+        },
+        {
+          "s": "W",
+          "t": "Monday's fine, but we were charged for all two hundred boxes."
+        },
+        {
+          "s": "M",
+          "t": "You're right, that's our mistake. I'll refund the difference now, and you'll be charged again when the remaining boxes ship."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p3-01",
+          "level": 1,
+          "category": "inference",
+          "prompt": "Where does the woman most likely work?",
+          "options": [
+            "At a shipping company",
+            "At a warehouse",
+            "At a pharmacy",
+            "At a dental clinic"
+          ],
+          "answer": "D",
+          "evidence": "I'm calling from Westside Dental Clinic.",
+          "explanation": "Elle appelle de la part de la clinique dentaire Westside.",
+          "takeaway": "La 1re réplique donne souvent l'identité de l'appelant."
+        },
+        {
+          "id": "e3-p3-02",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Why was part of the order not delivered?",
+          "options": [
+            "It was sent to the wrong address.",
+            "The order form was incomplete.",
+            "Some items were temporarily out of stock.",
+            "A truck broke down."
+          ],
+          "answer": "C",
+          "evidence": "placed on back order because our warehouse ran out",
+          "explanation": "L'entrepôt était en rupture : les 50 boîtes restantes sont en commande différée.",
+          "takeaway": "Back order = commande en attente de réapprovisionnement."
+        },
+        {
+          "id": "e3-p3-03",
+          "level": 2,
+          "category": "next-action",
+          "prompt": "What will the man do now?",
+          "options": [
+            "Send the remaining boxes by express mail",
+            "Refund part of a payment",
+            "Cancel the order",
+            "Speak to his manager"
+          ],
+          "answer": "B",
+          "evidence": "I'll refund the difference now",
+          "explanation": "Il rembourse immédiatement la différence facturée à tort.",
+          "takeaway": "Refund the difference = rembourser la différence."
+        }
+      ]
+    },
+    {
+      "id": "e3-p3-c02",
+      "kind": "conversation",
+      "title": "Inscription à une salle de sport",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Hi, I'd like some information about memberships. My company recently moved into the building across the street."
+        },
+        {
+          "s": "W",
+          "t": "Welcome! Actually, we have a corporate agreement with several companies nearby. Which company do you work for?"
+        },
+        {
+          "s": "M",
+          "t": "Dalton Engineering."
+        },
+        {
+          "s": "W",
+          "t": "Then you're eligible for our corporate rate, which is twenty-five percent off. You'll just need to show your employee ID card when you sign up."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p3-04",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the man asking about?",
+          "options": [
+            "Memberships at a fitness center",
+            "Office space for rent",
+            "Job openings",
+            "Parking permits"
+          ],
+          "answer": "A",
+          "evidence": "I'd like some information about memberships.",
+          "explanation": "Il se renseigne sur les abonnements d'une salle de sport.",
+          "takeaway": "Membership = adhésion, abonnement."
+        },
+        {
+          "id": "e3-p3-05",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does the woman say about Dalton Engineering employees?",
+          "options": [
+            "They have exclusive access to some classes.",
+            "They can use the gym for free.",
+            "They must sign a one-year contract.",
+            "They receive a discount."
+          ],
+          "answer": "D",
+          "evidence": "you're eligible for our corporate rate, which is twenty-five percent off",
+          "explanation": "Les employés bénéficient du tarif entreprise, 25 % moins cher.",
+          "takeaway": "Corporate rate = tarif entreprise."
+        },
+        {
+          "id": "e3-p3-06",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What will the man need to show?",
+          "options": [
+            "A bank card",
+            "A proof of address",
+            "An employee identification card",
+            "A medical certificate"
+          ],
+          "answer": "C",
+          "evidence": "show your employee ID card when you sign up",
+          "explanation": "Il doit présenter sa carte d'employé lors de l'inscription.",
+          "takeaway": "ID card = carte d'identité / de badge."
+        }
+      ]
+    },
+    {
+      "id": "e3-p3-c03",
+      "kind": "conversation",
+      "title": "Lancement d'un site web (3 interlocuteurs)",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Priya, Carla, are we still on track to launch the new website on the first?"
+        },
+        {
+          "s": "W",
+          "t": "The design is finished, but the product descriptions still need to be translated into German and Italian."
+        },
+        {
+          "s": "W2",
+          "t": "The translation agency promised them by the twenty-fifth. That leaves us almost a week for testing."
+        },
+        {
+          "s": "M",
+          "t": "Good. Priya, can you set up a test session with a few customers so we get some outside feedback?"
+        },
+        {
+          "s": "W",
+          "t": "Sure, I'll invite some of our regular buyers."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p3-07",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What are the speakers discussing?",
+          "options": [
+            "A trip to Germany",
+            "The launch of a website",
+            "A new translation agency",
+            "Customer complaints"
+          ],
+          "answer": "B",
+          "evidence": "are we still on track to launch the new website on the first?",
+          "explanation": "Ils font le point sur le lancement du nouveau site web.",
+          "takeaway": "On track = dans les temps."
+        },
+        {
+          "id": "e3-p3-08",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What still needs to be done?",
+          "options": [
+            "Some texts must be translated.",
+            "The design must be approved.",
+            "Prices must be updated.",
+            "A server must be installed."
+          ],
+          "answer": "A",
+          "evidence": "the product descriptions still need to be translated into German and Italian",
+          "explanation": "Les descriptions des produits doivent encore être traduites.",
+          "takeaway": "Still need to = doivent encore."
+        },
+        {
+          "id": "e3-p3-09",
+          "level": 2,
+          "category": "next-action",
+          "prompt": "What will Priya do?",
+          "options": [
+            "Contact the translation agency",
+            "Prepare a sales report",
+            "Redesign the home page",
+            "Invite customers to test the website"
+          ],
+          "answer": "D",
+          "evidence": "I'll invite some of our regular buyers.",
+          "explanation": "Elle invitera des clients habituels à une séance de test.",
+          "takeaway": "Regular buyers = clients fidèles."
+        }
+      ]
+    },
+    {
+      "id": "e3-p3-c04",
+      "kind": "conversation",
+      "title": "Choix d'un vol (graphique)",
+      "graphic": {
+        "type": "table",
+        "title": "Flights — Lyon to Barcelona, Tuesday",
+        "columns": [
+          "Flight",
+          "Departs",
+          "Arrives",
+          "Price"
+        ],
+        "rows": [
+          [
+            "VL 201",
+            "06:10",
+            "07:35",
+            "€89"
+          ],
+          [
+            "VL 205",
+            "09:40",
+            "11:05",
+            "€142"
+          ],
+          [
+            "AE 318",
+            "12:15",
+            "13:45",
+            "€118"
+          ],
+          [
+            "VL 209",
+            "17:50",
+            "19:15",
+            "€76"
+          ]
+        ]
+      },
+      "audio": [
+        {
+          "s": "W",
+          "t": "I'm booking your flight to Barcelona for Tuesday. The client meeting there starts at two."
+        },
+        {
+          "s": "M",
+          "t": "I'd rather not take the early morning flight; I have a call with the Tokyo office until eight."
+        },
+        {
+          "s": "W",
+          "t": "OK. The airport is about thirty minutes from the client's office, so you'd need to land by one at the latest."
+        },
+        {
+          "s": "M",
+          "t": "Then book the only flight that works, even if it's the most expensive. And please reserve a taxi from the airport."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p3-10",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Why can't the man take the early flight?",
+          "options": [
+            "The flight is fully booked.",
+            "He lives far from the airport.",
+            "He has a phone call.",
+            "He has a medical appointment."
+          ],
+          "answer": "C",
+          "evidence": "I have a call with the Tokyo office until eight",
+          "explanation": "Il a un appel avec le bureau de Tokyo jusqu'à 8 h.",
+          "takeaway": "I'd rather not = je préférerais ne pas."
+        },
+        {
+          "id": "e3-p3-11",
+          "level": 3,
+          "category": "graphic",
+          "prompt": "Look at the graphic. Which flight will the woman book?",
+          "options": [
+            "VL 201",
+            "VL 205",
+            "AE 318",
+            "VL 209"
+          ],
+          "answer": "B",
+          "explanation": "Il faut partir après 8 h et atterrir avant 13 h : seul le VL 205 (arrivée 11 h 05) convient, même s'il est le plus cher.",
+          "traps": "AE 318 arrive à 13 h 45, trop tard ; VL 201 part trop tôt.",
+          "takeaway": "Applique chaque contrainte (départ et arrivée) au tableau."
+        },
+        {
+          "id": "e3-p3-12",
+          "level": 1,
+          "category": "next-action",
+          "prompt": "What does the man ask the woman to do?",
+          "options": [
+            "Reschedule his call",
+            "Reserve ground transportation",
+            "Book a hotel",
+            "Contact the client"
+          ],
+          "answer": "B",
+          "evidence": "please reserve a taxi from the airport",
+          "explanation": "Il demande de réserver un taxi depuis l'aéroport : un transport terrestre.",
+          "takeaway": "Ground transportation = transport terrestre."
+        }
+      ]
+    },
+    {
+      "id": "e3-p3-c05",
+      "kind": "conversation",
+      "title": "Retour sur un rapport",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Alice, I read your draft of the market analysis. It's very thorough."
+        },
+        {
+          "s": "W",
+          "t": "Thanks. Was there anything you'd like me to change?"
+        },
+        {
+          "s": "M",
+          "t": "Well, it's forty pages long, and the directors will only have ten minutes to look at it before the meeting."
+        },
+        {
+          "s": "W",
+          "t": "I see. I'll write a one-page summary of the main findings and put it at the beginning."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p3-13",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What did the woman write?",
+          "options": [
+            "A market analysis",
+            "A job description",
+            "A press release",
+            "A meeting agenda"
+          ],
+          "answer": "A",
+          "evidence": "your draft of the market analysis",
+          "explanation": "L'homme a lu le brouillon de l'analyse de marché rédigée par Alice.",
+          "takeaway": "Draft = brouillon, première version."
+        },
+        {
+          "id": "e3-p3-14",
+          "level": 3,
+          "category": "intention",
+          "prompt": "Why does the man say, \"the directors will only have ten minutes to look at it\"?",
+          "options": [
+            "To postpone the meeting",
+            "To complain about the directors",
+            "To ask her to present it herself",
+            "To suggest that the report is too long"
+          ],
+          "answer": "D",
+          "evidence": "the directors will only have ten minutes to look at it before the meeting",
+          "explanation": "40 pages pour 10 minutes de lecture : il suggère que le document est trop long. Elle propose donc un résumé d'une page.",
+          "takeaway": "Une contrainte mentionnée sert souvent de critique implicite."
+        },
+        {
+          "id": "e3-p3-15",
+          "level": 2,
+          "category": "next-action",
+          "prompt": "What will the woman do?",
+          "options": [
+            "Shorten the analysis to ten pages",
+            "Present the report orally",
+            "Add a summary",
+            "Ask a colleague for help"
+          ],
+          "answer": "C",
+          "evidence": "I'll write a one-page summary of the main findings",
+          "explanation": "Elle ajoutera un résumé d'une page au début du rapport.",
+          "takeaway": "Summary = résumé."
+        }
+      ]
+    },
+    {
+      "id": "e3-p3-c06",
+      "kind": "conversation",
+      "title": "Problème de chauffage",
+      "audio": [
+        {
+          "s": "W",
+          "t": "Hi, this is Ruth on the fourth floor. The heating in our meeting rooms hasn't worked since this morning."
+        },
+        {
+          "s": "M",
+          "t": "Sorry about that. A pipe broke in the basement overnight, and the plumber is working on it now."
+        },
+        {
+          "s": "W",
+          "t": "We have clients coming at three. Will it be fixed by then?"
+        },
+        {
+          "s": "M",
+          "t": "Probably not. But the meeting rooms on the second floor are on a separate system. Room 2B is free this afternoon if you'd like me to reserve it for you."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p3-16",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What problem does the woman report?",
+          "options": [
+            "A meeting room is double-booked.",
+            "The heating is not working.",
+            "The elevator is broken.",
+            "The lights are flickering."
+          ],
+          "answer": "B",
+          "evidence": "The heating in our meeting rooms hasn't worked since this morning.",
+          "explanation": "Le chauffage ne fonctionne plus dans les salles de réunion.",
+          "takeaway": "Heating = chauffage."
+        },
+        {
+          "id": "e3-p3-17",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What caused the problem?",
+          "options": [
+            "A broken pipe",
+            "A power outage",
+            "A software error",
+            "A missing part"
+          ],
+          "answer": "A",
+          "evidence": "A pipe broke in the basement overnight",
+          "explanation": "Un tuyau a cédé au sous-sol pendant la nuit.",
+          "takeaway": "Pipe = tuyau ; plumber = plombier."
+        },
+        {
+          "id": "e3-p3-18",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does the man offer to do?",
+          "options": [
+            "Bring portable heaters",
+            "Send a plumber upstairs",
+            "Call the clients",
+            "Reserve a different room"
+          ],
+          "answer": "D",
+          "evidence": "Room 2B is free this afternoon if you'd like me to reserve it for you",
+          "explanation": "Il propose de réserver la salle 2B, chauffée par un autre système.",
+          "takeaway": "If you'd like me to… = si vous voulez que je…"
+        }
+      ]
+    },
+    {
+      "id": "e3-p3-c07",
+      "kind": "conversation",
+      "title": "Remboursement de frais",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Hi Sandra, I submitted my expenses from the Madrid trip two weeks ago, but I haven't been reimbursed yet."
+        },
+        {
+          "s": "W",
+          "t": "Let me look. Your claim is on hold because the hotel receipt is missing."
+        },
+        {
+          "s": "M",
+          "t": "That's strange. I'm sure I scanned it. Oh wait, I may have attached the restaurant receipt twice."
+        },
+        {
+          "s": "W",
+          "t": "That would explain it. Just upload the hotel receipt, and I'll process the claim the same day."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p3-19",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "Why is the man contacting the woman?",
+          "options": [
+            "He lost his hotel key.",
+            "He wants to book a trip.",
+            "He hasn't received a reimbursement.",
+            "He needs a restaurant recommendation."
+          ],
+          "answer": "C",
+          "evidence": "I haven't been reimbursed yet",
+          "explanation": "Il n'a pas encore été remboursé de ses frais de voyage.",
+          "takeaway": "Expense claim = note de frais."
+        },
+        {
+          "id": "e3-p3-20",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Why is the claim on hold?",
+          "options": [
+            "The amount is too high.",
+            "A document is missing.",
+            "The trip was not approved.",
+            "The manager is on vacation."
+          ],
+          "answer": "B",
+          "evidence": "the hotel receipt is missing",
+          "explanation": "La demande est en suspens car le reçu de l'hôtel manque dans le dossier.",
+          "takeaway": "On hold = en suspens."
+        },
+        {
+          "id": "e3-p3-21",
+          "level": 3,
+          "category": "inference",
+          "prompt": "What does the man realize?",
+          "options": [
+            "He uploaded the wrong file.",
+            "He forgot to go to the hotel.",
+            "He lost his receipts in Madrid.",
+            "He sent his claim to the wrong person."
+          ],
+          "answer": "A",
+          "evidence": "I may have attached the restaurant receipt twice",
+          "explanation": "Il comprend qu'il a joint deux fois le reçu du restaurant au lieu de celui de l'hôtel : il s'est trompé de fichier.",
+          "takeaway": "« Oh wait » introduit souvent une prise de conscience."
+        }
+      ]
+    },
+    {
+      "id": "e3-p3-c08",
+      "kind": "conversation",
+      "title": "Choix d'un traiteur (graphique)",
+      "graphic": {
+        "type": "table",
+        "title": "Caterer Quotes — Annual Staff Picnic",
+        "columns": [
+          "Caterer",
+          "Price per person",
+          "Vegetarian options",
+          "Delivery"
+        ],
+        "rows": [
+          [
+            "Green Fork",
+            "€18",
+            "Yes",
+            "Not included"
+          ],
+          [
+            "Sunny Grill",
+            "€15",
+            "No",
+            "Included"
+          ],
+          [
+            "Olive & Co.",
+            "€21",
+            "Yes",
+            "Included"
+          ],
+          [
+            "Basil House",
+            "€19",
+            "Yes",
+            "Included"
+          ]
+        ]
+      },
+      "audio": [
+        {
+          "s": "M",
+          "t": "I've received four quotes for the staff picnic. Several employees asked for vegetarian dishes this year."
+        },
+        {
+          "s": "W",
+          "t": "Then that rules out one of them. We also don't have a van to pick up the food, so delivery has to be included."
+        },
+        {
+          "s": "M",
+          "t": "Right. So it's between two caterers."
+        },
+        {
+          "s": "W",
+          "t": "Let's go with the cheaper of those two. Can you call them this afternoon to confirm the date?"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p3-22",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What event are the speakers planning?",
+          "options": [
+            "A retirement party",
+            "A product launch",
+            "A client dinner",
+            "A staff picnic"
+          ],
+          "answer": "D",
+          "evidence": "I've received four quotes for the staff picnic.",
+          "explanation": "Ils organisent le pique-nique annuel du personnel.",
+          "takeaway": "Quote = devis."
+        },
+        {
+          "id": "e3-p3-23",
+          "level": 3,
+          "category": "graphic",
+          "prompt": "Look at the graphic. Which caterer will the speakers most likely choose?",
+          "options": [
+            "Green Fork",
+            "Sunny Grill",
+            "Basil House",
+            "Olive & Co."
+          ],
+          "answer": "C",
+          "explanation": "Il faut des plats végétariens (exclut Sunny Grill) et la livraison incluse (exclut Green Fork) ; entre Olive & Co. (21 €) et Basil House (19 €), on prend le moins cher.",
+          "traps": "Green Fork est moins cher mais la livraison n'est pas incluse.",
+          "takeaway": "Élimine les options critère par critère."
+        },
+        {
+          "id": "e3-p3-24",
+          "level": 2,
+          "category": "next-action",
+          "prompt": "What does the woman ask the man to do?",
+          "options": [
+            "Rent a van",
+            "Call a caterer",
+            "Survey the employees",
+            "Change the date"
+          ],
+          "answer": "B",
+          "evidence": "Can you call them this afternoon to confirm the date?",
+          "explanation": "Elle lui demande d'appeler le traiteur choisi pour confirmer la date.",
+          "takeaway": "Confirm the date = confirmer la date."
+        }
+      ]
+    },
+    {
+      "id": "e3-p3-c09",
+      "kind": "conversation",
+      "title": "Prêt de matériel",
+      "audio": [
+        {
+          "s": "W",
+          "t": "Kenji, do you know if anyone is using the portable projector on Friday? I'm giving a presentation at the Chamber of Commerce."
+        },
+        {
+          "s": "M",
+          "t": "Marketing borrowed it last week, and I don't think they've returned it."
+        },
+        {
+          "s": "W",
+          "t": "Oh no. Who should I ask about it?"
+        },
+        {
+          "s": "M",
+          "t": "Talk to Leila. She keeps track of all the equipment. Her office is next to the mailroom."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p3-25",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What does the woman need on Friday?",
+          "options": [
+            "A projector",
+            "A meeting room",
+            "A company car",
+            "Some brochures"
+          ],
+          "answer": "A",
+          "evidence": "do you know if anyone is using the portable projector on Friday?",
+          "explanation": "Elle a besoin du projecteur portable pour sa présentation.",
+          "takeaway": "Portable = transportable."
+        },
+        {
+          "id": "e3-p3-26",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does the man say about the marketing department?",
+          "options": [
+            "It needs the woman's help.",
+            "It is moving to a new office.",
+            "It organized the Chamber of Commerce event.",
+            "It may still have the equipment."
+          ],
+          "answer": "D",
+          "evidence": "Marketing borrowed it last week, and I don't think they've returned it.",
+          "explanation": "Le marketing l'a emprunté et ne l'a probablement pas rendu.",
+          "takeaway": "Borrow = emprunter ; return = rendre."
+        },
+        {
+          "id": "e3-p3-27",
+          "level": 2,
+          "category": "inference",
+          "prompt": "Who most likely is Leila?",
+          "options": [
+            "A mailroom clerk",
+            "A marketing manager",
+            "The person responsible for equipment",
+            "A Chamber of Commerce official"
+          ],
+          "answer": "C",
+          "evidence": "She keeps track of all the equipment.",
+          "explanation": "Leila suit l'ensemble du matériel : elle en est responsable.",
+          "traps": "Son bureau est à côté du service courrier, mais elle n'y travaille pas forcément.",
+          "takeaway": "Keep track of = suivre, tenir l'inventaire de."
+        }
+      ]
+    },
+    {
+      "id": "e3-p3-c10",
+      "kind": "conversation",
+      "title": "Nouveau fournisseur de café (3 interlocuteurs)",
+      "audio": [
+        {
+          "s": "W",
+          "t": "Our coffee supplier is raising prices by fifteen percent next month. I've found an alternative, Bean Brothers, that's ten percent cheaper than our current price."
+        },
+        {
+          "s": "M",
+          "t": "Is their coffee any good, though? People here take their coffee seriously."
+        },
+        {
+          "s": "M2",
+          "t": "We used them at my previous job. The coffee was excellent, but deliveries were sometimes late."
+        },
+        {
+          "s": "W",
+          "t": "Then let's order a sample pack and run a taste test in the break room before we decide."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p3-28",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Why is the woman looking for a new supplier?",
+          "options": [
+            "The current coffee quality has dropped.",
+            "The current supplier is increasing prices.",
+            "Deliveries have been late.",
+            "The office is moving."
+          ],
+          "answer": "B",
+          "evidence": "Our coffee supplier is raising prices by fifteen percent next month.",
+          "explanation": "Le fournisseur actuel augmente ses prix de 15 %.",
+          "traps": "Les retards de livraison concernent Bean Brothers, pas le fournisseur actuel.",
+          "takeaway": "Raise prices = augmenter les prix."
+        },
+        {
+          "id": "e3-p3-29",
+          "level": 3,
+          "category": "inference",
+          "prompt": "What concern does the second man raise about Bean Brothers?",
+          "options": [
+            "Their deliveries may be unreliable.",
+            "Their coffee is expensive.",
+            "They do not deliver to offices.",
+            "Their products are hard to prepare."
+          ],
+          "answer": "A",
+          "evidence": "deliveries were sometimes late",
+          "explanation": "D'après son expérience, leurs livraisons étaient parfois en retard : un manque de fiabilité.",
+          "takeaway": "Unreliable = peu fiable."
+        },
+        {
+          "id": "e3-p3-30",
+          "level": 2,
+          "category": "next-action",
+          "prompt": "What will the speakers do before deciding?",
+          "options": [
+            "Visit the supplier",
+            "Negotiate a discount",
+            "Read online reviews",
+            "Test a sample"
+          ],
+          "answer": "D",
+          "evidence": "let's order a sample pack and run a taste test",
+          "explanation": "Ils commanderont un échantillon pour une dégustation.",
+          "takeaway": "Taste test = dégustation."
+        }
+      ]
+    },
+    {
+      "id": "e3-p3-c11",
+      "kind": "conversation",
+      "title": "Rendez-vous chez un opticien",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Hi, I'd like to pick up the glasses I ordered last week. The name's Henrik Olsen."
+        },
+        {
+          "s": "W",
+          "t": "Let me check. Hmm, they've arrived, but the lenses are slightly scratched. We've already ordered a new pair from the lab."
+        },
+        {
+          "s": "M",
+          "t": "How long will that take? I'm leaving for a business trip on Thursday."
+        },
+        {
+          "s": "W",
+          "t": "They usually take three days, but I'll ask the lab to rush the order. I'll call you as soon as they're in."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p3-31",
+          "level": 1,
+          "category": "inference",
+          "prompt": "Where most likely are the speakers?",
+          "options": [
+            "At a laboratory",
+            "At a travel agency",
+            "At an optician's shop",
+            "At an airport"
+          ],
+          "answer": "C",
+          "evidence": "I'd like to pick up the glasses I ordered last week.",
+          "explanation": "Il vient chercher des lunettes commandées : ils sont chez un opticien.",
+          "takeaway": "Glasses / lenses → opticien."
+        },
+        {
+          "id": "e3-p3-32",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What problem does the woman mention?",
+          "options": [
+            "The glasses were lost.",
+            "The lenses are damaged.",
+            "The frames are the wrong color.",
+            "The order was never placed."
+          ],
+          "answer": "B",
+          "evidence": "the lenses are slightly scratched",
+          "explanation": "Les verres sont légèrement rayés : ils sont endommagés.",
+          "takeaway": "Scratched = rayé."
+        },
+        {
+          "id": "e3-p3-33",
+          "level": 2,
+          "category": "next-action",
+          "prompt": "What does the woman say she will do?",
+          "options": [
+            "Ask for faster processing",
+            "Offer a discount",
+            "Lend the man a pair of glasses",
+            "Mail the glasses to his hotel"
+          ],
+          "answer": "A",
+          "evidence": "I'll ask the lab to rush the order",
+          "explanation": "Elle demandera au laboratoire d'accélérer la commande.",
+          "takeaway": "Rush an order = traiter en urgence."
+        }
+      ]
+    },
+    {
+      "id": "e3-p3-c12",
+      "kind": "conversation",
+      "title": "Promotion interne",
+      "audio": [
+        {
+          "s": "W",
+          "t": "Congratulations on your promotion, Marcus! When do you start as regional manager?"
+        },
+        {
+          "s": "M",
+          "t": "Thanks! Officially on the first of next month, but I'll be training with Ms. Haddad for two weeks before that."
+        },
+        {
+          "s": "W",
+          "t": "Does that mean you'll be moving to the Bordeaux office?"
+        },
+        {
+          "s": "M",
+          "t": "Not right away. I'll split my time between here and Bordeaux until the end of the year."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p3-34",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What is the woman congratulating the man on?",
+          "options": [
+            "A successful presentation",
+            "A new contract",
+            "An award",
+            "A promotion"
+          ],
+          "answer": "D",
+          "evidence": "Congratulations on your promotion",
+          "explanation": "Elle le félicite pour sa promotion au poste de directeur régional.",
+          "takeaway": "Promotion = avancement."
+        },
+        {
+          "id": "e3-p3-35",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What will the man do before he officially starts?",
+          "options": [
+            "Take a vacation",
+            "Visit clients abroad",
+            "Train with a colleague",
+            "Hire new staff"
+          ],
+          "answer": "C",
+          "evidence": "I'll be training with Ms. Haddad for two weeks before that",
+          "explanation": "Il se formera auprès de Mme Haddad pendant deux semaines.",
+          "takeaway": "Train with = être formé par / avec."
+        },
+        {
+          "id": "e3-p3-36",
+          "level": 3,
+          "category": "inference",
+          "prompt": "What does the man imply about his move to Bordeaux?",
+          "options": [
+            "It has been canceled.",
+            "It will not happen immediately.",
+            "It is not part of the new job.",
+            "It will happen next week."
+          ],
+          "answer": "B",
+          "evidence": "Not right away.",
+          "explanation": "« Not right away » : il partagera son temps entre les deux sites jusqu'à la fin de l'année avant de s'y installer.",
+          "takeaway": "Right away = immédiatement."
+        }
+      ]
+    },
+    {
+      "id": "e3-p3-c13",
+      "kind": "conversation",
+      "title": "Visite d'un local commercial",
+      "audio": [
+        {
+          "s": "M",
+          "t": "So, what do you think of the space? It used to be a bookstore."
+        },
+        {
+          "s": "W",
+          "t": "I like the large windows; they'd be perfect for displaying our bicycles. But it's smaller than the photos suggested."
+        },
+        {
+          "s": "M",
+          "t": "There's also a storage room in the basement that wasn't in the listing. It's about forty square meters."
+        },
+        {
+          "s": "W",
+          "t": "Oh, that changes things. We could keep our repair workshop down there. Can I see it?"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p3-37",
+          "level": 2,
+          "category": "inference",
+          "prompt": "What type of business does the woman most likely run?",
+          "options": [
+            "A bicycle shop",
+            "A bookstore",
+            "A photography studio",
+            "A real estate agency"
+          ],
+          "answer": "A",
+          "evidence": "perfect for displaying our bicycles",
+          "explanation": "Elle veut exposer « nos vélos » et installer un atelier de réparation : elle tient un magasin de vélos.",
+          "traps": "Le local était une librairie, mais ce n'est pas son activité.",
+          "takeaway": "Distingue l'ancien usage du lieu et l'activité de l'interlocutrice."
+        },
+        {
+          "id": "e3-p3-38",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What concern does the woman express?",
+          "options": [
+            "The rent is too high.",
+            "The location is inconvenient.",
+            "The windows are too small.",
+            "The space is smaller than expected."
+          ],
+          "answer": "D",
+          "evidence": "it's smaller than the photos suggested",
+          "explanation": "Le local est plus petit que ce que laissaient penser les photos.",
+          "takeaway": "Suggest = laisser penser."
+        },
+        {
+          "id": "e3-p3-39",
+          "level": 3,
+          "category": "intention",
+          "prompt": "Why does the woman say, \"that changes things\"?",
+          "options": [
+            "She is disappointed by the basement.",
+            "She wants to lower her offer.",
+            "She is now more interested in the space.",
+            "She needs to consult her partner."
+          ],
+          "answer": "C",
+          "evidence": "Oh, that changes things.",
+          "explanation": "La réserve en sous-sol pourrait accueillir son atelier : le local devient plus intéressant, et elle demande à la voir.",
+          "takeaway": "La suite (Can I see it?) confirme l'intérêt."
+        }
+      ]
+    }
+  ]
+}

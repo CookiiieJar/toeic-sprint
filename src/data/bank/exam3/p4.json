@@ -1,0 +1,670 @@
+{
+  "pool": "exam3",
+  "part": 4,
+  "sets": [
+    {
+      "id": "e3-p4-t01",
+      "kind": "talk",
+      "title": "Message vocal — cabinet comptable",
+      "audio": [
+        {
+          "s": "W",
+          "t": "Hello, Mr. Lambert. This is Anita from Carlisle Accounting. I've started preparing your company's tax return, but I noticed that the bank statements for October and November are missing from the documents you sent. Without them, I can't complete the return. The filing deadline is the thirtieth, so I'd need them by the twentieth at the latest. You can upload them to our secure client portal; there's no need to send paper copies. Thank you, and have a good afternoon."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p4-01",
+          "level": 1,
+          "category": "inference",
+          "prompt": "Who most likely is the speaker?",
+          "options": [
+            "A bank teller",
+            "A lawyer",
+            "A tax inspector",
+            "An accountant"
+          ],
+          "answer": "D",
+          "evidence": "This is Anita from Carlisle Accounting.",
+          "explanation": "Elle travaille dans un cabinet comptable et prépare la déclaration fiscale : c'est une comptable.",
+          "takeaway": "Tax return = déclaration fiscale."
+        },
+        {
+          "id": "e3-p4-02",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is the speaker missing?",
+          "options": [
+            "A payment",
+            "A signed contract",
+            "Some bank statements",
+            "A list of employees"
+          ],
+          "answer": "C",
+          "evidence": "the bank statements for October and November are missing",
+          "explanation": "Il manque les relevés bancaires d'octobre et de novembre.",
+          "takeaway": "Bank statement = relevé bancaire."
+        },
+        {
+          "id": "e3-p4-03",
+          "level": 2,
+          "category": "detail",
+          "prompt": "How should the listener send the documents?",
+          "options": [
+            "By mail",
+            "Through an online portal",
+            "By fax",
+            "In person"
+          ],
+          "answer": "B",
+          "evidence": "You can upload them to our secure client portal",
+          "explanation": "Il peut les déposer sur le portail client sécurisé ; pas besoin de copies papier.",
+          "takeaway": "Upload = téléverser, déposer en ligne."
+        }
+      ]
+    },
+    {
+      "id": "e3-p4-t02",
+      "kind": "talk",
+      "title": "Annonce dans un supermarché",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Good evening, shoppers. Fresh Valley Market will be closing in thirty minutes. Please bring your final purchases to the checkout. Tonight, all freshly baked bread is half price, so it's a great time to stock up. And don't forget that starting next Monday, we'll be open until eleven P.M. on weeknights, an hour later than now. Finally, if you parked in the lower level of the garage, please note that the exit on Crane Street is closed tonight; use the Market Street exit instead."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p4-04",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What is on sale tonight?",
+          "options": [
+            "Bread",
+            "Fruit",
+            "Cheese",
+            "Flowers"
+          ],
+          "answer": "A",
+          "evidence": "all freshly baked bread is half price",
+          "explanation": "Le pain frais est à moitié prix ce soir.",
+          "takeaway": "Half price = moitié prix."
+        },
+        {
+          "id": "e3-p4-05",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What will change next Monday?",
+          "options": [
+            "The store will open earlier.",
+            "Prices will increase.",
+            "A new parking garage will open.",
+            "The store will close later on weeknights."
+          ],
+          "answer": "D",
+          "evidence": "we'll be open until eleven P.M. on weeknights, an hour later than now",
+          "explanation": "Le magasin fermera une heure plus tard en semaine.",
+          "takeaway": "Weeknights = soirs de semaine."
+        },
+        {
+          "id": "e3-p4-06",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What are some listeners told to do?",
+          "options": [
+            "Pay at a different checkout",
+            "Move their cars",
+            "Use a different exit",
+            "Return their carts"
+          ],
+          "answer": "C",
+          "evidence": "use the Market Street exit instead",
+          "explanation": "La sortie de Crane Street est fermée : il faut utiliser celle de Market Street.",
+          "takeaway": "Instead = à la place."
+        }
+      ]
+    },
+    {
+      "id": "e3-p4-t03",
+      "kind": "talk",
+      "title": "Réunion — nouveau logiciel de planning",
+      "audio": [
+        {
+          "s": "W",
+          "t": "Before we wrap up, a quick update on the scheduling software. As of next week, all shift changes must be requested through the app rather than by e-mail. I know some of you prefer e-mail, and I understand. But last month, three shifts were left without staff because requests got lost in people's inboxes. The app sends an automatic alert to the supervisor, so nothing gets missed. If you haven't installed it yet, Tomás will be at the front desk all day tomorrow to help you."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p4-07",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the speaker mainly discussing?",
+          "options": [
+            "A new e-mail system",
+            "A new way to request shift changes",
+            "Holiday schedules",
+            "Hiring new supervisors"
+          ],
+          "answer": "B",
+          "evidence": "all shift changes must be requested through the app rather than by e-mail",
+          "explanation": "Elle annonce que les changements de poste se demanderont désormais via l'application.",
+          "takeaway": "Shift change = échange / changement de poste."
+        },
+        {
+          "id": "e3-p4-08",
+          "level": 3,
+          "category": "intention",
+          "prompt": "Why does the speaker mention what happened last month?",
+          "options": [
+            "To justify a new procedure",
+            "To criticize the supervisors",
+            "To announce a penalty",
+            "To thank some employees"
+          ],
+          "answer": "A",
+          "evidence": "three shifts were left without staff because requests got lost",
+          "explanation": "Les demandes perdues par e-mail ont laissé des postes sans personnel : cela justifie le passage à l'application.",
+          "takeaway": "« But last month… » = argument qui justifie le changement."
+        },
+        {
+          "id": "e3-p4-09",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What will Tomás do tomorrow?",
+          "options": [
+            "Approve shift changes",
+            "Send an e-mail reminder",
+            "Train new supervisors",
+            "Help employees install the app"
+          ],
+          "answer": "D",
+          "evidence": "Tomás will be at the front desk all day tomorrow to help you",
+          "explanation": "Tomás aidera à installer l'application à l'accueil.",
+          "takeaway": "Install = installer."
+        }
+      ]
+    },
+    {
+      "id": "e3-p4-t04",
+      "kind": "talk",
+      "title": "Bulletin météo et trafic",
+      "audio": [
+        {
+          "s": "M",
+          "t": "And now for the weekend forecast. Saturday will start cloudy, with heavy rain expected in the afternoon, so if you're planning to attend the outdoor food festival downtown, the morning is your best bet. By Sunday, the rain will clear and temperatures will rise to around twenty degrees, perfect for the city marathon. Runners should note that several streets in the old town will be closed from six A.M. to two P.M. Stay with us; after the break, we'll talk to the marathon's organizer."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p4-10",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does the speaker recommend for the food festival?",
+          "options": [
+            "Going on Sunday",
+            "Going in the morning",
+            "Bringing an umbrella",
+            "Taking public transportation"
+          ],
+          "answer": "B",
+          "evidence": "the morning is your best bet",
+          "explanation": "La pluie arrive l'après-midi : mieux vaut y aller le matin.",
+          "takeaway": "Your best bet = la meilleure option."
+        },
+        {
+          "id": "e3-p4-11",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What will take place on Sunday?",
+          "options": [
+            "A parade",
+            "A food festival",
+            "A marathon",
+            "A concert"
+          ],
+          "answer": "C",
+          "evidence": "perfect for the city marathon",
+          "explanation": "Dimanche a lieu le marathon de la ville.",
+          "takeaway": "Lis les questions avant d'écouter pour repérer les jours."
+        },
+        {
+          "id": "e3-p4-12",
+          "level": 1,
+          "category": "next-action",
+          "prompt": "What will listeners hear after the break?",
+          "options": [
+            "A traffic update",
+            "An interview",
+            "Music",
+            "Advertisements"
+          ],
+          "answer": "B",
+          "evidence": "after the break, we'll talk to the marathon's organizer",
+          "explanation": "Après la pause, l'animateur s'entretiendra avec l'organisateur du marathon : une interview.",
+          "takeaway": "After the break = après la pause."
+        }
+      ]
+    },
+    {
+      "id": "e3-p4-t05",
+      "kind": "talk",
+      "title": "Plan d'un salon (graphique)",
+      "graphic": {
+        "type": "table",
+        "title": "Expo Hall — Exhibitor Zones",
+        "columns": [
+          "Zone",
+          "Exhibitors"
+        ],
+        "rows": [
+          [
+            "Zone A",
+            "Software & Cloud"
+          ],
+          [
+            "Zone B",
+            "Office Furniture"
+          ],
+          [
+            "Zone C",
+            "Printing & Packaging"
+          ],
+          [
+            "Zone D",
+            "Food & Beverage"
+          ]
+        ]
+      },
+      "audio": [
+        {
+          "s": "W",
+          "t": "Welcome to the Business Equipment Expo, and thank you for volunteering. Your main job today is to help visitors find their way. Most questions will be about where the different exhibitors are, so please study the floor map in your welcome pack. One change: the office furniture companies have swapped places with the printing companies, because their stands were too large for the original zone. The map in your pack hasn't been updated, so keep that in mind. Lunch for volunteers is served at noon in the staff room."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p4-13",
+          "level": 1,
+          "category": "inference",
+          "prompt": "Who most likely are the listeners?",
+          "options": [
+            "Volunteers",
+            "Exhibitors",
+            "Journalists",
+            "Security guards"
+          ],
+          "answer": "A",
+          "evidence": "thank you for volunteering",
+          "explanation": "L'oratrice remercie les auditeurs de s'être portés volontaires.",
+          "takeaway": "Volunteer = bénévole."
+        },
+        {
+          "id": "e3-p4-14",
+          "level": 3,
+          "category": "graphic",
+          "prompt": "Look at the graphic. Where are the office furniture companies now located?",
+          "options": [
+            "Zone A",
+            "Zone B",
+            "Zone D",
+            "Zone C"
+          ],
+          "answer": "D",
+          "explanation": "Le mobilier (initialement en zone B) a échangé sa place avec l'impression (zone C) : il se trouve maintenant en zone C.",
+          "traps": "La zone B est l'emplacement indiqué sur le plan non mis à jour.",
+          "takeaway": "Swap places = intervertir."
+        },
+        {
+          "id": "e3-p4-15",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does the speaker say about the map?",
+          "options": [
+            "It is available online.",
+            "It shows the staff room.",
+            "It has not been updated.",
+            "It was printed in color."
+          ],
+          "answer": "C",
+          "evidence": "The map in your pack hasn't been updated",
+          "explanation": "Le plan du kit d'accueil n'a pas été mis à jour.",
+          "takeaway": "Keep in mind = garder à l'esprit."
+        }
+      ]
+    },
+    {
+      "id": "e3-p4-t06",
+      "kind": "talk",
+      "title": "Publicité — service de lavage",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Running a hotel or restaurant? Let Crispline Laundry handle your linens. We collect your tablecloths, towels, and sheets every evening and return them clean and pressed by seven the next morning. Our industrial machines use thirty percent less energy than standard equipment, and all our detergents are biodegradable. New clients receive a free trial week with no obligation to continue. Call us today and ask for a quote; most businesses save money compared with washing their linens on-site."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p4-16",
+          "level": 1,
+          "category": "inference",
+          "prompt": "Who is the advertisement intended for?",
+          "options": [
+            "Families",
+            "Hotel and restaurant owners",
+            "Students",
+            "Clothing stores"
+          ],
+          "answer": "B",
+          "evidence": "Running a hotel or restaurant?",
+          "explanation": "La publicité s'adresse aux gérants d'hôtels et de restaurants.",
+          "takeaway": "La question d'accroche désigne souvent la cible."
+        },
+        {
+          "id": "e3-p4-17",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is mentioned about the company's machines?",
+          "options": [
+            "They are energy efficient.",
+            "They are imported.",
+            "They are new.",
+            "They can be rented."
+          ],
+          "answer": "A",
+          "evidence": "use thirty percent less energy than standard equipment",
+          "explanation": "Les machines consomment 30 % d'énergie en moins.",
+          "takeaway": "Energy efficient = économe en énergie."
+        },
+        {
+          "id": "e3-p4-18",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What do new clients receive?",
+          "options": [
+            "A discount on detergents",
+            "A gift card",
+            "Free delivery for a year",
+            "A free trial period"
+          ],
+          "answer": "D",
+          "evidence": "New clients receive a free trial week",
+          "explanation": "Les nouveaux clients ont une semaine d'essai gratuite.",
+          "takeaway": "Free trial = essai gratuit."
+        }
+      ]
+    },
+    {
+      "id": "e3-p4-t07",
+      "kind": "talk",
+      "title": "Discours d'accueil d'un nouveau directeur",
+      "audio": [
+        {
+          "s": "W",
+          "t": "Good morning, everyone. I'm delighted to introduce our new research director, Dr. Samuel Okeke. Dr. Okeke joins us from the University of Leeds, where he led a team developing biodegradable plastics. His work has already been used by two major packaging companies. Over the next few weeks, he'll be meeting with each project team individually. So please make sure your project summaries are up to date by Friday; he'll want to read them before your meetings."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p4-19",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the purpose of the talk?",
+          "options": [
+            "To present research results",
+            "To announce a new product",
+            "To introduce a new colleague",
+            "To recruit university students"
+          ],
+          "answer": "C",
+          "evidence": "I'm delighted to introduce our new research director",
+          "explanation": "L'oratrice présente le nouveau directeur de la recherche.",
+          "takeaway": "Introduce = présenter (quelqu'un)."
+        },
+        {
+          "id": "e3-p4-20",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What did Dr. Okeke work on previously?",
+          "options": [
+            "Medical devices",
+            "Biodegradable plastics",
+            "Software development",
+            "Food packaging design"
+          ],
+          "answer": "B",
+          "evidence": "led a team developing biodegradable plastics",
+          "explanation": "Il dirigeait une équipe qui développait des plastiques biodégradables.",
+          "traps": "Les sociétés d'emballage utilisent ses travaux, mais il ne concevait pas d'emballages.",
+          "takeaway": "Previously = auparavant."
+        },
+        {
+          "id": "e3-p4-21",
+          "level": 2,
+          "category": "next-action",
+          "prompt": "What are listeners asked to do by Friday?",
+          "options": [
+            "Update their project summaries",
+            "Schedule a meeting",
+            "Read Dr. Okeke's articles",
+            "Visit the University of Leeds"
+          ],
+          "answer": "A",
+          "evidence": "please make sure your project summaries are up to date by Friday",
+          "explanation": "Les équipes doivent mettre à jour leurs résumés de projet avant vendredi.",
+          "takeaway": "Up to date = à jour."
+        }
+      ]
+    },
+    {
+      "id": "e3-p4-t08",
+      "kind": "talk",
+      "title": "Message — changement de rendez-vous",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Hi, Ms. Varga, this is Daniel Brook from Brook Interiors. I'm calling about the kitchen installation at your restaurant, which was scheduled for next Tuesday. Our supplier has just told us the countertops won't be ready until Thursday. Now, I know Tuesday is the only day your restaurant is closed. We could do the installation over two nights instead, after you close at eleven, so your business isn't affected. Let me know if that works for you."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p4-22",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Why is the installation being rescheduled?",
+          "options": [
+            "The design was changed.",
+            "A worker is sick.",
+            "The restaurant is busy.",
+            "Some materials will be late."
+          ],
+          "answer": "D",
+          "evidence": "the countertops won't be ready until Thursday",
+          "explanation": "Les plans de travail ne seront prêts que jeudi.",
+          "takeaway": "Countertop = plan de travail."
+        },
+        {
+          "id": "e3-p4-23",
+          "level": 3,
+          "category": "intention",
+          "prompt": "Why does the speaker say, \"I know Tuesday is the only day your restaurant is closed\"?",
+          "options": [
+            "To show he is aware of a scheduling difficulty",
+            "To ask the listener to open on Tuesday",
+            "To complain about the restaurant's hours",
+            "To confirm the original date"
+          ],
+          "answer": "A",
+          "evidence": "I know Tuesday is the only day your restaurant is closed.",
+          "explanation": "Il reconnaît que décaler les travaux pose problème (le mardi était le seul jour de fermeture), puis propose une solution de nuit.",
+          "takeaway": "« Now, I know… » prépare une solution adaptée."
+        },
+        {
+          "id": "e3-p4-24",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does the speaker propose?",
+          "options": [
+            "Using different countertops",
+            "Canceling the project",
+            "Working at night",
+            "Giving a discount"
+          ],
+          "answer": "C",
+          "evidence": "We could do the installation over two nights instead",
+          "explanation": "Il propose de faire l'installation sur deux nuits, après la fermeture.",
+          "takeaway": "Over two nights = sur deux nuits."
+        }
+      ]
+    },
+    {
+      "id": "e3-p4-t09",
+      "kind": "talk",
+      "title": "Résultats d'une enquête (graphique)",
+      "graphic": {
+        "type": "table",
+        "title": "Employee Survey — Most Requested Benefits",
+        "columns": [
+          "Benefit",
+          "Votes"
+        ],
+        "rows": [
+          [
+            "Flexible hours",
+            "212"
+          ],
+          [
+            "Extra vacation days",
+            "187"
+          ],
+          [
+            "Gym membership",
+            "95"
+          ],
+          [
+            "Free lunch",
+            "64"
+          ]
+        ]
+      },
+      "audio": [
+        {
+          "s": "W",
+          "t": "Thank you all for taking part in the benefits survey. The results are on the screen. As you can see, the most popular request was something we already offer to most departments, so we'll simply extend it to the remaining teams in January. The second most requested benefit is more expensive, but the board has agreed to introduce it next year. We'll share the details in a memo next week."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p4-25",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the speaker discussing?",
+          "options": [
+            "A new office policy on lunch",
+            "The results of a survey",
+            "A change in management",
+            "The company's annual budget"
+          ],
+          "answer": "B",
+          "evidence": "Thank you all for taking part in the benefits survey.",
+          "explanation": "Elle présente les résultats de l'enquête sur les avantages sociaux.",
+          "takeaway": "Benefits = avantages sociaux."
+        },
+        {
+          "id": "e3-p4-26",
+          "level": 3,
+          "category": "graphic",
+          "prompt": "Look at the graphic. Which benefit will be introduced next year?",
+          "options": [
+            "Extra vacation days",
+            "Flexible hours",
+            "Gym membership",
+            "Free lunch"
+          ],
+          "answer": "A",
+          "explanation": "Le deuxième avantage le plus demandé (jours de congé supplémentaires, 187 votes) sera introduit l'an prochain.",
+          "traps": "Les horaires flexibles existent déjà et seront seulement étendus.",
+          "takeaway": "« Second most requested » → deuxième ligne du classement."
+        },
+        {
+          "id": "e3-p4-27",
+          "level": 2,
+          "category": "next-action",
+          "prompt": "What will the listeners receive next week?",
+          "options": [
+            "A gift",
+            "A new survey",
+            "A schedule",
+            "A memo"
+          ],
+          "answer": "D",
+          "evidence": "We'll share the details in a memo next week.",
+          "explanation": "Les détails seront communiqués dans une note de service.",
+          "takeaway": "Memo = note de service."
+        }
+      ]
+    },
+    {
+      "id": "e3-p4-t10",
+      "kind": "talk",
+      "title": "Ouverture d'un salon professionnel",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Good morning, and welcome to the third annual Regional Agriculture Fair. This year, we have more than one hundred and fifty exhibitors, nearly double last year's number. I'd like to thank our main sponsor, Valley Cooperative Bank, whose support made it possible to keep admission free for students. Don't miss the cooking demonstration at eleven in the main tent, which features vegetables grown right here in the valley. And remember, the shuttle bus back to the train station runs every thirty minutes until six."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e3-p4-28",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is mentioned about this year's fair?",
+          "options": [
+            "It is taking place indoors.",
+            "It is being held for the first time.",
+            "It has more exhibitors than last year.",
+            "It has moved to a new city."
+          ],
+          "answer": "C",
+          "evidence": "nearly double last year's number",
+          "explanation": "Le nombre d'exposants a presque doublé par rapport à l'an dernier.",
+          "traps": "(B) est faux : c'est la troisième édition.",
+          "takeaway": "Nearly double = presque deux fois plus."
+        },
+        {
+          "id": "e3-p4-29",
+          "level": 2,
+          "category": "detail",
+          "prompt": "According to the speaker, what did the sponsor make possible?",
+          "options": [
+            "A new shuttle bus",
+            "Free admission for students",
+            "A larger tent",
+            "Free meals for exhibitors"
+          ],
+          "answer": "B",
+          "evidence": "whose support made it possible to keep admission free for students",
+          "explanation": "Le soutien de la banque permet de garder l'entrée gratuite pour les étudiants.",
+          "takeaway": "Sponsor = parrain, mécène."
+        },
+        {
+          "id": "e3-p4-30",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What will happen at eleven?",
+          "options": [
+            "A cooking demonstration",
+            "An award ceremony",
+            "A farm tour",
+            "A press conference"
+          ],
+          "answer": "A",
+          "evidence": "the cooking demonstration at eleven in the main tent",
+          "explanation": "Une démonstration culinaire a lieu à 11 h sous la tente principale.",
+          "takeaway": "Demonstration = démonstration."
+        }
+      ]
+    }
+  ]
+}
