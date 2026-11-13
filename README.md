@@ -11,7 +11,7 @@ Conçue pour une préparation de 17 jours (11 → 28 novembre 2026), de 680 vers
 | **Diagnostic** | 50 questions chronométrées couvrant les 7 parties ; analyse par partie et par catégorie, temps moyen vs cible, priorités, planning adapté |
 | **Révision du jour** | 5 / 10 / 20 / 30 / 45 min ; sélection adaptative (erreurs dues, parties et catégories faibles, nouveauté, difficulté, date de dernière révision) |
 | **Session intensive** | 30 à 180 min, Listening / Reading / mixte, parties au choix, difficulté élevée, correction immédiate ou différée, chronomètre, pauses, reprise après interruption, bilan détaillé |
-| **Examens blancs** | Examen complet de 200 questions (structure officielle), Listening ou Reading seul, mini-examens 20/30/50 ; lecture audio unique, grille, questions marquées, Reading 75 min, correction finale |
+| **Examens blancs** | 5 examens complets et distincts de 200 questions (structure officielle), Listening ou Reading seul, mini-examens 20/30/50 ; lecture audio unique, grille, questions marquées, Reading 75 min, correction finale |
 | **Mes erreurs** | Cahier d'erreurs à répétition espacée (SM-2 adaptée), statut de maîtrise, « Pourquoi je me suis trompée ? », favoris, questions difficiles |
 | **Grammaire & vocabulaire** | 13 fiches (explication, exemples, pièges, mini-quiz, maîtrise calculée), flashcards à répétition espacée (vocabulaire pro, faux amis, collocations, règles et mots ajoutés depuis les corrections) |
 | **Planning** | Programme du 11 au 28 novembre en 5 phases, adapté aux faiblesses, aux jours manqués, au diagnostic / examen non faits et à la disponibilité |
@@ -76,15 +76,17 @@ Pense à exporter régulièrement tes données (*Réglages › Sauvegarde*).
 
 ## Banque de questions
 
-389 questions originales (aucun contenu ETS), réparties en :
+1 448 questions originales (aucun contenu ETS), réparties en :
 
 | Pool | Total | P1 | P2 | P3 | P4 | P5 | P6 | P7 |
 |---|---|---|---|---|---|---|---|---|
-| Examen blanc 1 | 200 | 6 | 25 | 39 | 30 | 30 | 16 | 54 (29 simples + 25 multiples) |
+| Examens blancs n°1 à 5 (200 chacun) | 1 000 | 30 | 125 | 195 | 150 | 150 | 80 | 270 |
 | Diagnostic | 50 | 3 | 8 | 9 | 6 | 10 | 4 | 10 |
-| Entraînement | 139 | 6 | 24 | 18 | 15 | 42 | 12 | 22 |
+| Entraînement | 398 | 12 | 84 | 42 | 39 | 141 | 32 | 48 |
 
-Les questions de l'examen blanc restent réservées tant qu'il n'a pas été passé ; celles du diagnostic rejoignent l'entraînement une fois le diagnostic terminé.
+Chaque examen blanc respecte la structure officielle (P7 : 29 questions sur documents simples + 25 sur documents doubles et triples). Les questions d'un examen blanc restent réservées tant que cet examen n'a pas été passé ; celles du diagnostic rejoignent l'entraînement une fois le diagnostic terminé. Le planning programme les examens à J-13, J-10, J-7, J-5 et J-3.
+
+Répartition par difficulté : 385 de niveau B1+, 718 de niveau B2, 345 de niveau B2+/C1 (cible 800–850+). Le format, les formulations des questions et les types de pièges ont été calés sur les exemples officiels du guide du candidat ETS (TOEIC Listening & Reading Examinee Handbook), sans en reprendre le contenu.
 
 ### Ajouter des questions
 
@@ -128,14 +130,14 @@ Aucune conversion n'est présentée comme officielle. Le score affiché est d'ab
 
 ## Tests effectués
 
-- `npm run validate` : banque valide (389 questions, 71 groupes, structure d'examen exacte).
-- `npm test` : 34 tests unitaires OK (banque et validateur, répétition espacée, sélection adaptative, mini-examen, estimation, planning adaptatif, sessions et enregistrement, examens, sauvegarde export/import, série, faiblesses).
+- `npm run validate` : banque valide (1 448 questions, 267 groupes, structure exacte des 5 examens).
+- `npm test` : 38 tests unitaires OK (dont : 5 examens complets sans question commune, examen exclu de l'entraînement tant qu'il n'est pas passé) (banque et validateur, répétition espacée, sélection adaptative, mini-examen, estimation, planning adaptatif, sessions et enregistrement, examens, sauvegarde export/import, série, faiblesses).
 - Parcours de bout en bout dans Chromium headless en format mobile (390×844), thèmes clair et sombre : onboarding → révision du jour → corrections → bilan → toutes les pages → reprise de session → mini-examen (Listening verrouillé, grille, rendu de copie). Aucune erreur JavaScript.
 
 ## Limites connues
 
 - **Audio** : synthèse vocale de l'appareil (qualité et accents variables, pas de vrais enregistrements). Sans voix anglaise installée, l'app passe en mode dégradé avec transcription, clairement signalé. Le rythme du Listening en examen dépend de la vitesse de la voix.
-- **Banque** : un seul examen blanc complet de 200 questions ; le refaire surestime le niveau (avertissement affiché). Les longues sessions sur une seule partie finissent par reproposer des questions déjà vues (en priorité les ratées). Des packs JSON permettent d'agrandir la banque.
+- **Banque** : 5 examens blancs ; refaire un examen déjà passé surestime le niveau (avertissement affiché). Les questions ne sont pas calibrées par ETS : leur difficulté est estimée. Les longues sessions sur une seule partie finissent par reproposer des questions déjà vues (en priorité les ratées). Des packs JSON permettent d'agrandir la banque.
 - **Illustrations Part 1** : scènes vectorielles simplifiées, pas de photos réelles ; moins riches en détails que le vrai test.
 - **Rappels** : sans serveur, les notifications ne partent que si l'app est ouverte ou récemment utilisée ; le fichier .ics est la méthode fiable. Sur iPhone, les notifications web exigent l'installation sur l'écran d'accueil.
 - **Données** : stockées sur l'appareil uniquement (pas de synchronisation) ; utiliser l'export/import JSON pour changer d'appareil.
