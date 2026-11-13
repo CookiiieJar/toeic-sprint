@@ -1,0 +1,678 @@
+{
+  "part": 5,
+  "pool": "practice",
+  "questions": [
+    {
+      "id": "p-p5-01",
+      "level": 1,
+      "category": "preposition",
+      "prompt": "The conference will take place ____ March 14 at the Grand Palais.",
+      "options": [
+        "in",
+        "by",
+        "at",
+        "on"
+      ],
+      "answer": "D",
+      "explanation": "Devant une date précise (jour), on emploie « on » : on March 14.",
+      "traps": "« In » s'emploie avec un mois seul (in March), « at » avec une heure.",
+      "takeaway": "on + jour/date ; in + mois/année ; at + heure."
+    },
+    {
+      "id": "p-p5-02",
+      "level": 1,
+      "category": "word-form",
+      "prompt": "Please read the instructions ____ before installing the software.",
+      "options": [
+        "careful",
+        "care",
+        "carefully",
+        "careless"
+      ],
+      "answer": "C",
+      "explanation": "Le mot modifie le verbe « read » : il faut l'adverbe « carefully » (attentivement).",
+      "traps": "« Careful » est l'adjectif ; « careless » signifie négligent.",
+      "takeaway": "Lire / travailler / vérifier + adverbe en -ly."
+    },
+    {
+      "id": "p-p5-03",
+      "level": 1,
+      "category": "pronoun",
+      "prompt": "Ms. Dupont asked her assistant to send the files to ____ by noon.",
+      "options": [
+        "she",
+        "her",
+        "its",
+        "hers"
+      ],
+      "answer": "B",
+      "explanation": "Après la préposition « to », il faut un pronom complément : « her ».",
+      "traps": "« She » est sujet ; « hers » est possessif (le sien).",
+      "takeaway": "Préposition + pronom complément (me, him, her, us, them)."
+    },
+    {
+      "id": "p-p5-04",
+      "level": 1,
+      "category": "verb-tense",
+      "prompt": "Our team ____ the new client next Tuesday at 10 A.M.",
+      "options": [
+        "is meeting",
+        "met",
+        "has met",
+        "had met"
+      ],
+      "answer": "A",
+      "explanation": "« Next Tuesday » indique un rendez-vous futur déjà planifié : le présent continu « is meeting » exprime ce futur organisé.",
+      "traps": "Les trois autres formes renvoient au passé.",
+      "takeaway": "Présent continu = futur planifié (rendez-vous, agenda)."
+    },
+    {
+      "id": "p-p5-05",
+      "level": 1,
+      "category": "comparison",
+      "prompt": "This year's sales conference was ____ than last year's.",
+      "options": [
+        "most successful",
+        "success",
+        "successfully",
+        "more successful"
+      ],
+      "answer": "D",
+      "explanation": "« Than » impose un comparatif ; pour un adjectif long : « more successful ».",
+      "traps": "« Most » sert au superlatif (the most successful).",
+      "takeaway": "Adjectif long : more … than / the most …"
+    },
+    {
+      "id": "p-p5-06",
+      "level": 2,
+      "category": "gerund-infinitive",
+      "prompt": "We look forward to ____ you at our open house next month.",
+      "options": [
+        "see",
+        "seen",
+        "seeing",
+        "sees"
+      ],
+      "answer": "C",
+      "explanation": "Dans « look forward to », « to » est une préposition : elle est suivie du gérondif « seeing ».",
+      "traps": "« To see » paraît naturel mais c'est l'erreur la plus fréquente des francophones.",
+      "takeaway": "Look forward to + -ing."
+    },
+    {
+      "id": "p-p5-07",
+      "level": 1,
+      "category": "vocabulary",
+      "prompt": "The hotel offers a free ____ service to and from the airport.",
+      "options": [
+        "shift",
+        "shuttle",
+        "shelter",
+        "schedule"
+      ],
+      "answer": "B",
+      "explanation": "Un « shuttle service » est un service de navette, ici entre l'hôtel et l'aéroport.",
+      "traps": "« Shift » = poste de travail ; « shelter » = abri ; « schedule » = horaire.",
+      "takeaway": "Shuttle = navette."
+    },
+    {
+      "id": "p-p5-08",
+      "level": 2,
+      "category": "passive",
+      "prompt": "Applications received after the deadline will not ____.",
+      "options": [
+        "be considered",
+        "consider",
+        "considering",
+        "considered"
+      ],
+      "answer": "A",
+      "explanation": "Les candidatures ne seront pas examinées (elles subissent l'action) : passif « will not be considered ».",
+      "traps": "« Will not consider » serait actif sans complément d'objet.",
+      "takeaway": "Modal + be + participe passé = passif."
+    },
+    {
+      "id": "p-p5-09",
+      "level": 2,
+      "category": "relative",
+      "prompt": "The warehouse, ____ was built in 1998, will be expanded next year.",
+      "options": [
+        "that",
+        "what",
+        "where",
+        "which"
+      ],
+      "answer": "D",
+      "explanation": "Relative entre virgules (non restrictive) sur une chose, en position sujet : « which ».",
+      "traps": "« That » est interdit après une virgule. « Where » exigerait un sujet après lui.",
+      "takeaway": "Virgule + chose → which (jamais that)."
+    },
+    {
+      "id": "p-p5-10",
+      "level": 1,
+      "category": "conjunction",
+      "prompt": "Please call the help desk ____ you experience any problems with your account.",
+      "options": [
+        "unless",
+        "whether",
+        "if",
+        "although"
+      ],
+      "answer": "C",
+      "explanation": "Condition simple : « appelez si vous avez un problème » → « if ».",
+      "traps": "« Unless » = sauf si (sens inverse).",
+      "takeaway": "If = si ; unless = à moins que, sauf si."
+    },
+    {
+      "id": "p-p5-11",
+      "level": 2,
+      "category": "word-form",
+      "prompt": "The board was impressed by the ____ of the new marketing plan.",
+      "options": [
+        "creative",
+        "creativity",
+        "creatively",
+        "create"
+      ],
+      "answer": "B",
+      "explanation": "Après « the » et avant « of », il faut un nom : « creativity ».",
+      "traps": "« Creative » est l'adjectif.",
+      "takeaway": "-ity est un suffixe de nom (creativity, quality, ability)."
+    },
+    {
+      "id": "p-p5-12",
+      "level": 2,
+      "category": "determiner",
+      "prompt": "____ employee is required to complete the online safety course by Friday.",
+      "options": [
+        "Every",
+        "All",
+        "Most",
+        "Both"
+      ],
+      "answer": "A",
+      "explanation": "Le nom « employee » est singulier et le verbe « is » aussi : seul « Every » se construit avec un nom singulier dénombrable.",
+      "traps": "All / most / both demandent un pluriel (all employees are).",
+      "takeaway": "Every / each + nom singulier + verbe singulier."
+    },
+    {
+      "id": "p-p5-13",
+      "level": 3,
+      "category": "determiner",
+      "prompt": "We received ____ complaints about the new packaging, so we decided to keep it.",
+      "options": [
+        "a little",
+        "much",
+        "little",
+        "few"
+      ],
+      "answer": "D",
+      "explanation": "On garde l'emballage car il y a eu peu de réclamations : « few » (peu, sens restrictif) avec un nom dénombrable pluriel.",
+      "traps": "« Little » et « a little » s'emploient avec les indénombrables ; « much » aussi.",
+      "takeaway": "Few = peu (négatif) ; a few = quelques (positif) ; little/much + indénombrable."
+    },
+    {
+      "id": "p-p5-14",
+      "level": 2,
+      "category": "preposition",
+      "prompt": "The museum is temporarily closed to the public ____ renovations.",
+      "options": [
+        "because",
+        "since",
+        "due to",
+        "so"
+      ],
+      "answer": "C",
+      "explanation": "Le blanc est suivi d'un nom (« renovations ») : il faut une préposition de cause, « due to ».",
+      "traps": "« Because » seul est suivi d'une proposition.",
+      "takeaway": "Due to / owing to / because of + nom."
+    },
+    {
+      "id": "p-p5-15",
+      "level": 2,
+      "category": "modal-conditional",
+      "prompt": "Employees ____ submit their timesheets by Friday, or their pay may be delayed.",
+      "options": [
+        "might",
+        "must",
+        "would",
+        "could"
+      ],
+      "answer": "B",
+      "explanation": "« Or their pay may be delayed » indique une conséquence en cas de non-respect : c'est une obligation, « must ».",
+      "traps": "« Might » et « could » expriment une simple possibilité.",
+      "takeaway": "Must = obligation ; or… = sinon (conséquence)."
+    },
+    {
+      "id": "p-p5-16",
+      "level": 1,
+      "category": "word-form",
+      "prompt": "Our new printer can ____ up to 40 pages per minute.",
+      "options": [
+        "produce",
+        "product",
+        "production",
+        "productive"
+      ],
+      "answer": "A",
+      "explanation": "Après le modal « can », il faut un verbe à la base verbale : « produce ».",
+      "traps": "« Product » et « production » sont des noms.",
+      "takeaway": "Modal + base verbale."
+    },
+    {
+      "id": "p-p5-17",
+      "level": 2,
+      "category": "collocation",
+      "prompt": "The company will ____ a press conference to announce the merger.",
+      "options": [
+        "make",
+        "take",
+        "do",
+        "hold"
+      ],
+      "answer": "D",
+      "explanation": "On dit « hold a press conference / a meeting » (tenir, organiser).",
+      "traps": "Calque du français « faire une conférence » → make/do, incorrects ici.",
+      "takeaway": "Hold a meeting / a conference / an event."
+    },
+    {
+      "id": "p-p5-18",
+      "level": 2,
+      "category": "verb-tense",
+      "prompt": "When the CEO finally arrived, the meeting ____.",
+      "options": [
+        "has already started",
+        "already starts",
+        "had already started",
+        "is already starting"
+      ],
+      "answer": "C",
+      "explanation": "Le début de la réunion est antérieur à l'arrivée du PDG (au passé) : past perfect « had already started ».",
+      "traps": "« Has already started » est relié au présent, pas à un moment passé.",
+      "takeaway": "Antériorité dans le passé → had + participe passé."
+    },
+    {
+      "id": "p-p5-19",
+      "level": 2,
+      "category": "gerund-infinitive",
+      "prompt": "The manager suggested ____ the launch until the product had been fully tested.",
+      "options": [
+        "to postpone",
+        "postponing",
+        "postpone",
+        "postponed"
+      ],
+      "answer": "B",
+      "explanation": "« Suggest » est suivi du gérondif : « suggested postponing ».",
+      "traps": "*suggest to do est une faute fréquente.",
+      "takeaway": "Suggest + -ing ou suggest that + sujet + base verbale."
+    },
+    {
+      "id": "p-p5-20",
+      "level": 2,
+      "category": "agreement",
+      "prompt": "The list of participants ____ been sent to all speakers.",
+      "options": [
+        "has",
+        "are",
+        "have",
+        "were"
+      ],
+      "answer": "A",
+      "explanation": "Le sujet est « the list » (singulier), pas « participants » : « has been sent ».",
+      "traps": "Le nom pluriel juste avant le verbe attire l'accord.",
+      "takeaway": "Accorde avec le noyau du sujet : the list (of …) has."
+    },
+    {
+      "id": "p-p5-21",
+      "level": 3,
+      "category": "syntax",
+      "prompt": "Not only ____ the project on time, but it also came in under budget.",
+      "options": [
+        "the team completed",
+        "completed the team",
+        "the team did complete",
+        "did the team complete"
+      ],
+      "answer": "D",
+      "explanation": "« Not only » en tête de phrase entraîne l'inversion auxiliaire-sujet : « did the team complete ».",
+      "traps": "(A) a l'ordre normal, interdit après « Not only » en tête.",
+      "takeaway": "Not only + auxiliaire + sujet + verbe…, but (also)…"
+    },
+    {
+      "id": "p-p5-22",
+      "level": 3,
+      "category": "modal-conditional",
+      "prompt": "____ you have any questions about your order, please contact our customer service team.",
+      "options": [
+        "Would",
+        "Unless",
+        "Should",
+        "Had"
+      ],
+      "answer": "C",
+      "explanation": "« Should you have… » est la forme inversée et formelle de « If you have… » : « Should ».",
+      "traps": "« Had » introduit un conditionnel passé (Had you known…).",
+      "takeaway": "Should + sujet + base verbale = if (formel, courrier commercial)."
+    },
+    {
+      "id": "p-p5-23",
+      "level": 3,
+      "category": "word-form",
+      "prompt": "The new policy is ____ to reduce paper consumption by half.",
+      "options": [
+        "intending",
+        "intended",
+        "intention",
+        "intent"
+      ],
+      "answer": "B",
+      "explanation": "« Be intended to » = être destiné à. La politique est conçue pour réduire la consommation : participe passé « intended ».",
+      "traps": "« Intending » donnerait « la politique a l'intention de », impossible pour une chose.",
+      "takeaway": "Be intended / designed to + verbe = être conçu pour."
+    },
+    {
+      "id": "p-p5-24",
+      "level": 3,
+      "category": "vocabulary",
+      "prompt": "Ms. Ortiz has been ____ for her outstanding contribution to the research project.",
+      "options": [
+        "recognized",
+        "realized",
+        "remembered",
+        "reminded"
+      ],
+      "answer": "A",
+      "explanation": "« Be recognized for » = être reconnu / récompensé pour. C'est le sens attendu avec « outstanding contribution ».",
+      "traps": "« Realize » = se rendre compte ; « remind » = rappeler à quelqu'un.",
+      "takeaway": "Recognize someone for something = saluer, récompenser."
+    },
+    {
+      "id": "p-p5-25",
+      "level": 2,
+      "category": "conjunction",
+      "prompt": "The new model is ____ lighter and more powerful than its predecessor.",
+      "options": [
+        "either",
+        "neither",
+        "not only",
+        "both"
+      ],
+      "answer": "D",
+      "explanation": "Corrélation « both … and » : à la fois plus léger et plus puissant.",
+      "traps": "« Either » va avec or, « neither » avec nor, « not only » avec but also.",
+      "takeaway": "both…and / either…or / neither…nor / not only…but also."
+    },
+    {
+      "id": "p-p5-26",
+      "level": 3,
+      "category": "comparison",
+      "prompt": "The ____ the order is placed, the sooner it will be delivered.",
+      "options": [
+        "earliest",
+        "early",
+        "earlier",
+        "more early"
+      ],
+      "answer": "C",
+      "explanation": "Structure « the + comparatif…, the + comparatif » (plus…, plus…) : « the earlier ».",
+      "traps": "« More early » est incorrect : early → earlier.",
+      "takeaway": "The sooner, the better : the + comparatif, the + comparatif."
+    },
+    {
+      "id": "p-p5-27",
+      "level": 3,
+      "category": "relative",
+      "prompt": "Ms. Laurent, with ____ we negotiated the contract, has left the company.",
+      "options": [
+        "who",
+        "whom",
+        "which",
+        "whose"
+      ],
+      "answer": "B",
+      "explanation": "Après une préposition (« with »), le relatif pour une personne est « whom ».",
+      "traps": "« Who » ne s'emploie pas après une préposition ; « which » renvoie à une chose.",
+      "takeaway": "Préposition + whom (personne) / which (chose)."
+    },
+    {
+      "id": "p-p5-28",
+      "level": 3,
+      "category": "word-form",
+      "prompt": "The proposal was rejected because it was not ____ feasible.",
+      "options": [
+        "economically",
+        "economy",
+        "economic",
+        "economist"
+      ],
+      "answer": "A",
+      "explanation": "Le mot modifie l'adjectif « feasible » : il faut un adverbe, « economically » (économiquement réalisable).",
+      "traps": "« Economic » est un adjectif : deux adjectifs ne se suivent pas ainsi.",
+      "takeaway": "Adverbe + adjectif (economically feasible, highly qualified)."
+    },
+    {
+      "id": "p-p5-29",
+      "level": 3,
+      "category": "word-form",
+      "prompt": "Due to ____ demand, the exhibition has been extended for another week.",
+      "options": [
+        "overwhelm",
+        "overwhelmed",
+        "overwhelmingly",
+        "overwhelming"
+      ],
+      "answer": "D",
+      "explanation": "Devant le nom « demand », il faut un adjectif actif : « overwhelming demand » (une demande écrasante).",
+      "traps": "« Overwhelmed » (submergé) qualifie quelqu'un qui subit.",
+      "takeaway": "-ing = qui provoque (overwhelming demand)."
+    },
+    {
+      "id": "p-p5-30",
+      "level": 3,
+      "category": "collocation",
+      "prompt": "All full-time staff members are ____ to 25 days of paid leave per year.",
+      "options": [
+        "eligible",
+        "allowed",
+        "entitled",
+        "qualified"
+      ],
+      "answer": "C",
+      "explanation": "« Be entitled to + nom » = avoir droit à. C'est la seule option qui se construit avec « to + nom ».",
+      "traps": "« Eligible » se construit avec « for » ; « allowed to » est suivi d'un verbe.",
+      "takeaway": "Entitled to + nom ; eligible for + nom."
+    },
+    {
+      "id": "p-p5-31",
+      "level": 2,
+      "category": "preposition",
+      "prompt": "The renovation was completed two weeks ahead ____ schedule.",
+      "options": [
+        "to",
+        "of",
+        "on",
+        "from"
+      ],
+      "answer": "B",
+      "explanation": "L'expression fixe est « ahead of schedule » (en avance sur le calendrier).",
+      "traps": "On dit « on schedule » (dans les temps), mais « ahead of » / « behind » schedule.",
+      "takeaway": "Ahead of / behind / on schedule."
+    },
+    {
+      "id": "p-p5-32",
+      "level": 2,
+      "category": "modal-conditional",
+      "prompt": "The company ____ its headquarters to Lyon if the tax incentives are approved.",
+      "options": [
+        "will move",
+        "would have moved",
+        "moved",
+        "moving"
+      ],
+      "answer": "A",
+      "explanation": "Condition réelle au présent (« if … are approved ») → conséquence au futur : « will move » (1er conditionnel).",
+      "traps": "« Would have moved » correspond à un irréel du passé.",
+      "takeaway": "If + présent, will + base verbale."
+    },
+    {
+      "id": "p-p5-33",
+      "level": 3,
+      "category": "gerund-infinitive",
+      "prompt": "The training is designed ____ new employees with the company's procedures.",
+      "options": [
+        "familiarizing",
+        "familiarize",
+        "familiarized",
+        "to familiarize"
+      ],
+      "answer": "D",
+      "explanation": "« Be designed to + verbe » = être conçu pour : « to familiarize ».",
+      "traps": "« Familiarizing » ne peut pas suivre « designed » directement.",
+      "takeaway": "Designed / intended / meant + to + base verbale."
+    },
+    {
+      "id": "p-p5-34",
+      "level": 3,
+      "category": "word-form",
+      "prompt": "Ms. Brennan was ____ chosen to lead the regional office, as every board member voted for her.",
+      "options": [
+        "unanimous",
+        "unanimity",
+        "unanimously",
+        "unanimousness"
+      ],
+      "answer": "C",
+      "explanation": "Le mot modifie le participe « chosen » : adverbe « unanimously » (à l'unanimité).",
+      "traps": "« Unanimous » est l'adjectif (a unanimous decision).",
+      "takeaway": "Adverbe entre be et le participe passé (was unanimously chosen)."
+    },
+    {
+      "id": "p-p5-35",
+      "level": 3,
+      "category": "pronoun",
+      "prompt": "The sales figures for this quarter are higher than ____ of the previous quarter.",
+      "options": [
+        "that",
+        "those",
+        "these",
+        "them"
+      ],
+      "answer": "B",
+      "explanation": "On évite de répéter « the sales figures » (pluriel) : « those of » = ceux de.",
+      "traps": "« That of » remplacerait un nom singulier.",
+      "takeaway": "That of (singulier) / those of (pluriel) = celui de / ceux de."
+    },
+    {
+      "id": "p-p5-36",
+      "level": 2,
+      "category": "vocabulary",
+      "prompt": "The software update will be ____ to all users free of charge.",
+      "options": [
+        "available",
+        "capable",
+        "reliable",
+        "responsible"
+      ],
+      "answer": "A",
+      "explanation": "La mise à jour sera disponible pour tous les utilisateurs : « available to ».",
+      "traps": "« Capable » = capable de ; « reliable » = fiable.",
+      "takeaway": "Available to someone = disponible pour quelqu'un."
+    },
+    {
+      "id": "p-p5-37",
+      "level": 3,
+      "category": "conjunction",
+      "prompt": "____ the budget is approved by Friday, the project will be delayed.",
+      "options": [
+        "Provided",
+        "As long as",
+        "Whether",
+        "Unless"
+      ],
+      "answer": "D",
+      "explanation": "Le projet sera retardé sauf si le budget est approuvé : « Unless » (= if … not).",
+      "traps": "« Provided » et « as long as » (à condition que) donnent un sens contraire.",
+      "takeaway": "Unless = sauf si ; provided (that) = à condition que."
+    },
+    {
+      "id": "p-p5-38",
+      "level": 2,
+      "category": "word-form",
+      "prompt": "The marketing campaign was ____ successful, generating twice the expected number of sales.",
+      "options": [
+        "remarkable",
+        "remark",
+        "remarkably",
+        "remarked"
+      ],
+      "answer": "C",
+      "explanation": "Le mot modifie l'adjectif « successful » : il faut l'adverbe « remarkably ».",
+      "traps": "« Remarkable » est un adjectif.",
+      "takeaway": "Adverbe + adjectif : remarkably successful, highly profitable."
+    },
+    {
+      "id": "p-p5-39",
+      "level": 2,
+      "category": "vocabulary",
+      "prompt": "Please ____ the attached document carefully before signing it.",
+      "options": [
+        "remind",
+        "review",
+        "revise",
+        "retain"
+      ],
+      "answer": "B",
+      "explanation": "Avant de signer, on relit / examine le document : « review ».",
+      "traps": "« Revise » signifie modifier un texte (faux ami partiel de « réviser »).",
+      "takeaway": "Review = examiner, relire ; revise = modifier."
+    },
+    {
+      "id": "p-p5-40",
+      "level": 3,
+      "category": "passive",
+      "prompt": "The east wing of the hospital ____ renovated, so visitors should use the west entrance.",
+      "options": [
+        "is being",
+        "has",
+        "is",
+        "being"
+      ],
+      "answer": "A",
+      "explanation": "Les travaux sont en cours en ce moment : passif progressif « is being renovated ».",
+      "traps": "« Is renovated » décrit un état ou une habitude ; « has renovated » est actif.",
+      "takeaway": "Is being + participe passé = action en cours au passif."
+    },
+    {
+      "id": "p-p5-41",
+      "level": 3,
+      "category": "agreement",
+      "prompt": "The number of applicants ____ increased significantly this year.",
+      "options": [
+        "have",
+        "are",
+        "were",
+        "has"
+      ],
+      "answer": "D",
+      "explanation": "« The number of » (le nombre de) est singulier : « has increased ».",
+      "traps": "« A number of » (plusieurs) prend au contraire un pluriel : a number of applicants have…",
+      "takeaway": "The number of + singulier ; a number of + pluriel."
+    },
+    {
+      "id": "p-p5-42",
+      "level": 3,
+      "category": "collocation",
+      "prompt": "Our technicians will ____ the issue as soon as possible and keep you informed.",
+      "options": [
+        "adopt",
+        "admit",
+        "address",
+        "addition"
+      ],
+      "answer": "C",
+      "explanation": "« Address an issue » = traiter un problème. C'est la collocation professionnelle attendue.",
+      "traps": "« Admit » = admettre ; « adopt » = adopter ; « addition » est un nom.",
+      "takeaway": "Address / resolve / tackle an issue."
+    }
+  ]
+}

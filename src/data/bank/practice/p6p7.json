@@ -1,0 +1,762 @@
+{
+  "pool": "practice",
+  "sets": [
+    {
+      "id": "p-p6-s1",
+      "part": 6,
+      "kind": "text",
+      "title": "E-mail de bienvenue",
+      "docs": [
+        {
+          "type": "email",
+          "from": "The CloudLedger Team",
+          "to": "Elena Navarro",
+          "subject": "Welcome to CloudLedger",
+          "date": "January 8",
+          "body": "Dear Ms. Navarro,\n\nWelcome to CloudLedger! We are pleased that you have chosen our accounting software to manage {{1}} company's finances. Your account is now active, and you can log in at any time using the e-mail address you registered with.\n\nTo help you get started, one of our specialists will contact you within two business days to schedule a free onboarding session. {{2}} During this session, we will help you import your existing data and set up {{3}} reports.\n\nIf you have any questions in the meantime, our support team is available by chat from 8 A.M. to 8 P.M. {{4}}, you can consult the step-by-step guides in our online help center.\n\nBest regards,\nThe CloudLedger Team"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p6-01",
+          "level": 1,
+          "category": "pronoun",
+          "options": [
+            "its",
+            "yours",
+            "their",
+            "your"
+          ],
+          "answer": "D",
+          "explanation": "Le mail s'adresse directement à Mme Navarro (« you have chosen ») : « your company's finances ».",
+          "traps": "« Yours » est un pronom qui ne peut pas précéder un nom.",
+          "takeaway": "Déterminant possessif cohérent avec le sujet (you → your)."
+        },
+        {
+          "id": "p-p6-02",
+          "level": 2,
+          "category": "sentence-insertion",
+          "options": [
+            "The session usually lasts about an hour and can be held online.",
+            "Our offices will be closed next Monday.",
+            "Thank you for your recent payment.",
+            "We are currently recruiting accountants."
+          ],
+          "answer": "A",
+          "explanation": "La phrase précédente annonce une séance de prise en main ; la phrase insérée en précise la durée et le format, puis « During this session » enchaîne.",
+          "traps": "Les autres phrases rompent le fil de la séance d'accueil.",
+          "takeaway": "Vérifie que la phrase suivante (During this session…) s'enchaîne aussi."
+        },
+        {
+          "id": "p-p6-03",
+          "level": 2,
+          "category": "word-form",
+          "options": [
+            "customize",
+            "customizing",
+            "customized",
+            "customization"
+          ],
+          "answer": "C",
+          "explanation": "Devant le nom « reports », il faut un adjectif ; le sens passif (des rapports personnalisés) impose le participe passé « customized ».",
+          "traps": "« Customizing reports » signifierait « des rapports qui personnalisent ».",
+          "takeaway": "Participe passé adjectif = sens passif (customized reports)."
+        },
+        {
+          "id": "p-p6-04",
+          "level": 2,
+          "category": "coherence",
+          "options": [
+            "Therefore",
+            "Alternatively",
+            "Instead of",
+            "Despite"
+          ],
+          "answer": "B",
+          "explanation": "Deux solutions sont proposées : le chat ou les guides en ligne. « Alternatively » (sinon, autre possibilité) introduit la seconde.",
+          "traps": "« Instead of » et « Despite » sont des prépositions, suivies d'un nom. « Therefore » exprime une conséquence.",
+          "takeaway": "Alternatively = ou bien, autre option."
+        }
+      ]
+    },
+    {
+      "id": "p-p6-s2",
+      "part": 6,
+      "kind": "text",
+      "title": "Article — vélos en libre-service",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Bordeaux to Add Electric Bikes",
+          "body": "The city of Bordeaux will add 500 electric bicycles to its bike-sharing program next spring, the mayor's office announced on Monday. The new bikes {{1}} at 40 stations, most of them near tram stops and university campuses.\n\nSince its launch three years ago, the program has been {{2}} popular with commuters. Last year, users made more than two million trips. {{3}}\n\nSubscribers will be able to use the electric bikes at no extra cost during the first month. After that, a fee of 50 cents per ride will apply. City officials expect the new bikes to reduce car traffic {{4}} the city center."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p6-05",
+          "level": 2,
+          "category": "verb-tense",
+          "options": [
+            "will be available",
+            "were available",
+            "have availed",
+            "availability"
+          ],
+          "answer": "A",
+          "explanation": "Les vélos arriveront au printemps prochain : futur « will be available ».",
+          "traps": "« Were available » est au passé.",
+          "takeaway": "Repère les marqueurs de temps du texte (next spring)."
+        },
+        {
+          "id": "p-p6-06",
+          "level": 2,
+          "category": "word-form",
+          "options": [
+            "particular",
+            "particulars",
+            "particularity",
+            "particularly"
+          ],
+          "answer": "D",
+          "explanation": "Le mot modifie l'adjectif « popular » : il faut l'adverbe « particularly ».",
+          "traps": "« Particular » est un adjectif.",
+          "takeaway": "Adverbe + adjectif (particularly popular)."
+        },
+        {
+          "id": "p-p6-07",
+          "level": 3,
+          "category": "sentence-insertion",
+          "options": [
+            "Bordeaux is famous for its wine.",
+            "Many riders, however, have complained that hills in some neighborhoods are hard to climb.",
+            "The tram network was built in 2003.",
+            "Parking fees will increase in May."
+          ],
+          "answer": "B",
+          "explanation": "Après le succès du programme, cette phrase présente une limite (les côtes difficiles) qui justifie l'arrivée de vélos électriques : elle relie les deux paragraphes.",
+          "traps": "(C) mentionne le tram, présent dans le texte, mais n'apporte rien à l'argument.",
+          "takeaway": "« However » signale une nuance : vérifie qu'elle prépare la suite du texte."
+        },
+        {
+          "id": "p-p6-08",
+          "level": 1,
+          "category": "preposition",
+          "options": [
+            "at",
+            "on",
+            "in",
+            "to"
+          ],
+          "answer": "C",
+          "explanation": "On dit « in the city center » (dans le centre-ville), espace délimité.",
+          "traps": "« At » s'emploie pour un point précis (at the station).",
+          "takeaway": "In the city center / in the area."
+        }
+      ]
+    },
+    {
+      "id": "p-p6-s3",
+      "part": 6,
+      "kind": "text",
+      "title": "Note — exercice d'évacuation",
+      "docs": [
+        {
+          "type": "email",
+          "from": "Building Safety Committee",
+          "to": "All staff",
+          "subject": "Fire drill on Thursday",
+          "date": "October 6",
+          "body": "A fire drill will be held on Thursday, October 9, at 10:30 A.M. When the alarm sounds, please leave the building {{1}} the nearest emergency exit. Do not use the elevators.\n\nOnce outside, go directly to the assembly point in the north parking lot, where team leaders will check that everyone {{2}} the building. {{3}} The drill should last no more than twenty minutes.\n\nEmployees who will be meeting with clients at that time are asked to inform them in advance. We appreciate your {{4}}."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p6-09",
+          "level": 2,
+          "category": "preposition",
+          "options": [
+            "across",
+            "through",
+            "among",
+            "between"
+          ],
+          "answer": "B",
+          "explanation": "On sort « par » une issue : « through the nearest emergency exit ».",
+          "traps": "« Among » et « between » expriment une position parmi plusieurs éléments.",
+          "takeaway": "Leave through / exit through = sortir par."
+        },
+        {
+          "id": "p-p6-10",
+          "level": 3,
+          "category": "agreement",
+          "options": [
+            "has left",
+            "leaving",
+            "have left",
+            "to leave"
+          ],
+          "answer": "A",
+          "explanation": "« Everyone » est singulier ; l'action est achevée au moment du contrôle : « has left ».",
+          "traps": "« Everyone » évoque une pluralité mais impose un verbe au singulier.",
+          "takeaway": "Everyone / everybody / someone + verbe au singulier."
+        },
+        {
+          "id": "p-p6-11",
+          "level": 2,
+          "category": "sentence-insertion",
+          "options": [
+            "Elevators are inspected every year.",
+            "The new parking lot will open next month.",
+            "Fire extinguishers were invented centuries ago.",
+            "Please do not return to your desks until you are told it is safe to do so."
+          ],
+          "answer": "D",
+          "explanation": "La consigne s'inscrit dans le déroulement de l'exercice : on attend au point de rassemblement avant de retourner aux bureaux.",
+          "traps": "(A) reprend « elevators », mais n'a pas de lien avec la séquence décrite.",
+          "takeaway": "Une phrase qui reprend un mot du texte n'est pas forcément la bonne."
+        },
+        {
+          "id": "p-p6-12",
+          "level": 1,
+          "category": "word-form",
+          "options": [
+            "cooperate",
+            "cooperative",
+            "cooperation",
+            "cooperatively"
+          ],
+          "answer": "C",
+          "explanation": "Après « your », il faut un nom : « cooperation ».",
+          "traps": "« Cooperative » est un adjectif.",
+          "takeaway": "We appreciate your cooperation = merci de votre coopération."
+        }
+      ]
+    },
+    {
+      "id": "p-p7-s01",
+      "part": 7,
+      "kind": "single",
+      "title": "Avis — horaires de fêtes",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Riverside Fitness Center — Holiday Schedule",
+          "body": "From December 23 to January 2, the Riverside Fitness Center will operate on a reduced schedule: 9 A.M. to 5 P.M. daily. Group classes will be suspended during this period, but personal training sessions can still be booked at the front desk. Regular hours (6 A.M. to 10 P.M.) resume on January 3."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p7-01",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the purpose of the notice?",
+          "options": [
+            "To announce a price increase",
+            "To advertise new group classes",
+            "To introduce a personal trainer",
+            "To announce temporary changes to opening hours"
+          ],
+          "answer": "D",
+          "evidence": "will operate on a reduced schedule",
+          "explanation": "L'avis annonce des horaires réduits pendant les fêtes, puis le retour aux horaires normaux.",
+          "takeaway": "Reduced schedule = horaires réduits."
+        },
+        {
+          "id": "p-p7-02",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What will be available during the holiday period?",
+          "options": [
+            "Group classes",
+            "Early-morning access",
+            "Personal training sessions",
+            "Evening hours"
+          ],
+          "answer": "C",
+          "evidence": "personal training sessions can still be booked",
+          "explanation": "Les cours collectifs sont suspendus mais les séances de coaching individuel restent réservables.",
+          "traps": "Les horaires 6 h–22 h ne reprennent que le 3 janvier.",
+          "takeaway": "« Still » = toujours possible malgré le changement."
+        }
+      ]
+    },
+    {
+      "id": "p-p7-s02",
+      "part": 7,
+      "kind": "single",
+      "title": "E-mail d'invitation",
+      "docs": [
+        {
+          "type": "email",
+          "from": "Dr. Hélène Marchetti, Program Chair",
+          "to": "Jonas Berg",
+          "subject": "Invitation — Nordic Retail Forum",
+          "date": "January 20",
+          "body": "Dear Mr. Berg,\n\nOn behalf of the organizing committee, I am writing to invite you to deliver the closing address at the Nordic Retail Forum, which will be held in Oslo on 12–13 May. Your recent book on customer loyalty has generated considerable interest among our members, and we believe your insights would be of great value to our audience of 400 retail executives.\n\nThe closing address is scheduled for 4 P.M. on 13 May and should last approximately 40 minutes, followed by a short question-and-answer session. We will, of course, cover your travel and accommodation expenses, and we are able to offer an honorarium of €2,000.\n\nI would be grateful if you could let me know by 15 February whether you are available.\n\nKind regards,\nHélène Marchetti"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p7-03",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "Why did Dr. Marchetti write to Mr. Berg?",
+          "options": [
+            "To ask him to review a book",
+            "To invite him to speak at an event",
+            "To request a donation",
+            "To confirm a hotel booking"
+          ],
+          "answer": "B",
+          "evidence": "to invite you to deliver the closing address",
+          "explanation": "Elle l'invite à prononcer le discours de clôture du forum.",
+          "takeaway": "Deliver an address = prononcer un discours."
+        },
+        {
+          "id": "p-p7-04",
+          "level": 2,
+          "category": "inference",
+          "prompt": "What is suggested about Mr. Berg?",
+          "options": [
+            "He is a published author.",
+            "He lives in Oslo.",
+            "He organized last year's forum.",
+            "He manages a retail chain."
+          ],
+          "answer": "A",
+          "evidence": "Your recent book on customer loyalty",
+          "explanation": "Il a récemment publié un livre sur la fidélisation client : c'est un auteur publié.",
+          "takeaway": "Inférence = déduction directe d'un détail du texte."
+        },
+        {
+          "id": "p-p7-05",
+          "level": 2,
+          "category": "synonym",
+          "prompt": "In the e-mail, the word \"cover\" in paragraph 2, line 2, is closest in meaning to",
+          "options": [
+            "report on",
+            "protect",
+            "hide",
+            "pay for"
+          ],
+          "answer": "D",
+          "evidence": "cover your travel and accommodation expenses",
+          "explanation": "« Cover expenses » = prendre en charge les frais, donc les payer.",
+          "traps": "« Report on » correspond à « cover a story » (journalisme), un autre sens.",
+          "takeaway": "Cover costs / expenses = prendre en charge."
+        }
+      ]
+    },
+    {
+      "id": "p-p7-s03",
+      "part": 7,
+      "kind": "single",
+      "title": "Chat avec le service client",
+      "docs": [
+        {
+          "type": "chat",
+          "messages": [
+            {
+              "name": "Yuki Tanaka",
+              "time": "14:05",
+              "text": "Hello, I ordered a desk lamp (order #A7720) last week, and the tracking page says it was delivered yesterday. But I never received it."
+            },
+            {
+              "name": "Leo (ShopNow Support)",
+              "time": "14:06",
+              "text": "I'm sorry to hear that, Ms. Tanaka. Let me check. The courier's record shows it was left with a neighbor at number 12."
+            },
+            {
+              "name": "Yuki Tanaka",
+              "time": "14:08",
+              "text": "Oh, I live at number 21. That might explain it."
+            },
+            {
+              "name": "Leo (ShopNow Support)",
+              "time": "14:09",
+              "text": "That does seem likely. Could you check with your neighbors first? If you can't find it, I'll send a replacement at no charge."
+            },
+            {
+              "name": "Yuki Tanaka",
+              "time": "14:10",
+              "text": "Will do. Thanks."
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p7-06",
+          "level": 1,
+          "category": "detail",
+          "prompt": "Why did Ms. Tanaka contact ShopNow?",
+          "options": [
+            "She wants to cancel an order.",
+            "She received the wrong lamp.",
+            "A package she ordered did not reach her.",
+            "She wants to change her address."
+          ],
+          "answer": "C",
+          "evidence": "But I never received it.",
+          "explanation": "Le suivi indique une livraison, mais elle n'a jamais reçu sa lampe.",
+          "takeaway": "Tracking = suivi de colis."
+        },
+        {
+          "id": "p-p7-07",
+          "level": 3,
+          "category": "intention",
+          "prompt": "At 14:08, what does Ms. Tanaka mean when she writes, \"That might explain it\"?",
+          "options": [
+            "She understands the courier's instructions.",
+            "She thinks the package was delivered to the wrong house.",
+            "She realizes she ordered the wrong item.",
+            "She believes the tracking page is broken."
+          ],
+          "answer": "B",
+          "evidence": "That might explain it.",
+          "explanation": "Le colis a été laissé au numéro 12 alors qu'elle habite au 21 : elle comprend que le livreur s'est probablement trompé d'adresse.",
+          "takeaway": "Relie l'expression à l'information qui la précède (12 / 21)."
+        },
+        {
+          "id": "p-p7-08",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does Leo offer to do?",
+          "options": [
+            "Send a new lamp free of charge if needed",
+            "Refund the delivery fee",
+            "Call the courier",
+            "Visit Ms. Tanaka's neighbors"
+          ],
+          "answer": "A",
+          "evidence": "I'll send a replacement at no charge",
+          "explanation": "Si elle ne retrouve pas le colis, il enverra un remplacement gratuitement.",
+          "takeaway": "At no charge = free of charge = gratuitement."
+        }
+      ]
+    },
+    {
+      "id": "p-p7-s04",
+      "part": 7,
+      "kind": "single",
+      "title": "Article — centre de recherche",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Lumora Pharmaceuticals to Build Research Center in Grenoble",
+          "body": "GRENOBLE — Lumora Pharmaceuticals announced on Thursday that it will build a €45 million research center on the outskirts of Grenoble. Construction is scheduled to begin in April and is expected to be completed within eighteen months. [1]\n\nThe center will house up to 250 scientists working mainly on treatments for respiratory diseases. Lumora's chief executive, Dr. Anaïs Perrin, explained that the company chose Grenoble for its strong network of universities and research institutes. [2] \"Being close to academic partners allows our teams to test ideas faster,\" she said.\n\nLocal officials welcomed the project, which is expected to create about 100 additional jobs in construction and services. [3] The regional government has also agreed to improve public transportation to the site. [4]"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p7-09",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the article mainly about?",
+          "options": [
+            "A university's research program",
+            "A new treatment for respiratory diseases",
+            "The election of a regional government",
+            "A company's plan to build a new facility"
+          ],
+          "answer": "D",
+          "evidence": "it will build a €45 million research center",
+          "explanation": "L'article annonce la construction d'un centre de recherche par Lumora.",
+          "takeaway": "Facility = installation, site."
+        },
+        {
+          "id": "p-p7-10",
+          "level": 2,
+          "category": "not-true",
+          "prompt": "What is NOT mentioned about the research center?",
+          "options": [
+            "Its cost",
+            "The number of scientists it will house",
+            "The name of its future director",
+            "Its main area of research"
+          ],
+          "answer": "C",
+          "explanation": "Le texte donne le coût (45 M€), la capacité (250 chercheurs) et le domaine (maladies respiratoires), mais pas le nom du futur directeur du centre.",
+          "traps": "Dr Perrin est la PDG de l'entreprise, pas la directrice du centre.",
+          "takeaway": "NOT : méfie-toi des noms cités dans un autre rôle."
+        },
+        {
+          "id": "p-p7-11",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Why did Lumora choose Grenoble?",
+          "options": [
+            "Because of low construction costs",
+            "Because of nearby academic institutions",
+            "Because its headquarters are there",
+            "Because of government subsidies"
+          ],
+          "answer": "B",
+          "evidence": "for its strong network of universities and research institutes",
+          "explanation": "Grenoble a été choisie pour son réseau d'universités et d'instituts de recherche.",
+          "takeaway": "Academic institutions = universities and research institutes."
+        },
+        {
+          "id": "p-p7-12",
+          "level": 2,
+          "category": "sentence-insertion",
+          "prompt": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"A new bus line will connect the center to the main train station.\"",
+          "options": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ],
+          "answer": "D",
+          "explanation": "La phrase illustre l'amélioration des transports publics annoncée juste avant la position [4].",
+          "takeaway": "Cherche la phrase qui annonce le thème (public transportation → bus line)."
+        }
+      ]
+    },
+    {
+      "id": "p-p7-d01",
+      "part": 7,
+      "kind": "double",
+      "title": "Catalogue de formations + inscription",
+      "docs": [
+        {
+          "type": "table",
+          "title": "Brightwave Training — Spring Workshops (Lyon)",
+          "columns": [
+            "Workshop",
+            "Date",
+            "Duration",
+            "Fee"
+          ],
+          "rows": [
+            [
+              "Negotiation Skills",
+              "March 5",
+              "1 day",
+              "€320"
+            ],
+            [
+              "Project Management Basics",
+              "March 12–13",
+              "2 days",
+              "€590"
+            ],
+            [
+              "Business Writing in English",
+              "March 19",
+              "1 day",
+              "€290"
+            ],
+            [
+              "Leading Remote Teams",
+              "March 26",
+              "Half day",
+              "€180"
+            ]
+          ],
+          "note": "Groups of three or more from the same company receive a 15% discount. Lunch is included in full-day workshops."
+        },
+        {
+          "type": "email",
+          "from": "Sofia Lindqvist, HR Coordinator, Varden Logistics",
+          "to": "registrations@brightwave.fr",
+          "subject": "Group registration",
+          "date": "February 20",
+          "body": "Hello,\n\nI would like to register three of our team leaders, Paul Girard, Aminata Diallo, and Chen Wei, for the two-day workshop in March. Since our team leaders now manage staff working from several locations, I would also like to enroll Ms. Diallo in the half-day session at the end of the month.\n\nCould you send the invoice to me directly? We would prefer to pay by bank transfer.\n\nThank you,\nSofia Lindqvist"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p7-13",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "Which workshop will Mr. Girard attend?",
+          "options": [
+            "Project Management Basics",
+            "Negotiation Skills",
+            "Business Writing in English",
+            "Leading Remote Teams"
+          ],
+          "answer": "A",
+          "explanation": "Mme Lindqvist inscrit les trois chefs d'équipe à l'atelier de deux jours : d'après le tableau, c'est « Project Management Basics ».",
+          "takeaway": "Une description (two-day workshop) renvoie à une ligne du tableau."
+        },
+        {
+          "id": "p-p7-14",
+          "level": 3,
+          "category": "inference",
+          "prompt": "What is indicated about the Leading Remote Teams workshop?",
+          "options": [
+            "It is held online.",
+            "It lasts two days.",
+            "It is fully booked.",
+            "It does not include lunch."
+          ],
+          "answer": "D",
+          "evidence": "Lunch is included in full-day workshops.",
+          "explanation": "Le déjeuner n'est inclus que pour les ateliers d'une journée complète ; cet atelier dure une demi-journée.",
+          "takeaway": "Une règle générale + un cas particulier = inférence typique."
+        },
+        {
+          "id": "p-p7-15",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "How much will Varden Logistics most likely pay per person for the two-day workshop?",
+          "options": [
+            "€501.50",
+            "€590",
+            "€320",
+            "€180"
+          ],
+          "answer": "A",
+          "explanation": "Trois personnes de la même entreprise bénéficient de 15 % de réduction : 590 € × 0,85 = 501,50 €.",
+          "traps": "590 € est le tarif sans la remise de groupe.",
+          "takeaway": "Vérifie toujours les conditions de réduction en note de bas de tableau."
+        },
+        {
+          "id": "p-p7-16",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Why does Ms. Lindqvist want Ms. Diallo to attend an additional session?",
+          "options": [
+            "Ms. Diallo is a new employee.",
+            "Ms. Diallo needs to improve her writing.",
+            "Team leaders supervise employees in different places.",
+            "The two-day workshop is full."
+          ],
+          "answer": "C",
+          "evidence": "manage staff working from several locations",
+          "explanation": "Les chefs d'équipe encadrent désormais du personnel sur plusieurs sites : d'où l'atelier sur le management à distance.",
+          "takeaway": "Several locations = different places."
+        },
+        {
+          "id": "p-p7-17",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What does Ms. Lindqvist request?",
+          "options": [
+            "A discount code",
+            "That the invoice be sent to her",
+            "A list of trainers",
+            "Lunch for all participants"
+          ],
+          "answer": "B",
+          "evidence": "Could you send the invoice to me directly?",
+          "explanation": "Elle demande que la facture lui soit envoyée directement.",
+          "takeaway": "Invoice = facture."
+        }
+      ]
+    },
+    {
+      "id": "p-p7-t01",
+      "part": 7,
+      "kind": "triple",
+      "title": "Avis de rappel + deux e-mails",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Safety Notice — Voluntary Recall of KettlePro 2000",
+          "body": "Brevin Home Appliances is voluntarily recalling KettlePro 2000 electric kettles with serial numbers beginning with KP20-B, sold between June 1 and September 30. In rare cases, the handle may become loose after repeated use. No injuries have been reported. Customers should stop using the affected kettles and contact Brevin for a free replacement or a full refund. Proof of purchase is not required."
+        },
+        {
+          "type": "email",
+          "from": "Daniel Okafor",
+          "to": "support@brevin.com",
+          "subject": "KettlePro recall",
+          "date": "October 14",
+          "body": "Hello,\n\nI bought a KettlePro 2000 in August at Maxi Électro. Its serial number is KP20-B4471. I read about the recall in the newspaper. Although I have not had any problems with the handle, I would rather not take any risks. I no longer have the receipt. I would prefer a replacement rather than a refund, as I am otherwise very happy with the kettle. Could you tell me how to proceed?\n\nDaniel Okafor"
+        },
+        {
+          "type": "email",
+          "from": "Brevin Customer Support",
+          "to": "Daniel Okafor",
+          "subject": "RE: KettlePro recall",
+          "date": "October 15",
+          "body": "Dear Mr. Okafor,\n\nThank you for contacting us. We will send you a prepaid shipping label so that you can return your kettle to us at no cost. Once we receive it, your new kettle, the updated KettlePro 2100 model, will be shipped within three business days. Please do not use your current kettle in the meantime.\n\nBrevin Customer Support"
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p7-18",
+          "level": 1,
+          "category": "synonym",
+          "prompt": "Why is the KettlePro 2000 being recalled?",
+          "options": [
+            "A part may become unstable.",
+            "It uses too much electricity.",
+            "It has caused injuries.",
+            "Its price was incorrect."
+          ],
+          "answer": "A",
+          "evidence": "the handle may become loose after repeated use",
+          "explanation": "La poignée peut se desserrer à l'usage : une pièce peut devenir instable.",
+          "traps": "(C) est contredit : aucune blessure n'a été signalée.",
+          "takeaway": "Loose = desserré, mal fixé."
+        },
+        {
+          "id": "p-p7-19",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "What is suggested about Mr. Okafor's kettle?",
+          "options": [
+            "It was bought before June.",
+            "It is covered by the recall.",
+            "It has a damaged handle.",
+            "It is a KettlePro 2100."
+          ],
+          "answer": "B",
+          "explanation": "Son numéro de série commence par KP20-B et il l'a acheté en août (entre le 1er juin et le 30 septembre) : la bouilloire est concernée par le rappel.",
+          "traps": "(C) est faux : il précise n'avoir eu aucun problème.",
+          "takeaway": "Vérifie chaque critère du rappel (série + dates)."
+        },
+        {
+          "id": "p-p7-20",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "What is indicated about Mr. Okafor's missing receipt?",
+          "options": [
+            "It will prevent him from getting a replacement.",
+            "He will receive a partial refund instead.",
+            "He must request a copy from Maxi Électro.",
+            "It is not needed to receive a new kettle."
+          ],
+          "answer": "D",
+          "explanation": "Il n'a plus son ticket, mais l'avis de rappel précise qu'aucune preuve d'achat n'est exigée ; la réponse de Brevin confirme l'échange.",
+          "takeaway": "Une inquiétude dans un document est souvent levée par un autre."
+        },
+        {
+          "id": "p-p7-21",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What will Mr. Okafor receive first?",
+          "options": [
+            "A refund",
+            "A shipping label",
+            "A KettlePro 2100",
+            "A newspaper article"
+          ],
+          "answer": "B",
+          "evidence": "We will send you a prepaid shipping label",
+          "explanation": "Brevin envoie d'abord une étiquette d'expédition prépayée ; la nouvelle bouilloire ne part qu'après réception de l'ancienne.",
+          "takeaway": "Once we receive it = dès réception (ordre des étapes)."
+        },
+        {
+          "id": "p-p7-22",
+          "level": 1,
+          "category": "detail",
+          "prompt": "In the second e-mail, what is Mr. Okafor asked to do?",
+          "options": [
+            "Fill out a form",
+            "Return to Maxi Électro",
+            "Stop using his kettle",
+            "Call customer support"
+          ],
+          "answer": "C",
+          "evidence": "Please do not use your current kettle in the meantime.",
+          "explanation": "On lui demande de ne plus utiliser sa bouilloire actuelle en attendant.",
+          "takeaway": "In the meantime = en attendant."
+        }
+      ]
+    }
+  ]
+}

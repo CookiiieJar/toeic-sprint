@@ -1,0 +1,328 @@
+{
+  "part": 6,
+  "pool": "exam1",
+  "sets": [
+    {
+      "id": "e1-p6-s1",
+      "kind": "text",
+      "title": "E-mail — déménagement des bureaux",
+      "docs": [
+        {
+          "type": "email",
+          "from": "Facilities Management",
+          "to": "All Lyon staff",
+          "subject": "Office move — action required",
+          "date": "February 17",
+          "body": "Dear colleagues,\n\nAs announced last month, our Lyon branch will move to the Confluence Business Center on March 3. To make the transition as smooth as possible, all employees are asked to pack the contents of their desks {{1}} Friday, February 28. Boxes and labels will be distributed on Monday. {{2}} The moving company will transport all furniture and equipment over the weekend, so you will not need to carry anything yourself.\n\nPlease note that the new building has {{3}} parking spaces than our current location. We therefore encourage you to use public transportation or to join the car-sharing program, {{4}} details are available on the intranet.\n\nThank you for your cooperation.\nFacilities Management"
+        }
+      ],
+      "vocab": [
+        {
+          "en": "car-sharing program",
+          "fr": "programme de covoiturage"
+        },
+        {
+          "en": "smooth transition",
+          "fr": "transition en douceur"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e1-p6-01",
+          "level": 2,
+          "category": "preposition",
+          "options": [
+            "until",
+            "as soon as",
+            "prior",
+            "no later than"
+          ],
+          "answer": "D",
+          "explanation": "Il s'agit d'une date limite pour emballer : « no later than Friday » = au plus tard vendredi. C'est l'équivalent de « by ».",
+          "traps": "« As soon as » introduit une proposition (sujet + verbe). « Prior » doit être suivi de « to ». « Until » exprimerait une action qui dure jusqu'à vendredi.",
+          "takeaway": "No later than = by = au plus tard (deadline)."
+        },
+        {
+          "id": "e1-p6-02",
+          "level": 2,
+          "category": "sentence-insertion",
+          "options": [
+            "We apologize for the delay in processing your expense reports.",
+            "The cafeteria will offer a special menu next week.",
+            "Each box should be clearly marked with your name and new office number.",
+            "Our current lease will be renewed for another five years."
+          ],
+          "answer": "C",
+          "explanation": "La phrase précédente annonce la distribution de cartons et d'étiquettes ; la suite logique explique comment les utiliser : marquer chaque carton avec son nom et son nouveau bureau.",
+          "traps": "(D) contredit le déménagement. (B) et (A) sont hors sujet par rapport à l'organisation du déménagement.",
+          "takeaway": "Insertion de phrase : cherche le lien avec la phrase juste avant (ici « boxes and labels »)."
+        },
+        {
+          "id": "e1-p6-03",
+          "level": 2,
+          "category": "comparison",
+          "options": [
+            "less",
+            "fewer",
+            "least",
+            "more few"
+          ],
+          "answer": "B",
+          "explanation": "« Parking spaces » est dénombrable et pluriel, et le comparatif est confirmé par « than » : il faut « fewer ». La conséquence (encourager les transports en commun) confirme qu'il y a moins de places.",
+          "traps": "« Less » s'emploie avec les indénombrables (less space, less time). « More few » n'existe pas.",
+          "takeaway": "Fewer + dénombrable pluriel ; less + indénombrable."
+        },
+        {
+          "id": "e1-p6-04",
+          "level": 2,
+          "category": "relative",
+          "options": [
+            "whose",
+            "where",
+            "which",
+            "that"
+          ],
+          "answer": "A",
+          "explanation": "Le relatif est suivi d'un nom (« details ») et indique l'appartenance : les détails du programme. Il faut « whose ».",
+          "traps": "« Which details » nécessiterait une préposition (for which details…). « That » ne s'emploie pas après une virgule.",
+          "takeaway": "Whose + nom (possession) fonctionne aussi pour les choses : a program whose details…"
+        }
+      ]
+    },
+    {
+      "id": "e1-p6-s2",
+      "kind": "text",
+      "title": "Avis — horaires de la bibliothèque",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Greenfield Public Library — Extended Hours",
+          "body": "Starting next month, the Greenfield Public Library will extend its opening hours on weekdays. The main branch will {{1}} open until 9 P.M. Monday through Thursday. This change comes in response to a survey conducted last autumn, in which many residents said they found it {{2}} to visit the library after work.\n\nTo support the extended schedule, the library is hiring two part-time assistants. {{3}} Applications must be submitted online through the city's employment portal.\n\nLibrary director Hannah Moss said the change {{4}} the library's role as a community learning center."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e1-p6-05",
+          "level": 2,
+          "category": "vocabulary",
+          "options": [
+            "still",
+            "keep",
+            "stay up",
+            "remain"
+          ],
+          "answer": "D",
+          "explanation": "« Remain open » = rester ouvert. « Remain » est un verbe d'état suivi directement d'un adjectif.",
+          "traps": "« Keep » nécessite un complément (keep the doors open). « Stay up » signifie veiller. « Still » est un adverbe, il manquerait le verbe.",
+          "takeaway": "Remain / stay + adjectif (remain open, remain competitive)."
+        },
+        {
+          "id": "e1-p6-06",
+          "level": 1,
+          "category": "word-form",
+          "options": [
+            "difficulty",
+            "difficultly",
+            "difficult",
+            "differ"
+          ],
+          "answer": "C",
+          "explanation": "Structure « find it + adjectif + to do » : trouver difficile de faire. Il faut l'adjectif « difficult ».",
+          "traps": "« Difficulty » est un nom ; « difficultly » n'existe pas en anglais courant.",
+          "takeaway": "Find it + adjectif + to + verbe (find it difficult to attend)."
+        },
+        {
+          "id": "e1-p6-07",
+          "level": 2,
+          "category": "sentence-insertion",
+          "options": [
+            "The library was founded in 1952 by a local merchant.",
+            "Late fees will no longer be charged for children's books.",
+            "Previous experience in customer service is preferred but not required.",
+            "Visitors should return borrowed laptops to the front desk."
+          ],
+          "answer": "C",
+          "explanation": "La phrase précédente annonce un recrutement et la suivante parle des candidatures : la phrase manquante précise donc le profil recherché (expérience souhaitée mais non obligatoire).",
+          "traps": "Les autres phrases concernent la bibliothèque mais cassent l'enchaînement « recrutement → profil → candidature ».",
+          "takeaway": "La phrase insérée doit s'articuler avec l'avant ET l'après."
+        },
+        {
+          "id": "e1-p6-08",
+          "level": 3,
+          "category": "verb-tense",
+          "options": [
+            "to strengthen",
+            "would strengthen",
+            "strengthening",
+            "has been strengthened"
+          ],
+          "answer": "B",
+          "explanation": "Discours rapporté au passé (« said ») évoquant un effet futur : « will » devient « would ». « Would strengthen » = renforcerait.",
+          "traps": "« To strengthen » et « strengthening » ne sont pas conjugués. « Has been strengthened » est passif alors que « the change » fait l'action.",
+          "takeaway": "Discours indirect : said (that) + would + base verbale pour un futur dans le passé."
+        }
+      ]
+    },
+    {
+      "id": "e1-p6-s3",
+      "kind": "text",
+      "title": "E-mail — retard de commande",
+      "docs": [
+        {
+          "type": "email",
+          "from": "Laura Benítez, Ofisto Furniture",
+          "to": "Karim Haddad",
+          "subject": "Your order #58213",
+          "date": "March 26",
+          "body": "Dear Mr. Haddad,\n\nThank you for your order of twelve ergonomic office chairs (order #58213). Unfortunately, the model you selected is temporarily unavailable {{1}} a delay at our manufacturing partner's facility. We expect to receive new stock by April 10.\n\n{{2}}, we can offer you a similar model, the Pivot Pro, at the same price. It features the same adjustable armrests and lumbar support. {{3}}\n\nPlease let us know which option you prefer. If we do not hear from you by April 2, we will ship your original order as soon as it becomes {{4}}.\n\nSincerely,\nLaura Benítez\nCustomer Care, Ofisto Furniture"
+        }
+      ],
+      "vocab": [
+        {
+          "en": "lumbar support",
+          "fr": "soutien lombaire"
+        },
+        {
+          "en": "temporarily unavailable",
+          "fr": "momentanément indisponible"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e1-p6-09",
+          "level": 2,
+          "category": "conjunction",
+          "options": [
+            "due to",
+            "because",
+            "so as",
+            "although"
+          ],
+          "answer": "A",
+          "explanation": "Le blanc est suivi d'un groupe nominal (« a delay ») : il faut une préposition de cause, « due to » (en raison de).",
+          "traps": "« Because » doit être suivi d'une proposition (because there is a delay) ou de « of ». « Although » exprime l'opposition.",
+          "takeaway": "Due to / because of / owing to + nom ; because + proposition."
+        },
+        {
+          "id": "e1-p6-10",
+          "level": 3,
+          "category": "coherence",
+          "options": [
+            "Consequently",
+            "Similarly",
+            "Moreover",
+            "Alternatively"
+          ],
+          "answer": "D",
+          "explanation": "On propose une autre solution que d'attendre le réassort : « Alternatively » (sinon / autre possibilité). La fin du mail confirme le choix entre deux options (« which option you prefer »).",
+          "traps": "« Consequently » (par conséquent) et « Moreover » (de plus) n'introduisent pas une alternative. « Similarly » signifie « de même ».",
+          "takeaway": "Alternatively = autre option ; consequently = conséquence ; moreover = ajout."
+        },
+        {
+          "id": "e1-p6-11",
+          "level": 2,
+          "category": "sentence-insertion",
+          "options": [
+            "Your chairs were delivered on March 3.",
+            "Only the color of the frame is slightly different.",
+            "We are currently hiring warehouse staff.",
+            "Thank you for completing our satisfaction survey."
+          ],
+          "answer": "B",
+          "explanation": "On décrit le modèle de remplacement en le comparant à l'original (« the same armrests and lumbar support ») ; la phrase qui suit logiquement indique la seule différence : la couleur du châssis.",
+          "traps": "(A) contredit le retard de livraison. (C) et (D) n'ont aucun lien avec la comparaison des modèles.",
+          "takeaway": "Repère les mots de comparaison (same, similar) qui appellent une précision."
+        },
+        {
+          "id": "e1-p6-12",
+          "level": 1,
+          "category": "word-form",
+          "options": [
+            "availability",
+            "availably",
+            "available",
+            "avail"
+          ],
+          "answer": "C",
+          "explanation": "« Become » est un verbe d'état suivi d'un adjectif : « becomes available » (devient disponible).",
+          "traps": "« Availability » est le nom (la disponibilité).",
+          "takeaway": "Become / seem / remain / get + adjectif."
+        }
+      ]
+    },
+    {
+      "id": "e1-p6-s4",
+      "kind": "text",
+      "title": "Article — compagnie aérienne",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Kestrel Airlines Expands Regional Network",
+          "body": "Kestrel Airlines announced on Tuesday that it will add six new regional routes, {{1}} in June. The routes will connect secondary cities such as Rennes and Clermont-Ferrand with major hubs in Spain and Italy.\n\nThe decision follows a year of strong {{2}} for the carrier, whose passenger numbers rose by 14 percent. {{3}} Industry analysts note that smaller airports often charge lower fees, which allows airlines to keep ticket prices competitive.\n\nKestrel's chief executive, Paolo Ferri, said the company {{4}} three additional aircraft to support the expansion. The first of these is scheduled to arrive in May."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e1-p6-13",
+          "level": 2,
+          "category": "word-form",
+          "options": [
+            "began",
+            "beginning",
+            "begins",
+            "to have begun"
+          ],
+          "answer": "B",
+          "explanation": "Après la virgule, une proposition participiale complète « routes » : « beginning in June » = à partir de juin. Le participe présent remplace « which begin ».",
+          "traps": "« Began » et « begins » sont des verbes conjugués sans sujet. « To have begun » situe l'action dans le passé alors qu'elle est future.",
+          "takeaway": "Starting / beginning + date = à partir de."
+        },
+        {
+          "id": "e1-p6-14",
+          "level": 1,
+          "category": "word-form",
+          "options": [
+            "performance",
+            "performer",
+            "performed",
+            "perform"
+          ],
+          "answer": "A",
+          "explanation": "Après l'adjectif « strong », il faut un nom : « performance » (résultats). « A year of strong performance » = une année de bons résultats.",
+          "traps": "« Performer » est une personne (artiste), ce qui n'a pas de sens pour une compagnie aérienne.",
+          "takeaway": "Adjectif + nom : strong performance, steady growth, rapid expansion."
+        },
+        {
+          "id": "e1-p6-15",
+          "level": 3,
+          "category": "sentence-insertion",
+          "options": [
+            "The airline was founded by two former pilots.",
+            "Passengers may bring one carry-on bag free of charge.",
+            "Ticket prices for international flights have fallen sharply.",
+            "Most of that growth came from routes serving regional airports."
+          ],
+          "answer": "D",
+          "explanation": "« That growth » reprend la hausse de 14 % mentionnée juste avant, et la phrase suivante parle des petits aéroports : la phrase (D) fait le pont entre les deux.",
+          "traps": "(C) évoque les prix, thème proche de la phrase suivante, mais ne se rattache pas à la croissance décrite juste avant et parle de vols internationaux.",
+          "takeaway": "Les démonstratifs (that growth, this decision) renvoient à l'idée qui précède."
+        },
+        {
+          "id": "e1-p6-16",
+          "level": 3,
+          "category": "verb-tense",
+          "options": [
+            "was ordering",
+            "orders",
+            "has ordered",
+            "will be ordered"
+          ],
+          "answer": "C",
+          "explanation": "La commande est déjà passée (le premier avion arrive en mai) et ses effets sont actuels : present perfect « has ordered ».",
+          "traps": "« Will be ordered » est passif alors que « the company » passe la commande. « Orders » exprimerait une habitude.",
+          "takeaway": "Present perfect = action passée avec un résultat présent (has ordered → les avions arrivent bientôt)."
+        }
+      ]
+    }
+  ]
+}

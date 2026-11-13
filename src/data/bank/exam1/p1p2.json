@@ -1,0 +1,683 @@
+{
+  "pool": "exam1",
+  "questions": [
+    {
+      "id": "e1-p1-01",
+      "part": 1,
+      "level": 1,
+      "category": "photo-action",
+      "scene": {
+        "bg": "office",
+        "alt": "Un homme assis à un bureau tape sur un ordinateur portable. Une tasse est posée à côté de lui ; une fenêtre est fermée derrière lui.",
+        "els": [
+          {
+            "t": "window",
+            "x": 290,
+            "y": 50,
+            "w": 90,
+            "h": 80
+          },
+          {
+            "t": "desk",
+            "x": 190,
+            "w": 200
+          },
+          {
+            "t": "laptop",
+            "x": 175
+          },
+          {
+            "t": "cup",
+            "x": 255
+          },
+          {
+            "t": "chair",
+            "x": 130,
+            "facing": "right"
+          },
+          {
+            "t": "person",
+            "x": 130,
+            "pose": "sit",
+            "facing": "right",
+            "arms": "type",
+            "shirt": "#2563eb",
+            "hair": "#3b2f2f"
+          }
+        ]
+      },
+      "options": [
+        "He's putting papers in a drawer.",
+        "He's drinking from a cup.",
+        "He's opening a window.",
+        "He's typing on a laptop."
+      ],
+      "answer": "D",
+      "explanation": "L'homme a les mains posées sur le clavier de l'ordinateur portable : il est en train de taper. C'est l'action visible sur l'image.",
+      "traps": "La tasse est sur le bureau mais il ne boit pas ; la fenêtre est visible mais personne ne l'ouvre. Le TOEIC cite des objets présents dans l'image avec une action fausse.",
+      "takeaway": "Vérifie le verbe d'action, pas seulement les objets mentionnés."
+    },
+    {
+      "id": "e1-p1-02",
+      "part": 1,
+      "level": 2,
+      "category": "photo-state",
+      "scene": {
+        "bg": "warehouse",
+        "alt": "Dans un entrepôt vide de personnel, plusieurs cartons sont empilés sur un chariot à côté d'étagères.",
+        "els": [
+          {
+            "t": "shelf",
+            "x": 60,
+            "w": 120
+          },
+          {
+            "t": "cart",
+            "x": 250,
+            "boxes": 3
+          }
+        ]
+      },
+      "options": [
+        "A worker is lifting a box.",
+        "Shelves are being installed.",
+        "Some boxes have been stacked on a cart.",
+        "The cart is being pushed down an aisle."
+      ],
+      "answer": "C",
+      "explanation": "Il n'y a personne sur l'image. On décrit donc un état résultant d'une action passée : « have been stacked » (ont été empilés).",
+      "traps": "« Are being installed / is being pushed » (passif progressif) décrivent une action en cours, impossible sans personne. « A worker » n'apparaît pas.",
+      "takeaway": "Pas de personne → méfie-toi de « is being + participe » ; « has/have been » décrit un état."
+    },
+    {
+      "id": "e1-p1-03",
+      "part": 1,
+      "level": 2,
+      "category": "photo-action",
+      "scene": {
+        "bg": "office",
+        "alt": "Une femme debout tient un arrosoir et arrose des plantes en pot posées près d'une fenêtre.",
+        "els": [
+          {
+            "t": "window",
+            "x": 200,
+            "y": 50,
+            "w": 150,
+            "h": 90
+          },
+          {
+            "t": "counter",
+            "x": 280,
+            "w": 150
+          },
+          {
+            "t": "plant",
+            "x": 240,
+            "y": 160,
+            "size": 0.8
+          },
+          {
+            "t": "plant",
+            "x": 310,
+            "y": 160,
+            "size": 0.8
+          },
+          {
+            "t": "person",
+            "x": 150,
+            "pose": "stand",
+            "facing": "right",
+            "arms": "forward",
+            "hold": "can",
+            "shirt": "#16a34a",
+            "hair": "#a16207",
+            "long": true
+          }
+        ]
+      },
+      "options": [
+        "She's planting some trees.",
+        "She's watering some plants.",
+        "She's washing a window.",
+        "She's arranging flowers in a vase."
+      ],
+      "answer": "B",
+      "explanation": "La femme tient un arrosoir dirigé vers des plantes en pot : elle les arrose (« watering »).",
+      "traps": "« Planting » (planter) ressemble à « plants » : distracteur phonétique. La fenêtre est visible mais elle ne la lave pas.",
+      "takeaway": "Distracteurs sonores : plant / planting, water / waiter, file / pile."
+    },
+    {
+      "id": "e1-p1-04",
+      "part": 1,
+      "level": 3,
+      "category": "photo-state",
+      "scene": {
+        "bg": "meeting",
+        "alt": "Une salle de réunion vide : des chaises sont disposées autour d'une grande table ; un tableau blanc est accroché au mur.",
+        "els": [
+          {
+            "t": "whiteboard",
+            "x": 200,
+            "y": 40,
+            "w": 160
+          },
+          {
+            "t": "table",
+            "x": 200,
+            "w": 220
+          },
+          {
+            "t": "chair",
+            "x": 110,
+            "facing": "right"
+          },
+          {
+            "t": "chair",
+            "x": 170,
+            "facing": "right"
+          },
+          {
+            "t": "chair",
+            "x": 230,
+            "facing": "left"
+          },
+          {
+            "t": "chair",
+            "x": 290,
+            "facing": "left"
+          }
+        ]
+      },
+      "options": [
+        "Chairs have been arranged around a table.",
+        "A presenter is writing on a board.",
+        "Some chairs are being stacked in a corner.",
+        "People are seated around a table."
+      ],
+      "answer": "A",
+      "explanation": "La salle est vide et les chaises sont placées autour de la table : on décrit un état, « have been arranged ».",
+      "traps": "(D) et (B) supposent des personnes absentes de l'image. (C) utilise « are being stacked » : action en cours impossible sans personne.",
+      "takeaway": "Have been + participe passé = résultat visible ; are being + participe = action en cours."
+    },
+    {
+      "id": "e1-p1-05",
+      "part": 1,
+      "level": 3,
+      "category": "photo-state",
+      "scene": {
+        "bg": "outdoor",
+        "alt": "Plusieurs vélos sont garés côte à côte le long d'une clôture, sous un arbre. Personne n'est visible.",
+        "els": [
+          {
+            "t": "tree",
+            "x": 340
+          },
+          {
+            "t": "fence",
+            "x": 20,
+            "w": 300
+          },
+          {
+            "t": "bicycle",
+            "x": 70
+          },
+          {
+            "t": "bicycle",
+            "x": 150
+          },
+          {
+            "t": "bicycle",
+            "x": 230
+          }
+        ]
+      },
+      "options": [
+        "Some bicycles are being repaired.",
+        "A fence is being painted.",
+        "A cyclist is riding along a path.",
+        "Some bicycles are lined up along a fence."
+      ],
+      "answer": "D",
+      "explanation": "Les vélos sont alignés le long de la clôture : « lined up along a fence ». Aucune action n'est en cours.",
+      "traps": "« Are being repaired » et « is being painted » décrivent des actions impossibles sans personne ; aucun cycliste n'est présent.",
+      "takeaway": "Lined up = alignés ; along = le long de."
+    },
+    {
+      "id": "e1-p1-06",
+      "part": 1,
+      "level": 2,
+      "category": "photo-action",
+      "scene": {
+        "bg": "office",
+        "alt": "Un homme marche en portant un carton dans ses bras, près d'une porte ouverte.",
+        "els": [
+          {
+            "t": "door",
+            "x": 300,
+            "open": true
+          },
+          {
+            "t": "person",
+            "x": 190,
+            "pose": "walk",
+            "facing": "right",
+            "arms": "carry",
+            "hold": "box",
+            "shirt": "#dc2626",
+            "hair": "#111827"
+          }
+        ]
+      },
+      "options": [
+        "He's opening a door.",
+        "He's taping a box shut.",
+        "He's carrying a box.",
+        "He's loading a truck."
+      ],
+      "answer": "C",
+      "explanation": "L'homme tient un carton dans ses bras en marchant : « He's carrying a box ».",
+      "traps": "La porte est déjà ouverte : il ne l'ouvre pas. Aucun camion n'est visible.",
+      "takeaway": "Carry = porter ; hold = tenir ; load = charger."
+    },
+    {
+      "id": "e1-p2-01",
+      "part": 2,
+      "level": 1,
+      "category": "wh-question",
+      "prompt": "Where should I put these boxes of printer paper?",
+      "options": [
+        "About fifty sheets.",
+        "Next to the copy machine, please.",
+        "Yes, I printed them yesterday."
+      ],
+      "answer": "B",
+      "explanation": "« Where » demande un lieu : « next to the copy machine » (à côté de la photocopieuse) répond directement.",
+      "traps": "(A) répond à « how many ». (C) répond par « yes » à une question en Wh-, ce qui est toujours impossible, et reprend « print ».",
+      "takeaway": "Une question en Wh- n'accepte jamais « Yes / No » comme réponse."
+    },
+    {
+      "id": "e1-p2-02",
+      "part": 2,
+      "level": 3,
+      "category": "indirect-answer",
+      "prompt": "When will the new parking rules take effect?",
+      "options": [
+        "In the parking garage.",
+        "It had a strong effect.",
+        "Didn't you read the memo this morning?"
+      ],
+      "answer": "C",
+      "explanation": "Réponse indirecte : la personne renvoie au mémo du matin, qui contient l'information. C'est une réponse naturelle et très fréquente au TOEIC.",
+      "traps": "(A) répond à « where » et reprend « parking ». (B) reprend « effect » avec un autre sens.",
+      "takeaway": "Les réponses par une question (Didn't you…? Why don't you ask…?) sont souvent correctes."
+    },
+    {
+      "id": "e1-p2-03",
+      "part": 2,
+      "level": 1,
+      "category": "wh-question",
+      "prompt": "Who's in charge of ordering office supplies?",
+      "options": [
+        "Check with Ms. Patel in purchasing.",
+        "No, there's no charge.",
+        "Some pens and notebooks."
+      ],
+      "answer": "A",
+      "explanation": "« Who » demande une personne : on oriente vers Mme Patel du service achats.",
+      "traps": "(B) reprend « charge » (frais) avec un autre sens et commence par « No ». (C) répond à « what ».",
+      "takeaway": "In charge of = responsable de ; charge = frais."
+    },
+    {
+      "id": "e1-p2-04",
+      "part": 2,
+      "level": 1,
+      "category": "wh-question",
+      "prompt": "Why was the flight to Madrid delayed?",
+      "options": [
+        "At gate twelve.",
+        "There was a storm over the Alps.",
+        "I'd rather fly direct."
+      ],
+      "answer": "B",
+      "explanation": "« Why » demande une cause : une tempête explique le retard.",
+      "traps": "(A) répond à « where ». (C) reprend le thème de l'avion sans répondre.",
+      "takeaway": "Why → cause (because…, there was…, due to…)."
+    },
+    {
+      "id": "e1-p2-05",
+      "part": 2,
+      "level": 3,
+      "category": "indirect-answer",
+      "prompt": "How much will it cost to repair the copier?",
+      "options": [
+        "About fifteen copies.",
+        "It's been repaired twice.",
+        "The technician is coming to give us an estimate."
+      ],
+      "answer": "C",
+      "explanation": "On ne connaît pas encore le prix : le technicien vient faire un devis (« estimate »). Réponse indirecte mais logique.",
+      "traps": "(A) reprend « copy » (copier/copies). (B) reprend « repair » sans donner de prix.",
+      "takeaway": "« I don't know yet / someone will tell us » est une réponse valable à une question précise."
+    },
+    {
+      "id": "e1-p2-06",
+      "part": 2,
+      "level": 2,
+      "category": "yes-no",
+      "prompt": "Have you reviewed the budget proposal yet?",
+      "options": [
+        "I'm going through it right now.",
+        "A review in the newspaper.",
+        "Yes, it's proposed for June."
+      ],
+      "answer": "A",
+      "explanation": "« Je suis en train de la lire » répond à la question sans dire oui ou non : la relecture n'est pas finie.",
+      "traps": "(B) reprend « review » au sens de critique. (C) commence par « Yes » mais reprend « proposal » de façon incohérente.",
+      "takeaway": "Une réponse en « Yes » n'est correcte que si la suite est logique."
+    },
+    {
+      "id": "e1-p2-07",
+      "part": 2,
+      "level": 1,
+      "category": "request-offer",
+      "prompt": "Would you like me to print the agenda for the meeting?",
+      "options": [
+        "It was a long meeting.",
+        "Thanks, that would be helpful.",
+        "The printer on the third floor."
+      ],
+      "answer": "B",
+      "explanation": "« Would you like me to…? » est une offre : on l'accepte poliment (« Thanks, that would be helpful »).",
+      "traps": "(A) et (C) reprennent « meeting » et « print » sans répondre à l'offre.",
+      "takeaway": "Offre → accepter (That would be great) ou refuser (Thanks, but I already did)."
+    },
+    {
+      "id": "e1-p2-08",
+      "part": 2,
+      "level": 2,
+      "category": "choice-question",
+      "prompt": "Should we hold the training in the auditorium or in the conference room?",
+      "options": [
+        "Yes, we should.",
+        "He's holding it for me.",
+        "The auditorium has more seats."
+      ],
+      "answer": "C",
+      "explanation": "Question à alternative (A or B) : la réponse choisit implicitement l'auditorium en donnant une raison (plus de places).",
+      "traps": "« Yes » est impossible pour une question à alternative. (B) reprend « hold » avec un autre sens.",
+      "takeaway": "Question « A or B ? » → jamais Yes/No ; souvent un choix justifié ou « either / neither »."
+    },
+    {
+      "id": "e1-p2-09",
+      "part": 2,
+      "level": 2,
+      "category": "statement",
+      "prompt": "The quarterly sales figures look much better than expected.",
+      "options": [
+        "Yes, the new campaign really worked.",
+        "I expect him at noon.",
+        "Four quarters a year."
+      ],
+      "answer": "A",
+      "explanation": "Réaction logique à une remarque positive : la personne approuve et donne une explication (la nouvelle campagne a fonctionné).",
+      "traps": "(B) reprend « expect ». (C) joue sur « quarterly / quarters ».",
+      "takeaway": "Affirmations : la bonne réponse réagit (accord, désaccord, explication, suite logique)."
+    },
+    {
+      "id": "e1-p2-10",
+      "part": 2,
+      "level": 3,
+      "category": "tag-question",
+      "prompt": "You've already booked the hotel for the conference, haven't you?",
+      "options": [
+        "A book about hotels.",
+        "I'm waiting for the final dates.",
+        "At the conference center."
+      ],
+      "answer": "B",
+      "explanation": "La personne n'a pas encore réservé et explique pourquoi : elle attend les dates définitives. C'est une réponse implicite « pas encore ».",
+      "traps": "(A) reprend « book » au sens de livre. (C) reprend « conference » mais répond à « where ».",
+      "takeaway": "Question tag → la réponse confirme, infirme ou explique."
+    },
+    {
+      "id": "e1-p2-11",
+      "part": 2,
+      "level": 2,
+      "category": "wh-question",
+      "prompt": "Who's going to replace Mr. Grant when he retires?",
+      "options": [
+        "In the replacement parts section.",
+        "He's tired after the trip.",
+        "They haven't announced it yet."
+      ],
+      "answer": "C",
+      "explanation": "Réponse « je ne sais pas encore » : la décision n'a pas été annoncée. Ce type de réponse est fréquent et correct.",
+      "traps": "(B) joue sur « retires / tired ». (A) reprend « replace ».",
+      "takeaway": "« It hasn't been decided yet / I'm not sure » répond à presque toutes les questions."
+    },
+    {
+      "id": "e1-p2-12",
+      "part": 2,
+      "level": 1,
+      "category": "request-offer",
+      "prompt": "Can you send me the updated client list?",
+      "options": [
+        "I just e-mailed it to you.",
+        "The clients were satisfied.",
+        "It was on the list."
+      ],
+      "answer": "A",
+      "explanation": "On répond à la demande en indiquant que c'est déjà fait : la liste vient d'être envoyée par e-mail.",
+      "traps": "(B) et (C) répètent « client » et « list » sans répondre.",
+      "takeaway": "Répétition d'un mot de la question = souvent un piège."
+    },
+    {
+      "id": "e1-p2-13",
+      "part": 2,
+      "level": 2,
+      "category": "request-offer",
+      "prompt": "Why don't we ask the caterer for a vegetarian option?",
+      "options": [
+        "Because they asked me.",
+        "Good idea, I'll call them this afternoon.",
+        "Several dishes were served."
+      ],
+      "answer": "B",
+      "explanation": "« Why don't we…? » n'est pas une question de cause mais une suggestion : on l'accepte (« Good idea »).",
+      "traps": "(A) commence par « Because », piège classique face à « Why don't we ».",
+      "takeaway": "Why don't we / you…? = suggestion → Good idea / Sure / I'd rather not."
+    },
+    {
+      "id": "e1-p2-14",
+      "part": 2,
+      "level": 2,
+      "category": "tag-question",
+      "prompt": "Isn't the shipment supposed to arrive today?",
+      "options": [
+        "It's been delayed until Thursday.",
+        "Yes, I'll ship it.",
+        "Today is Tuesday."
+      ],
+      "answer": "A",
+      "explanation": "Question négative (n'est-ce pas censé arriver aujourd'hui ?) : la réponse explique que la livraison a été reportée à jeudi.",
+      "traps": "(B) reprend « ship ». (C) reprend « today » sans répondre.",
+      "takeaway": "Isn't / Didn't / Wasn't… ? = demande de confirmation."
+    },
+    {
+      "id": "e1-p2-15",
+      "part": 2,
+      "level": 2,
+      "category": "wh-question",
+      "prompt": "Which of these two laptops would you recommend?",
+      "options": [
+        "I'd recommend him for the job.",
+        "Both of them are on my desk.",
+        "The lighter one, if you travel a lot."
+      ],
+      "answer": "C",
+      "explanation": "« Which » demande un choix : la réponse désigne l'ordinateur le plus léger, avec une condition.",
+      "traps": "(A) reprend « recommend » dans un autre contexte. (B) reprend « both » sans faire de choix.",
+      "takeaway": "Which → « the one… », « the blue one », « the cheaper one »."
+    },
+    {
+      "id": "e1-p2-16",
+      "part": 2,
+      "level": 2,
+      "category": "wh-question",
+      "prompt": "How often is the equipment inspected?",
+      "options": [
+        "Every six months.",
+        "By a certified technician.",
+        "It's often crowded."
+      ],
+      "answer": "A",
+      "explanation": "« How often » demande une fréquence : tous les six mois.",
+      "traps": "(B) répond à « by whom ». (C) reprend « often ».",
+      "takeaway": "How often → fréquence ; how long → durée ; how soon → délai."
+    },
+    {
+      "id": "e1-p2-17",
+      "part": 2,
+      "level": 3,
+      "category": "statement",
+      "prompt": "I can't find the contract Mr. Lee signed.",
+      "options": [
+        "He signed up for the course.",
+        "Did you check the shared drive?",
+        "It's a two-year contract."
+      ],
+      "answer": "B",
+      "explanation": "Face à un problème, on propose une piste de solution : as-tu regardé dans le dossier partagé ?",
+      "traps": "(A) joue sur « signed / signed up ». (C) reprend « contract ».",
+      "takeaway": "Problème annoncé → la bonne réponse propose souvent une solution ou une question."
+    },
+    {
+      "id": "e1-p2-18",
+      "part": 2,
+      "level": 1,
+      "category": "yes-no",
+      "prompt": "Is the cafeteria open on weekends?",
+      "options": [
+        "Only on Saturdays.",
+        "The menu changes weekly.",
+        "No, I opened it."
+      ],
+      "answer": "A",
+      "explanation": "« Only on Saturdays » répond précisément : ouverte le samedi seulement.",
+      "traps": "(B) joue sur « weekends / weekly ». (C) reprend « open » de façon illogique.",
+      "takeaway": "Une réponse précise sans yes/no est souvent la bonne."
+    },
+    {
+      "id": "e1-p2-19",
+      "part": 2,
+      "level": 3,
+      "category": "request-offer",
+      "prompt": "Could you show the new intern how to use the scanner?",
+      "options": [
+        "It scans in color.",
+        "The internship lasts six months.",
+        "I'm leaving for a client meeting in five minutes."
+      ],
+      "answer": "C",
+      "explanation": "Refus implicite : la personne n'a pas le temps car elle part en réunion. Le TOEIC valorise ces réponses indirectes.",
+      "traps": "(A) reprend « scanner ». (B) joue sur « intern / internship ».",
+      "takeaway": "Une excuse (I'm busy, I'm leaving…) est une façon polie de refuser."
+    },
+    {
+      "id": "e1-p2-20",
+      "part": 2,
+      "level": 2,
+      "category": "wh-question",
+      "prompt": "Where can I find the minutes from yesterday's meeting?",
+      "options": [
+        "Jun posted them on the intranet.",
+        "It took about forty minutes.",
+        "I couldn't find a time."
+      ],
+      "answer": "A",
+      "explanation": "« Minutes » signifie ici le compte rendu de réunion ; il est publié sur l'intranet.",
+      "traps": "(B) comprend « minutes » au sens de durée. (C) reprend « find ».",
+      "takeaway": "Minutes (of a meeting) = compte rendu / procès-verbal."
+    },
+    {
+      "id": "e1-p2-21",
+      "part": 2,
+      "level": 2,
+      "category": "choice-question",
+      "prompt": "Do you want to review the slides now or after lunch?",
+      "options": [
+        "Yes, I do.",
+        "Let's do it now while we have time.",
+        "The lunch was delicious."
+      ],
+      "answer": "B",
+      "explanation": "Question à alternative : la réponse choisit « maintenant » et justifie.",
+      "traps": "(A) « Yes, I do » ne choisit pas. (C) reprend « lunch ».",
+      "takeaway": "« Do you want A or B ? » ressemble à une question fermée mais attend un choix."
+    },
+    {
+      "id": "e1-p2-22",
+      "part": 2,
+      "level": 2,
+      "category": "statement",
+      "prompt": "Our manager wants the report rewritten by Friday.",
+      "options": [
+        "Right, it was written on Friday.",
+        "The manager's office is upstairs.",
+        "Then I'd better start today."
+      ],
+      "answer": "C",
+      "explanation": "Réaction logique à une échéance : il faut s'y mettre dès aujourd'hui.",
+      "traps": "(A) reprend « written / Friday » avec un sens incohérent. (B) reprend « manager ».",
+      "takeaway": "I'd better + base verbale = je ferais mieux de."
+    },
+    {
+      "id": "e1-p2-23",
+      "part": 2,
+      "level": 2,
+      "category": "wh-question",
+      "prompt": "Whose turn is it to lead the weekly meeting?",
+      "options": [
+        "Turn left at the corner.",
+        "Every Wednesday at ten.",
+        "I think Sandra volunteered."
+      ],
+      "answer": "C",
+      "explanation": "« Whose turn » (c'est au tour de qui ?) attend une personne : Sandra s'est portée volontaire.",
+      "traps": "(A) reprend « turn » (tourner). (B) répond à « when ».",
+      "takeaway": "Whose turn is it to…? = à qui le tour de… ?"
+    },
+    {
+      "id": "e1-p2-24",
+      "part": 2,
+      "level": 3,
+      "category": "tag-question",
+      "prompt": "Wasn't the marketing workshop supposed to start at nine?",
+      "options": [
+        "Nine people attended.",
+        "Yes, it's a great workshop.",
+        "The speaker's train was delayed."
+      ],
+      "answer": "C",
+      "explanation": "La personne explique pourquoi l'atelier n'a pas commencé à l'heure : le train de l'intervenant a eu du retard.",
+      "traps": "(B) dit « Yes » sans parler de l'horaire. (A) reprend « nine ».",
+      "takeaway": "Question négative sur un horaire → souvent une explication du retard."
+    },
+    {
+      "id": "e1-p2-25",
+      "part": 2,
+      "level": 2,
+      "category": "wh-question",
+      "prompt": "What did you think of the candidate we interviewed this morning?",
+      "options": [
+        "She had impressive experience in logistics.",
+        "We interviewed twelve people.",
+        "I think so, too."
+      ],
+      "answer": "A",
+      "explanation": "« What did you think of…? » demande une opinion : la réponse donne un avis positif sur son expérience.",
+      "traps": "(C) « I think so, too » répond à une affirmation, pas à une question ouverte. (B) reprend « interviewed ».",
+      "takeaway": "What do you think of…? = demande d'opinion."
+    }
+  ]
+}

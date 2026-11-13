@@ -1,0 +1,35 @@
+{
+  "name": "toeic-sprint",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host",
+    "test": "vitest run",
+    "validate": "tsx scripts/validate-bank.ts",
+    "check": "npm run validate && npm run test && npm run build"
+  },
+  "dependencies": {
+    "dexie": "4.0.11",
+    "dexie-react-hooks": "1.1.7",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.1.10",
+    "@types/node": "22.15.30",
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.6",
+    "@vitejs/plugin-react": "4.5.2",
+    "fake-indexeddb": "6.0.1",
+    "jsdom": "26.1.0",
+    "tailwindcss": "4.1.10",
+    "tsx": "4.20.3",
+    "typescript": "5.8.3",
+    "vite": "6.3.5",
+    "vite-plugin-pwa": "1.0.0",
+    "vitest": "3.2.4"
+  }
+}

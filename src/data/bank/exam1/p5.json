@@ -1,0 +1,486 @@
+{
+  "part": 5,
+  "pool": "exam1",
+  "questions": [
+    {
+      "id": "e1-p5-01",
+      "level": 1,
+      "category": "preposition",
+      "prompt": "The quarterly report must be submitted to the finance department ____ Friday at 5 P.M.",
+      "options": [
+        "until",
+        "since",
+        "during",
+        "by"
+      ],
+      "answer": "D",
+      "explanation": "« By » exprime une date limite : le rapport doit être remis au plus tard vendredi à 17 h. Le verbe « submit » est une action ponctuelle, pas une situation qui dure.",
+      "traps": "« Until » s'emploie avec une action qui dure jusqu'à un moment (« The office is open until 5 »). « During » demande une période (during the meeting), « since » un point de départ dans le passé.",
+      "takeaway": "By + date/heure = au plus tard à ce moment (deadline). Until = jusqu'à (action continue)."
+    },
+    {
+      "id": "e1-p5-02",
+      "level": 1,
+      "category": "verb-tense",
+      "prompt": "Mr. Barnes ____ the client in Singapore three times since the project started.",
+      "options": [
+        "visited",
+        "visits",
+        "has visited",
+        "was visiting"
+      ],
+      "answer": "C",
+      "explanation": "« Since the project started » indique une période qui commence dans le passé et continue jusqu'à maintenant : on utilise le present perfect « has visited ». « Three times » compte les occurrences sur cette période ouverte.",
+      "traps": "Le prétérit « visited » exige une période terminée (last year, in 2024). Avec « since », c'est un piège classique pour les francophones qui traduisent « il a visité ».",
+      "takeaway": "Since / for / so far / three times (période non terminée) → present perfect."
+    },
+    {
+      "id": "e1-p5-03",
+      "level": 1,
+      "category": "word-form",
+      "prompt": "The new software allows customers to track their orders more ____ than before.",
+      "options": [
+        "efficient",
+        "efficiently",
+        "efficiency",
+        "more efficient"
+      ],
+      "answer": "B",
+      "explanation": "Le blanc modifie le verbe « track » : il faut un adverbe, « efficiently ». « More efficiently than » est un comparatif d'adverbe.",
+      "traps": "« Efficient » est un adjectif (il qualifierait un nom). « More efficient » créerait « more more ».",
+      "takeaway": "Verbe + adverbe (-ly) ; nom + adjectif. Repère d'abord ce que le blanc modifie."
+    },
+    {
+      "id": "e1-p5-04",
+      "level": 1,
+      "category": "pronoun",
+      "prompt": "Applicants who wish to be considered for the position should send ____ résumés to the address below.",
+      "options": [
+        "their",
+        "they",
+        "them",
+        "theirs"
+      ],
+      "answer": "A",
+      "explanation": "Devant le nom « résumés », il faut un déterminant possessif : « their » (leurs CV).",
+      "traps": "« Them » est complément, « they » sujet, « theirs » un pronom possessif qui remplace un nom (« the résumés are theirs »).",
+      "takeaway": "Possessif + nom : my/your/his/her/its/our/their + nom. Mine/yours/theirs s'emploient seuls."
+    },
+    {
+      "id": "e1-p5-05",
+      "level": 1,
+      "category": "relative",
+      "prompt": "Mr. Delgado, ____ team won the regional sales award, will speak at the annual meeting.",
+      "options": [
+        "who",
+        "which",
+        "whom",
+        "whose"
+      ],
+      "answer": "D",
+      "explanation": "Le relatif est suivi directement d'un nom (« team ») et exprime la possession : l'équipe de M. Delgado. Il faut « whose ».",
+      "traps": "« Who » serait suivi d'un verbe (who won), « whom » est complément, « which » renvoie à une chose.",
+      "takeaway": "Whose + nom = dont le/la/les (possession), pour une personne ou une chose."
+    },
+    {
+      "id": "e1-p5-06",
+      "level": 1,
+      "category": "word-form",
+      "prompt": "The hotel's conference rooms can accommodate up to 200 guests, making them ____ for large corporate events.",
+      "options": [
+        "suitability",
+        "suitably",
+        "suitable",
+        "suit"
+      ],
+      "answer": "C",
+      "explanation": "Structure « make + objet + adjectif » : les salles deviennent adaptées. On attend l'adjectif « suitable » (adapté à).",
+      "traps": "« Suitably » est un adverbe ; « suitability » un nom (l'adéquation) ; « suit » un verbe ou nom.",
+      "takeaway": "Make / keep / find + COD + adjectif (make them suitable, keep it simple)."
+    },
+    {
+      "id": "e1-p5-07",
+      "level": 2,
+      "category": "modal-conditional",
+      "prompt": "If the shipment ____ on time, we would not have had to cancel the trade show demonstration.",
+      "options": [
+        "arrives",
+        "had arrived",
+        "would arrive",
+        "has arrived"
+      ],
+      "answer": "B",
+      "explanation": "La principale « would not have had to » indique un conditionnel passé (3e conditionnel, regret sur le passé). La subordonnée en « if » prend le past perfect : « had arrived ».",
+      "traps": "« Would » ne s'emploie pas dans la subordonnée en if. « Arrives » correspond au 1er conditionnel (futur possible).",
+      "takeaway": "If + past perfect, would have + participe passé (situation passée irréelle)."
+    },
+    {
+      "id": "e1-p5-08",
+      "level": 2,
+      "category": "passive",
+      "prompt": "The renovation of the lobby ____ by the end of next month.",
+      "options": [
+        "will be completed",
+        "is completing",
+        "will complete",
+        "completed"
+      ],
+      "answer": "A",
+      "explanation": "Le sujet « the renovation » subit l'action (on termine la rénovation) et « by the end of next month » situe dans le futur : passif futur « will be completed ».",
+      "traps": "« Will complete » est actif : la rénovation ne termine rien elle-même. « Completed » est au passé alors que l'échéance est future.",
+      "takeaway": "Passif = be (au bon temps) + participe passé. Futur : will be done."
+    },
+    {
+      "id": "e1-p5-09",
+      "level": 2,
+      "category": "word-form",
+      "prompt": "Dr. Okafor's presentation on supply chain management was the most ____ of the entire conference.",
+      "options": [
+        "inform",
+        "information",
+        "informed",
+        "informative"
+      ],
+      "answer": "D",
+      "explanation": "Après « the most », on attend un adjectif au superlatif. « Informative » (instructif) décrit une présentation qui apporte des informations.",
+      "traps": "« Informed » (informé, bien renseigné) qualifie une personne. « Information » est un nom, « inform » un verbe.",
+      "takeaway": "-ive = qui produit l'effet (informative, productive) ; -ed = qui subit (informed, interested)."
+    },
+    {
+      "id": "e1-p5-10",
+      "level": 2,
+      "category": "vocabulary",
+      "prompt": "Please ____ that all personal belongings are removed from the lockers before Friday.",
+      "options": [
+        "assure",
+        "insure",
+        "ensure",
+        "secure"
+      ],
+      "answer": "C",
+      "explanation": "« Ensure that… » signifie « veiller à ce que, s'assurer que ». C'est la seule option qui se construit naturellement avec une proposition en that sans complément de personne.",
+      "traps": "« Assure » se construit avec une personne : assure someone that (rassurer). « Insure » = assurer (contrat d'assurance). « Secure » = obtenir, sécuriser.",
+      "takeaway": "Ensure that = garantir que ; assure + personne ; insure = assurance."
+    },
+    {
+      "id": "e1-p5-11",
+      "level": 2,
+      "category": "conjunction",
+      "prompt": "The board of directors approved the merger ____ several shareholders expressed concerns.",
+      "options": [
+        "despite",
+        "even though",
+        "in spite",
+        "because of"
+      ],
+      "answer": "B",
+      "explanation": "Le blanc est suivi d'une proposition complète (sujet « several shareholders » + verbe « expressed ») et exprime une opposition : il faut la conjonction « even though ».",
+      "traps": "« Despite » et « because of » sont des prépositions suivies d'un nom. « In spite » sans « of » est incomplet.",
+      "takeaway": "Although / even though + proposition ; despite / in spite of + nom ou -ing."
+    },
+    {
+      "id": "e1-p5-12",
+      "level": 2,
+      "category": "vocabulary",
+      "prompt": "Due to unexpected demand, the limited-edition model is ____ out of stock at most retailers.",
+      "options": [
+        "currently",
+        "formerly",
+        "previously",
+        "lately"
+      ],
+      "answer": "A",
+      "explanation": "Le verbe est au présent simple (« is ») et décrit une situation actuelle : « currently » (actuellement).",
+      "traps": "« Formerly » et « previously » renvoient au passé. « Lately » (récemment) s'emploie plutôt avec le present perfect. Faux ami : « actually » ≠ actuellement.",
+      "takeaway": "Currently = actuellement ; actually = en fait."
+    },
+    {
+      "id": "e1-p5-13",
+      "level": 2,
+      "category": "collocation",
+      "prompt": "The company plans to ____ its operations into Southeast Asia within the next two years.",
+      "options": [
+        "grow up",
+        "increase",
+        "enlarge",
+        "expand"
+      ],
+      "answer": "D",
+      "explanation": "On dit « expand operations into a market/region » : étendre ses activités vers une nouvelle zone. « Expand » est la collocation attendue.",
+      "traps": "« Increase » s'applique à une quantité (increase sales), « enlarge » à une taille physique (enlarge a photo), « grow up » = grandir (personne).",
+      "takeaway": "Expand into a market / expand operations = se développer vers."
+    },
+    {
+      "id": "e1-p5-14",
+      "level": 2,
+      "category": "conjunction",
+      "prompt": "Customers are advised to keep their receipts ____ they need to return or exchange an item.",
+      "options": [
+        "as if",
+        "so that",
+        "in case",
+        "whereas"
+      ],
+      "answer": "C",
+      "explanation": "« In case » signifie « au cas où » : on garde le ticket par précaution, pour le cas où il faudrait rendre l'article.",
+      "traps": "« So that » exprime un but (pour que), « as if » une comparaison (comme si), « whereas » une opposition (tandis que).",
+      "takeaway": "In case + présent = au cas où (précaution)."
+    },
+    {
+      "id": "e1-p5-15",
+      "level": 2,
+      "category": "preposition",
+      "prompt": "Sales of electric bicycles rose ____ 18 percent in the third quarter.",
+      "options": [
+        "at",
+        "by",
+        "on",
+        "with"
+      ],
+      "answer": "B",
+      "explanation": "« Rise / increase / fall by + pourcentage » exprime l'ampleur de la variation : les ventes ont augmenté de 18 %.",
+      "traps": "« Rise to 18 percent » donnerait le niveau final (atteindre 18 %), ce qui change le sens ; « at », « on », « with » ne s'emploient pas ici.",
+      "takeaway": "Increase BY x % = de x % (écart) ; increase TO x = jusqu'à x (niveau atteint)."
+    },
+    {
+      "id": "e1-p5-16",
+      "level": 2,
+      "category": "collocation",
+      "prompt": "Ms. Ruiz is responsible ____ coordinating the annual staff retreat.",
+      "options": [
+        "for",
+        "of",
+        "to",
+        "with"
+      ],
+      "answer": "A",
+      "explanation": "L'adjectif « responsible » se construit avec « for » : responsible for + nom ou -ing (coordinating).",
+      "traps": "Calque du français « responsable de » → « of » est fautif.",
+      "takeaway": "Responsible for, in charge of, accountable to (quelqu'un) / for (quelque chose)."
+    },
+    {
+      "id": "e1-p5-17",
+      "level": 2,
+      "category": "comparison",
+      "prompt": "Production costs were ____ higher than the finance team had originally projected.",
+      "options": [
+        "very",
+        "most",
+        "more",
+        "considerably"
+      ],
+      "answer": "D",
+      "explanation": "Pour renforcer un comparatif (« higher than »), on utilise much, far, significantly ou « considerably ».",
+      "traps": "« Very » ne modifie jamais un comparatif (*very higher). « More higher » et « most higher » sont des doubles comparatifs incorrects.",
+      "takeaway": "Much / far / considerably / slightly + comparatif ; very + adjectif simple."
+    },
+    {
+      "id": "e1-p5-18",
+      "level": 2,
+      "category": "agreement",
+      "prompt": "Each of the new interns ____ assigned a mentor from the engineering department.",
+      "options": [
+        "have been",
+        "are",
+        "has been",
+        "were"
+      ],
+      "answer": "C",
+      "explanation": "Le sujet réel est « each », singulier, même s'il est suivi de « of the new interns ». Le verbe s'accorde au singulier : « has been » (passif : chaque stagiaire s'est vu attribuer un tuteur).",
+      "traps": "Le nom pluriel « interns » placé juste avant le verbe attire l'accord au pluriel : c'est le piège.",
+      "takeaway": "Each / every / either / neither (of) + verbe au singulier."
+    },
+    {
+      "id": "e1-p5-19",
+      "level": 2,
+      "category": "conjunction",
+      "prompt": "The training manual is ____ detailed that new employees rarely need to ask for help.",
+      "options": [
+        "such",
+        "so",
+        "too",
+        "very"
+      ],
+      "answer": "B",
+      "explanation": "Structure de conséquence « so + adjectif + that » : le manuel est si détaillé que… Ici « detailed » est un adjectif sans nom, donc « so ».",
+      "traps": "« Such » s'emploie devant un groupe nominal (such a detailed manual that). « Too » signifie « trop » (sens négatif) et se construit avec to.",
+      "takeaway": "So + adjectif + that ; such (a) + adjectif + nom + that."
+    },
+    {
+      "id": "e1-p5-20",
+      "level": 2,
+      "category": "gerund-infinitive",
+      "prompt": "The company is considering ____ a second warehouse near the port of Le Havre.",
+      "options": [
+        "opening",
+        "to open",
+        "open",
+        "opened"
+      ],
+      "answer": "A",
+      "explanation": "Le verbe « consider » est suivi du gérondif : « considering opening » (envisager d'ouvrir).",
+      "traps": "Calque du français « envisager de » → « to open » est fautif.",
+      "takeaway": "Verbes + -ing : consider, avoid, suggest, recommend, postpone, finish, mind."
+    },
+    {
+      "id": "e1-p5-21",
+      "level": 2,
+      "category": "word-form",
+      "prompt": "The ____ of the new payroll system has reduced processing errors by 40 percent.",
+      "options": [
+        "implement",
+        "implemented",
+        "implementing",
+        "implementation"
+      ],
+      "answer": "D",
+      "explanation": "Après l'article « the » et avant « of », il faut un nom : « implementation » (la mise en place).",
+      "traps": "« Implementing » peut être nominal mais ne se construit pas naturellement avec « the … of » dans ce registre ; « implement » est un verbe.",
+      "takeaway": "The + nom + of : les suffixes -tion, -ment, -ance, -ity signalent un nom."
+    },
+    {
+      "id": "e1-p5-22",
+      "level": 2,
+      "category": "preposition",
+      "prompt": "Please refrain ____ using mobile phones during the presentation.",
+      "options": [
+        "to",
+        "of",
+        "from",
+        "about"
+      ],
+      "answer": "C",
+      "explanation": "Le verbe « refrain » se construit avec « from » + -ing : s'abstenir de faire quelque chose.",
+      "traps": "La traduction « s'abstenir de » pousse à choisir « of » : c'est une erreur.",
+      "takeaway": "Refrain / prevent / prohibit / discourage + from + -ing."
+    },
+    {
+      "id": "e1-p5-23",
+      "level": 3,
+      "category": "agreement",
+      "prompt": "Neither the manager nor the assistants ____ aware of the change in the delivery schedule.",
+      "options": [
+        "was",
+        "were",
+        "is",
+        "being"
+      ],
+      "answer": "B",
+      "explanation": "Avec « neither … nor », le verbe s'accorde avec le sujet le plus proche : « the assistants » est pluriel, donc « were ».",
+      "traps": "« Was » serait correct si l'ordre était « Neither the assistants nor the manager ». « Being » n'est pas un verbe conjugué.",
+      "takeaway": "Either…or / neither…nor : accord avec le sujet le plus proche du verbe."
+    },
+    {
+      "id": "e1-p5-24",
+      "level": 3,
+      "category": "verb-tense",
+      "prompt": "By the time the auditors arrive next week, the accounting team ____ all the necessary documents.",
+      "options": [
+        "will have prepared",
+        "has prepared",
+        "prepared",
+        "prepares"
+      ],
+      "answer": "A",
+      "explanation": "« By the time » + événement futur (arrive next week) : l'action sera terminée avant ce moment futur. On utilise le futur antérieur « will have prepared ».",
+      "traps": "« Has prepared » renvoie au présent ; « arrive » est au présent car on ne met pas will après by the time.",
+      "takeaway": "By the time + présent (futur), will have + participe passé."
+    },
+    {
+      "id": "e1-p5-25",
+      "level": 3,
+      "category": "verb-tense",
+      "prompt": "The marketing director asked that every proposal ____ reviewed by the legal team before submission.",
+      "options": [
+        "is",
+        "will be",
+        "was",
+        "be"
+      ],
+      "answer": "D",
+      "explanation": "Après les verbes de demande ou de recommandation (ask that, request that, recommend that, require that), l'anglais formel utilise le subjonctif : la base verbale « be », sans accord.",
+      "traps": "« Is » ou « was » paraissent naturels, mais le TOEIC teste précisément cette forme de base invariable.",
+      "takeaway": "Ask / request / insist / recommend that + sujet + base verbale (be, submit…)."
+    },
+    {
+      "id": "e1-p5-26",
+      "level": 3,
+      "category": "syntax",
+      "prompt": "Only after the contract had been signed ____ the client request additional changes.",
+      "options": [
+        "does",
+        "has",
+        "did",
+        "was"
+      ],
+      "answer": "C",
+      "explanation": "Une phrase qui commence par « Only after… » entraîne une inversion sujet-auxiliaire. Le récit est au passé et le verbe principal « request » est à la base verbale : il faut l'auxiliaire « did ».",
+      "traps": "« Was » donnerait « was the client request » (incorrect sans -ing). « Does » et « has » ne correspondent pas au passé.",
+      "takeaway": "Only after / Not until / Never / Rarely en tête → inversion : did + sujet + base verbale."
+    },
+    {
+      "id": "e1-p5-27",
+      "level": 3,
+      "category": "vocabulary",
+      "prompt": "The seminar is open to all staff, ____ of their department or level of experience.",
+      "options": [
+        "despite",
+        "regardless",
+        "nevertheless",
+        "however"
+      ],
+      "answer": "B",
+      "explanation": "« Regardless of » signifie « quel(le) que soit, sans tenir compte de ». C'est la seule option qui se construit avec « of ».",
+      "traps": "« Despite » ne prend pas « of ». « Nevertheless » et « however » sont des adverbes de liaison qui introduisent une nouvelle proposition.",
+      "takeaway": "Regardless of + nom = indépendamment de."
+    },
+    {
+      "id": "e1-p5-28",
+      "level": 3,
+      "category": "comparison",
+      "prompt": "Of the three proposals submitted to the board, Ms. Lin's was clearly the ____.",
+      "options": [
+        "most persuasive",
+        "more persuasive",
+        "persuasively",
+        "persuasion"
+      ],
+      "answer": "A",
+      "explanation": "On compare trois éléments (« of the three proposals ») : on utilise le superlatif « the most persuasive ».",
+      "traps": "« The more persuasive » ne s'emploie que pour une comparaison entre deux éléments (of the two).",
+      "takeaway": "Deux éléments → the + comparatif (the better of the two) ; trois ou plus → superlatif."
+    },
+    {
+      "id": "e1-p5-29",
+      "level": 3,
+      "category": "pronoun",
+      "prompt": "____ attending the product workshop must register online by Thursday.",
+      "options": [
+        "Who",
+        "They",
+        "Whoever",
+        "Those"
+      ],
+      "answer": "D",
+      "explanation": "« Those attending » = ceux qui participent. « Those » est pluriel, comme le verbe « must register », et il est suivi directement d'un participe présent.",
+      "traps": "« Who » ne peut pas être sujet seul en début de phrase affirmative ; « whoever » exigerait un verbe conjugué (whoever attends) ; « they » ne peut pas être suivi directement d'un participe pour former le sujet.",
+      "takeaway": "Those who + verbe / those + -ing = ceux qui."
+    },
+    {
+      "id": "e1-p5-30",
+      "level": 3,
+      "category": "word-form",
+      "prompt": "The museum's new wing, ____ for its innovative design, attracts thousands of visitors each month.",
+      "options": [
+        "praising",
+        "praise",
+        "praised",
+        "is praised"
+      ],
+      "answer": "C",
+      "explanation": "Entre virgules, on a une proposition participiale à sens passif : l'aile est louée (= which is praised) pour son design. On utilise le participe passé « praised ».",
+      "traps": "« Praising » aurait un sens actif (l'aile louerait quelque chose). « Is praised » créerait deux verbes conjugués dans la même proposition.",
+      "takeaway": "Participe passé = sens passif (praised = qui est loué) ; -ing = sens actif."
+    }
+  ]
+}

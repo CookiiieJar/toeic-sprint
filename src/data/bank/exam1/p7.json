@@ -1,0 +1,1356 @@
+{
+  "part": 7,
+  "pool": "exam1",
+  "sets": [
+    {
+      "id": "e1-p7-s01",
+      "kind": "single",
+      "title": "Messagerie instantanée",
+      "docs": [
+        {
+          "type": "chat",
+          "messages": [
+            {
+              "name": "Nadia Ferreira",
+              "time": "9:12",
+              "text": "Hi Tom, the projector in Room 4B isn't turning on. The client presentation starts at 10."
+            },
+            {
+              "name": "Tom Becker",
+              "time": "9:14",
+              "text": "Did you check the power strip under the table? It has its own switch."
+            },
+            {
+              "name": "Nadia Ferreira",
+              "time": "9:15",
+              "text": "Just did. Still nothing."
+            },
+            {
+              "name": "Tom Becker",
+              "time": "9:16",
+              "text": "OK. I'll bring the portable one from the IT office. Give me five minutes."
+            },
+            {
+              "name": "Nadia Ferreira",
+              "time": "9:16",
+              "text": "You're a lifesaver."
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "e1-p7-01",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What problem does Ms. Ferreira have?",
+          "options": [
+            "A meeting room is already booked.",
+            "A client has arrived late.",
+            "A presentation file is missing.",
+            "A piece of equipment is not working."
+          ],
+          "answer": "D",
+          "evidence": "the projector in Room 4B isn't turning on",
+          "explanation": "Mme Ferreira écrit que le projecteur ne s'allume pas : « a piece of equipment is not working » reformule ce problème de manière générale.",
+          "traps": "Le TOEIC remplace souvent le mot exact (projector) par une catégorie générale (a piece of equipment).",
+          "takeaway": "Les bonnes réponses sont souvent des paraphrases plus générales que le texte."
+        },
+        {
+          "id": "e1-p7-02",
+          "level": 2,
+          "category": "intention",
+          "prompt": "At 9:16, what does Ms. Ferreira most likely mean when she writes, \"You're a lifesaver\"?",
+          "options": [
+            "She is worried about Mr. Becker's safety.",
+            "She wants Mr. Becker to lead the presentation.",
+            "She is grateful for Mr. Becker's help.",
+            "She thinks the problem is serious."
+          ],
+          "answer": "C",
+          "evidence": "You're a lifesaver.",
+          "explanation": "M. Becker propose d'apporter un projecteur portable dans cinq minutes ; « You're a lifesaver » (tu me sauves la vie) est une expression de reconnaissance.",
+          "traps": "(A) prend l'expression au sens littéral : piège classique des questions d'intention.",
+          "takeaway": "Questions « what does X mean » : interprète l'expression dans son contexte, jamais littéralement."
+        }
+      ]
+    },
+    {
+      "id": "e1-p7-s02",
+      "kind": "single",
+      "title": "Avis aux locataires",
+      "docs": [
+        {
+          "type": "text",
+          "title": "NOTICE TO TENANTS — Harbor View Office Tower",
+          "body": "The underground parking garage will be closed for resurfacing from Saturday, June 7, through Monday, June 9. During this period, tenants may park free of charge at the Elm Street municipal lot, located two blocks east of the building. Please display your tenant permit on your dashboard.\n\nA shuttle will run between the lot and the main entrance every 15 minutes from 7 A.M. to 7 P.M. on Monday.\n\nQuestions should be directed to the building management office at extension 210."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e1-p7-03",
+          "level": 1,
+          "category": "detail",
+          "prompt": "Why will the parking garage be closed?",
+          "options": [
+            "To install new security cameras",
+            "To repair its surface",
+            "To host a community event",
+            "To add electric charging stations"
+          ],
+          "answer": "B",
+          "evidence": "closed for resurfacing",
+          "explanation": "« Resurfacing » signifie refaire le revêtement : le garage ferme pour des travaux sur sa surface.",
+          "takeaway": "Resurface = refaire le revêtement ; repair work = travaux de réparation."
+        },
+        {
+          "id": "e1-p7-04",
+          "level": 2,
+          "category": "inference",
+          "prompt": "What is indicated about the shuttle service?",
+          "options": [
+            "It will operate on only one day.",
+            "It is reserved for visitors.",
+            "It requires a permit.",
+            "It runs every 30 minutes."
+          ],
+          "answer": "A",
+          "evidence": "every 15 minutes from 7 A.M. to 7 P.M. on Monday",
+          "explanation": "La navette circule seulement le lundi (« on Monday »), alors que la fermeture dure trois jours : elle fonctionne donc un seul jour.",
+          "traps": "Le permis concerne le stationnement, pas la navette ; la fréquence est de 15 minutes, pas 30.",
+          "takeaway": "Repère les limitations (only, on Monday) qui rendent une réponse plus précise."
+        }
+      ]
+    },
+    {
+      "id": "e1-p7-s03",
+      "kind": "single",
+      "title": "Offre promotionnelle",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Bellamy's Print & Copy — Spring Offer",
+          "body": "Get 20% off all business card orders of 500 cards or more until April 30. Choose from 40 professional templates or upload your own design. Orders placed before noon are ready for pickup the next business day. Free delivery within the city for orders over $75.\n\nPresent this coupon in store or enter code SPRING20 online. Cannot be combined with other offers."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e1-p7-05",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What must customers do to receive the discount?",
+          "options": [
+            "Spend more than $75",
+            "Order online before noon",
+            "Use one of the store's templates",
+            "Order at least 500 business cards"
+          ],
+          "answer": "D",
+          "evidence": "orders of 500 cards or more",
+          "explanation": "La réduction de 20 % s'applique aux commandes de 500 cartes ou plus : « at least 500 » = « 500 or more ».",
+          "traps": "75 $ est le seuil de la livraison gratuite, et midi celui du retrait le lendemain : ce sont d'autres conditions.",
+          "takeaway": "« At least » = « or more » = au moins."
+        },
+        {
+          "id": "e1-p7-06",
+          "level": 2,
+          "category": "not-true",
+          "prompt": "What is NOT mentioned as a service offered by Bellamy's?",
+          "options": [
+            "Design consultations",
+            "Next-day pickup",
+            "Free delivery for some orders",
+            "Use of customer designs"
+          ],
+          "answer": "A",
+          "explanation": "Le texte mentionne les modèles personnalisés (upload your own design), le retrait le lendemain et la livraison gratuite au-delà de 75 $. Aucune consultation de design n'est proposée.",
+          "traps": "Pour une question NOT, élimine une à une les options présentes dans le texte.",
+          "takeaway": "Questions NOT : vérifie chaque option dans le texte ; la réponse est celle qu'on ne trouve pas."
+        }
+      ]
+    },
+    {
+      "id": "e1-p7-s04",
+      "kind": "single",
+      "title": "E-mail RH",
+      "docs": [
+        {
+          "type": "email",
+          "from": "Priya Raman, Human Resources",
+          "to": "Lucas Morel",
+          "subject": "Your first day at Solenne Biotech",
+          "date": "August 18",
+          "body": "Dear Mr. Morel,\n\nWe are delighted that you have accepted our offer for the position of Quality Control Analyst. Your first day will be Monday, September 1. Please report to the reception desk on the ground floor at 8:30 A.M., where a member of our team will meet you.\n\nOn your first morning, you will attend an orientation session covering laboratory safety and our data management policies. In the afternoon, you will meet your supervisor, Dr. Anke Vogel, who will introduce you to the rest of the team.\n\nPlease bring a valid photo ID and the signed copy of your employment contract. If you have not yet returned the tax form attached to our previous e-mail, please complete it before your start date.\n\nBest regards,\nPriya Raman"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e1-p7-07",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the purpose of the e-mail?",
+          "options": [
+            "To offer Mr. Morel a position",
+            "To schedule an interview",
+            "To request Mr. Morel's tax information",
+            "To give Mr. Morel information about his first day"
+          ],
+          "answer": "D",
+          "evidence": "Your first day will be Monday, September 1.",
+          "explanation": "L'offre a déjà été acceptée ; le mail donne le programme du premier jour (horaire, lieu, formation, documents à apporter).",
+          "traps": "(A) : l'offre est déjà acceptée. (C) : le formulaire fiscal est un détail secondaire, pas l'objectif.",
+          "takeaway": "L'objectif d'un document = l'idée qui couvre l'ensemble, pas un détail."
+        },
+        {
+          "id": "e1-p7-08",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What will Mr. Morel do on the afternoon of September 1?",
+          "options": [
+            "Sign his employment contract",
+            "Attend a safety training session",
+            "Meet his new colleagues",
+            "Visit the reception desk"
+          ],
+          "answer": "C",
+          "evidence": "who will introduce you to the rest of the team",
+          "explanation": "L'après-midi, il rencontre sa superviseure, qui le présente au reste de l'équipe, c'est-à-dire à ses collègues.",
+          "traps": "La formation sécurité a lieu le matin (« On your first morning »).",
+          "takeaway": "Attention aux repères temporels : morning / afternoon."
+        },
+        {
+          "id": "e1-p7-09",
+          "level": 1,
+          "category": "synonym",
+          "prompt": "What is Mr. Morel asked to bring?",
+          "options": [
+            "A laboratory coat",
+            "Proof of identity",
+            "A reference letter",
+            "His university diploma"
+          ],
+          "answer": "B",
+          "evidence": "Please bring a valid photo ID",
+          "explanation": "« A valid photo ID » (pièce d'identité avec photo) est reformulé par « proof of identity ».",
+          "takeaway": "ID = identification document = proof of identity."
+        }
+      ]
+    },
+    {
+      "id": "e1-p7-s05",
+      "kind": "single",
+      "title": "Article — commerce local",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Café Lumen Opens Second Location",
+          "body": "Café Lumen, the popular coffee shop known for its locally roasted beans, opened its second location on Dufort Avenue last week. Owner Mireille Caron said the new space is nearly twice the size of the original café on Quai Street and includes a small room that customers can reserve for meetings. [1]\n\nCaron started the business six years ago with a single espresso machine and two employees. Today, she employs 23 people. [2]\n\nThe Dufort Avenue café also features a roasting area behind a glass wall, allowing customers to watch the beans being prepared. [3] Caron plans to offer weekend workshops on coffee tasting beginning next month. [4]"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e1-p7-10",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is indicated about the new location?",
+          "options": [
+            "It has a space that can be booked.",
+            "It is smaller than the original café.",
+            "It is located on Quai Street.",
+            "It is open only on weekends."
+          ],
+          "answer": "A",
+          "evidence": "includes a small room that customers can reserve for meetings",
+          "explanation": "Le nouveau café comprend une petite salle que les clients peuvent réserver : « booked » = « reserved ».",
+          "traps": "Il est presque deux fois plus grand ; Quai Street est l'adresse du premier café.",
+          "takeaway": "Reserve = book ; twice the size = deux fois plus grand."
+        },
+        {
+          "id": "e1-p7-11",
+          "level": 2,
+          "category": "synonym",
+          "prompt": "The word \"features\" in paragraph 3, line 1, is closest in meaning to",
+          "options": [
+            "highlights",
+            "resembles",
+            "advertises",
+            "includes"
+          ],
+          "answer": "D",
+          "evidence": "also features a roasting area",
+          "explanation": "« The café features a roasting area » = le café comporte / possède un espace de torréfaction. Le sens est « includes ».",
+          "traps": "« Highlights » (met en valeur) correspond à un autre sens de « feature », qui ne convient pas ici.",
+          "takeaway": "Feature (verbe) = comporter, présenter ; vérifie toujours le sens en contexte."
+        },
+        {
+          "id": "e1-p7-12",
+          "level": 2,
+          "category": "sentence-insertion",
+          "prompt": "In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong? \"Places are limited, so interested participants should sign up early.\"",
+          "options": [
+            "[1]",
+            "[2]",
+            "[3]",
+            "[4]"
+          ],
+          "answer": "D",
+          "explanation": "« Places » et « participants » renvoient aux ateliers de dégustation annoncés juste avant la position [4] : on s'inscrit à un atelier.",
+          "traps": "Les positions [1] et [3] parlent de la salle et de l'espace de torréfaction, pas d'une activité avec des participants.",
+          "takeaway": "Insertion : les mots-clés de la phrase (participants, sign up) doivent faire écho à la phrase précédente."
+        }
+      ]
+    },
+    {
+      "id": "e1-p7-s06",
+      "kind": "single",
+      "title": "Carte de commentaires d'hôtel",
+      "docs": [
+        {
+          "type": "form",
+          "title": "Hotel Arcadia — Guest Comment Card",
+          "fields": [
+            [
+              "Guest name",
+              "Daniel Osei"
+            ],
+            [
+              "Room",
+              "512"
+            ],
+            [
+              "Dates of stay",
+              "October 3–6"
+            ],
+            [
+              "Purpose of stay",
+              "Business conference"
+            ]
+          ],
+          "body": "The room was spotless and the staff at the front desk were extremely helpful when my flight was delayed and I arrived after midnight. However, the Wi-Fi connection in my room was unreliable, which made it difficult to prepare for my presentation. I ended up working in the lobby, where the signal was much stronger. Breakfast was excellent, though I would suggest opening the restaurant earlier than 7 A.M. for guests attending early meetings."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e1-p7-13",
+          "level": 1,
+          "category": "detail",
+          "prompt": "Why did Mr. Osei stay at Hotel Arcadia?",
+          "options": [
+            "To interview for a job",
+            "To visit relatives",
+            "To attend a professional event",
+            "To take a vacation"
+          ],
+          "answer": "C",
+          "evidence": "Business conference",
+          "explanation": "Le motif du séjour indiqué est « Business conference » : un événement professionnel.",
+          "takeaway": "Lis aussi les champs des formulaires : ils contiennent souvent la réponse."
+        },
+        {
+          "id": "e1-p7-14",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What problem did Mr. Osei experience?",
+          "options": [
+            "His room was not clean.",
+            "He could not get a reliable Internet connection in his room.",
+            "His reservation had been canceled.",
+            "The front desk was closed when he arrived."
+          ],
+          "answer": "B",
+          "evidence": "the Wi-Fi connection in my room was unreliable",
+          "explanation": "Le Wi-Fi de la chambre était peu fiable ; il a dû travailler dans le hall.",
+          "traps": "La chambre était impeccable (spotless) et l'accueil très serviable malgré son arrivée tardive.",
+          "takeaway": "Unreliable = peu fiable ; spotless = impeccable."
+        },
+        {
+          "id": "e1-p7-15",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does Mr. Osei suggest?",
+          "options": [
+            "Serving breakfast earlier",
+            "Improving the lobby lighting",
+            "Offering airport transportation",
+            "Adding meeting rooms"
+          ],
+          "answer": "A",
+          "evidence": "opening the restaurant earlier than 7 A.M.",
+          "explanation": "Il suggère d'ouvrir le restaurant avant 7 h pour le petit-déjeuner, au profit des clients ayant des réunions tôt.",
+          "takeaway": "Les suggestions sont souvent introduites par « I would suggest / I recommend »."
+        }
+      ]
+    },
+    {
+      "id": "e1-p7-s07",
+      "kind": "single",
+      "title": "Note de service",
+      "docs": [
+        {
+          "type": "text",
+          "title": "MEMO",
+          "subtitle": "To: All sales staff — From: Gareth Lowe, Finance Director — Date: January 9 — Re: New expense reporting procedure",
+          "body": "Effective February 1, all expense reports must be submitted through the ExpensePoint mobile app rather than on paper. The app allows you to photograph receipts and submit claims directly from your phone, which should significantly shorten reimbursement times. Claims submitted through the app will be reimbursed within five business days, compared with the current average of three weeks.\n\nTraining sessions on the app will be held on January 20 and January 27. Attendance at one of the sessions is mandatory for all staff who travel for work. Paper forms will no longer be accepted after February 1, except for claims relating to trips completed before that date."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e1-p7-16",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the main purpose of the memo?",
+          "options": [
+            "To request feedback on an app",
+            "To introduce a new finance director",
+            "To reduce travel budgets",
+            "To announce a change in procedure"
+          ],
+          "answer": "D",
+          "evidence": "all expense reports must be submitted through the ExpensePoint mobile app rather than on paper",
+          "explanation": "Le mémo annonce le passage des notes de frais papier à une application : c'est un changement de procédure.",
+          "takeaway": "Re: (objet) d'un mémo résume souvent le but du document."
+        },
+        {
+          "id": "e1-p7-17",
+          "level": 2,
+          "category": "inference",
+          "prompt": "What is one benefit of the new system?",
+          "options": [
+            "Employees will travel less often.",
+            "Receipts will no longer be required.",
+            "Employees will be reimbursed more quickly.",
+            "Training will be optional."
+          ],
+          "answer": "C",
+          "evidence": "will be reimbursed within five business days",
+          "explanation": "Les remboursements passeront de trois semaines en moyenne à cinq jours ouvrés : les employés seront remboursés plus vite.",
+          "traps": "(B) est faux : on photographie toujours les reçus. (D) est faux : la formation est obligatoire (mandatory).",
+          "takeaway": "Mandatory = obligatoire ; reimburse = rembourser."
+        },
+        {
+          "id": "e1-p7-18",
+          "level": 3,
+          "category": "detail",
+          "prompt": "According to the memo, when can paper forms be used after February 1?",
+          "options": [
+            "When the app is not working",
+            "For claims under a certain amount",
+            "For trips that ended before February 1",
+            "Until the training sessions are completed"
+          ],
+          "answer": "C",
+          "evidence": "except for claims relating to trips completed before that date",
+          "explanation": "Après le 1er février, le papier n'est accepté que pour les déplacements terminés avant cette date.",
+          "traps": "Les autres options sont plausibles dans la vie réelle mais ne figurent pas dans le texte.",
+          "takeaway": "« Except for » signale une exception : souvent l'objet d'une question de détail."
+        }
+      ]
+    },
+    {
+      "id": "e1-p7-s08",
+      "kind": "single",
+      "title": "Avis client en ligne",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Customer Review — TrailMate X2 Backpack ★★★★☆",
+          "subtitle": "Posted by J. Whitfield",
+          "body": "I bought the TrailMate X2 for a two-week trip that combined client meetings in Toronto with a few days of hiking. The laptop compartment is well padded and easily fits my 15-inch computer, and the bag looks professional enough to bring to client offices.\n\nMy only complaint concerns the side pockets, which are too shallow to hold a standard water bottle securely. I lost one on the trail on my second day. Customer service responded quickly when I mentioned this and sent me a discount code for a bottle holder accessory.\n\nOverall, a versatile bag that I would recommend to anyone who travels for both work and leisure."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e1-p7-19",
+          "level": 2,
+          "category": "inference",
+          "prompt": "Why did the reviewer buy the backpack?",
+          "options": [
+            "To replace a damaged laptop bag",
+            "To use on a trip involving work and recreation",
+            "To give as a gift to a client",
+            "To carry hiking equipment only"
+          ],
+          "answer": "B",
+          "evidence": "combined client meetings in Toronto with a few days of hiking",
+          "explanation": "Le voyage combinait rendez-vous clients (travail) et randonnée (loisir) : « work and recreation ».",
+          "takeaway": "Leisure = recreation = loisirs."
+        },
+        {
+          "id": "e1-p7-20",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does the reviewer criticize about the backpack?",
+          "options": [
+            "The size of some pockets",
+            "The weight of the bag",
+            "The color options",
+            "The padding of the laptop compartment"
+          ],
+          "answer": "A",
+          "evidence": "too shallow to hold a standard water bottle securely",
+          "explanation": "Les poches latérales sont trop peu profondes pour tenir une bouteille : c'est un problème de taille des poches.",
+          "traps": "(D) est un point positif du texte (« well padded »).",
+          "takeaway": "Shallow = peu profond ; complaint = reproche."
+        },
+        {
+          "id": "e1-p7-21",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What did the company do after the reviewer contacted it?",
+          "options": [
+            "It replaced the backpack.",
+            "It refunded the purchase.",
+            "It sent a new water bottle.",
+            "It offered a reduced price on an accessory."
+          ],
+          "answer": "D",
+          "evidence": "sent me a discount code for a bottle holder accessory",
+          "explanation": "Le service client a envoyé un code de réduction pour un porte-bouteille : un prix réduit sur un accessoire.",
+          "traps": "(C) reprend « water bottle » mais l'entreprise n'a pas envoyé de bouteille.",
+          "takeaway": "Méfie-toi des options qui recyclent les mots du texte avec un autre sens."
+        }
+      ]
+    },
+    {
+      "id": "e1-p7-s09",
+      "kind": "single",
+      "title": "Article économique",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Northgate Foods Announces Packaging Overhaul",
+          "body": "LEEDS — Northgate Foods, one of the region's largest producers of ready-made meals, said on Monday that it will replace all plastic trays in its product line with recyclable cardboard by the end of next year. The company estimates that the change will eliminate roughly 1,200 tonnes of plastic waste annually.\n\nThe transition will take place in two phases. Beginning in March, the company's soup and salad ranges will switch to the new packaging. Its frozen meals, which require containers that can withstand very low temperatures, will follow once suppliers have finished testing a reinforced version of the cardboard trays.\n\n\"Our customers have been asking for this for years,\" said Chief Operating Officer Helen Strand. \"We wanted to make sure the new packaging protects the food just as well as the old one before making the switch.\"\n\nNorthgate expects the new trays to cost about 8 percent more than plastic ones. However, Ms. Strand said the company does not plan to raise retail prices, as it expects to offset the increase through lower waste-disposal fees."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e1-p7-22",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the article mainly about?",
+          "options": [
+            "A rise in the price of ready-made meals",
+            "The opening of a new food factory",
+            "A company's plan to change its packaging",
+            "A merger between two food producers"
+          ],
+          "answer": "C",
+          "evidence": "replace all plastic trays in its product line with recyclable cardboard",
+          "explanation": "L'article porte sur le remplacement des barquettes en plastique par du carton recyclable.",
+          "takeaway": "Le premier paragraphe d'un article contient presque toujours l'idée principale."
+        },
+        {
+          "id": "e1-p7-23",
+          "level": 2,
+          "category": "inference",
+          "prompt": "Why will frozen meals switch to the new packaging later than other products?",
+          "options": [
+            "They sell in smaller quantities.",
+            "Their containers must meet special requirements.",
+            "Customers prefer their current packaging.",
+            "Their supplier is located abroad."
+          ],
+          "answer": "B",
+          "evidence": "which require containers that can withstand very low temperatures",
+          "explanation": "Les plats surgelés exigent des barquettes résistant aux très basses températures ; une version renforcée est encore en test.",
+          "takeaway": "Withstand = résister à ; requirement = exigence."
+        },
+        {
+          "id": "e1-p7-24",
+          "level": 2,
+          "category": "synonym",
+          "prompt": "The word \"offset\" in paragraph 4, line 3, is closest in meaning to",
+          "options": [
+            "compensate for",
+            "announce",
+            "delay",
+            "calculate"
+          ],
+          "answer": "A",
+          "evidence": "offset the increase",
+          "explanation": "L'entreprise compte « compenser » le surcoût de 8 % grâce à des frais de traitement des déchets plus faibles.",
+          "takeaway": "Offset = compenser, contrebalancer."
+        },
+        {
+          "id": "e1-p7-25",
+          "level": 3,
+          "category": "inference",
+          "prompt": "What is suggested about Northgate's customers?",
+          "options": [
+            "They will pay higher prices.",
+            "They prefer frozen meals to salads.",
+            "They were surveyed about the cardboard trays.",
+            "They have requested more environmentally friendly packaging."
+          ],
+          "answer": "D",
+          "evidence": "Our customers have been asking for this for years",
+          "explanation": "La directrice des opérations dit que les clients réclament ce changement (des emballages recyclables) depuis des années.",
+          "traps": "(A) est contredit : l'entreprise ne prévoit pas d'augmenter ses prix. (C) n'est mentionné nulle part.",
+          "takeaway": "Inférence : la réponse se déduit d'une phrase précise, sans extrapolation excessive."
+        }
+      ]
+    },
+    {
+      "id": "e1-p7-s10",
+      "kind": "single",
+      "title": "Discussion en ligne",
+      "docs": [
+        {
+          "type": "chat",
+          "messages": [
+            {
+              "name": "Ana Silva",
+              "time": "14:02",
+              "text": "Quick update on the Hamburg trade fair. The organizers just confirmed our booth location: Hall 3, stand 3-118."
+            },
+            {
+              "name": "Ben Kowalski",
+              "time": "14:04",
+              "text": "Great. Is that near the main entrance? Last year we were stuck at the back of Hall 6."
+            },
+            {
+              "name": "Ana Silva",
+              "time": "14:05",
+              "text": "Right next to the north entrance, so we should get plenty of foot traffic."
+            },
+            {
+              "name": "Chloé Martin",
+              "time": "14:07",
+              "text": "Good news. What about the product samples? The shipment for last year's fair arrived a day late."
+            },
+            {
+              "name": "Ana Silva",
+              "time": "14:08",
+              "text": "I've booked the courier for October 2, a full week before setup day."
+            },
+            {
+              "name": "Ben Kowalski",
+              "time": "14:10",
+              "text": "Perfect. Chloé, can you finalize the brochures?"
+            },
+            {
+              "name": "Chloé Martin",
+              "time": "14:11",
+              "text": "Already at the printer. I'll pick them up Thursday."
+            },
+            {
+              "name": "Ben Kowalski",
+              "time": "14:12",
+              "text": "Then I think we're in good shape."
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "e1-p7-26",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What are the writers mainly discussing?",
+          "options": [
+            "A delay in printing brochures",
+            "The hiring of a courier company",
+            "Preparations for a trade event",
+            "The design of a new product"
+          ],
+          "answer": "C",
+          "evidence": "Quick update on the Hamburg trade fair.",
+          "explanation": "Toute la discussion porte sur l'organisation du salon de Hambourg : stand, échantillons, brochures.",
+          "takeaway": "Trade fair = trade show = salon professionnel."
+        },
+        {
+          "id": "e1-p7-27",
+          "level": 2,
+          "category": "inference",
+          "prompt": "What is suggested about this year's booth?",
+          "options": [
+            "It is larger than last year's booth.",
+            "It is in Hall 6.",
+            "It is better located than last year's booth.",
+            "It has not been confirmed yet."
+          ],
+          "answer": "C",
+          "evidence": "Right next to the north entrance",
+          "explanation": "L'an dernier, le stand était au fond du hall 6 ; cette année il est juste à côté d'une entrée, donc mieux placé (plus de passage).",
+          "traps": "(D) est faux : l'emplacement vient d'être confirmé.",
+          "takeaway": "Foot traffic = passage, fréquentation."
+        },
+        {
+          "id": "e1-p7-28",
+          "level": 3,
+          "category": "inference",
+          "prompt": "Why most likely did Ms. Silva book the courier well in advance?",
+          "options": [
+            "To get a lower price",
+            "To avoid a problem that happened previously",
+            "Because the brochures are not ready",
+            "Because the fair has been moved to an earlier date"
+          ],
+          "answer": "B",
+          "evidence": "The shipment for last year's fair arrived a day late.",
+          "explanation": "Mme Martin rappelle que l'envoi de l'an dernier est arrivé en retard ; réserver une semaine avant l'installation évite de reproduire ce problème.",
+          "takeaway": "Pour un « why most likely », relie deux répliques consécutives."
+        },
+        {
+          "id": "e1-p7-29",
+          "level": 2,
+          "category": "intention",
+          "prompt": "At 14:12, what does Mr. Kowalski most likely mean when he writes, \"Then I think we're in good shape\"?",
+          "options": [
+            "He believes preparations are on track.",
+            "He is pleased with the booth's design.",
+            "He wants to exercise before the fair.",
+            "He thinks the brochures should be reprinted."
+          ],
+          "answer": "A",
+          "evidence": "Then I think we're in good shape.",
+          "explanation": "Après avoir vérifié le stand, les échantillons et les brochures, M. Kowalski conclut que tout est prêt : « we're in good shape » = nous sommes dans les temps / bien préparés.",
+          "traps": "(C) prend « shape » au sens physique (être en forme).",
+          "takeaway": "In good shape = en bonne voie, bien parti."
+        }
+      ]
+    },
+    {
+      "id": "e1-p7-d1",
+      "kind": "double",
+      "title": "Offre d'emploi + candidature",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Mercer Engineering — Project Coordinator (Toulouse office)",
+          "body": "Mercer Engineering, a consulting firm specializing in renewable energy infrastructure, is seeking a project coordinator. Responsibilities include scheduling site visits, preparing progress reports for clients, and managing project budgets of up to €2 million.\n\nRequirements:\n• A degree in engineering, business, or a related field\n• At least three years of project coordination experience\n• Fluency in English and French; knowledge of Spanish is an advantage\n• Willingness to travel up to 30 percent of the time\n\nSend your CV and a cover letter to careers@mercer-eng.com by May 15. Interviews will take place during the week of May 26."
+        },
+        {
+          "type": "email",
+          "from": "Inès Duarte",
+          "to": "careers@mercer-eng.com",
+          "subject": "Application — Project Coordinator",
+          "date": "May 12",
+          "body": "Dear Hiring Manager,\n\nPlease find attached my CV and cover letter for the Project Coordinator position advertised on your website. For the past four years, I have coordinated wind farm installation projects at Eolia Partners in Bordeaux, where I managed budgets of up to €3 million.\n\nI am a native speaker of Portuguese and Spanish and work daily in French and English. I would also welcome the opportunity to travel, as I currently visit sites across southern France twice a month.\n\nI will be attending a conference in Lisbon from May 27 to 29, but I am available for an interview on any other day.\n\nSincerely,\nInès Duarte"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e1-p7-30",
+          "level": 1,
+          "category": "not-true",
+          "prompt": "What is NOT listed as a responsibility of the position?",
+          "options": [
+            "Scheduling site visits",
+            "Preparing reports for clients",
+            "Managing budgets",
+            "Recruiting engineers"
+          ],
+          "answer": "D",
+          "explanation": "L'annonce cite la planification des visites de sites, les rapports d'avancement et la gestion des budgets. Le recrutement d'ingénieurs n'est pas mentionné.",
+          "takeaway": "Questions NOT : coche mentalement chaque option trouvée dans le texte."
+        },
+        {
+          "id": "e1-p7-31",
+          "level": 1,
+          "category": "synonym",
+          "prompt": "In the advertisement, the word \"seeking\" in paragraph 1, line 2, is closest in meaning to",
+          "options": [
+            "promoting",
+            "training",
+            "looking for",
+            "replacing"
+          ],
+          "answer": "C",
+          "evidence": "is seeking a project coordinator",
+          "explanation": "« Seek » = chercher : l'entreprise cherche un coordinateur de projet.",
+          "takeaway": "Seek = look for ; seeking candidates = recherche des candidats."
+        },
+        {
+          "id": "e1-p7-32",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "What is suggested about Ms. Duarte?",
+          "options": [
+            "She has managed smaller budgets than required.",
+            "She has more experience than the position requires.",
+            "She is unwilling to travel.",
+            "She currently works in Toulouse."
+          ],
+          "answer": "B",
+          "explanation": "L'annonce exige au moins trois ans d'expérience ; Mme Duarte en a quatre. Elle a aussi géré des budgets de 3 M€, au-delà des 2 M€ du poste.",
+          "traps": "(C) est contredit (elle aimerait voyager). (D) : elle travaille à Bordeaux.",
+          "takeaway": "Documents multiples : compare les exigences du doc 1 aux informations du doc 2."
+        },
+        {
+          "id": "e1-p7-33",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "Which qualification does Ms. Duarte have that the advertisement describes as an advantage?",
+          "options": [
+            "Knowledge of Spanish",
+            "A degree in engineering",
+            "Experience in Bordeaux",
+            "Fluency in Portuguese"
+          ],
+          "answer": "A",
+          "explanation": "L'annonce indique que l'espagnol est un atout (« knowledge of Spanish is an advantage ») et Mme Duarte est de langue maternelle espagnole.",
+          "traps": "Le portugais n'est pas mentionné dans l'annonce, même s'il fait partie de ses compétences.",
+          "takeaway": "Advantage / asset / a plus = atout (non obligatoire)."
+        },
+        {
+          "id": "e1-p7-34",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "On which date would Ms. Duarte most likely be unable to attend an interview?",
+          "options": [
+            "May 12",
+            "May 15",
+            "May 28",
+            "May 30"
+          ],
+          "answer": "C",
+          "explanation": "Les entretiens ont lieu la semaine du 26 mai ; Mme Duarte est à Lisbonne du 27 au 29 mai. Le 28 mai est la seule date proposée qui tombe pendant sa conférence.",
+          "traps": "Le 30 mai est dans la semaine des entretiens mais après la conférence. Le 15 mai est la date limite de candidature.",
+          "takeaway": "Croise les dates des deux documents avant de répondre."
+        }
+      ]
+    },
+    {
+      "id": "e1-p7-d2",
+      "kind": "double",
+      "title": "Facture + e-mail de réclamation",
+      "docs": [
+        {
+          "type": "table",
+          "title": "Brightline Office Supplies — Invoice #BL-4471 — Customer: Hartwell Legal Services — September 3",
+          "columns": [
+            "Item",
+            "Quantity",
+            "Unit price",
+            "Total"
+          ],
+          "rows": [
+            [
+              "Printer paper (box of 5 reams)",
+              "10",
+              "$32.00",
+              "$320.00"
+            ],
+            [
+              "Black toner cartridge TX-90",
+              "4",
+              "$85.00",
+              "$340.00"
+            ],
+            [
+              "Desk organizer, walnut",
+              "6",
+              "$24.50",
+              "$147.00"
+            ],
+            [
+              "Whiteboard markers (pack of 12)",
+              "5",
+              "$9.00",
+              "$45.00"
+            ]
+          ],
+          "note": "Subtotal: $852.00 — Orders over $500 qualify for free delivery. Payment due within 30 days."
+        },
+        {
+          "type": "email",
+          "from": "Rachel Kim",
+          "to": "orders@brightline.com",
+          "subject": "Invoice BL-4471",
+          "date": "September 5",
+          "body": "Hello,\n\nWe received our order yesterday; thank you for the quick delivery. However, I noticed a problem with the invoice. We ordered six desk organizers, but only three were in the shipment, and the packing slip also lists three. Could you either send the remaining items or correct the invoice?\n\nIn addition, the toner cartridges we received are for the TX-80 model, not the TX-90 we ordered. Our printers are not compatible with the TX-80, so we will need to return them. Please let me know how you would like us to send them back.\n\nBest regards,\nRachel Kim, Office Manager\nHartwell Legal Services"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e1-p7-35",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "Why did Ms. Kim write the e-mail?",
+          "options": [
+            "To place a new order",
+            "To request a discount",
+            "To ask for a delivery date",
+            "To report problems with an order"
+          ],
+          "answer": "D",
+          "evidence": "I noticed a problem with the invoice",
+          "explanation": "Mme Kim signale deux problèmes : des organiseurs manquants et des cartouches du mauvais modèle.",
+          "takeaway": "« However, I noticed a problem » introduit le vrai motif du message."
+        },
+        {
+          "id": "e1-p7-36",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "How much was Hartwell Legal Services charged for items it did not receive?",
+          "options": [
+            "$24.50",
+            "$73.50",
+            "$147.00",
+            "$85.00"
+          ],
+          "answer": "B",
+          "explanation": "Six organiseurs ont été facturés (24,50 $ l'unité) mais seulement trois livrés : 3 × 24,50 $ = 73,50 $ facturés sans livraison.",
+          "traps": "147 $ correspond aux six organiseurs ; 24,50 $ au prix d'un seul.",
+          "takeaway": "Questions de calcul : identifie la quantité manquante dans un document et le prix dans l'autre."
+        },
+        {
+          "id": "e1-p7-37",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "What is indicated about the order?",
+          "options": [
+            "It was delivered late.",
+            "It was paid in advance.",
+            "It was delivered free of charge.",
+            "It contained no paper."
+          ],
+          "answer": "C",
+          "explanation": "Le sous-total est de 852 $ et la facture précise que les commandes de plus de 500 $ sont livrées gratuitement.",
+          "traps": "(A) est contredit par « thank you for the quick delivery ».",
+          "takeaway": "Les notes en bas de facture (conditions) servent souvent pour une question."
+        },
+        {
+          "id": "e1-p7-38",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What problem does Ms. Kim mention about the toner cartridges?",
+          "options": [
+            "They arrived damaged.",
+            "They were the wrong model.",
+            "They were too expensive.",
+            "They were not delivered."
+          ],
+          "answer": "B",
+          "evidence": "the toner cartridges we received are for the TX-80 model, not the TX-90 we ordered",
+          "explanation": "Les cartouches reçues correspondent au modèle TX-80 au lieu du TX-90 commandé.",
+          "takeaway": "Not compatible = incompatible ; wrong model = mauvais modèle."
+        },
+        {
+          "id": "e1-p7-39",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does Ms. Kim ask Brightline to provide?",
+          "options": [
+            "Instructions for returning some items",
+            "A refund for the paper",
+            "A new catalog",
+            "A copy of the packing slip"
+          ],
+          "answer": "A",
+          "evidence": "Please let me know how you would like us to send them back.",
+          "explanation": "Elle demande comment renvoyer les cartouches : ce sont des instructions de retour.",
+          "takeaway": "Send back = return = renvoyer."
+        }
+      ]
+    },
+    {
+      "id": "e1-p7-t1",
+      "kind": "triple",
+      "title": "Programme de conférence + e-mail + formulaire",
+      "docs": [
+        {
+          "type": "table",
+          "title": "Digital Retail Summit — Day 2 Program (Thursday, March 12) — Riverside Convention Center",
+          "columns": [
+            "Time",
+            "Session",
+            "Speaker",
+            "Room"
+          ],
+          "rows": [
+            [
+              "9:00–10:00",
+              "Keynote: The Future of Checkout",
+              "Marcus Lee",
+              "Grand Hall"
+            ],
+            [
+              "10:30–11:30",
+              "Personalization Without Privacy Risks",
+              "Dana Whitaker",
+              "Room B"
+            ],
+            [
+              "10:30–11:30",
+              "Building a Loyalty App on a Budget",
+              "Sanjay Patel",
+              "Room C"
+            ],
+            [
+              "13:00–14:00",
+              "Supply Chain Data in Real Time",
+              "Elena Rossi",
+              "Room B"
+            ],
+            [
+              "14:30–15:30",
+              "Panel: Small Retailers Going Digital",
+              "Various",
+              "Grand Hall"
+            ]
+          ],
+          "note": "Lunch is served from 11:45 to 12:45 in the Atrium. Session changes are posted at the registration desk."
+        },
+        {
+          "type": "email",
+          "from": "Summit Organizing Team",
+          "to": "Registered attendees",
+          "subject": "Program update for Thursday",
+          "date": "March 10",
+          "body": "Dear attendees,\n\nPlease note one change to Thursday's program. Due to a scheduling conflict, Elena Rossi will now present her session at 10:30 in Room A instead of in the afternoon. The time slot she originally held will be used for an additional networking session in the Atrium.\n\nWe also remind you that the Grand Hall has limited seating. Attendees wishing to attend the afternoon panel are encouraged to arrive early.\n\nKind regards,\nThe Organizing Team"
+        },
+        {
+          "type": "form",
+          "title": "Session Feedback Form",
+          "fields": [
+            [
+              "Name",
+              "Tomás Herrera"
+            ],
+            [
+              "Company",
+              "Verde Home Stores"
+            ],
+            [
+              "Session attended",
+              "Supply Chain Data in Real Time"
+            ],
+            [
+              "Rating",
+              "5/5"
+            ]
+          ],
+          "body": "The presenter gave many practical examples, and her case study on inventory tracking was directly relevant to our stores. My only regret is that I had to miss the loyalty app session, which took place at the same time. I hope the slides will be shared with attendees."
+        }
+      ],
+      "questions": [
+        {
+          "id": "e1-p7-40",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the purpose of the e-mail?",
+          "options": [
+            "To request feedback on a session",
+            "To invite speakers to a summit",
+            "To confirm a registration",
+            "To announce a change to a schedule"
+          ],
+          "answer": "D",
+          "evidence": "Please note one change to Thursday's program.",
+          "explanation": "L'e-mail annonce le déplacement de la session d'Elena Rossi : c'est une modification du programme.",
+          "takeaway": "Program update = changement de programme."
+        },
+        {
+          "id": "e1-p7-41",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "What will take place from 13:00 to 14:00 on March 12?",
+          "options": [
+            "A keynote speech",
+            "Lunch",
+            "A networking session",
+            "A panel discussion"
+          ],
+          "answer": "C",
+          "explanation": "Le programme place la session de Mme Rossi à 13 h ; l'e-mail indique que ce créneau initial sera remplacé par une session de networking dans l'Atrium.",
+          "traps": "Le déjeuner a lieu de 11 h 45 à 12 h 45 ; le panel commence à 14 h 30.",
+          "takeaway": "Applique la modification annoncée (doc 2) au programme initial (doc 1)."
+        },
+        {
+          "id": "e1-p7-42",
+          "level": 1,
+          "category": "detail",
+          "prompt": "According to the e-mail, what are attendees advised to do?",
+          "options": [
+            "Register for sessions online",
+            "Arrive early for the panel discussion",
+            "Bring printed tickets",
+            "Check out of their hotel by noon"
+          ],
+          "answer": "B",
+          "evidence": "Attendees wishing to attend the afternoon panel are encouraged to arrive early.",
+          "explanation": "Le Grand Hall a un nombre de places limité : on conseille d'arriver tôt pour le panel de l'après-midi.",
+          "takeaway": "Be encouraged to = être invité à (conseil)."
+        },
+        {
+          "id": "e1-p7-43",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "In which room did Mr. Herrera most likely attend a session?",
+          "options": [
+            "Room A",
+            "Room B",
+            "Room C",
+            "The Grand Hall"
+          ],
+          "answer": "A",
+          "explanation": "M. Herrera a assisté à la session d'Elena Rossi, qui a été déplacée à 10 h 30 en salle A. Cohérent : il a manqué la session sur l'application de fidélité, programmée à la même heure.",
+          "traps": "La salle B était la salle prévue à l'origine (programme non mis à jour) : piège typique des triples documents.",
+          "takeaway": "Triple document : vérifie toujours si un document modifie l'information d'un autre."
+        },
+        {
+          "id": "e1-p7-44",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does Mr. Herrera hope to receive?",
+          "options": [
+            "A refund",
+            "An invitation to next year's summit",
+            "A recording of the panel",
+            "The presentation materials"
+          ],
+          "answer": "D",
+          "evidence": "I hope the slides will be shared with attendees.",
+          "explanation": "Il espère que les diapositives seront partagées : ce sont les supports de présentation.",
+          "takeaway": "Slides = presentation materials."
+        }
+      ]
+    },
+    {
+      "id": "e1-p7-t2",
+      "kind": "triple",
+      "title": "Annonce immobilière + deux e-mails",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Office Space for Rent — Canal Street Business Lofts",
+          "body": "Three furnished units available from July 1 in a renovated 19th-century warehouse, five minutes' walk from Gare Centrale.\n\n• Unit 2A: 45 m², 6 workstations, €1,450/month\n• Unit 3B: 70 m², 10 workstations, private meeting room, €2,200/month\n• Unit 4C: 95 m², 14 workstations, private meeting room, rooftop access, €2,950/month\n\nAll units include high-speed Internet, cleaning twice a week, and access to a shared kitchen. Minimum lease: 12 months. Contact Pauline Girard at Canal Street Properties to arrange a visit."
+        },
+        {
+          "type": "email",
+          "from": "Omar Benali",
+          "to": "Pauline Girard",
+          "subject": "Visit request",
+          "date": "June 2",
+          "body": "Dear Ms. Girard,\n\nI run a small design studio that currently has eight employees, and we plan to hire two more designers this autumn. We need a space with a room where we can meet clients privately, and our budget is up to €2,500 per month.\n\nWould it be possible to visit the unit that best matches our needs on Friday afternoon? I would also like to know whether a lease of six months would be possible, as we may relocate to Paris next year.\n\nBest regards,\nOmar Benali, Benali Studio"
+        },
+        {
+          "type": "email",
+          "from": "Pauline Girard",
+          "to": "Omar Benali",
+          "subject": "RE: Visit request",
+          "date": "June 3",
+          "body": "Dear Mr. Benali,\n\nThank you for your interest. I would be happy to show you the unit on Friday at 3 P.M. Unfortunately, the owner does not accept leases shorter than the minimum period stated in our advertisement. However, the lease does allow tenants to move to a larger unit in the building without penalty if one becomes available.\n\nI should also mention that the building's elevator will be replaced in July, so the upper floors will be accessible only by stairs for about two weeks.\n\nKind regards,\nPauline Girard"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e1-p7-45",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What is true about all the units?",
+          "options": [
+            "They have rooftop access.",
+            "They have a private meeting room.",
+            "They include regular cleaning.",
+            "They can be rented for six months."
+          ],
+          "answer": "C",
+          "evidence": "cleaning twice a week",
+          "explanation": "Tous les bureaux incluent Internet, le ménage deux fois par semaine et une cuisine partagée.",
+          "traps": "Le toit et la salle de réunion ne concernent que certains bureaux. La durée minimale est de 12 mois.",
+          "takeaway": "« All units include » = information commune à tous."
+        },
+        {
+          "id": "e1-p7-46",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "Which unit will Mr. Benali most likely visit?",
+          "options": [
+            "Unit 2A",
+            "Unit 3B",
+            "Unit 4C",
+            "A unit on the ground floor"
+          ],
+          "answer": "B",
+          "explanation": "Il lui faut 10 postes (8 employés + 2 recrues), une salle de réunion privée et un loyer ≤ 2 500 €. Seul le 3B (10 postes, salle privée, 2 200 €) convient ; le 4C dépasse le budget.",
+          "takeaway": "Croise chaque critère (taille, équipement, budget) avec les options."
+        },
+        {
+          "id": "e1-p7-47",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "What does Ms. Girard indicate about the lease?",
+          "options": [
+            "It must last at least 12 months.",
+            "It can be signed online.",
+            "It includes parking.",
+            "It will start in August."
+          ],
+          "answer": "A",
+          "explanation": "Elle répond que le propriétaire n'accepte pas de bail plus court que la durée minimale de l'annonce, soit 12 mois. La demande de six mois est donc refusée.",
+          "takeaway": "« The minimum period stated in our advertisement » renvoie au doc 1 : Minimum lease 12 months."
+        },
+        {
+          "id": "e1-p7-48",
+          "level": 1,
+          "category": "inference",
+          "prompt": "What is suggested about Benali Studio?",
+          "options": [
+            "It is moving out of Paris.",
+            "It plans to increase its staff.",
+            "It has its own kitchen.",
+            "It works mainly with real estate clients."
+          ],
+          "answer": "B",
+          "evidence": "we plan to hire two more designers this autumn",
+          "explanation": "Le studio prévoit d'embaucher deux designers : l'effectif va augmenter.",
+          "traps": "(A) inverse l'information : le studio pourrait déménager À Paris.",
+          "takeaway": "Hire = recruter ; expand staff = augmenter l'effectif."
+        },
+        {
+          "id": "e1-p7-49",
+          "level": 2,
+          "category": "detail",
+          "prompt": "According to Ms. Girard, what will happen in July?",
+          "options": [
+            "The rent will increase.",
+            "A new tenant will move into Unit 4C.",
+            "Access to some floors will be limited.",
+            "The kitchen will be renovated."
+          ],
+          "answer": "C",
+          "evidence": "the upper floors will be accessible only by stairs for about two weeks",
+          "explanation": "Le remplacement de l'ascenseur rendra les étages supérieurs accessibles uniquement par l'escalier pendant environ deux semaines.",
+          "takeaway": "Only by stairs = accès limité."
+        }
+      ]
+    },
+    {
+      "id": "e1-p7-t3",
+      "kind": "triple",
+      "title": "Communiqué + confirmation de commande + e-mail client",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Press Release — Velto Launches the Aria Smart Thermostat",
+          "body": "BERLIN, 4 September — Velto GmbH today announced the launch of the Aria, a smart thermostat that learns users' daily routines and adjusts heating automatically. According to independent tests, households using the Aria reduced their heating costs by an average of 17 percent.\n\nThe Aria will be available in two versions: the Aria Basic (€129) and the Aria Plus (€179), which adds room-by-room temperature sensors and voice control. Customers who pre-order before 30 September will receive free installation by a certified technician, normally a €60 service."
+        },
+        {
+          "type": "form",
+          "title": "Velto Online Store — Order Confirmation",
+          "fields": [
+            [
+              "Order number",
+              "VT-20931"
+            ],
+            [
+              "Customer",
+              "Sophie Lambert"
+            ],
+            [
+              "Date of order",
+              "22 September"
+            ],
+            [
+              "Product",
+              "Aria thermostat × 1"
+            ],
+            [
+              "Installation",
+              "Included"
+            ],
+            [
+              "Delivery",
+              "Standard (5–7 business days)"
+            ]
+          ],
+          "body": "Your order will be shipped from our Leipzig warehouse. You will receive an e-mail when your thermostat is on its way."
+        },
+        {
+          "type": "email",
+          "from": "Sophie Lambert",
+          "to": "support@velto.de",
+          "subject": "Order VT-20931",
+          "date": "6 October",
+          "body": "Hello,\n\nMy Aria arrived on Friday and the technician installed it yesterday. Everything works well, and I appreciate being able to set a different temperature in each room. However, the voice control feature does not respond to commands in French, even though your website states that French is supported. Could you tell me whether an update is planned?\n\nThank you,\nSophie Lambert"
+        }
+      ],
+      "questions": [
+        {
+          "id": "e1-p7-50",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the purpose of the press release?",
+          "options": [
+            "To introduce a new product",
+            "To announce a price reduction",
+            "To recruit technicians",
+            "To report test results for competitors"
+          ],
+          "answer": "A",
+          "evidence": "today announced the launch of the Aria",
+          "explanation": "Le communiqué annonce le lancement du thermostat Aria : il présente un nouveau produit.",
+          "takeaway": "Launch = lancement d'un produit."
+        },
+        {
+          "id": "e1-p7-51",
+          "level": 2,
+          "category": "synonym",
+          "prompt": "What is indicated about the Aria?",
+          "options": [
+            "It is manufactured in Leipzig.",
+            "It was designed for offices.",
+            "It requires a monthly subscription.",
+            "It can lower energy expenses."
+          ],
+          "answer": "D",
+          "evidence": "reduced their heating costs by an average of 17 percent",
+          "explanation": "Les foyers équipés ont réduit leurs frais de chauffage de 17 % : « lower energy expenses » paraphrase « reduced heating costs ».",
+          "traps": "(A) : Leipzig est l'entrepôt d'expédition, pas forcément le lieu de fabrication.",
+          "takeaway": "Costs = expenses ; reduce = lower."
+        },
+        {
+          "id": "e1-p7-52",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "How much did Ms. Lambert most likely pay for installation?",
+          "options": [
+            "Nothing",
+            "€60",
+            "€129",
+            "€179"
+          ],
+          "answer": "A",
+          "explanation": "Elle a commandé le 22 septembre, avant le 30 septembre : l'installation était offerte (« Installation: Included »).",
+          "traps": "60 € est le prix normal de l'installation, sans l'offre de précommande.",
+          "takeaway": "Compare les dates : date de commande vs date limite de l'offre."
+        },
+        {
+          "id": "e1-p7-53",
+          "level": 3,
+          "category": "cross-reference",
+          "prompt": "Which version of the Aria did Ms. Lambert most likely buy?",
+          "options": [
+            "The Aria Basic, because it was cheaper",
+            "The Aria Basic, because it includes voice control",
+            "The Aria Plus, because she can control each room's temperature",
+            "It cannot be determined from the documents."
+          ],
+          "answer": "C",
+          "explanation": "La confirmation ne précise pas la version, mais Mme Lambert règle la température pièce par pièce et utilise la commande vocale : ces fonctions n'existent que sur l'Aria Plus.",
+          "traps": "(D) est tentant car le bon de commande ne le dit pas, mais l'e-mail permet de le déduire.",
+          "takeaway": "Quand un document est incomplet, un autre permet souvent de déduire l'information."
+        },
+        {
+          "id": "e1-p7-54",
+          "level": 2,
+          "category": "inference",
+          "prompt": "Why did Ms. Lambert contact Velto?",
+          "options": [
+            "Her thermostat was delivered late.",
+            "A feature does not work as advertised.",
+            "The technician did not come.",
+            "She wants to return the product."
+          ],
+          "answer": "B",
+          "evidence": "the voice control feature does not respond to commands in French",
+          "explanation": "La commande vocale ne répond pas en français alors que le site affirme que le français est pris en charge : une fonction ne marche pas comme annoncé.",
+          "takeaway": "As advertised = comme annoncé ; supported = pris en charge."
+        }
+      ]
+    }
+  ]
+}

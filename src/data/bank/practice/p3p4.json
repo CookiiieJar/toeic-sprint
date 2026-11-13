@@ -1,0 +1,865 @@
+{
+  "pool": "practice",
+  "sets": [
+    {
+      "id": "p-p3-c01",
+      "part": 3,
+      "kind": "conversation",
+      "title": "Migration de la messagerie (3 interlocuteurs)",
+      "audio": [
+        {
+          "s": "W",
+          "t": "Just a reminder that the company's e-mail system will be migrated to the new platform this weekend."
+        },
+        {
+          "s": "M",
+          "t": "Will we be able to access our messages on Saturday? I'm on call for customer support."
+        },
+        {
+          "s": "W",
+          "t": "Only through your phone. The web version will be down from Saturday morning until Sunday evening."
+        },
+        {
+          "s": "M2",
+          "t": "What about our contact lists? It took me ages to build mine."
+        },
+        {
+          "s": "W",
+          "t": "Those will be transferred automatically. But I'd recommend exporting a copy on Friday, just to be safe."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p3-01",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What will happen this weekend?",
+          "options": [
+            "A training session will take place.",
+            "A customer support office will close.",
+            "New phones will be distributed.",
+            "An e-mail system will be moved to a new platform."
+          ],
+          "answer": "D",
+          "evidence": "the company's e-mail system will be migrated to the new platform this weekend",
+          "explanation": "La messagerie de l'entreprise migre vers une nouvelle plateforme ce week-end.",
+          "takeaway": "Migrate = transférer (un système) vers."
+        },
+        {
+          "id": "p-p3-02",
+          "level": 2,
+          "category": "inference",
+          "prompt": "Why is the first man concerned?",
+          "options": [
+            "He has lost his contact list.",
+            "He has to work on Saturday.",
+            "He does not have a company phone.",
+            "He missed a training session."
+          ],
+          "answer": "B",
+          "evidence": "I'm on call for customer support.",
+          "explanation": "Il est d'astreinte (« on call ») samedi pour le support client : il doit pouvoir lire ses messages ce jour-là.",
+          "takeaway": "Be on call = être d'astreinte."
+        },
+        {
+          "id": "p-p3-03",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does the woman recommend?",
+          "options": [
+            "Calling customer support",
+            "Using the web version",
+            "Saving a backup copy of contacts",
+            "Postponing the migration"
+          ],
+          "answer": "C",
+          "evidence": "I'd recommend exporting a copy on Friday",
+          "explanation": "Elle conseille d'exporter une copie des contacts vendredi, par précaution : une sauvegarde.",
+          "traps": "La version web sera justement indisponible.",
+          "takeaway": "Just to be safe = par précaution."
+        }
+      ]
+    },
+    {
+      "id": "p-p3-c02",
+      "part": 3,
+      "kind": "conversation",
+      "title": "Commande de bannière (graphique)",
+      "graphic": {
+        "type": "table",
+        "title": "Banner Sizes and Prices",
+        "columns": [
+          "Size",
+          "Width × Height",
+          "Price"
+        ],
+        "rows": [
+          [
+            "Small",
+            "60 × 90 cm",
+            "€35"
+          ],
+          [
+            "Medium",
+            "90 × 150 cm",
+            "€55"
+          ],
+          [
+            "Large",
+            "120 × 200 cm",
+            "€80"
+          ],
+          [
+            "Extra Large",
+            "150 × 300 cm",
+            "€120"
+          ]
+        ]
+      },
+      "audio": [
+        {
+          "s": "M",
+          "t": "Hi, I need a banner for our company's booth at a career fair this Saturday."
+        },
+        {
+          "s": "W",
+          "t": "Sure. Do you know how much space you have?"
+        },
+        {
+          "s": "M",
+          "t": "The back wall of the booth is one meter thirty wide, and the organizers don't allow banners wider than the wall. I'd like the biggest one possible."
+        },
+        {
+          "s": "W",
+          "t": "OK. If you send us your design by Thursday noon, it'll be ready on Friday afternoon."
+        },
+        {
+          "s": "M",
+          "t": "Great, our designer will e-mail it today."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p3-04",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What event is the man preparing for?",
+          "options": [
+            "A product launch",
+            "A career fair",
+            "A store opening",
+            "A sports competition"
+          ],
+          "answer": "B",
+          "evidence": "a banner for our company's booth at a career fair",
+          "explanation": "La bannière est destinée au stand de l'entreprise sur un salon de l'emploi.",
+          "takeaway": "Career fair = salon de l'emploi / du recrutement."
+        },
+        {
+          "id": "p-p3-05",
+          "level": 3,
+          "category": "graphic",
+          "prompt": "Look at the graphic. How much will the man most likely pay?",
+          "options": [
+            "€35",
+            "€55",
+            "€80",
+            "€120"
+          ],
+          "answer": "C",
+          "explanation": "Le mur mesure 1,30 m et la bannière ne doit pas être plus large ; il veut la plus grande possible : la taille Large (120 cm) à 80 €.",
+          "traps": "L'Extra Large (150 cm) dépasse la largeur du mur.",
+          "takeaway": "Graphiques : applique chaque contrainte entendue (largeur max + « the biggest possible »)."
+        },
+        {
+          "id": "p-p3-06",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does the woman say about the design?",
+          "options": [
+            "It must be received by a deadline.",
+            "It needs to be revised.",
+            "It will be created by her team.",
+            "It should include the company logo."
+          ],
+          "answer": "A",
+          "evidence": "If you send us your design by Thursday noon",
+          "explanation": "Le fichier doit être envoyé avant jeudi midi pour que la bannière soit prête vendredi : c'est une date limite.",
+          "takeaway": "By + moment = au plus tard."
+        }
+      ]
+    },
+    {
+      "id": "p-p3-c03",
+      "part": 3,
+      "kind": "conversation",
+      "title": "Programme de mentorat",
+      "audio": [
+        {
+          "s": "W",
+          "t": "Hi Tom, I heard you signed up to mentor one of the new graduates."
+        },
+        {
+          "s": "M",
+          "t": "Yes, I'm meeting her for the first time on Wednesday. To be honest, I'm a little nervous. I've never mentored anyone."
+        },
+        {
+          "s": "W",
+          "t": "You'll be fine. When I did it last year, HR gave us a really useful guide with discussion topics for each meeting."
+        },
+        {
+          "s": "M",
+          "t": "Oh, I didn't get anything like that."
+        },
+        {
+          "s": "W",
+          "t": "I still have mine. I'll drop it off at your desk after lunch."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p3-07",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What did the man recently do?",
+          "options": [
+            "He graduated from university.",
+            "He joined the HR department.",
+            "He was promoted to manager.",
+            "He volunteered to guide a new employee."
+          ],
+          "answer": "D",
+          "evidence": "you signed up to mentor one of the new graduates",
+          "explanation": "Il s'est porté volontaire pour accompagner (« mentor ») une jeune diplômée récemment embauchée.",
+          "takeaway": "Sign up to = s'inscrire pour, se porter volontaire."
+        },
+        {
+          "id": "p-p3-08",
+          "level": 3,
+          "category": "intention",
+          "prompt": "Why does the man say, \"I didn't get anything like that\"?",
+          "options": [
+            "To complain about the HR department",
+            "To refuse the woman's offer",
+            "To indicate that he lacks a useful resource",
+            "To explain why he is late"
+          ],
+          "answer": "C",
+          "evidence": "Oh, I didn't get anything like that.",
+          "explanation": "Il n'a pas reçu le guide dont parle sa collègue : il lui manque cette ressource. Elle propose alors de lui prêter le sien.",
+          "takeaway": "La réaction de l'autre personne confirme l'intention."
+        },
+        {
+          "id": "p-p3-09",
+          "level": 1,
+          "category": "next-action",
+          "prompt": "What will the woman do after lunch?",
+          "options": [
+            "Meet the new graduate",
+            "Bring the man a document",
+            "Contact HR",
+            "Lead a training session"
+          ],
+          "answer": "B",
+          "evidence": "I'll drop it off at your desk after lunch.",
+          "explanation": "Elle déposera son guide sur le bureau de Tom après le déjeuner.",
+          "takeaway": "Drop off = déposer."
+        }
+      ]
+    },
+    {
+      "id": "p-p3-c04",
+      "part": 3,
+      "kind": "conversation",
+      "title": "Livraison manquante au restaurant",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Ingrid, the fish delivery still hasn't arrived, and we open in two hours."
+        },
+        {
+          "s": "W",
+          "t": "I just called the supplier. Their truck broke down on the highway."
+        },
+        {
+          "s": "M",
+          "t": "That's a problem. Tonight's special is the grilled salmon, and we have forty reservations."
+        },
+        {
+          "s": "W",
+          "t": "The market on Rue Colbert sells fresh salmon. It'll cost more, but it's only ten minutes away."
+        },
+        {
+          "s": "M",
+          "t": "Let's do that. I'll send Antoine with the van right now."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p3-10",
+          "level": 1,
+          "category": "inference",
+          "prompt": "Where do the speakers most likely work?",
+          "options": [
+            "At a restaurant",
+            "At a fish market",
+            "At a trucking company",
+            "At a hotel reception"
+          ],
+          "answer": "A",
+          "evidence": "Tonight's special is the grilled salmon, and we have forty reservations.",
+          "explanation": "Plat du jour, réservations, ouverture dans deux heures : ils travaillent dans un restaurant.",
+          "takeaway": "Special = plat du jour."
+        },
+        {
+          "id": "p-p3-11",
+          "level": 1,
+          "category": "detail",
+          "prompt": "Why hasn't the delivery arrived?",
+          "options": [
+            "The supplier ran out of fish.",
+            "The order was lost.",
+            "The road was closed.",
+            "A vehicle broke down."
+          ],
+          "answer": "D",
+          "evidence": "Their truck broke down on the highway.",
+          "explanation": "Le camion du fournisseur est tombé en panne sur l'autoroute.",
+          "takeaway": "Break down = tomber en panne."
+        },
+        {
+          "id": "p-p3-12",
+          "level": 2,
+          "category": "inference",
+          "prompt": "What does the woman imply about the market on Rue Colbert?",
+          "options": [
+            "It is closed today.",
+            "It delivers to restaurants.",
+            "Its prices are higher.",
+            "It does not sell salmon."
+          ],
+          "answer": "C",
+          "evidence": "It'll cost more",
+          "explanation": "« It'll cost more » : acheter au marché sera plus cher que chez le fournisseur habituel.",
+          "takeaway": "Imply = sous-entendre ; la réponse reformule une remarque brève."
+        }
+      ]
+    },
+    {
+      "id": "p-p3-c05",
+      "part": 3,
+      "kind": "conversation",
+      "title": "Erreur d'impression (3 interlocuteurs)",
+      "audio": [
+        {
+          "s": "M",
+          "t": "The packaging samples came back from the printer, and the color is off. The logo looks purple instead of blue."
+        },
+        {
+          "s": "W",
+          "t": "Oh no. We're launching in three weeks."
+        },
+        {
+          "s": "W2",
+          "t": "I've worked with that printer before. They usually reprint in five days."
+        },
+        {
+          "s": "M",
+          "t": "Five days still leaves us time to stock the stores."
+        },
+        {
+          "s": "W",
+          "t": "OK, let's request a reprint today, and I'll ask them to send a proof first."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p3-13",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What problem are the speakers discussing?",
+          "options": [
+            "A product launch was canceled.",
+            "Some packaging was printed incorrectly.",
+            "A store ran out of stock.",
+            "A logo design was rejected."
+          ],
+          "answer": "B",
+          "evidence": "the color is off",
+          "explanation": "Les échantillons d'emballage ont une mauvaise couleur : le logo est violet au lieu de bleu.",
+          "takeaway": "The color is off = la couleur n'est pas bonne."
+        },
+        {
+          "id": "p-p3-14",
+          "level": 3,
+          "category": "intention",
+          "prompt": "Why does the second woman say, \"They usually reprint in five days\"?",
+          "options": [
+            "To reassure her colleagues about the schedule",
+            "To complain about the printer's speed",
+            "To suggest finding another printer",
+            "To ask for a discount"
+          ],
+          "answer": "A",
+          "evidence": "They usually reprint in five days.",
+          "explanation": "Face à l'inquiétude sur le lancement dans trois semaines, elle indique que la réimpression sera rapide ; l'homme confirme qu'il reste du temps.",
+          "takeaway": "Intention : réponse rassurante à une inquiétude exprimée juste avant."
+        },
+        {
+          "id": "p-p3-15",
+          "level": 2,
+          "category": "next-action",
+          "prompt": "What does the first woman say she will request?",
+          "options": [
+            "A refund",
+            "A new logo",
+            "A faster delivery",
+            "A sample to check before printing"
+          ],
+          "answer": "D",
+          "evidence": "I'll ask them to send a proof first",
+          "explanation": "Elle demandera d'abord une épreuve (« proof ») : un exemplaire de contrôle avant l'impression définitive.",
+          "takeaway": "Proof = épreuve (impression de contrôle)."
+        }
+      ]
+    },
+    {
+      "id": "p-p3-c06",
+      "part": 3,
+      "kind": "conversation",
+      "title": "Programme d'un forum (graphique)",
+      "graphic": {
+        "type": "table",
+        "title": "Logistics Forum — Morning Program",
+        "columns": [
+          "Time",
+          "Session"
+        ],
+        "rows": [
+          [
+            "9:00",
+            "Opening Remarks"
+          ],
+          [
+            "10:00",
+            "Panel: Green Logistics"
+          ],
+          [
+            "11:30",
+            "Workshop: Data Tools"
+          ],
+          [
+            "14:00",
+            "Keynote: Grace Okoye"
+          ]
+        ]
+      },
+      "audio": [
+        {
+          "s": "W",
+          "t": "Are you going to the Logistics Forum tomorrow?"
+        },
+        {
+          "s": "M",
+          "t": "Yes, but my train only gets in at ten fifteen, so I'll miss the opening and most of the panel."
+        },
+        {
+          "s": "W",
+          "t": "Too bad, the panel looks great. Anyway, the session I really want to see is the one right after the panel."
+        },
+        {
+          "s": "M",
+          "t": "Me too. I'll be there in time for that one, so I'll save you a seat."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p3-16",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Why will the man arrive late?",
+          "options": [
+            "He has a meeting in the morning.",
+            "He has to give a presentation.",
+            "His train arrives after the forum begins.",
+            "His flight was canceled."
+          ],
+          "answer": "C",
+          "evidence": "my train only gets in at ten fifteen",
+          "explanation": "Son train arrive à 10 h 15, après le début du forum (9 h).",
+          "takeaway": "Get in = arriver (train, avion)."
+        },
+        {
+          "id": "p-p3-17",
+          "level": 3,
+          "category": "graphic",
+          "prompt": "Look at the graphic. Which session does the woman most want to attend?",
+          "options": [
+            "Opening Remarks",
+            "Workshop: Data Tools",
+            "Panel: Green Logistics",
+            "Keynote: Grace Okoye"
+          ],
+          "answer": "B",
+          "explanation": "Elle veut voir la session juste après le panel : l'atelier « Data Tools » de 11 h 30.",
+          "traps": "Le panel lui plaît (« looks great ») mais ce n'est pas la session qu'elle veut surtout voir.",
+          "takeaway": "« The one right after… » : repère la position dans le tableau."
+        },
+        {
+          "id": "p-p3-18",
+          "level": 1,
+          "category": "next-action",
+          "prompt": "What does the man offer to do?",
+          "options": [
+            "Save a seat for the woman",
+            "Pick the woman up at the station",
+            "Take notes during the panel",
+            "Register for the workshop"
+          ],
+          "answer": "A",
+          "evidence": "I'll save you a seat.",
+          "explanation": "L'homme arrivera à temps pour l'atelier et propose de garder une place à sa collègue.",
+          "takeaway": "Save someone a seat = garder une place à quelqu'un."
+        }
+      ]
+    },
+    {
+      "id": "p-p4-t01",
+      "part": 4,
+      "kind": "talk",
+      "title": "Info trafic (radio)",
+      "audio": [
+        {
+          "s": "W",
+          "t": "This is Radio Metro with your eight o'clock traffic update. Drivers heading into the city on the A6 should expect delays of up to forty minutes because of roadwork near the Porte d'Italie exit. The work is scheduled to continue until Friday, so if you can, consider taking the train this week. Meanwhile, the Pont Neuf bridge has reopened to traffic after last week's repairs. Our next update will be at eight thirty, right after the news."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p4-01",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What is causing delays on the A6?",
+          "options": [
+            "An accident",
+            "Bad weather",
+            "A public event",
+            "Construction work"
+          ],
+          "answer": "D",
+          "evidence": "because of roadwork near the Porte d'Italie exit",
+          "explanation": "Les retards sont dus à des travaux routiers (« roadwork »).",
+          "takeaway": "Roadwork = construction work = travaux."
+        },
+        {
+          "id": "p-p4-02",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does the speaker suggest?",
+          "options": [
+            "Leaving home earlier",
+            "Avoiding the Pont Neuf",
+            "Using public transportation",
+            "Listening to the news"
+          ],
+          "answer": "C",
+          "evidence": "consider taking the train this week",
+          "explanation": "Elle suggère de prendre le train cette semaine : les transports en commun.",
+          "takeaway": "Consider + -ing = envisager de (suggestion polie)."
+        },
+        {
+          "id": "p-p4-03",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What is said about the Pont Neuf bridge?",
+          "options": [
+            "It is open again.",
+            "It will close on Friday.",
+            "It is being repaired.",
+            "It is very busy."
+          ],
+          "answer": "A",
+          "evidence": "has reopened to traffic",
+          "explanation": "Le pont a rouvert à la circulation après les réparations.",
+          "traps": "(C) : les réparations ont eu lieu la semaine dernière.",
+          "takeaway": "Reopen = rouvrir."
+        }
+      ]
+    },
+    {
+      "id": "p-p4-t02",
+      "part": 4,
+      "kind": "talk",
+      "title": "Réunion — télétravail",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Thanks for joining this morning. I'd like to share some news about our flexible work policy. Starting in January, employees will be able to work from home up to two days a week. To make this possible, we're introducing a desk-booking app, so you'll reserve a desk for the days you're in the office. I know some of you are worried about losing your usual desk. Well, each team will have its own zone, so you'll still sit near your colleagues. Ricardo from IT will run short training sessions on the app next week."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p4-04",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the talk mainly about?",
+          "options": [
+            "A new office building",
+            "A change in work arrangements",
+            "The hiring of IT staff",
+            "A team-building event"
+          ],
+          "answer": "B",
+          "evidence": "some news about our flexible work policy",
+          "explanation": "Il annonce la nouvelle politique de travail flexible (télétravail deux jours par semaine).",
+          "takeaway": "Work arrangements = organisation du travail."
+        },
+        {
+          "id": "p-p4-05",
+          "level": 3,
+          "category": "intention",
+          "prompt": "Why does the speaker say, \"each team will have its own zone\"?",
+          "options": [
+            "To address a concern",
+            "To announce an office move",
+            "To ask teams to choose a location",
+            "To explain a new security rule"
+          ],
+          "answer": "A",
+          "evidence": "each team will have its own zone",
+          "explanation": "Il répond à l'inquiétude mentionnée juste avant (perdre son bureau habituel) : chacun restera près de ses collègues.",
+          "takeaway": "« I know some of you are worried… Well, … » = réponse à une inquiétude."
+        },
+        {
+          "id": "p-p4-06",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What will Ricardo do next week?",
+          "options": [
+            "Install new desks",
+            "Interview candidates",
+            "Approve remote work requests",
+            "Lead training sessions"
+          ],
+          "answer": "D",
+          "evidence": "Ricardo from IT will run short training sessions on the app next week.",
+          "explanation": "Ricardo animera de courtes formations sur l'application.",
+          "takeaway": "Run a session = animer une session."
+        }
+      ]
+    },
+    {
+      "id": "p-p4-t03",
+      "part": 4,
+      "kind": "talk",
+      "title": "Chiffres de vente (graphique)",
+      "graphic": {
+        "type": "table",
+        "title": "Aero Headphones — Units Sold Last Year",
+        "columns": [
+          "Quarter",
+          "Units sold"
+        ],
+        "rows": [
+          [
+            "Q1",
+            "4,200"
+          ],
+          [
+            "Q2",
+            "3,900"
+          ],
+          [
+            "Q3",
+            "6,100"
+          ],
+          [
+            "Q4",
+            "5,400"
+          ]
+        ]
+      },
+      "audio": [
+        {
+          "s": "W",
+          "t": "Let's look at last year's sales figures for the Aero headphones. As you can see, sales dropped slightly in the second quarter, when a competitor launched a similar product. But in the following quarter, after we reduced the price and started our social media campaign, sales reached their highest level of the year. This year, we want to repeat that success, so our team will launch a new campaign in March. I'd like each of you to send me three ideas by Friday."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p4-07",
+          "level": 2,
+          "category": "inference",
+          "prompt": "Who most likely are the listeners?",
+          "options": [
+            "Product engineers",
+            "Store customers",
+            "Members of a marketing team",
+            "Financial auditors"
+          ],
+          "answer": "C",
+          "evidence": "our team will launch a new campaign in March",
+          "explanation": "L'équipe prépare une campagne et doit proposer des idées : ce sont des membres d'une équipe marketing.",
+          "takeaway": "Campaign, social media → marketing."
+        },
+        {
+          "id": "p-p4-08",
+          "level": 3,
+          "category": "graphic",
+          "prompt": "Look at the graphic. How many units were sold in the quarter after the price was reduced?",
+          "options": [
+            "4,200",
+            "3,900",
+            "6,100",
+            "5,400"
+          ],
+          "answer": "C",
+          "explanation": "Après la baisse de prix (au trimestre suivant le T2), les ventes atteignent leur maximum : T3, 6 100 unités.",
+          "traps": "3 900 correspond au T2, le trimestre de la baisse des ventes.",
+          "takeaway": "« The following quarter » + « highest level » : deux indices convergent."
+        },
+        {
+          "id": "p-p4-09",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What are the listeners asked to do?",
+          "options": [
+            "Lower their prices",
+            "Submit some ideas",
+            "Analyze a competitor",
+            "Prepare a report for March"
+          ],
+          "answer": "B",
+          "evidence": "send me three ideas by Friday",
+          "explanation": "Chacun doit envoyer trois idées d'ici vendredi.",
+          "takeaway": "Submit = send = soumettre."
+        }
+      ]
+    },
+    {
+      "id": "p-p4-t04",
+      "part": 4,
+      "kind": "talk",
+      "title": "Visite guidée au musée",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Welcome to the Maritime Museum. Before we start, a few practical points. Our tour today will last about an hour and will end in the gift shop on the ground floor. Photography is allowed in most galleries, but please turn off your flash, as bright light can damage the old maps on display. If you need a break during the tour, there are benches in every room. Now, let's begin with our most famous exhibit: a full-size replica of a nineteenth-century fishing boat."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p4-10",
+          "level": 1,
+          "category": "inference",
+          "prompt": "Who most likely is the speaker?",
+          "options": [
+            "A tour guide",
+            "A shop assistant",
+            "A boat captain",
+            "A photographer"
+          ],
+          "answer": "A",
+          "evidence": "Our tour today will last about an hour",
+          "explanation": "Il accueille des visiteurs et présente le déroulement de la visite : c'est un guide.",
+          "takeaway": "Tour, exhibit, galleries → guide de musée."
+        },
+        {
+          "id": "p-p4-11",
+          "level": 2,
+          "category": "detail",
+          "prompt": "Why are listeners asked to turn off their flash?",
+          "options": [
+            "Because the rooms are dark",
+            "To avoid disturbing other visitors",
+            "Because photography is forbidden",
+            "To protect some exhibits"
+          ],
+          "answer": "D",
+          "evidence": "bright light can damage the old maps on display",
+          "explanation": "La lumière vive peut abîmer les cartes anciennes exposées : il faut protéger les objets.",
+          "traps": "(C) est faux : la photo est autorisée dans la plupart des salles.",
+          "takeaway": "On display = exposé."
+        },
+        {
+          "id": "p-p4-12",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What will the listeners see first?",
+          "options": [
+            "A collection of maps",
+            "The gift shop",
+            "A model of a boat",
+            "A short film"
+          ],
+          "answer": "C",
+          "evidence": "a full-size replica of a nineteenth-century fishing boat",
+          "explanation": "La visite commence par une réplique grandeur nature d'un bateau de pêche : une maquette / un modèle.",
+          "takeaway": "Replica = model = reproduction."
+        }
+      ]
+    },
+    {
+      "id": "p-p4-t05",
+      "part": 4,
+      "kind": "talk",
+      "title": "Message enregistré",
+      "audio": [
+        {
+          "s": "W",
+          "t": "Thank you for calling Greenline Energy. Please note that our offices are closed today for a national holiday. If you are calling to report a gas leak or a power outage, hang up and dial our emergency line at 0800 555 211, which is available twenty-four hours a day. For billing questions, you can also visit our website, where you can view your account and pay online. Otherwise, please call back tomorrow from eight A.M. Our wait times are usually shortest in the afternoon."
+        }
+      ],
+      "questions": [
+        {
+          "id": "p-p4-13",
+          "level": 1,
+          "category": "detail",
+          "prompt": "Why are the offices closed?",
+          "options": [
+            "There is a power outage.",
+            "It is a holiday.",
+            "They are being renovated.",
+            "It is the weekend."
+          ],
+          "answer": "B",
+          "evidence": "closed today for a national holiday",
+          "explanation": "Les bureaux sont fermés pour un jour férié national.",
+          "takeaway": "National holiday = jour férié."
+        },
+        {
+          "id": "p-p4-14",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What should callers do to report an emergency?",
+          "options": [
+            "Call a different number",
+            "Visit the website",
+            "Stay on the line",
+            "Call back tomorrow"
+          ],
+          "answer": "A",
+          "evidence": "hang up and dial our emergency line",
+          "explanation": "Pour une urgence, il faut raccrocher et composer le numéro d'urgence : un autre numéro.",
+          "takeaway": "Hang up = raccrocher ; dial = composer."
+        },
+        {
+          "id": "p-p4-15",
+          "level": 3,
+          "category": "intention",
+          "prompt": "Why does the speaker say, \"Our wait times are usually shortest in the afternoon\"?",
+          "options": [
+            "To apologize for long delays",
+            "To encourage callers to use the website",
+            "To announce new opening hours",
+            "To suggest the best time to call"
+          ],
+          "answer": "D",
+          "evidence": "Our wait times are usually shortest in the afternoon.",
+          "explanation": "Après avoir invité à rappeler demain, elle indique que l'attente est plus courte l'après-midi : c'est un conseil sur le meilleur moment pour appeler.",
+          "takeaway": "Une information pratique en fin de message sert souvent de conseil implicite."
+        }
+      ]
+    }
+  ]
+}

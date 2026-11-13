@@ -1,0 +1,1108 @@
+{
+  "pool": "diag",
+  "questions": [
+    {
+      "id": "d-p1-01",
+      "part": 1,
+      "level": 2,
+      "category": "photo-state",
+      "scene": {
+        "bg": "street",
+        "alt": "Une voiture bleue est garée devant un immeuble ; un panneau d'arrêt de bus se trouve à côté. Personne n'est visible.",
+        "els": [
+          {
+            "t": "car",
+            "x": 200,
+            "color": "#2563eb"
+          },
+          {
+            "t": "sign",
+            "x": 330,
+            "text": "BUS"
+          }
+        ]
+      },
+      "options": [
+        "A driver is getting out of a car.",
+        "Some people are crossing the street.",
+        "A car is being washed.",
+        "A car is parked in front of a building."
+      ],
+      "answer": "D",
+      "explanation": "La voiture est immobile devant les immeubles et il n'y a personne : « is parked » décrit un état.",
+      "traps": "« Is being washed » est une action en cours qui exige une personne. Aucun conducteur ni piéton n'est visible.",
+      "takeaway": "Image sans personne → les réponses qui décrivent une action humaine sont fausses."
+    },
+    {
+      "id": "d-p1-02",
+      "part": 1,
+      "level": 2,
+      "category": "photo-action",
+      "scene": {
+        "bg": "warehouse",
+        "alt": "Un homme debout tend le bras vers le haut d'une étagère remplie de cartons.",
+        "els": [
+          {
+            "t": "shelf",
+            "x": 40,
+            "w": 150,
+            "h": 170
+          },
+          {
+            "t": "person",
+            "x": 230,
+            "pose": "stand",
+            "facing": "left",
+            "arms": "up",
+            "shirt": "#f59e0b",
+            "hair": "#1f2937",
+            "skin": 1
+          }
+        ]
+      },
+      "options": [
+        "He's stacking boxes on the floor.",
+        "He's climbing a ladder.",
+        "He's reaching for an item on a shelf.",
+        "He's pushing a cart."
+      ],
+      "answer": "C",
+      "explanation": "L'homme lève le bras vers l'étagère : il tend la main pour attraper un objet (« reaching for »).",
+      "traps": "Il n'y a ni échelle ni chariot sur l'image ; les cartons sont sur l'étagère, pas au sol.",
+      "takeaway": "Reach for = tendre la main vers ; stack = empiler."
+    },
+    {
+      "id": "d-p1-03",
+      "part": 1,
+      "level": 1,
+      "category": "photo-action",
+      "scene": {
+        "bg": "office",
+        "alt": "Une femme debout près d'une fenêtre tient un téléphone à son oreille ; une plante est posée à côté d'elle.",
+        "els": [
+          {
+            "t": "window",
+            "x": 220,
+            "y": 45,
+            "w": 140,
+            "h": 95
+          },
+          {
+            "t": "plant",
+            "x": 330,
+            "size": 1.1
+          },
+          {
+            "t": "person",
+            "x": 170,
+            "pose": "stand",
+            "facing": "right",
+            "arms": "phone",
+            "hold": "phone",
+            "shirt": "#db2777",
+            "hair": "#111827",
+            "long": true,
+            "skin": 2
+          }
+        ]
+      },
+      "options": [
+        "She's opening the window.",
+        "She's holding a phone to her ear.",
+        "She's typing a message.",
+        "She's watering a plant."
+      ],
+      "answer": "B",
+      "explanation": "La femme tient un téléphone contre son oreille : elle est au téléphone.",
+      "traps": "La fenêtre et la plante sont présentes, mais elle n'interagit pas avec elles.",
+      "takeaway": "Hold something to one's ear = tenir quelque chose contre son oreille."
+    },
+    {
+      "id": "d-p2-01",
+      "part": 2,
+      "level": 1,
+      "category": "wh-question",
+      "prompt": "Who should I give my expense report to?",
+      "options": [
+        "About two hundred euros.",
+        "Leave it with Mr. Okada in accounting.",
+        "Yes, I reported it."
+      ],
+      "answer": "B",
+      "explanation": "« Who » demande une personne : on indique M. Okada, au service comptabilité.",
+      "traps": "(A) répond à « how much ». (C) dit « Yes » à une question en Wh- et joue sur report / reported.",
+      "takeaway": "Who → une personne ou un service."
+    },
+    {
+      "id": "d-p2-02",
+      "part": 2,
+      "level": 1,
+      "category": "wh-question",
+      "prompt": "When is the new branch opening?",
+      "options": [
+        "In the downtown area.",
+        "It's been open all day.",
+        "Sometime in early March."
+      ],
+      "answer": "C",
+      "explanation": "« When » demande un moment : début mars.",
+      "traps": "(A) répond à « where ». (B) reprend « open ».",
+      "takeaway": "When → date, moment, délai."
+    },
+    {
+      "id": "d-p2-03",
+      "part": 2,
+      "level": 2,
+      "category": "request-offer",
+      "prompt": "Would you mind closing the door?",
+      "options": [
+        "Not at all.",
+        "It's close to the station.",
+        "No, I didn't mind it."
+      ],
+      "answer": "A",
+      "explanation": "« Would you mind…? » signifie « cela vous dérangerait-il… ? » : « Not at all » (pas du tout) est une acceptation.",
+      "traps": "(B) joue sur close (fermer) / close (proche). (C) reprend « mind » de façon illogique.",
+      "takeaway": "Would you mind + -ing ? → Not at all / Of course not = d'accord."
+    },
+    {
+      "id": "d-p2-04",
+      "part": 2,
+      "level": 2,
+      "category": "choice-question",
+      "prompt": "Should we take a taxi or walk to the conference center?",
+      "options": [
+        "Yes, we should.",
+        "It's only five minutes from here.",
+        "The conference was interesting."
+      ],
+      "answer": "B",
+      "explanation": "Réponse implicite : c'est à cinq minutes, donc on peut y aller à pied.",
+      "traps": "« Yes » ne répond pas à une alternative. (C) reprend « conference ».",
+      "takeaway": "Les réponses aux questions à alternative sont souvent implicites."
+    },
+    {
+      "id": "d-p2-05",
+      "part": 2,
+      "level": 2,
+      "category": "wh-question",
+      "prompt": "Why hasn't the brochure been printed yet?",
+      "options": [
+        "Yes, at the print shop.",
+        "Print it in color.",
+        "We're still waiting for the final photos."
+      ],
+      "answer": "C",
+      "explanation": "« Why » demande une raison : on attend encore les photos définitives.",
+      "traps": "(B) et (A) reprennent « print ».",
+      "takeaway": "Why → raison, même sans « because »."
+    },
+    {
+      "id": "d-p2-06",
+      "part": 2,
+      "level": 3,
+      "category": "statement",
+      "prompt": "The client wants to move the meeting to Thursday.",
+      "options": [
+        "We met on Thursday.",
+        "I'm on vacation that day.",
+        "Move it to the left."
+      ],
+      "answer": "B",
+      "explanation": "La personne signale implicitement un problème : elle est en congé jeudi.",
+      "traps": "(A) reprend « Thursday » au passé. (C) reprend « move » au sens physique.",
+      "takeaway": "Les réponses qui soulèvent un problème sont des réactions naturelles à une affirmation."
+    },
+    {
+      "id": "d-p2-07",
+      "part": 2,
+      "level": 2,
+      "category": "tag-question",
+      "prompt": "Haven't you finished the inventory report?",
+      "options": [
+        "I'll send it within the hour.",
+        "The inventory is in the warehouse.",
+        "Yes, a report."
+      ],
+      "answer": "A",
+      "explanation": "Elle n'a pas encore fini mais l'enverra dans l'heure : réponse implicite et logique.",
+      "traps": "(B) reprend « inventory ». (C) commence par « Yes » mais n'a pas de sens.",
+      "takeaway": "Question négative → la réponse donne souvent un délai ou une explication."
+    },
+    {
+      "id": "d-p2-08",
+      "part": 2,
+      "level": 1,
+      "category": "wh-question",
+      "prompt": "How did the product demonstration go?",
+      "options": [
+        "It goes on the second shelf.",
+        "Better than we expected.",
+        "At two o'clock."
+      ],
+      "answer": "B",
+      "explanation": "« How did it go? » demande comment cela s'est passé : mieux que prévu.",
+      "traps": "(A) reprend « go » (aller, se ranger). (C) répond à « when ».",
+      "takeaway": "How did … go? = comment s'est passé… ?"
+    },
+    {
+      "id": "d-p5-01",
+      "part": 5,
+      "level": 1,
+      "category": "preposition",
+      "prompt": "All visitors must sign in ____ the front desk before entering the laboratory.",
+      "options": [
+        "to",
+        "in",
+        "on",
+        "at"
+      ],
+      "answer": "D",
+      "explanation": "On utilise « at » pour un point précis comme un comptoir ou un bureau d'accueil : at the front desk.",
+      "traps": "« In the front desk » signifierait « dans le meuble ».",
+      "takeaway": "At + point précis (at the desk, at the entrance, at the station)."
+    },
+    {
+      "id": "d-p5-02",
+      "part": 5,
+      "level": 1,
+      "category": "word-form",
+      "prompt": "The marketing team has worked ____ to finish the campaign before the deadline.",
+      "options": [
+        "tireless",
+        "tiredness",
+        "tirelessly",
+        "tire"
+      ],
+      "answer": "C",
+      "explanation": "Le blanc modifie le verbe « worked » : il faut l'adverbe « tirelessly » (sans relâche).",
+      "traps": "« Tireless » est l'adjectif, « tiredness » le nom (la fatigue).",
+      "takeaway": "Verbe + adverbe en -ly."
+    },
+    {
+      "id": "d-p5-03",
+      "part": 5,
+      "level": 2,
+      "category": "verb-tense",
+      "prompt": "Ms. Grant ____ the sales department since last April.",
+      "options": [
+        "manages",
+        "has managed",
+        "managed",
+        "is managing"
+      ],
+      "answer": "B",
+      "explanation": "« Since last April » indique une période commencée dans le passé et toujours en cours : present perfect « has managed ».",
+      "traps": "Le français « dirige depuis » pousse vers le présent « manages », incorrect avec since.",
+      "takeaway": "Depuis (since/for) + situation actuelle → present perfect."
+    },
+    {
+      "id": "d-p5-04",
+      "part": 5,
+      "level": 2,
+      "category": "passive",
+      "prompt": "The new safety regulations ____ to all employees during next week's meeting.",
+      "options": [
+        "will be explained",
+        "will explain",
+        "explaining",
+        "are explaining"
+      ],
+      "answer": "A",
+      "explanation": "Les règles sont expliquées (elles ne font pas l'action) et la réunion aura lieu la semaine prochaine : passif futur « will be explained ».",
+      "traps": "« Will explain » est actif : les règles ne peuvent pas expliquer.",
+      "takeaway": "Sujet qui subit l'action + futur → will be + participe passé."
+    },
+    {
+      "id": "d-p5-05",
+      "part": 5,
+      "level": 2,
+      "category": "conjunction",
+      "prompt": "____ the heavy traffic, most participants arrived on time for the seminar.",
+      "options": [
+        "Although",
+        "Even",
+        "Because",
+        "Despite"
+      ],
+      "answer": "D",
+      "explanation": "Le blanc est suivi d'un nom (« the heavy traffic ») et exprime une opposition : « Despite ».",
+      "traps": "« Although » doit être suivi d'une proposition (although the traffic was heavy). « Because » exprime la cause.",
+      "takeaway": "Despite + nom ; although + sujet + verbe."
+    },
+    {
+      "id": "d-p5-06",
+      "part": 5,
+      "level": 2,
+      "category": "conjunction",
+      "prompt": "The contract must be signed by both parties ____ it can take effect.",
+      "options": [
+        "unless",
+        "during",
+        "before",
+        "while"
+      ],
+      "answer": "C",
+      "explanation": "La signature doit avoir lieu avant l'entrée en vigueur : « before » + proposition.",
+      "traps": "« During » est une préposition (+ nom). « Unless » (à moins que) donne un sens illogique.",
+      "takeaway": "Take effect = entrer en vigueur."
+    },
+    {
+      "id": "d-p5-07",
+      "part": 5,
+      "level": 2,
+      "category": "word-form",
+      "prompt": "The director asked us to keep the budget figures ____ until the official announcement.",
+      "options": [
+        "confident",
+        "confidential",
+        "confidence",
+        "confide"
+      ],
+      "answer": "B",
+      "explanation": "Structure « keep + objet + adjectif » ; le sens est « garder confidentiel » : « confidential ».",
+      "traps": "« Confident » (sûr de soi) est aussi un adjectif mais n'a pas le bon sens.",
+      "takeaway": "Confidential = confidentiel ; confident = confiant."
+    },
+    {
+      "id": "d-p5-08",
+      "part": 5,
+      "level": 3,
+      "category": "modal-conditional",
+      "prompt": "Had the team received the data earlier, they ____ the report on time.",
+      "options": [
+        "would have finished",
+        "will finish",
+        "had finished",
+        "finish"
+      ],
+      "answer": "A",
+      "explanation": "« Had the team received » est l'inversion de « If the team had received » (3e conditionnel) : la principale prend « would have finished ».",
+      "traps": "L'inversion sans « if » masque la structure conditionnelle : c'est le piège.",
+      "takeaway": "Had + sujet + participe… , would have + participe passé."
+    },
+    {
+      "id": "d-p5-09",
+      "part": 5,
+      "level": 2,
+      "category": "relative",
+      "prompt": "Mr. Kim is the candidate ____ experience best matches the requirements of the position.",
+      "options": [
+        "who",
+        "which",
+        "whom",
+        "whose"
+      ],
+      "answer": "D",
+      "explanation": "Le relatif est suivi d'un nom (« experience ») qui appartient au candidat : « whose ».",
+      "traps": "« Who » serait suivi d'un verbe.",
+      "takeaway": "Whose + nom = dont le/la."
+    },
+    {
+      "id": "d-p5-10",
+      "part": 5,
+      "level": 3,
+      "category": "collocation",
+      "prompt": "Our consultants will ____ a thorough review of your current logistics operations.",
+      "options": [
+        "hold on",
+        "make up",
+        "conduct",
+        "take out"
+      ],
+      "answer": "C",
+      "explanation": "On dit « conduct a review / a survey / an inspection » (mener, effectuer).",
+      "traps": "« Make up » = inventer ou constituer ; « hold on » = patienter ; « take out » = sortir.",
+      "takeaway": "Conduct + review / survey / audit / inspection."
+    }
+  ],
+  "sets": [
+    {
+      "id": "d-p3-c01",
+      "part": 3,
+      "kind": "conversation",
+      "title": "Commande de fournitures",
+      "audio": [
+        {
+          "s": "W",
+          "t": "Hi Paul, I'm placing the monthly order for office supplies. Do you need anything for your team?"
+        },
+        {
+          "s": "M",
+          "t": "Actually, yes. We're almost out of printer toner, and we could use a few more whiteboard markers."
+        },
+        {
+          "s": "W",
+          "t": "OK. By the way, the finance department has asked us to reduce supply costs by ten percent this quarter."
+        },
+        {
+          "s": "M",
+          "t": "In that case, why don't we switch to the cheaper brand of markers? Honestly, nobody can tell the difference."
+        },
+        {
+          "s": "W",
+          "t": "Good point. I'll compare prices before I send the order this afternoon."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d-p3-01",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is the woman doing?",
+          "options": [
+            "Hiring staff",
+            "Repairing a printer",
+            "Preparing a budget",
+            "Ordering supplies"
+          ],
+          "answer": "D",
+          "evidence": "I'm placing the monthly order for office supplies.",
+          "explanation": "Elle passe la commande mensuelle de fournitures de bureau.",
+          "takeaway": "Place an order = passer une commande."
+        },
+        {
+          "id": "d-p3-02",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What has the finance department asked for?",
+          "options": [
+            "A new supplier",
+            "A list of employees",
+            "A reduction in spending",
+            "A monthly report"
+          ],
+          "answer": "C",
+          "evidence": "reduce supply costs by ten percent",
+          "explanation": "Le service financier demande de réduire de 10 % le coût des fournitures : une baisse des dépenses.",
+          "takeaway": "Reduce costs = cut spending."
+        },
+        {
+          "id": "d-p3-03",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does the man suggest?",
+          "options": [
+            "Ordering fewer markers",
+            "Buying a less expensive brand",
+            "Using a different printer",
+            "Postponing the order"
+          ],
+          "answer": "B",
+          "evidence": "why don't we switch to the cheaper brand of markers?",
+          "explanation": "Il propose de passer à la marque de feutres la moins chère.",
+          "takeaway": "Why don't we…? introduit une suggestion."
+        }
+      ]
+    },
+    {
+      "id": "d-p3-c02",
+      "part": 3,
+      "kind": "conversation",
+      "title": "Lieu d'une conférence",
+      "audio": [
+        {
+          "s": "M",
+          "t": "I just got back from visiting the Riverside Hotel for our sales conference. The main hall is great, and it holds up to three hundred people."
+        },
+        {
+          "s": "W",
+          "t": "That's more than enough. What about the price?"
+        },
+        {
+          "s": "M",
+          "t": "It's a bit over budget, but they include lunch and all the audiovisual equipment."
+        },
+        {
+          "s": "W",
+          "t": "Hmm, we spent almost two thousand euros on equipment rental last year."
+        },
+        {
+          "s": "M",
+          "t": "Exactly. So it may actually work out cheaper."
+        },
+        {
+          "s": "W",
+          "t": "Then let's ask them for a formal quote."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d-p3-04",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What are the speakers mainly discussing?",
+          "options": [
+            "A location for an event",
+            "A hotel renovation",
+            "A sales report",
+            "An equipment failure"
+          ],
+          "answer": "A",
+          "evidence": "visiting the Riverside Hotel for our sales conference",
+          "explanation": "Ils évaluent un hôtel comme lieu pour leur conférence commerciale.",
+          "takeaway": "Venue = lieu d'un événement."
+        },
+        {
+          "id": "d-p3-05",
+          "level": 3,
+          "category": "intention",
+          "prompt": "Why does the woman say, \"we spent almost two thousand euros on equipment rental last year\"?",
+          "options": [
+            "To complain about a supplier",
+            "To ask for a refund",
+            "To reject the man's proposal",
+            "To point out a possible saving"
+          ],
+          "answer": "D",
+          "evidence": "we spent almost two thousand euros on equipment rental last year",
+          "explanation": "L'hôtel inclut l'équipement audiovisuel ; elle rappelle ce que coûtait sa location : le surcoût apparent pourrait donc être compensé. L'homme confirme (« it may actually work out cheaper »).",
+          "takeaway": "Intention : la réplique suivante confirme souvent l'interprétation."
+        },
+        {
+          "id": "d-p3-06",
+          "level": 2,
+          "category": "next-action",
+          "prompt": "What will the speakers most likely do next?",
+          "options": [
+            "Visit another hotel",
+            "Cancel the conference",
+            "Request a price estimate",
+            "Rent some equipment"
+          ],
+          "answer": "C",
+          "evidence": "let's ask them for a formal quote",
+          "explanation": "Ils vont demander un devis officiel à l'hôtel.",
+          "takeaway": "Quote = estimate = devis."
+        }
+      ]
+    },
+    {
+      "id": "d-p3-c03",
+      "part": 3,
+      "kind": "conversation",
+      "title": "Accueil d'un visiteur (graphique)",
+      "graphic": {
+        "type": "table",
+        "title": "Building Directory",
+        "columns": [
+          "Floor",
+          "Department"
+        ],
+        "rows": [
+          [
+            "1",
+            "Reception"
+          ],
+          [
+            "2",
+            "Human Resources"
+          ],
+          [
+            "3",
+            "Marketing"
+          ],
+          [
+            "4",
+            "Legal"
+          ],
+          [
+            "5",
+            "IT Support"
+          ]
+        ]
+      },
+      "audio": [
+        {
+          "s": "W",
+          "t": "Hi, I'm here for a job interview with Ms. Chang at ten o'clock."
+        },
+        {
+          "s": "M",
+          "t": "Welcome. Ms. Chang works in our marketing department, but today the interview will take place in the human resources office, one floor below hers."
+        },
+        {
+          "s": "W",
+          "t": "All right, thank you."
+        },
+        {
+          "s": "M",
+          "t": "Please wear this visitor badge at all times while you're in the building. The elevators are on your right."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d-p3-07",
+          "level": 1,
+          "category": "detail",
+          "prompt": "Why is the woman visiting the building?",
+          "options": [
+            "To deliver a package",
+            "To attend a job interview",
+            "To repair equipment",
+            "To meet a client"
+          ],
+          "answer": "B",
+          "evidence": "I'm here for a job interview with Ms. Chang",
+          "explanation": "Elle vient passer un entretien d'embauche avec Mme Chang.",
+          "takeaway": "Job interview = entretien d'embauche."
+        },
+        {
+          "id": "d-p3-08",
+          "level": 3,
+          "category": "graphic",
+          "prompt": "Look at the graphic. Which floor will the woman go to?",
+          "options": [
+            "Floor 2",
+            "Floor 3",
+            "Floor 4",
+            "Floor 5"
+          ],
+          "answer": "A",
+          "explanation": "L'entretien a lieu aux ressources humaines, un étage sous le marketing (3e) : donc au 2e étage, ce que confirme l'annuaire (Human Resources).",
+          "traps": "Le 3e étage est celui de Mme Chang (marketing), pas le lieu de l'entretien.",
+          "takeaway": "One floor below = un étage en dessous."
+        },
+        {
+          "id": "d-p3-09",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What is the woman asked to do?",
+          "options": [
+            "Wear a visitor badge",
+            "Leave her bag at reception",
+            "Take the stairs",
+            "Call Ms. Chang"
+          ],
+          "answer": "A",
+          "evidence": "Please wear this visitor badge at all times",
+          "explanation": "Elle doit porter le badge visiteur en permanence dans le bâtiment.",
+          "takeaway": "At all times = en permanence."
+        }
+      ]
+    },
+    {
+      "id": "d-p4-t01",
+      "part": 4,
+      "kind": "talk",
+      "title": "Message vocal d'un collègue",
+      "audio": [
+        {
+          "s": "M",
+          "t": "Hi Laura, it's Sam from the Lyon office. I'm calling about tomorrow's client presentation. The client just told me that their finance director will also attend, so we'll have about twelve people instead of eight. Could you print four more copies of the handouts? Also, she's especially interested in the cost breakdown, so I'd like to spend more time on that section. I'll move the product demo to the end. Call me back when you get this. I'm in the office until six."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d-p4-01",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "Why is the speaker calling?",
+          "options": [
+            "To cancel a meeting",
+            "To request a budget",
+            "To introduce a new client",
+            "To discuss changes to a presentation"
+          ],
+          "answer": "D",
+          "evidence": "I'm calling about tomorrow's client presentation.",
+          "explanation": "Il appelle au sujet de modifications pour la présentation client du lendemain (participants, contenu, ordre).",
+          "takeaway": "« I'm calling about… » annonce le motif."
+        },
+        {
+          "id": "d-p4-02",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What does the speaker ask the listener to do?",
+          "options": [
+            "Book a larger room",
+            "Contact the finance director",
+            "Prepare additional copies",
+            "Send the slides by e-mail"
+          ],
+          "answer": "C",
+          "evidence": "Could you print four more copies of the handouts?",
+          "explanation": "Il demande d'imprimer quatre exemplaires supplémentaires des documents.",
+          "takeaway": "Handouts = documents distribués."
+        },
+        {
+          "id": "d-p4-03",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does the speaker say about the finance director?",
+          "options": [
+            "She will arrive late.",
+            "She is especially interested in costs.",
+            "She has seen the product demo.",
+            "She works in the Lyon office."
+          ],
+          "answer": "B",
+          "evidence": "she's especially interested in the cost breakdown",
+          "explanation": "La directrice financière s'intéresse particulièrement à la ventilation des coûts.",
+          "takeaway": "Cost breakdown = détail / ventilation des coûts."
+        }
+      ]
+    },
+    {
+      "id": "d-p4-t02",
+      "part": 4,
+      "kind": "talk",
+      "title": "Annonce en magasin",
+      "audio": [
+        {
+          "s": "W",
+          "t": "Good afternoon, shoppers, and welcome to Hartley's Home Store. Today only, all garden furniture is thirty percent off, and members of our loyalty program receive an additional ten percent discount at the register. Not a member yet? Signing up is free and takes less than two minutes at any checkout. Also, please note that our café on the second floor will close early today, at four P.M., for a private event. Thank you for shopping at Hartley's."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d-p4-04",
+          "level": 1,
+          "category": "inference",
+          "prompt": "Where is the announcement being made?",
+          "options": [
+            "In a retail store",
+            "In a restaurant",
+            "At a garden center's warehouse",
+            "At an airport"
+          ],
+          "answer": "A",
+          "evidence": "welcome to Hartley's Home Store",
+          "explanation": "L'annonce s'adresse aux clients (« shoppers ») d'un magasin d'équipement de la maison.",
+          "takeaway": "Shoppers, register, checkout → magasin."
+        },
+        {
+          "id": "d-p4-05",
+          "level": 2,
+          "category": "detail",
+          "prompt": "How can listeners receive an extra discount?",
+          "options": [
+            "By spending over a certain amount",
+            "By buying garden furniture online",
+            "By shopping before four P.M.",
+            "By joining a loyalty program"
+          ],
+          "answer": "D",
+          "evidence": "members of our loyalty program receive an additional ten percent discount",
+          "explanation": "Les membres du programme de fidélité ont 10 % supplémentaires ; l'inscription est gratuite.",
+          "takeaway": "Additional = extra = supplémentaire."
+        },
+        {
+          "id": "d-p4-06",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is mentioned about the café?",
+          "options": [
+            "It is offering free coffee.",
+            "It has moved to the second floor.",
+            "It will close earlier than usual.",
+            "It is hiring staff."
+          ],
+          "answer": "C",
+          "evidence": "will close early today, at four P.M.",
+          "explanation": "Le café fermera plus tôt aujourd'hui, à 16 h, pour un événement privé.",
+          "takeaway": "Close early = fermer plus tôt que d'habitude."
+        }
+      ]
+    },
+    {
+      "id": "d-p6-s1",
+      "part": 6,
+      "kind": "text",
+      "title": "Avis au personnel — cafétéria",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Staff Notice — Cafeteria Renovation",
+          "body": "Please be advised that the employee cafeteria will be closed from June 3 to June 14 {{1}} renovation work. During this period, a selection of sandwiches and salads will be available in the second-floor lounge. {{2}} In addition, employees may use their meal cards at Café Bloom, located across the street, which has agreed to offer a 15 percent discount to our staff.\n\nThe renovated cafeteria will feature a larger seating area and a new salad bar. We {{3}} for any inconvenience and thank you for your {{4}}."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d-p6-01",
+          "level": 1,
+          "category": "preposition",
+          "options": [
+            "by",
+            "since",
+            "until",
+            "for"
+          ],
+          "answer": "D",
+          "explanation": "« Closed for renovation work » : « for » exprime ici le motif de la fermeture (pour travaux).",
+          "traps": "« Until » et « by » portent sur une date ; « since » sur un point de départ.",
+          "takeaway": "Closed for repairs / for renovation = fermé pour travaux."
+        },
+        {
+          "id": "d-p6-02",
+          "level": 2,
+          "category": "sentence-insertion",
+          "options": [
+            "These items will be delivered fresh each morning at 11 A.M.",
+            "The cafeteria first opened in 2009.",
+            "Please return your meal cards to HR.",
+            "Parking will be free during the holidays."
+          ],
+          "answer": "A",
+          "explanation": "La phrase précédente mentionne sandwiches et salades ; « These items » les reprend et précise leur livraison.",
+          "traps": "(C) contredit la suite (les cartes repas restent utilisables chez Café Bloom).",
+          "takeaway": "« These items / this service » renvoie à ce qui vient d'être cité."
+        },
+        {
+          "id": "d-p6-03",
+          "level": 1,
+          "category": "agreement",
+          "options": [
+            "apologized",
+            "apologizes",
+            "apologize",
+            "apology"
+          ],
+          "answer": "C",
+          "explanation": "Sujet « We » + formule d'excuse au présent : « We apologize for any inconvenience ».",
+          "traps": "« Apologizes » s'accorde avec he/she/it ; « apology » est un nom.",
+          "takeaway": "We apologize for any inconvenience = veuillez nous excuser pour la gêne occasionnée."
+        },
+        {
+          "id": "d-p6-04",
+          "level": 2,
+          "category": "word-form",
+          "options": [
+            "patients",
+            "patience",
+            "patiently",
+            "patient"
+          ],
+          "answer": "B",
+          "explanation": "Après « your », il faut un nom : « patience ». « Thank you for your patience » = merci de votre patience.",
+          "traps": "« Patients » (les malades) est un nom aussi, mais n'a aucun sens ici : piège sonore.",
+          "takeaway": "Thank you for your patience / understanding / cooperation."
+        }
+      ]
+    },
+    {
+      "id": "d-p7-s01",
+      "kind": "single",
+      "part": 7,
+      "title": "Messages",
+      "docs": [
+        {
+          "type": "chat",
+          "messages": [
+            {
+              "name": "Ana Ruiz",
+              "time": "8:42",
+              "text": "Kofi, my train is stuck outside Lille because of a signal problem. I'll probably be 30 minutes late. Could you start the team meeting without me and go through the sales figures first? I'll handle the budget item when I arrive."
+            },
+            {
+              "name": "Kofi Mensah",
+              "time": "8:44",
+              "text": "No problem. I'll also ask Mia to take notes."
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "id": "d-p7-01",
+          "level": 1,
+          "category": "detail",
+          "prompt": "Why will Ms. Ruiz be late?",
+          "options": [
+            "She missed her train.",
+            "She is preparing the budget.",
+            "She is meeting a client.",
+            "Her train has been delayed."
+          ],
+          "answer": "D",
+          "evidence": "my train is stuck outside Lille because of a signal problem",
+          "explanation": "Son train est bloqué à cause d'un problème de signalisation : il est retardé.",
+          "traps": "(A) : elle est dans le train, elle ne l'a pas manqué.",
+          "takeaway": "Be stuck = être bloqué."
+        },
+        {
+          "id": "d-p7-02",
+          "level": 2,
+          "category": "inference",
+          "prompt": "What will Mr. Mensah most likely discuss first at the meeting?",
+          "options": [
+            "The budget",
+            "A signal problem",
+            "Sales results",
+            "Note-taking procedures"
+          ],
+          "answer": "C",
+          "evidence": "go through the sales figures first",
+          "explanation": "Mme Ruiz lui demande de commencer par les chiffres de vente ; elle traitera le budget à son arrivée.",
+          "takeaway": "Sales figures = sales results."
+        }
+      ]
+    },
+    {
+      "id": "d-p7-s02",
+      "kind": "single",
+      "part": 7,
+      "title": "E-mail d'un service abonnements",
+      "docs": [
+        {
+          "type": "email",
+          "from": "Clara Diaz, Subscriptions, Business Weekly",
+          "to": "Henri Dubois",
+          "subject": "Your subscription",
+          "date": "March 4",
+          "body": "Dear Mr. Dubois,\n\nThank you for contacting us about your subscription to Business Weekly. As requested, we have changed your delivery address to 14 Rue Lafayette, effective with the March 10 issue. Please note that issues already in transit may still arrive at your previous address.\n\nYou also asked about switching to our digital edition. Digital subscribers receive each issue on Friday morning, two days before the print edition, and have full access to our online archive. Since you have five months remaining on your print subscription, we can convert it to a digital subscription at no extra charge. Simply reply to this e-mail to confirm.\n\nSincerely,\nClara Diaz"
+        }
+      ],
+      "questions": [
+        {
+          "id": "d-p7-03",
+          "level": 1,
+          "category": "main-idea",
+          "prompt": "What is one purpose of the e-mail?",
+          "options": [
+            "To announce a price increase",
+            "To confirm a change of address",
+            "To cancel a subscription",
+            "To advertise a new magazine"
+          ],
+          "answer": "B",
+          "evidence": "we have changed your delivery address to 14 Rue Lafayette",
+          "explanation": "Le mail confirme le changement d'adresse de livraison demandé.",
+          "takeaway": "As requested = comme demandé."
+        },
+        {
+          "id": "d-p7-04",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What is indicated about digital subscribers?",
+          "options": [
+            "They receive issues earlier than print subscribers.",
+            "They pay a lower price.",
+            "They cannot access old issues.",
+            "They must subscribe for five months."
+          ],
+          "answer": "A",
+          "evidence": "two days before the print edition",
+          "explanation": "Les abonnés numériques reçoivent chaque numéro deux jours avant l'édition papier.",
+          "traps": "(C) est contredit : ils ont accès à toutes les archives.",
+          "takeaway": "Archive = anciens numéros."
+        },
+        {
+          "id": "d-p7-05",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What must Mr. Dubois do to switch to the digital edition?",
+          "options": [
+            "Pay an additional fee",
+            "Wait until his subscription ends",
+            "Call customer service",
+            "Reply to the e-mail"
+          ],
+          "answer": "D",
+          "evidence": "Simply reply to this e-mail to confirm.",
+          "explanation": "Il lui suffit de répondre au mail pour confirmer ; la conversion est sans frais.",
+          "takeaway": "At no extra charge = sans supplément."
+        }
+      ]
+    },
+    {
+      "id": "d-p7-d01",
+      "kind": "double",
+      "part": 7,
+      "title": "Annonce d'espace de coworking + avis",
+      "docs": [
+        {
+          "type": "text",
+          "title": "Hive Coworking — Membership Plans",
+          "body": "• Flex: €150/month — access to shared desks Monday–Friday, 8 A.M.–7 P.M.\n• Resident: €290/month — reserved desk, 24/7 access, personal locker\n• Team: €950/month — private office for up to 4 people, 24/7 access, 10 hours of meeting-room use per month\n\nAll plans include high-speed Wi-Fi, coffee, and printing (up to 100 pages per month). New members who sign up before 31 January receive their first month at half price."
+        },
+        {
+          "type": "text",
+          "title": "Review by Malik Aziz ★★★★★",
+          "body": "I joined Hive in mid-January when I left my corporate job to work as a freelance translator. I wanted a desk that would always be mine and the possibility of working late at night when deadlines are tight, so the plan I chose was perfect. Thanks to the new-member offer, my first month cost me just €145. The only drawback: the printing allowance runs out fast if, like me, you print long documents to proofread them."
+        }
+      ],
+      "questions": [
+        {
+          "id": "d-p7-06",
+          "level": 1,
+          "category": "detail",
+          "prompt": "What do all membership plans include?",
+          "options": [
+            "A private office",
+            "Meeting-room hours",
+            "Printing services",
+            "Weekend access"
+          ],
+          "answer": "C",
+          "evidence": "printing (up to 100 pages per month)",
+          "explanation": "Toutes les formules incluent le Wi-Fi, le café et l'impression (100 pages par mois).",
+          "takeaway": "« All plans include » = commun à toutes les formules."
+        },
+        {
+          "id": "d-p7-07",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "Which plan did Mr. Aziz most likely choose?",
+          "options": [
+            "Flex",
+            "Resident",
+            "Team",
+            "A custom plan"
+          ],
+          "answer": "B",
+          "explanation": "Il voulait un bureau attitré et pouvoir travailler tard (accès 24 h/24) : c'est la formule Resident. Le prix confirme : 290 € à moitié prix = 145 €.",
+          "takeaway": "Vérifie avec deux indices différents (besoins + prix)."
+        },
+        {
+          "id": "d-p7-08",
+          "level": 2,
+          "category": "inference",
+          "prompt": "What is suggested about Mr. Aziz?",
+          "options": [
+            "He recently changed careers.",
+            "He works for a large company.",
+            "He manages a team of four.",
+            "He joined Hive several years ago."
+          ],
+          "answer": "A",
+          "evidence": "when I left my corporate job to work as a freelance translator",
+          "explanation": "Il a quitté son emploi en entreprise pour devenir traducteur indépendant : il vient de changer de carrière.",
+          "takeaway": "Freelance = indépendant."
+        },
+        {
+          "id": "d-p7-09",
+          "level": 2,
+          "category": "cross-reference",
+          "prompt": "How much will Mr. Aziz most likely pay per month after his first month?",
+          "options": [
+            "€145",
+            "€150",
+            "€290",
+            "€950"
+          ],
+          "answer": "C",
+          "explanation": "La réduction de 50 % ne concerne que le premier mois ; ensuite il paiera le prix normal de la formule Resident, 290 €.",
+          "traps": "145 € est le prix du premier mois seulement.",
+          "takeaway": "Distingue offre de bienvenue et tarif normal."
+        },
+        {
+          "id": "d-p7-10",
+          "level": 2,
+          "category": "detail",
+          "prompt": "What does Mr. Aziz complain about?",
+          "options": [
+            "The noise level",
+            "The price of coffee",
+            "The opening hours",
+            "A limit on printing"
+          ],
+          "answer": "D",
+          "evidence": "the printing allowance runs out fast",
+          "explanation": "Son seul reproche : le quota d'impression s'épuise vite.",
+          "takeaway": "Allowance = quota, forfait ; drawback = inconvénient."
+        }
+      ]
+    }
+  ]
+}
