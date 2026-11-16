@@ -114,6 +114,8 @@ export interface AnswerRec {
   timeMs: number;
   at: number;
   flagged?: boolean;
+  /** réponse validée avec hésitation (« pas sûre ») */
+  unsure?: boolean;
   /** tentative déjà enregistrée dans l'historique */
   recorded?: boolean;
 }
@@ -176,6 +178,8 @@ export interface Attempt {
   sessionId: string;
   sessionType: SessionType;
   mode: 'practice' | 'exam';
+  /** bonne ou mauvaise réponse donnée avec hésitation (absent des anciennes tentatives) */
+  unsure?: boolean;
 }
 
 export interface Srs {
@@ -203,6 +207,8 @@ export interface QState {
     reviews: number;
     status: 'new' | 'learning' | 'review' | 'mastered';
     note?: string;
+    /** carte créée par une bonne réponse hésitante (jamais ratée) */
+    soft?: boolean;
   };
   favorite?: boolean;
 }

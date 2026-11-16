@@ -1,15 +1,16 @@
 import { examPools } from '../lib/bankCore';
 import { useMemo, useState } from 'react';
 import { useAttempts, useLogs, useProfile, useSessions, useStates, run } from '../lib/hooks';
-import { accOf, dailySeries, masteredCount, recent, sections, streak, weaknesses } from '../lib/stats';
+import { accOf, dailySeries, masteredCount, recent, sections, streak } from '../lib/stats';
+import { computeMastery, firstExposures, priorities, readingPace, targetsFor, weakParts } from '../lib/mastery';
 import { buildPlan, todayPlan, type PlanTask } from '../lib/plan';
 import { dayKey, diffDays, formatDayFr, formatDuration } from '../lib/dates';
 import { getBank } from '../lib/bank';
 import { estimateFromRates, requiredRates } from '../lib/scoring';
 import { encouragement } from '../lib/badges';
 import { navigate } from '../lib/router';
-import { nextExamPool, startDaily, startDiagnostic, startErrors, startExam, startIntensive, startMiniExam } from '../lib/start';
-import type { Part, Session } from '../lib/types';
+import { nextExamPool, startDaily, startDiagnostic, startErrors, startExam, startFocus, startIntensive, startMiniExam } from '../lib/start';
+import type { Attempt, Part, Session } from '../lib/types';
 import { Button, Card, Icon, Notice, Page, Pct, Progress, SectionTitle, Sheet, Stat, cx } from '../components/ui';
 import { LineChart } from '../components/Charts';
 
@@ -21,8 +22,8 @@ export const DURATIONS = [
   { m: 45, label: 'Séance ciblée' },
 ];
 
-export function weakPartsOf(attempts: Parameters<typeof weaknesses>[0]): Part[] {
-  return weaknesses(attempts, getBank(), 10).filter((w) => w.kind === 'part').slice(0, 2).map((w) => Number(w.key.split(':')[1]) as Part);
+export function weakPartsOf(attempts: Attempt[]): Part[] {
+  return weakParts(computeMastery(getBank(), attempts));
 }
 
 export async function launchTask(t: PlanTask) {
@@ -51,17 +52,20 @@ export function Home() {
 
   const data = useMemo(() => {
     const bank = getBank();
-    const weak = weaknesses(attempts, bank, 3);
-    const wp = weakPartsOf(attempts);
+    const mastery = computeMastery(bank, attempts, { target: profile ? targetsFor(profile.targetMin) : undefined });
+    const weak = priorities(mastery, 3);
+    const wp = weakParts(mastery);
+    const pace = readingPace(bank, attempts);
     const plan = profile ? buildPlan({ profile, sessions, logs, weakParts: wp, examCount: examPools(bank).length }) : [];
     const tp = todayPlan(plan, today);
     const todayLog = logs.find((l) => l.day === today);
     const rec = accOf(recent(attempts, 50));
-    const last = recent(attempts, 300);
+    // premières tentatives uniquement : refaire une question déjà corrigée gonflerait l'estimation
+    const last = recent(firstExposures(attempts), 300);
     const sec = sections(last);
     const est = sec.listening.total >= 40 && sec.reading.total >= 40 ? estimateFromRates(sec.listening.rate, sec.reading.rate, 'practice') : null;
     const series = dailySeries(attempts).slice(-10).map((d) => ({ label: formatDayFr(d.day, false), l: d.listening, r: d.reading }));
-    return { weak, plan, tp, todayLog, rec, est, series, sec, err: masteredCount(states) };
+    return { weak, plan, tp, todayLog, rec, est, series, sec, pace, mastery, err: masteredCount(states) };
   }, [attempts, states, sessions, logs, profile, today]);
 
   if (!profile) return null;
@@ -91,7 +95,7 @@ export function Home() {
           <div>
             <p className="m-0 text-sm opacity-90">{j > 0 ? 'Examen TOEIC dans' : j === 0 ? "C'est aujourd'hui !" : 'Examen passé'}</p>
             <p className="m-0 text-5xl font-black tabular-nums">{j > 0 ? `J-${j}` : j === 0 ? 'Jour J' : '—'}</p>
-            <p className="m-0 text-sm opacity-90">{formatDayFr(profile.examDate)} 2026</p>
+            <p className="m-0 text-sm opacity-90">{formatDayFr(profile.examDate)} {profile.examDate.slice(0, 4)}</p>
           </div>
           <div className="text-right text-sm">
             <p className="m-0 opacity-90">Série</p>
@@ -137,7 +141,7 @@ export function Home() {
         </div>
         <p className="mt-3 text-xs text-muted">
           {data.est
-            ? <>Estimation <b>indicative et non officielle</b> d'après tes 300 dernières réponses d'entraînement : <b>{data.est.total.low}–{data.est.total.high}</b>. Elle ne prédit pas ton score réel.</>
+            ? <>Estimation <b>indicative et non officielle</b> d'après tes 300 dernières questions vues pour la première fois : <b>{data.est.total.low}–{data.est.total.high}</b>. Elle ne prédit pas ton score réel.</>
             : <>Pas encore d'estimation : il faut au moins 40 réponses en Listening et 40 en Reading.</>}
           {' '}Repère pour {profile.targetMin} : ≈ {Math.round(req.listening * 100)} % en Listening et {Math.round(req.reading * 100)} % en Reading en conditions d'examen.
         </p>
@@ -169,23 +173,32 @@ export function Home() {
         <Card><p className="m-0 text-sm text-muted">Le planning couvre la période des 17 jours avant l'examen ({formatDayFr(profile.examDate)}). Utilise les sessions libres en attendant.</p></Card>
       )}
 
-      {/* Faiblesses */}
-      <SectionTitle>Mes 3 principales faiblesses</SectionTitle>
+      {/* Priorités du moteur de maîtrise */}
+      <SectionTitle>Mes priorités</SectionTitle>
       <Card>
         {data.weak.length ? (
-          <ol className="space-y-2">
-            {data.weak.map((w, i) => (
-              <li key={w.key} className="flex items-center gap-3">
-                <span className="grid h-7 w-7 place-items-center rounded-full bg-bad-soft text-sm font-bold text-bad">{i + 1}</span>
-                <span className="min-w-0 flex-1 text-sm"><b>{w.label}</b><span className="block text-xs text-muted">{Math.round(w.rate * 100)} % de réussite sur {w.total} questions</span></span>
-                {w.kind === 'part' && <Button size="sm" variant="soft" onClick={() => run(() => startDaily(15, [Number(w.key.split(':')[1]) as Part]))}>Travailler</Button>}
-              </li>
-            ))}
-          </ol>
+          <>
+            <ol className="space-y-2">
+              {data.weak.map((w, i) => (
+                <li key={w.key} className="flex items-center gap-3">
+                  <span className="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-bad-soft text-sm font-bold text-bad">{i + 1}</span>
+                  <span className="min-w-0 flex-1 text-sm"><b>{w.label}</b><span className="block text-xs text-muted">maîtrise estimée {Math.round(w.mastery * 100)} % · {w.correct}/{w.attempts} réussies · ≈ +{w.potential.toFixed(1)} question(s) par examen{w.pace && w.pace > 1.3 ? ' · trop lent' : ''}</span></span>
+                  <Button size="sm" variant="soft" onClick={() => run(() => startFocus([w.key], 15, w.label))}>Travailler</Button>
+                </li>
+              ))}
+            </ol>
+            <Button block className="mt-3" onClick={() => run(() => startFocus(data.weak.map((w) => w.key), 20))}>Session ciblée 20 min sur ces priorités</Button>
+            <p className="mb-0 mt-2 text-xs text-muted">Classement = écart à ta cible × fréquence de ce type de question à l'examen. La difficulté des questions proposées s'ajuste compétence par compétence.</p>
+          </>
         ) : (
           <p className="m-0 text-sm text-muted">Pas encore assez de données. Le diagnostic et tes premières sessions vont les révéler automatiquement.</p>
         )}
       </Card>
+      {data.pace.projectedMin !== null && data.pace.projectedMin > 75 && (
+        <Notice tone="warn" className="mt-2">
+          <b>Rythme Reading :</b> à ta vitesse actuelle, les 100 questions prendraient ≈ {Math.round(data.pace.projectedMin)} min pour 75 autorisées. Chaque question non lue est perdue : fais des sessions Reading chronométrées (Session intensive › Reading, sans correction immédiate).
+        </Notice>
+      )}
 
       {/* Évolution */}
       <SectionTitle action={<button className="text-sm font-semibold text-primary" onClick={() => navigate('/stats')}>Statistiques</button>}>Évolution Listening / Reading</SectionTitle>

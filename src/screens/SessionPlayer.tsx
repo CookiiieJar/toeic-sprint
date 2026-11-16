@@ -177,10 +177,10 @@ export function SessionPlayer({ id }: { id: string }) {
     await persist(s);
   };
 
-  const validate = async (qid: string) => {
+  const validate = async (qid: string, unsure = false) => {
     const l = pending[qid];
     if (!l) return;
-    s.answers[qid] = { choice: l, timeMs: mark(), at: Date.now() };
+    s.answers[qid] = { choice: l, timeMs: mark(), at: Date.now(), ...(unsure ? { unsure: true } : {}) };
     s.validated = [...(s.validated ?? []), qid];
     await recordAttempt(s, qid);
     await persist(s);
@@ -366,10 +366,16 @@ export function SessionPlayer({ id }: { id: string }) {
                 })}
               </div>
               {s.mode === 'practice' && s.immediateFeedback && !validated && (
-                <Button block variant={pending[q.id] ? 'primary' : 'ghost'} disabled={!pending[q.id]} onClick={() => validate(q.id)}>
-                  Valider
-                </Button>
+                <div className="flex gap-2">
+                  <Button block className="flex-1" variant={pending[q.id] ? 'primary' : 'ghost'} disabled={!pending[q.id]} onClick={() => validate(q.id)}>
+                    Valider
+                  </Button>
+                  <Button variant="soft" disabled={!pending[q.id]} onClick={() => validate(q.id, true)} aria-label="Valider en signalant une hésitation : la question sera reproposée même si la réponse est bonne">
+                    Pas sûre
+                  </Button>
+                </div>
               )}
+              {showFeedback && ans?.unsure && ans.choice === q.answer && <Notice>Bonne réponse, mais tu hésitais : cette question reviendra demain pour vérifier que ce n'était pas un coup de chance.</Notice>}
               {showFeedback && <Correction q={q} choice={ans?.choice ?? null} />}
             </section>
           );

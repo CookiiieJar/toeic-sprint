@@ -52,6 +52,17 @@ export async function startIntensive(o: IntensiveOptions) {
   go(s.id);
 }
 
+/** Session ciblée sur des compétences précises (clés du moteur de maîtrise, ex. `p5:word-form`) */
+export async function startFocus(focus: string[], minutes = 20, label = 'mes priorités') {
+  const { attempts, states } = await context();
+  const pools = await practicePools();
+  const parts = [...new Set(focus.map((k) => Number(k[1]) as Part))];
+  // une seule compétence : on reste dans sa partie ; plusieurs : session mixte orientée
+  const { qids } = selectQuestions(getBank(), attempts, states, { minutes, pools, focus, parts: focus.length === 1 ? parts : undefined, errorShare: 0.2 });
+  const s = await createSession({ type: 'daily', title: `Session ciblée — ${label}`, mode: 'practice', qids, immediateFeedback: true, meta: { minutes, focus } });
+  go(s.id);
+}
+
 export async function startPart(part: Part, minutes = 15) {
   const { attempts, states } = await context();
   const pools = await practicePools();

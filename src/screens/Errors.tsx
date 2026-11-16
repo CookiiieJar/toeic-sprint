@@ -60,7 +60,7 @@ export function Errors() {
             <Button variant="soft" disabled={!active.length} onClick={() => run(() => startErrors('hard'))}>Les plus difficiles</Button>
           </div>
         </div>
-        <p className="mt-2 text-xs text-muted">Une erreur est « maîtrisée » après trois réussites espacées (1 jour, 3 jours, puis plus) : c'est une maîtrise durable, pas un simple souvenir de la réponse.</p>
+        <p className="mt-2 text-xs text-muted">Une erreur est « maîtrisée » après trois réussites espacées (1 jour, 3 jours, puis plus) : c'est une maîtrise durable, pas un simple souvenir de la réponse. Les bonnes réponses validées avec « Pas sûre » arrivent aussi ici. À l'approche de l'examen, les intervalles sont raccourcis pour que tout repasse avant le jour J.</p>
 
         {reasons.length > 0 && (
           <>
@@ -105,7 +105,7 @@ function ErrorItem({ s, open, onToggle }: { s: QState; open: boolean; onToggle: 
           <div className="min-w-0 flex-1 text-sm">
             <p className="m-0 text-xs font-semibold text-muted">Part {q.part} · {catLabel(q.category)}{s.favorite ? ' · ★' : ''}</p>
             <p className="m-0 truncate">{q.prompt ?? set?.title ?? 'Photo'}</p>
-            {e && <p className="m-0 text-xs text-muted">{s.wrong} échec(s) · {STATUS_FR[e.status]} · prochaine révision : {e.status === 'mastered' ? '—' : e.srs.due <= Date.now() ? "aujourd'hui" : formatDayFr(dayKey(e.srs.due), false)}</p>}
+            {e && <p className="m-0 text-xs text-muted">{e.soft ? 'réussie avec hésitation' : `${s.wrong} échec(s)`} · {STATUS_FR[e.status]} · prochaine révision : {e.status === 'mastered' ? '—' : e.srs.due <= Date.now() ? "aujourd'hui" : formatDayFr(dayKey(e.srs.due), false)}</p>}
           </div>
         </div>
       </Card>
@@ -114,9 +114,9 @@ function ErrorItem({ s, open, onToggle }: { s: QState; open: boolean; onToggle: 
           {e && (
             <Card className="!p-3 text-sm">
               <dl className="grid grid-cols-2 gap-x-3 gap-y-1">
-                <dt className="text-muted">Ma dernière réponse</dt><dd className="font-semibold text-bad">{e.lastChoice ? `${e.lastChoice}. ${q.options[LETTERS.indexOf(e.lastChoice)]}` : 'Sans réponse'}</dd>
+                <dt className="text-muted">Ma dernière réponse</dt><dd className={cx('font-semibold', e.soft ? 'text-ok' : 'text-bad')}>{e.lastChoice ? `${e.lastChoice}. ${q.options[LETTERS.indexOf(e.lastChoice)]}` : 'Sans réponse'}</dd>
                 <dt className="text-muted">Bonne réponse</dt><dd className="font-semibold text-ok">{q.answer}. {q.options[LETTERS.indexOf(q.answer)]}</dd>
-                <dt className="text-muted">Première erreur</dt><dd>{formatDayFr(dayKey(e.firstWrongAt), false)}</dd>
+                <dt className="text-muted">{e.soft ? 'Hésitation' : 'Première erreur'}</dt><dd>{formatDayFr(dayKey(e.firstWrongAt), false)}</dd>
                 <dt className="text-muted">Dernière erreur</dt><dd>{formatDayFr(dayKey(e.lastWrongAt), false)}</dd>
                 <dt className="text-muted">Temps de réponse</dt><dd>{Math.round(e.lastTimeMs / 1000)} s</dd>
                 <dt className="text-muted">Échecs / réussites</dt><dd>{s.wrong} / {s.correct}</dd>

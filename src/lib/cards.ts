@@ -1,8 +1,8 @@
 import { db } from './db';
 import type { Card, Question, VocabItem } from './types';
-import { newSrs, review } from './srs';
+import { examHorizon, newSrs, review } from './srs';
 import { VOCAB, FALSE_FRIENDS, COLLOCATIONS } from '../data/vocab';
-import { addStudySeconds } from './sessions';
+import { addStudySeconds, getProfile } from './sessions';
 
 const slug = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40);
 
@@ -61,7 +61,7 @@ export function buildQueue(cards: Card[], opts: { decks?: Card['deck'][]; newLim
 }
 
 export async function reviewCard(c: Card, quality: number, seconds: number) {
-  const srs = review(c.srs, quality);
+  const srs = review(c.srs, quality, Date.now(), examHorizon((await getProfile()).examDate));
   await db.cards.update(c.id, { srs });
   await addStudySeconds(Math.min(seconds, 60), 1);
 }

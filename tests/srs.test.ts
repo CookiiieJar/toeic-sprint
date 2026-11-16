@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { newSrs, review, errStatus, gradeAnswer, RELEARN_MS } from '../src/lib/srs';
+import { newSrs, review, errStatus, gradeAnswer, examHorizon, RELEARN_MS } from '../src/lib/srs';
 import { DAY_MS } from '../src/lib/dates';
 
 describe('répétition espacée', () => {
@@ -29,6 +29,17 @@ describe('répétition espacée', () => {
     for (let i = 0; i < 12; i++) s = review(s, 5, s.due);
     expect(s.interval).toBeLessThanOrEqual(21);
     expect(s.due - t0).toBeGreaterThan(DAY_MS);
+  });
+  it("plafonne l'intervalle pour que la carte repasse avant l'examen", () => {
+    expect(examHorizon('2026-11-28', new Date(2026, 10, 15, 10).getTime())).toBe(12);
+    expect(examHorizon('2026-11-28', new Date(2026, 10, 27, 10).getTime())).toBe(1);
+    expect(examHorizon('2026-11-28', new Date(2026, 10, 28, 10).getTime())).toBe(21); // jour J ou passé : plus de plafond
+    expect(examHorizon('2027-06-01', t0)).toBe(21);
+    expect(examHorizon(undefined, t0)).toBe(21);
+    let s = newSrs(t0);
+    for (let i = 0; i < 6; i++) s = review(s, 5, s.due, 4);
+    expect(s.interval).toBeLessThanOrEqual(4);
+    expect(gradeAnswer(true, 1000, 20, true)).toBe(3);
   });
   it('note les réponses selon exactitude et vitesse', () => {
     expect(gradeAnswer(false, 1000, 20)).toBe(1);

@@ -1,3 +1,18 @@
+# Dépendances et builds (régénérables)
 node_modules
 dist
+dev-dist
+coverage
+*.tsbuildinfo
+
+# Fichiers locaux, secrets et environnement (ne jamais committer)
 *.local
+.env
+.env.*
+*.pem
+*.key
+
+# Divers
+*.log
+.DS_Store
+Thumbs.db

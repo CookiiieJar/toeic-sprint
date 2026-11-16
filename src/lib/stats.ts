@@ -1,7 +1,6 @@
 import type { Attempt, DayLog, Part, QState } from './types';
-import { ALL_PARTS, EXAM_STRUCTURE, catLabel, PART_FR, isListening } from './labels';
+import { ALL_PARTS, isListening } from './labels';
 import { addDays, dayKey } from './dates';
-import type { Bank } from './bankCore';
 
 export interface Acc {
   total: number;
@@ -48,47 +47,6 @@ export function sections(attempts: Attempt[]) {
 
 /** N dernières tentatives (les plus récentes) */
 export const recent = (attempts: Attempt[], n: number) => [...attempts].sort((a, b) => b.at - a.at).slice(0, n);
-
-export interface Weakness {
-  key: string;
-  kind: 'part' | 'category';
-  label: string;
-  rate: number;
-  total: number;
-  /** gain potentiel estimé (questions/200 récupérables) */
-  potential: number;
-}
-
-/** Poids d'une catégorie dans un examen (fréquence dans la banque d'examen) */
-function categoryWeights(bank: Bank): Map<string, number> {
-  const exam = [...bank.questions.values()].filter((q) => q.pool.startsWith('exam'));
-  const g = groupBy(exam, (q) => q.category);
-  return new Map([...g.entries()].map(([k, v]) => [k, v.length]));
-}
-
-/**
- * Points offrant le plus fort potentiel d'amélioration :
- * potentiel = (objectif 90 % − précision lissée) × nombre de questions concernées à l'examen × confiance.
- * On ne retient que ce qui repose sur des données réelles (≥ 3 essais).
- */
-export function weaknesses(attempts: Attempt[], bank: Bank, n = 3): Weakness[] {
-  const out: Weakness[] = [];
-  const window = recent(attempts, 400);
-  const parts = byPart(window);
-  for (const p of ALL_PARTS) {
-    const a = parts[p];
-    if (a.total < 3) continue;
-    const conf = Math.min(1, a.total / 10);
-    out.push({ key: `part:${p}`, kind: 'part', label: `Part ${p} — ${PART_FR[p]}`, rate: a.rate, total: a.total, potential: Math.max(0, 0.9 - smoothed(a)) * EXAM_STRUCTURE[p] * conf });
-  }
-  const w = categoryWeights(bank);
-  for (const [c, a] of byCategory(window)) {
-    if (a.total < 3) continue;
-    const conf = Math.min(1, a.total / 6);
-    out.push({ key: `cat:${c}`, kind: 'category', label: catLabel(c), rate: a.rate, total: a.total, potential: Math.max(0, 0.9 - smoothed(a)) * (w.get(c) ?? 3) * conf });
-  }
-  return out.filter((x) => x.potential > 0.3).sort((a, b) => b.potential - a.potential).slice(0, n);
-}
 
 export const STUDY_DAY_SECONDS = 120;
 export const studied = (d?: DayLog) => !!d && (d.seconds >= STUDY_DAY_SECONDS || d.questions >= 5 || d.cards >= 10);

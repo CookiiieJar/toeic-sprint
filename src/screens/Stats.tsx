@@ -1,6 +1,7 @@
 import { useMemo } from 'react';
 import { useAttempts, useLogs, useProfile, useSessions, useStates } from '../lib/hooks';
-import { accOf, avgTimeByPart, bestStreak, byCategory, byPart, dailySeries, masteredCount, recent, sections, solidQuestions, streak, weaknesses } from '../lib/stats';
+import { accOf, avgTimeByPart, bestStreak, byCategory, byPart, dailySeries, masteredCount, recent, sections, solidQuestions, streak } from '../lib/stats';
+import { computeMastery, firstExposures, priorities, readingPace, targetsFor } from '../lib/mastery';
 import { ALL_PARTS, DEFAULT_TARGET_SEC, PART_FR, catLabel } from '../lib/labels';
 import { addDays, dayKey, daysRange, formatDayFr, formatDuration } from '../lib/dates';
 import { estimateFromRates, METHOD_TEXT, requiredRates } from '../lib/scoring';
@@ -25,13 +26,15 @@ export function Stats() {
     const n = Math.min(60, Math.floor(sorted.length / 2));
     const first = sections(sorted.slice(0, n));
     const last = sections(sorted.slice(-n));
-    const r300 = sections(recent(attempts, 300));
+    const r300 = sections(recent(firstExposures(attempts), 300));
     const est = r300.listening.total >= 40 && r300.reading.total >= 40 ? estimateFromRates(r300.listening.rate, r300.reading.rate, 'practice') : null;
     const series = dailySeries(attempts).map((x) => ({ label: formatDayFr(x.day, false), l: x.listening, r: x.reading }));
-    const pot = weaknesses(attempts, getBank(), 6);
+    const mastery = computeMastery(getBank(), attempts, { target: profile ? targetsFor(profile.targetMin) : undefined });
+    const pot = priorities(mastery, 8);
+    const pace = readingPace(getBank(), attempts);
     const exams = sessions.filter((s) => s.status === 'done' && (s.type === 'exam' || s.type === 'diagnostic'));
-    return { sec, parts, cats, totalWrong, times, first, last, n, est, series, pot, exams };
-  }, [attempts, sessions]);
+    return { sec, parts, cats, totalWrong, times, first, last, n, est, series, pot, exams, mastery, pace };
+  }, [attempts, sessions, profile]);
   if (!profile) return null;
   const totalSec = logs.reduce((s, l) => s + l.seconds, 0);
   const minutes = new Map(logs.map((l) => [l.day, l.seconds / 60]));
@@ -59,7 +62,7 @@ export function Stats() {
           <Card className="mt-3">
             <h3 className="m-0 text-sm font-bold">Estimation indicative (non officielle)</h3>
             <p className="my-1 text-2xl font-extrabold tabular-nums">{d.est.total.low} – {d.est.total.high}</p>
-            <p className="m-0 text-xs text-muted">D'après tes 300 dernières réponses d'entraînement (Listening {d.est.listening.low}–{d.est.listening.high}, Reading {d.est.reading.low}–{d.est.reading.high}).</p>
+            <p className="m-0 text-xs text-muted">D'après tes 300 dernières questions vues pour la première fois (Listening {d.est.listening.low}–{d.est.listening.high}, Reading {d.est.reading.low}–{d.est.reading.high}).</p>
             <details className="mt-2 text-xs text-muted"><summary className="cursor-pointer font-semibold">Méthode et limites</summary><p className="mt-1">{METHOD_TEXT}</p></details>
           </Card>
         )}
@@ -70,13 +73,27 @@ export function Stats() {
             <ul className="space-y-2 text-sm">
               {d.pot.map((w) => (
                 <li key={w.key} className="flex items-center justify-between gap-2">
-                  <span><b>{w.label}</b><span className="block text-xs text-muted">{Math.round(w.rate * 100)} % sur {w.total} questions</span></span>
-                  <span className="shrink-0 rounded-full bg-primary-soft px-2 py-1 text-xs font-semibold text-primary">≈ +{w.potential.toFixed(1)} q./200</span>
+                  <span><b>{w.label}</b><span className="block text-xs text-muted">maîtrise estimée {Math.round(w.mastery * 100)} % · {w.correct}/{w.attempts} réussies · ≈ {w.examWeight.toFixed(1)} q./examen</span></span>
+                  <span className="shrink-0 rounded-full bg-primary-soft px-2 py-1 text-xs font-semibold text-primary">≈ +{w.potential.toFixed(1)} q.</span>
                 </li>
               ))}
             </ul>
-          ) : <p className="m-0 text-sm text-muted">Pas encore assez de données (3 réponses minimum par catégorie).</p>}
-          <p className="mb-0 mt-2 text-xs text-muted">Potentiel = écart à 90 % de réussite × nombre de questions de ce type dans un examen (estimation).</p>
+          ) : <p className="m-0 text-sm text-muted">Pas encore assez de données (3 réponses minimum par compétence).</p>}
+          <p className="mb-0 mt-2 text-xs text-muted">Potentiel = écart à ta cible ({Math.round(d.mastery.target.listening * 100)} % Listening, {Math.round(d.mastery.target.reading * 100)} % Reading) × nombre de questions de ce type dans un examen. La maîtrise estimée tient compte de la difficulté des questions, pèse davantage les réponses récentes et compte peu les questions refaites. C'est un modèle indicatif, non calibré.</p>
+        </Card>
+
+        <SectionTitle>Maîtrise estimée par partie</SectionTitle>
+        <Card>
+          <BarRows rows={ALL_PARTS.map((p) => ({ label: `Part ${p} · ${PART_FR[p]}`, value: d.mastery.parts[p].n >= 3 ? d.mastery.parts[p].mastery : null, detail: d.mastery.parts[p].n >= 3 ? '' : 'trop peu de données' }))} target={0.85} />
+          <p className="mb-0 mt-2 text-xs text-muted">Réussite attendue sur des questions de difficulté d'examen. Projection par section : Listening ≈ {Math.round(d.mastery.expected.listening * 100)} %, Reading ≈ {Math.round(d.mastery.expected.reading * 100)} % (indicatif).</p>
+        </Card>
+
+        <SectionTitle>Rythme en Reading</SectionTitle>
+        <Card>
+          {d.pace.projectedMin !== null ? (
+            <p className={cx('m-0 text-sm', d.pace.projectedMin > 75 && 'font-semibold text-bad')}>À ta vitesse actuelle, les 100 questions du Reading prendraient ≈ <b>{Math.round(d.pace.projectedMin)} min</b> (limite : 75 min).</p>
+          ) : <p className="m-0 text-sm text-muted">Projection disponible après au moins 8 questions nouvelles dans chacune des Parts 5, 6 et 7.</p>}
+          <p className="mb-0 mt-2 text-xs text-muted">Calculé sur tes premières tentatives récentes (temps plafonné quand le téléphone est resté posé). En entraînement avec correction immédiate, le temps peut être plus long qu'en examen.</p>
         </Card>
 
         <SectionTitle>Historique des performances</SectionTitle>

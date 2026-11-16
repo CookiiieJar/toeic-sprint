@@ -1,7 +1,7 @@
 import type { Bank } from './bankCore';
 import { targetSec, toUnits } from './bankCore';
 import type { Attempt, Part, Pool, QState, Question, Unit } from './types';
-import { byCategory, byPart, recent, smoothed, accOf } from './stats';
+import { computeMastery, pCorrect, skillKey, type Mastery } from './mastery';
 import { ALL_PARTS, EXAM_STRUCTURE } from './labels';
 import { DAY_MS } from './dates';
 
@@ -12,6 +12,10 @@ export interface SelectOptions {
   /** part du temps réservée aux erreurs à revoir (0..1) */
   errorShare?: number;
   pools: Pool[];
+  /** compétences à cibler en priorité (clés `p5:word-form`, voir mastery.ts) */
+  focus?: string[];
+  /** modèle de maîtrise déjà calculé (sinon recalculé depuis les tentatives) */
+  mastery?: Mastery;
   /** générateur aléatoire (injectable pour les tests) */
   rng?: () => number;
   now?: number;
@@ -49,21 +53,16 @@ export function eligibleQuestions(bank: Bank, pools: Pool[], parts?: Part[]): Qu
     .filter((q) => pools.includes(q.pool) && (!parts?.length || parts.includes(q.part)));
 }
 
-/** Niveau de difficulté visé selon la précision récente */
-export function targetLevel(attempts: Attempt[], hard?: boolean): number {
-  if (hard) return 3;
-  const r = accOf(recent(attempts, 60));
-  if (r.total < 10) return 2;
-  if (r.rate >= 0.82) return 2.8;
-  if (r.rate >= 0.65) return 2.3;
-  return 1.7;
-}
+/** Réussite visée sur une question nouvelle : assez difficile pour apprendre, assez accessible pour ne pas décourager */
+export const DESIRED_SUCCESS = { normal: 0.72, hard: 0.55 };
 
 /**
- * Sélection adaptative (pas de hasard pur) :
+ * Sélection adaptative pilotée par le moteur de maîtrise (pas de hasard pur) :
  * 1. erreurs dont la révision est due (répétition espacée) ;
- * 2. puis unités notées selon : faiblesse de la partie et de la catégorie, nouveauté,
- *    adéquation de difficulté, date de dernière révision, avec une légère variation aléatoire.
+ * 2. puis unités notées selon : gain potentiel de la compétence (écart à la cible × fréquence à l'examen),
+ *    difficulté adaptée compétence par compétence (probabilité de réussite proche de 72 %),
+ *    exploration des compétences encore peu observées,
+ *    nouveauté, date de dernière révision, compétences ciblées, et une légère variation aléatoire.
  * Le temps total respecte la durée demandée ; aucune partie ne dépasse ~40 % du temps en mode mixte.
  */
 export function selectQuestions(
@@ -76,10 +75,10 @@ export function selectQuestions(
   const rng = opts.rng ?? Math.random;
   const budget = opts.minutes * 60;
   const pool = eligibleQuestions(bank, opts.pools, opts.parts);
-  const window = recent(attempts, 400);
-  const partAcc = byPart(window);
-  const catAcc = byCategory(window);
-  const tLevel = targetLevel(attempts, opts.hard);
+  const mastery = opts.mastery ?? computeMastery(bank, attempts);
+  const maxPotential = Math.max(0.01, ...[...mastery.skills.values()].map((s) => s.potential));
+  const desired = opts.hard ? DESIRED_SUCCESS.hard : DESIRED_SUCCESS.normal;
+  const focus = new Set(opts.focus ?? []);
 
   // Unités complètes (les groupes gardent leur support commun)
   const units = toUnits(bank, pool.map((q) => q.id));
@@ -91,24 +90,29 @@ export function selectQuestions(
     let seen = false;
     let recentlySeen = false;
     let allSolid = true;
+    let focused = 0;
     for (const q of qs) {
       const st = states.get(q.id);
       if (st?.seen) seen = true;
       if (st && now - st.lastSeen < DAY_MS) recentlySeen = true;
       if (st?.err && st.err.status !== 'mastered' && st.err.srs.due <= now) dueErrors++;
       if (!st?.lastResult) allSolid = false;
-      const cAcc = catAcc.get(q.category);
-      score += (1 - (cAcc ? smoothed(cAcc) : 0.7)) * 1.2;
+      const key = skillKey(q.part, q.category);
+      const skill = mastery.skills.get(key);
+      // racine carrée : les compétences fréquentes passent d'abord sans étouffer les autres
+      score += Math.sqrt((skill?.potential ?? 0) / maxPotential) * 3;
+      score -= Math.abs(pCorrect(skill?.theta ?? mastery.parts[q.part].theta, q.level, q.part) - desired) * 2.5;
+      // exploration : une compétence d'examen encore peu observée doit être mesurée
+      if (skill?.examWeight) score += 1 / (1 + skill.n / 2);
+      if (focus.has(key)) focused++;
     }
     score /= qs.length;
-    score += (1 - smoothed(partAcc[part])) * 2.5;
+    if (focused) score += 2 + (3 * focused) / qs.length;
     if (!seen) score += 1.3;
     if (recentlySeen && !dueErrors) score -= 2.5;
     else if (seen && !dueErrors) score -= 0.8;
     if (seen && allSolid) score -= 1.2;
-    const avgLevel = qs.reduce((s, q) => s + q.level, 0) / qs.length;
-    score -= Math.abs(avgLevel - tLevel) * 0.6;
-    if (opts.hard && avgLevel >= 2.5) score += 0.8;
+    if (opts.hard && qs.reduce((s, q) => s + q.level, 0) / qs.length >= 2.5) score += 0.8;
     score += rng() * 0.7;
     return { unit, part, cost: unitCost(bank, unit), score, dueErrors, seen };
   });

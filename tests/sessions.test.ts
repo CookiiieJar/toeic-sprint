@@ -4,7 +4,7 @@ import { createSession, finishSession, recordAttempt, applyResult } from '../src
 import { exportData, importData } from '../src/lib/backup';
 import { getBank } from '../src/lib/bank';
 import { byPool } from '../src/lib/bankCore';
-import { streak, weaknesses } from '../src/lib/stats';
+import { streak } from '../src/lib/stats';
 import type { Letter } from '../src/lib/types';
 
 let db: ReturnType<typeof useTestDb>;
@@ -57,6 +57,33 @@ describe('sessions et suivi', () => {
     st = applyResult(st, 'q', true, 'B', 1000, 20, st.err!.srs.due);
     expect(st.err!.status).toBe('mastered');
   });
+  it('une bonne réponse « pas sûre » crée une carte à reconfirmer le lendemain', async () => {
+    const t0 = new Date(2026, 10, 15, 10).getTime();
+    let st = applyResult(undefined, 'q', true, 'B', 1000, 20, t0, { unsure: true });
+    expect(st.err?.soft).toBe(true);
+    expect(st.err!.status).toBe('learning');
+    expect(st.err!.srs.due).toBeGreaterThan(t0 + 12 * 3600_000);
+    expect(st.wrong).toBe(0);
+    // sans hésitation : aucune carte
+    expect(applyResult(undefined, 'q', true, 'B', 1000, 20, t0).err).toBeUndefined();
+    // un vrai échec ensuite en fait une erreur ordinaire
+    st = applyResult(st, 'q', false, 'A', 1000, 20, t0 + 1000);
+    expect(st.err!.soft).toBeUndefined();
+    // l'indicateur est conservé dans l'historique des tentatives
+    const q = byPool(bank, 'practice').find((x) => x.part === 5)!;
+    const s = await createSession({ type: 'daily', title: 't', mode: 'practice', qids: [q.id] });
+    s.answers[q.id] = { choice: q.answer, timeMs: 8000, at: Date.now(), unsure: true };
+    await recordAttempt(s, q.id);
+    expect((await db.attempts.toArray())[0].unsure).toBe(true);
+    expect((await db.qstate.get(q.id))!.err?.soft).toBe(true);
+  });
+  it("à l'approche de l'examen, les intervalles sont plafonnés à la veille", () => {
+    const t0 = new Date(2026, 10, 24, 10).getTime(); // J-4
+    let st = applyResult(undefined, 'q', false, 'A', 1000, 20, t0, { maxInterval: 3 });
+    st = applyResult(st, 'q', true, 'B', 1000, 20, st.err!.srs.due, { maxInterval: 3 });
+    st = applyResult(st, 'q', true, 'B', 1000, 20, st.err!.srs.due, { maxInterval: 2 });
+    expect(st.err!.srs.interval).toBeLessThanOrEqual(2);
+  });
   it('exporte puis réimporte toutes les données', async () => {
     const ids = byPool(bank, 'practice').slice(0, 2).map((q) => q.id);
     const s = await createSession({ type: 'daily', title: 'x', mode: 'practice', qids: ids });
@@ -80,11 +107,5 @@ describe('statistiques', () => {
     expect(streak(logs, '2026-11-11')).toBe(3);
     expect(streak(logs, '2026-11-12')).toBe(3);
     expect(streak(logs, '2026-11-13')).toBe(0);
-  });
-  it('identifie les faiblesses à partir de données réelles uniquement', () => {
-    expect(weaknesses([], bank)).toEqual([]);
-    const qs = byPool(bank, 'practice').filter((q) => q.part === 7).slice(0, 6);
-    const att = qs.map((q, i) => ({ qid: q.id, part: q.part, category: q.category, level: q.level, correct: i === 0, choice: 'A' as const, timeMs: 1, at: i, day: 'd', sessionId: 's', sessionType: 'daily' as const, mode: 'practice' as const }));
-    expect(weaknesses(att, bank)[0].key).toBe('part:7');
   });
 });

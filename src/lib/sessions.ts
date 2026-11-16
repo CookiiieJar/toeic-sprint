@@ -3,7 +3,7 @@ import { getBank } from './bank';
 import { letterIndex, targetSec, toUnits } from './bankCore';
 import type { Attempt, ExamPool, Letter, Part, Pool, Profile, QState, Session, SessionSummary, SessionType, Unit } from './types';
 import { dayKey } from './dates';
-import { errStatus, gradeAnswer, newSrs, review } from './srs';
+import { errStatus, examHorizon, gradeAnswer, newSrs, review } from './srs';
 import { isListening } from './labels';
 
 export const DEFAULT_PROFILE: Profile = {
@@ -117,7 +117,15 @@ export async function saveSession(s: Session) {
 }
 
 /** Met à jour l'état d'une question (statistiques + carte d'erreur à répétition espacée) */
-export function applyResult(prev: QState | undefined, qid: string, correct: boolean, choice: Letter | null, timeMs: number, tSec: number, now = Date.now()): QState {
+export interface ResultOptions {
+  /** bonne réponse donnée avec hésitation : traitée comme une connaissance fragile */
+  unsure?: boolean;
+  /** plafond d'intervalle en jours (voir examHorizon) */
+  maxInterval?: number;
+}
+
+export function applyResult(prev: QState | undefined, qid: string, correct: boolean, choice: Letter | null, timeMs: number, tSec: number, now = Date.now(), o: ResultOptions = {}): QState {
+  const cap = o.maxInterval ?? 21;
   const st: QState = prev ? structuredClone(prev) : { qid, seen: 0, correct: 0, wrong: 0, lastSeen: 0 };
   st.seen++;
   if (correct) st.correct++;
@@ -135,11 +143,16 @@ export function applyResult(prev: QState | undefined, qid: string, correct: bool
       st.err.lastTimeMs = timeMs;
       st.err.reviews++;
       st.err.status = 'learning';
+      delete st.err.soft;
     }
+  } else if (!st.err && o.unsure) {
+    // réussie mais « pas sûre » : peut-être un coup de chance → à reconfirmer dès demain
+    const srs = review(newSrs(now), 3, now, cap);
+    st.err = { firstWrongAt: now, lastWrongAt: now, lastChoice: choice, lastTimeMs: timeMs, srs, reviews: 0, status: 'learning', soft: true };
   } else if (st.err && st.err.status !== 'mastered') {
     // la répétition espacée n'avance que si la révision était due (sinon on ne « triche » pas sur l'espacement)
     if (st.err.srs.due <= now + 5 * 60 * 1000) {
-      st.err.srs = review(st.err.srs, gradeAnswer(true, timeMs, tSec), now);
+      st.err.srs = review(st.err.srs, gradeAnswer(true, timeMs, tSec, o.unsure), now, cap);
       st.err.reviews++;
       st.err.status = errStatus(st.err.srs);
     }
@@ -169,10 +182,12 @@ export async function recordAttempt(session: Session, qid: string) {
     sessionType: session.type,
     mode: session.mode,
   };
+  if (a.unsure) attempt.unsure = true;
+  const maxInterval = examHorizon((await getProfile()).examDate, now);
   await db.transaction('rw', db.attempts, db.qstate, db.daylog, async () => {
     await db.attempts.add(attempt);
     const prev = await db.qstate.get(qid);
-    await db.qstate.put(applyResult(prev, qid, correct, a.choice, a.timeMs, targetSec(q), now));
+    await db.qstate.put(applyResult(prev, qid, correct, a.choice, a.timeMs, targetSec(q), now, { unsure: a.unsure, maxInterval }));
     const d = (await db.daylog.get(attempt.day)) ?? { day: attempt.day, seconds: 0, questions: 0, correct: 0, cards: 0 };
     d.questions++;
     if (correct) d.correct++;
