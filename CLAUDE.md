@@ -29,7 +29,7 @@ export PATH=~/.local/node/bin:$PATH
 | `npm install` | dépendances (versions figées, voir package.json) |
 | `npm run dev` | serveur de développement (accessible sur le réseau local) |
 | `npm run validate` | **valide la banque de questions** (à lancer après toute modif de `src/data/bank`) |
-| `npm test` | tests Vitest (55 tests au dernier point) |
+| `npm test` | tests Vitest (59 tests au dernier point) |
 | `npm run build` | `tsc -b` + build Vite dans `dist/` |
 | `npm run check` | validate + test + build (à lancer avant tout commit) |
 | `npx tsx scripts/rebalance-answers.ts <fichiers.json>` | rééquilibre la position des bonnes réponses |

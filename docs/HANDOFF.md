@@ -1,7 +1,7 @@
 # Transmission (handoff)
 
 > À mettre à jour à la fin de chaque session qui modifie le projet.
-> Dernière mise à jour : **15 novembre 2026** (session 3 : moteur de maîtrise). Examen visé : 28 novembre 2026 (J-13 à cette date) — vérifier `profile.examDate` et la date du jour avant tout raisonnement de planning.
+> Dernière mise à jour : **19 novembre 2026** (session 4 : questions repliables). Examen visé : 28 novembre 2026 (J-9 à cette date) — vérifier `profile.examDate` et la date du jour avant tout raisonnement de planning.
 
 ## 1. Contexte en une minute
 
@@ -11,9 +11,20 @@ La session 3 répondait à la demande : « analyser le dépôt, concevoir un mot
 
 ## 2. État exact
 
-- Branche `main`. **Les modifications de la session 3 ne sont pas committées** (ni poussées) : l'utilisatrice n'a pas demandé de commit. `git status` montre aussi `CLAUDE.md` et `docs/` non suivis depuis la session 2.
-- `npm run check` : ✅ banque valide (1 448 questions, 5 examens), ✅ **55 tests** (38 auparavant), ✅ build.
+- Branche `main`. Session 3 committée (`5bfcaea`). **Les modifications de la session 4 ne sont pas committées** (ni poussées).
+- `npm run check` : ✅ banque valide (1 448 questions, 5 examens), ✅ **59 tests**, ✅ build.
 - Schéma Dexie inchangé (`version(1)`) : aucune migration, les données existantes sont réutilisées telles quelles.
+
+## 3 bis. Session 4 (19 novembre 2026) : questions repliables
+
+- **Où** : `src/screens/SessionPlayer.tsx` (toutes les sessions : entraînement, intensif, ciblée, erreurs, diagnostic, examens). Utile surtout dans les unités de plusieurs questions (Parts 3, 4, 6, 7), puisque le lecteur affiche une unité à la fois.
+- **Quand une question est repliable** (`foldStatus` dans `src/lib/fold.ts`) : entraînement avec correction immédiate → une fois **validée** (une sélection en attente ne compte pas) ; examen ou entraînement sans correction → dès qu'une réponse est enregistrée. Une question non traitée n'est jamais repliée (même via la commande globale).
+- **En-tête replié** : numéro, pastille « ✓ Correcte · D » / « ✗ Incorrecte · A » (seulement si la correction est déjà affichée) ou « Répondue · B » (examen : **aucun résultat révélé**), début de l'énoncé, chevron. Le contenu est masqué par l'attribut `hidden` (pas démonté) : la correction et ses boutons gardent leur état.
+- **Jamais de repli automatique** : une question validée reste ouverte pour lire la correction.
+- **Commandes globales** « Replier / Déplier les questions répondues » : au-dessus des questions, uniquement si l'unité a ≥ 2 questions et au moins une traitée ; chaque bouton n'apparaît que s'il a un effet.
+- **État** : `useState<Set<string>>` dans `SessionPlayer`, non réinitialisé au changement d'unité (retour arrière → même état), **non persisté** (rechargement / reprise = tout déplié). Aucun accès à la base, au chronomètre ou aux tentatives.
+- **Accessibilité** : `aria-expanded` / `aria-controls`, libellé vocal complet, focus conservé sur le bouton après bascule, cibles ≥ 40 px.
+- **Vérifié** : `tests/fold.test.ts` (4 tests) ; parcours Chromium headless 390 px (script temporaire, non conservé) : 31 contrôles OK — repli/dépli unitaire et au clavier, successifs, globaux, question non répondue utilisable, réponses/tentatives inchangées en base, chronomètre actif, aller-retour entre unités, examen sans correction révélée et réponse encore modifiable. **Non vérifié** : vrai téléphone.
 
 ## 3. Ce qui a été fait en session 3
 
@@ -65,7 +76,7 @@ La session 3 répondait à la demande : « analyser le dépôt, concevoir un mot
 
 ## 6. Prochaines actions recommandées
 
-1. Demander à l'utilisatrice si elle veut **committer / déployer** (elle doit pousser pour que le téléphone reçoive la version ; l'URL ne change pas, donc les données sont conservées — lui conseiller malgré tout un export dans Réglages › Sauvegarde avant).
+1. Demander à l'utilisatrice si elle veut **committer / déployer** la session 4 (elle doit pousser pour que le téléphone reçoive la version ; l'URL ne change pas, donc les données sont conservées — lui conseiller malgré tout un export dans Réglages › Sauvegarde avant).
 2. Après quelques jours d'usage, lui demander un export JSON : rejouer `computeMastery` dessus pour vérifier que les priorités sont crédibles et ajuster les constantes.
 3. Contenu : +30 à 50 questions Part 7 (doubles/triples documents), puis Parts 3/4.
 4. « Révision finale » J-2/J-1 : session reprenant toutes les erreurs, y compris maîtrisées, et les règles associées.

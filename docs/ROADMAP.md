@@ -9,7 +9,8 @@ Statuts : ✅ terminé · 🔄 en cours / à vérifier · ⬜ à faire.
 | Application complète (écrans, sessions, corrections, stats, planning, PWA) | ✅ |
 | 5 examens blancs de 200 questions | ✅ |
 | Banque de 1 448 questions | ✅ |
-| Moteur de maîtrise (compétences, difficulté adaptative, sessions ciblées, « Pas sûre », horizon d'examen) | ✅ session 3, non committé |
+| Moteur de maîtrise (compétences, difficulté adaptative, sessions ciblées, « Pas sûre », horizon d'examen) | ✅ session 3 (committé : 5bfcaea) |
+| Repli / dépli des questions répondues dans le lecteur de session | ✅ session 4 |
 | Correctif audio « un seul personnage entendu » | 🔄 livré, non confirmé sur l'appareil de l'utilisatrice |
 | Écran Examens (5 examens) | 🔄 compilé et testé unitairement, jamais vu dans un navigateur |
 | Déploiement GitHub Pages | 🔄 configuré ; fonctionnement final non vérifié par Claude |
@@ -45,6 +46,7 @@ Statuts : ✅ terminé · 🔄 en cours / à vérifier · ⬜ à faire.
 
 - Les priorités du moteur reposant sur moins de ~10 réponses sont fragiles (incertitude ≈ ±0,5 logit à 30 réponses).
 - Une question laissée sans réponse en examen crée une carte d'erreur (le moteur de maîtrise, lui, l'ignore).
+- L'état replié/déplié des questions n'est pas sauvegardé : il est perdu au rechargement de la page ou à la reprise d'une session en pause (choix volontaire, purement visuel).
 - Le temps par question utilise l'horloge murale (plafonné à 5× la cible dans le moteur).
 
 ## Dette technique

@@ -13,6 +13,7 @@ import { SceneView } from '../components/Scene';
 import { DocView } from '../components/DocView';
 import { Correction, OptionButton, VocabBox } from '../components/QuestionView';
 import { Button, Icon, Notice, Progress, Sheet, cx } from '../components/ui';
+import { foldStatus, isFolded, setFolded, type FoldStatus } from '../lib/fold';
 
 const RESPONSE_SEC = { short: 8, perQuestion: 8 };
 
@@ -32,6 +33,8 @@ export function SessionPlayer({ id }: { id: string }) {
   const [countdown, setCountdown] = useState<number | null>(null);
   const [pending, setPending] = useState<Record<string, Letter>>({});
   const [finishing, setFinishing] = useState(false);
+  /** questions repliées (état visuel seulement, conservé quand on change d'unité dans la session) */
+  const [collapsed, setCollapsed] = useState<Set<string>>(() => new Set());
   const unitShownAt = useRef(Date.now());
   /** début de la mesure pour la prochaine question (temps propre à chaque question d'un groupe) */
   const mark = () => {
@@ -186,6 +189,18 @@ export function SessionPlayer({ id }: { id: string }) {
     await persist(s);
   };
 
+  /** replie / déplie une question ; le focus suit le bouton (qui change de forme selon l'état) */
+  const toggleFold = (qid: string) => {
+    const fold = !collapsed.has(qid);
+    setCollapsed((c) => setFolded(c, [qid], fold));
+    requestAnimationFrame(() => {
+      const el = document.getElementById(`q-fold-${qid}`);
+      if (!el) return;
+      el.focus({ preventScroll: true });
+      if (fold) el.scrollIntoView({ block: 'nearest' });
+    });
+  };
+
   const toggleFlag = async (qid: string) => {
     const a = s.answers[qid] ?? { choice: null, timeMs: 0, at: Date.now() };
     s.answers[qid] = { ...a, flagged: !a.flagged };
@@ -249,6 +264,13 @@ export function SessionPlayer({ id }: { id: string }) {
   const listeningLines = set?.audio ?? (part <= 2 ? itemScript(part as 1 | 2, qs[0].prompt, qs[0].options) : []);
   const hideP12Text = part <= 2 && (exam || (!showText && !qs.every((q) => s.validated?.includes(q.id))));
   const docs = set?.docs ?? [];
+  const promptOf = (q: (typeof qs)[number], qi: number) =>
+    part === 1 ? 'Choisis la phrase qui décrit le mieux l\'image.'
+    : part === 2 ? (hideP12Text ? 'Écoute la question et choisis la meilleure réponse.' : q.prompt)
+    : part === 6 ? `Blanc (${qi + 1}) du texte`
+    : q.prompt;
+  const foldable = qs.filter((q) => foldStatus(s, q));
+  const foldedHere = foldable.filter((q) => collapsed.has(q.id)).length;
   const blankLabel = (n: number) => {
     const q = qs[n - 1];
     if (!q) return `(${n})`;
@@ -333,6 +355,22 @@ export function SessionPlayer({ id }: { id: string }) {
           </div>
         )}
 
+        {/* Repli global des questions traitées (groupes de plusieurs questions) */}
+        {qs.length > 1 && foldable.length > 0 && (
+          <div className="flex flex-wrap items-center justify-end gap-2">
+            {foldedHere < foldable.length && (
+              <Button size="sm" variant="ghost" className="text-muted" onClick={() => setCollapsed((c) => setFolded(c, foldable.map((q) => q.id), true))}>
+                <Icon name="chevron" size={16} className="rotate-180" /> Replier les questions répondues
+              </Button>
+            )}
+            {foldedHere > 0 && (
+              <Button size="sm" variant="ghost" className="text-muted" onClick={() => setCollapsed((c) => setFolded(c, foldable.map((q) => q.id), false))}>
+                <Icon name="chevron" size={16} /> Déplier les questions répondues
+              </Button>
+            )}
+          </div>
+        )}
+
         {/* Questions */}
         {qs.map((q, qi) => {
           const n = globalIndex + qi + 1;
@@ -340,43 +378,83 @@ export function SessionPlayer({ id }: { id: string }) {
           const ans = s.answers[q.id];
           const chosen = pending[q.id] ?? ans?.choice ?? null;
           const showFeedback = s.mode === 'practice' && s.immediateFeedback && validated;
+          const status = foldStatus(s, q);
+          const folded = isFolded(collapsed, q.id, status);
+          const bodyId = `q-body-${q.id}`;
+          const flagBtn = exam && !listening && (
+            <button onClick={() => toggleFlag(q.id)} aria-label="Marquer pour y revenir" aria-pressed={!!ans?.flagged} className={cx('grid h-9 w-9 shrink-0 place-items-center rounded-full', ans?.flagged ? 'bg-warn-soft text-warn' : 'text-muted')}>
+              <Icon name="flag" size={18} filled={ans?.flagged} />
+            </button>
+          );
           return (
-            <section key={q.id} className="space-y-2" aria-label={`Question ${n}`}>
-              <div className="flex items-start justify-between gap-2">
-                <h3 className="text-[15px] font-semibold leading-snug">
-                  <span className="mr-1 text-primary">{n}.</span>
-                  {part === 1 && 'Choisis la phrase qui décrit le mieux l\'image.'}
-                  {part === 2 && (hideP12Text ? 'Écoute la question et choisis la meilleure réponse.' : q.prompt)}
-                  {part === 5 && q.prompt}
-                  {part === 6 && `Blanc (${qi + 1}) du texte`}
-                  {[3, 4, 7].includes(part) && q.prompt}
-                </h3>
-                {exam && !listening && (
-                  <button onClick={() => toggleFlag(q.id)} aria-label="Marquer pour y revenir" className={cx('grid h-9 w-9 shrink-0 place-items-center rounded-full', ans?.flagged ? 'bg-warn-soft text-warn' : 'text-muted')}>
-                    <Icon name="flag" size={18} filled={ans?.flagged} />
-                  </button>
-                )}
-              </div>
-              <div className="space-y-2">
-                {q.options.map((o, i) => {
-                  const L = LETTERS[i];
-                  let state: 'idle' | 'selected' | 'correct' | 'wrong' | 'missed' = chosen === L ? 'selected' : 'idle';
-                  if (showFeedback) state = L === q.answer ? (chosen === L ? 'correct' : 'missed') : chosen === L ? 'wrong' : 'idle';
-                  return <OptionButton key={L} letter={L} text={o} state={state} disabled={showFeedback} hideText={part <= 2 && hideP12Text} onClick={() => choose(q.id, L)} />;
-                })}
-              </div>
-              {s.mode === 'practice' && s.immediateFeedback && !validated && (
-                <div className="flex gap-2">
-                  <Button block className="flex-1" variant={pending[q.id] ? 'primary' : 'ghost'} disabled={!pending[q.id]} onClick={() => validate(q.id)}>
-                    Valider
-                  </Button>
-                  <Button variant="soft" disabled={!pending[q.id]} onClick={() => validate(q.id, true)} aria-label="Valider en signalant une hésitation : la question sera reproposée même si la réponse est bonne">
-                    Pas sûre
-                  </Button>
+            <section key={q.id} className={cx(!folded && 'space-y-2')} aria-label={`Question ${n}`}>
+              {folded && status ? (
+                <div className="flex items-center gap-2">
+                  <h3 className="min-w-0 flex-1">
+                    <button
+                      id={`q-fold-${q.id}`}
+                      type="button"
+                      aria-expanded={false}
+                      aria-controls={bodyId}
+                      aria-label={`Question ${n}, ${foldLabel(status, ans?.choice, q.answer)}. Déplier`}
+                      onClick={() => toggleFold(q.id)}
+                      className="flex min-h-11 w-full scroll-mt-20 items-center gap-2 rounded-xl border border-line bg-surface px-3 py-2 text-left text-sm transition-colors hover:bg-surface-2 active:bg-surface-2"
+                    >
+                      <span className="font-semibold tabular-nums text-primary">{n}.</span>
+                      <FoldPill status={status} choice={ans?.choice ?? null} />
+                      <span className="min-w-0 flex-1 truncate text-muted">{part === 1 ? 'Photo' : promptOf(q, qi)}</span>
+                      <Icon name="chevron" size={18} className="shrink-0 text-muted" />
+                    </button>
+                  </h3>
+                  {flagBtn}
+                </div>
+              ) : (
+                <div className="flex items-start justify-between gap-2">
+                  <h3 className="text-[15px] font-semibold leading-snug">
+                    <span className="mr-1 text-primary">{n}.</span>
+                    {promptOf(q, qi)}
+                  </h3>
+                  <div className="flex shrink-0 items-center">
+                    {flagBtn}
+                    {status && (
+                      <button
+                        id={`q-fold-${q.id}`}
+                        type="button"
+                        aria-expanded
+                        aria-controls={bodyId}
+                        aria-label={`Replier la question ${n}`}
+                        title="Replier"
+                        onClick={() => toggleFold(q.id)}
+                        className="-my-1 grid h-10 w-10 scroll-mt-20 place-items-center rounded-full text-muted transition-colors hover:bg-surface-2 active:bg-surface-2"
+                      >
+                        <Icon name="chevron" size={20} className="rotate-180" />
+                      </button>
+                    )}
+                  </div>
                 </div>
               )}
-              {showFeedback && ans?.unsure && ans.choice === q.answer && <Notice>Bonne réponse, mais tu hésitais : cette question reviendra demain pour vérifier que ce n'était pas un coup de chance.</Notice>}
-              {showFeedback && <Correction q={q} choice={ans?.choice ?? null} />}
+              <div id={bodyId} hidden={folded} className="space-y-2">
+                <div className="space-y-2">
+                  {q.options.map((o, i) => {
+                    const L = LETTERS[i];
+                    let state: 'idle' | 'selected' | 'correct' | 'wrong' | 'missed' = chosen === L ? 'selected' : 'idle';
+                    if (showFeedback) state = L === q.answer ? (chosen === L ? 'correct' : 'missed') : chosen === L ? 'wrong' : 'idle';
+                    return <OptionButton key={L} letter={L} text={o} state={state} disabled={showFeedback} hideText={part <= 2 && hideP12Text} onClick={() => choose(q.id, L)} />;
+                  })}
+                </div>
+                {s.mode === 'practice' && s.immediateFeedback && !validated && (
+                  <div className="flex gap-2">
+                    <Button block className="flex-1" variant={pending[q.id] ? 'primary' : 'ghost'} disabled={!pending[q.id]} onClick={() => validate(q.id)}>
+                      Valider
+                    </Button>
+                    <Button variant="soft" disabled={!pending[q.id]} onClick={() => validate(q.id, true)} aria-label="Valider en signalant une hésitation : la question sera reproposée même si la réponse est bonne">
+                      Pas sûre
+                    </Button>
+                  </div>
+                )}
+                {showFeedback && ans?.unsure && ans.choice === q.answer && <Notice>Bonne réponse, mais tu hésitais : cette question reviendra demain pour vérifier que ce n'était pas un coup de chance.</Notice>}
+                {showFeedback && <Correction q={q} choice={ans?.choice ?? null} />}
+              </div>
             </section>
           );
         })}
@@ -467,5 +545,28 @@ function Gate({ title, children, onQuit }: { title: string; children: React.Reac
       <h1 className="text-2xl font-bold">{title}</h1>
       {children}
     </div>
+  );
+}
+
+/** Texte lu par les lecteurs d'écran pour une question repliée (jamais de résultat en examen) */
+function foldLabel(status: FoldStatus, choice: Letter | null | undefined, answer: Letter) {
+  if (status === 'correct') return `bonne réponse ${choice}`;
+  if (status === 'wrong') return `réponse incorrecte ${choice}, bonne réponse ${answer}`;
+  return `répondue ${choice}`;
+}
+
+function FoldPill({ status, choice }: { status: FoldStatus; choice: Letter | null }) {
+  return (
+    <span
+      aria-hidden
+      className={cx(
+        'shrink-0 rounded-full px-2 py-0.5 text-xs font-semibold',
+        status === 'correct' && 'bg-ok-soft text-ok',
+        status === 'wrong' && 'bg-bad-soft text-bad',
+        status === 'answered' && 'bg-surface-2 text-ink',
+      )}
+    >
+      {status === 'correct' ? `✓ Correcte · ${choice}` : status === 'wrong' ? `✗ Incorrecte · ${choice}` : `Répondue · ${choice}`}
+    </span>
   );
 }

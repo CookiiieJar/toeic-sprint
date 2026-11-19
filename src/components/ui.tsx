@@ -174,6 +174,7 @@ const PATHS: Record<string, string> = {
   errors: 'M12 3 2 20h20zM12 9v5M12 17.5v.5',
   stats: 'M4 20V10M10 20V4M16 20v-7M22 20H2',
   back: 'M15 18l-6-6 6-6',
+  chevron: 'M6 9l6 6 6-6',
   close: 'M6 6l12 12M18 6 6 18',
   play: 'M7 4v16l13-8z',
   pause: 'M7 4h4v16H7zM13 4h4v16h-4z',

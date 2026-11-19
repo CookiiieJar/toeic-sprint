@@ -39,6 +39,10 @@ Reconstitué à partir des commits Git et du contexte de la conversation de dév
 - Ajout de `src/lib/mastery.ts`, sélection pilotée par le moteur, `startFocus`, bouton « Pas sûre », `examHorizon`, écrans Accueil / Stats / Erreurs adaptés, `weaknesses()` et `targetLevel()` supprimés. 55 tests.
 - Vérification : simulation d'élève, calibrage des constantes, parcours Chromium headless avec données synthétiques.
 
+### Session 4 (19 novembre 2026) — questions repliables
+- Lecteur de session : une question traitée (validée en entraînement avec correction ; avec une réponse enregistrée en examen / sans correction) peut être repliée en un en-tête compact (numéro, statut, début de l'énoncé, chevron) et dépliée à tout moment. Commandes « Replier / Déplier les questions répondues » dans les unités de plusieurs questions.
+- Logique pure dans `src/lib/fold.ts` (+ `tests/fold.test.ts`, 59 tests). Vérification Chromium headless (390 px) : 31 contrôles, aucune erreur console.
+
 ## Décisions techniques importantes
 
 | Décision | Raison |
@@ -54,4 +58,5 @@ Reconstitué à partir des commits Git et du contexte de la conversation de dév
 | Moteur de maîtrise recalculé depuis `attempts` (aucun stockage) | pas de migration, pas de risque pour les données, effet immédiat sur l'historique existant |
 | Modèle logistique simple (type Elo avec hasard) plutôt qu'IRT/BKT complet | trop peu de données par compétence pour estimer plus de paramètres ; explicable et testable |
 | Questions refaites faiblement pondérées, estimation sur premières tentatives | mémoriser une réponse n'est pas maîtriser la compétence |
+| Repli des questions = état React non persisté | purement visuel : aucun risque pour les réponses, les tentatives ni le schéma Dexie |
 | Difficulté visée ≈ 72 % de réussite | assez difficile pour apprendre, sans décourager à J-13 |
